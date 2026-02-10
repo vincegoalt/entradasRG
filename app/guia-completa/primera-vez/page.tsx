@@ -810,6 +810,29 @@ export default function PrimeraVezPage() {
         </div>
       </section>
 
+      {/* GoalTickets CTA */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-7xl mx-auto">
+            <div className="rounded-lg border border-[#ead5cd] bg-[#fcf9f8] p-8 text-center">
+              <h3 className="text-xl font-bold text-[#1d110c] mb-2">¿Todavía necesitas entradas para Roland Garros 2026?</h3>
+              <p className="text-gray-700 mb-4 max-w-lg mx-auto">
+                Si aún no tienes tu entrada, consulta precios y disponibilidad en plataformas especializadas con transferencia oficial por app.
+              </p>
+              <a
+                href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
+                target="_blank"
+                rel="noopener"
+                className="inline-flex items-center gap-2 bg-[#c75033] text-white px-6 py-3 rounded-lg font-bold hover:opacity-90 transition-opacity"
+              >
+                Ver entradas en GoalTickets
+                <span className="material-symbols-outlined" style={{fontSize: '20px'}}>open_in_new</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Mensaje Final */}
       <section className="py-12 bg-gradient-to-r from-orange-600 to-red-600 text-white">
         <div className="container mx-auto px-4">

@@ -310,6 +310,23 @@ export default function PreguntasFrecuentesPage() {
               </div>
             </div>
 
+            {/* GoalTickets CTA */}
+            <div className="mb-16 rounded-lg border border-[#ead5cd] bg-[#fcf9f8] p-8 text-center">
+              <h3 className="text-xl font-bold text-[#1d110c] mb-2">¿No conseguiste entradas en la lotería oficial?</h3>
+              <p className="text-gray-700 mb-4 max-w-lg mx-auto">
+                Consulta disponibilidad y precios actualizados en plataformas especializadas con garantía de autenticidad.
+              </p>
+              <a
+                href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
+                target="_blank"
+                rel="noopener"
+                className="inline-flex items-center gap-2 bg-[#c75033] text-white px-6 py-3 rounded-lg font-bold hover:opacity-90 transition-opacity"
+              >
+                Ver disponibilidad en GoalTickets
+                <span className="material-symbols-outlined" style={{fontSize: '20px'}}>open_in_new</span>
+              </a>
+            </div>
+
             {/* ESTADIO */}
             <div id="estadio" className="mb-16 scroll-mt-8">
               <h2 className="text-3xl font-bold mb-8 text-gray-900 border-b-4 border-orange-500 pb-3">

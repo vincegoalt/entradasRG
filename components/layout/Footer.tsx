@@ -25,6 +25,7 @@ export function Footer() {
               <li><a href="https://www.rolandgarros.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Sitio Oficial de Roland-Garros</a></li>
               <li><a href="https://es.parisinfo.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Turismo de París</a></li>
               <li><a href="https://www.ratp.fr" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Guía de Transporte de París</a></li>
+              <li><a href="https://goaltickets.com/es/collections/entradas-roland-garros-2026" target="_blank" rel="noopener" className="hover:text-primary transition-colors">Entradas en GoalTickets</a></li>
             </ul>
           </div>
 

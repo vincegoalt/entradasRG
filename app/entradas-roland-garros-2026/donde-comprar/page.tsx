@@ -36,11 +36,11 @@ const faqs = [
   },
   {
     question: '¿Qué hago si no conseguí entradas en la lotería oficial?',
-    answer: 'Si no obtuviste entradas en la lotería de la FFT, puedes recurrir a plataformas internacionales especializadas en eventos deportivos como GoalTickets, que ofrecen entradas verificadas con transferencia oficial por app. También puedes intentar la reventa oficial de la FFT o comprar ground passes el mismo día en taquillas.'
+    answer: 'Si no obtuviste entradas en la lotería de la FFT, puedes recurrir a plataformas internacionales especializadas en eventos deportivos como <a href="https://goaltickets.com/es/collections/entradas-roland-garros-2026" target="_blank" rel="noopener" class="text-primary font-semibold hover:underline">GoalTickets</a>, que ofrecen entradas verificadas con transferencia oficial por app. También puedes intentar la reventa oficial de la FFT o comprar ground passes el mismo día en taquillas.'
   },
   {
     question: '¿Es seguro comprar entradas fuera de la web oficial?',
-    answer: 'Depende del canal. Plataformas especializadas en eventos deportivos como GoalTickets ofrecen garantías de autenticidad y transferencia oficial. Sin embargo, debes evitar vendedores en redes sociales, callejeros y agencias no verificadas, donde el riesgo de fraude es extremadamente alto.'
+    answer: 'Depende del canal. Plataformas especializadas en eventos deportivos como <a href="https://goaltickets.com/es/collections/entradas-roland-garros-2026" target="_blank" rel="noopener" class="text-primary font-semibold hover:underline">GoalTickets</a> ofrecen garantías de autenticidad y transferencia oficial. Sin embargo, debes evitar vendedores en redes sociales, callejeros y agencias no verificadas, donde el riesgo de fraude es extremadamente alto.'
   },
   {
     question: '¿Qué pasa si me vendieron una entrada falsa?',
@@ -324,7 +324,7 @@ export default function DondeComprarPage() {
                     <a
                       href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="noopener"
                       className="text-primary font-semibold hover:underline"
                     >
                       GoalTickets
@@ -435,7 +435,7 @@ export default function DondeComprarPage() {
                   {faqs.map((faq, index) => (
                     <div key={index} className="bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6">
                       <h3 className="text-lg font-bold mb-2 text-[#1d110c]">{faq.question}</h3>
-                      <p className="text-[#1d110c]">{faq.answer}</p>
+                      <p className="text-[#1d110c]" dangerouslySetInnerHTML={{ __html: faq.answer }} />
                     </div>
                   ))}
                 </div>
