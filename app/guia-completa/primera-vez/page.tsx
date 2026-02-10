@@ -823,7 +823,8 @@ export default function PrimeraVezPage() {
                 href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
                 target="_blank"
                 rel="noopener"
-                className="inline-flex items-center gap-2 bg-[#c75033] text-white px-6 py-3 rounded-lg font-bold hover:opacity-90 transition-opacity"
+                className="inline-flex items-center gap-2 rounded-lg font-bold hover:opacity-90 transition-opacity"
+                style={{backgroundColor: '#c75033', color: '#ffffff', padding: '12px 24px'}}
               >
                 Ver entradas en GoalTickets
                 <span className="material-symbols-outlined" style={{fontSize: '20px'}}>open_in_new</span>
