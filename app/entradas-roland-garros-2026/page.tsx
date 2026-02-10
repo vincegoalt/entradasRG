@@ -402,7 +402,7 @@ export default function EntradasRolandGarrosPage() {
                         Los precios oficiales dependen de disponibilidad y del sistema de lotería. Para compradores internacionales que necesitan garantías, puedes consultar precios reales y asientos disponibles en plataformas especializadas.
                       </p>
                       <a
-                        href="https://goaltickets.com/es/collections/entradas-abierto-francia-2026"
+                        href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
                         target="_blank"
                         rel="noopener"
                         className="inline-flex items-center gap-2 text-primary font-semibold hover:underline"

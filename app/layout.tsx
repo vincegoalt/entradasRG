@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     canonical: 'https://entradasrolandgarros.com',
     languages: {
       'es': 'https://entradasrolandgarros.com',
-      'x-default': 'https://goaltickets.com/es/collections/entradas-abierto-francia-2026',
+      'x-default': 'https://goaltickets.com/es/collections/entradas-roland-garros-2026',
     },
   },
   robots: {

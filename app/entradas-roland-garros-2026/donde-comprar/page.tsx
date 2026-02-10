@@ -322,7 +322,7 @@ export default function DondeComprarPage() {
                     Para compradores internacionales que necesitan garantías adicionales, una plataforma internacional
                     especializada como{' '}
                     <a
-                      href="https://goaltickets.com/es/collections/entradas-abierto-francia-2026"
+                      href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary font-semibold hover:underline"

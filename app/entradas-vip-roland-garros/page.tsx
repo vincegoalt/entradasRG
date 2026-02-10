@@ -257,7 +257,7 @@ export default function EntradasVipPage() {
                   <p className="text-[#1d110c] text-sm mb-3">
                     Para compradores internacionales que buscan entradas premium verificadas,{' '}
                     <a
-                      href="https://goaltickets.com/es/collections/entradas-abierto-francia-2026"
+                      href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
                       target="_blank"
                       rel="noopener"
                       className="text-primary font-semibold hover:underline"

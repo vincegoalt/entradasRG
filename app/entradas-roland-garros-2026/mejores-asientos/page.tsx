@@ -716,7 +716,7 @@ export default function MejoresAsientosPage() {
                         <p className="text-sm text-gray-600 mt-2">
                           Para categorías premium y palcos en Philippe-Chatrier, plataformas como{' '}
                           <a
-                            href="https://goaltickets.com/es/collections/entradas-abierto-francia-2026"
+                            href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
                             target="_blank"
                             rel="noopener"
                             className="text-purple-600 font-semibold hover:underline"

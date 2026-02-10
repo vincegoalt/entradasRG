@@ -651,7 +651,7 @@ export default function GroundPassPage() {
                   <p className="text-gray-700 mt-3">
                     Si el ground pass o las entradas individuales están agotadas en el canal oficial, puedes{' '}
                     <a
-                      href="https://goaltickets.com/es/collections/entradas-abierto-francia-2026"
+                      href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
                       target="_blank"
                       rel="noopener"
                       className="text-blue-600 font-semibold hover:underline"

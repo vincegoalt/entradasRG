@@ -238,7 +238,7 @@ export default function ComprarDesdeLatamPage() {
 
                 <div className="mt-6 pt-4 border-t border-[#ead5cd]">
                   <a
-                    href="https://goaltickets.com/es/collections/entradas-abierto-francia-2026"
+                    href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
                     target="_blank"
                     rel="noopener"
                     className="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-lg font-bold hover:opacity-90 transition-opacity"

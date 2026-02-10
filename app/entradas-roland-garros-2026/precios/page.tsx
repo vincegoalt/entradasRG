@@ -109,7 +109,7 @@ export default function PreciosPage() {
                       <p className="text-[#1d110c] text-sm mb-2">
                         Los precios oficiales son orientativos y dependen de disponibilidad. Puedes consultar precios reales y asientos disponibles en{' '}
                         <a
-                          href="https://goaltickets.com/es/collections/entradas-abierto-francia-2026"
+                          href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
                           target="_blank"
                           rel="noopener"
                           className="text-primary font-semibold hover:underline"

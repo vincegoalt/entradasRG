@@ -278,7 +278,7 @@ export default function PaquetesPage() {
                   <p className="text-[#1d110c] text-sm mb-3">
                     Para asegurar fechas específicas o si la lotería oficial está agotada. Plataformas como{' '}
                     <a
-                      href="https://goaltickets.com/es/collections/entradas-abierto-francia-2026"
+                      href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
                       target="_blank"
                       rel="noopener"
                       className="text-primary font-semibold hover:underline"

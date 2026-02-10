@@ -179,7 +179,7 @@ export default function HomePage() {
               Compra entradas verificadas a través de plataformas especializadas como GoalTickets, con transferencia oficial por app y garantía de autenticidad.
             </p>
             <a
-              href="https://goaltickets.com/es/collections/entradas-abierto-francia-2026"
+              href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
               target="_blank"
               rel="noopener"
               className="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-lg font-bold hover:opacity-90 transition-opacity"
