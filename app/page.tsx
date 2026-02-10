@@ -168,6 +168,28 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* GoalTickets CTA */}
+        <section className="w-full py-10">
+          <div className="rounded-lg border border-[#ead5cd] bg-background-light p-8 text-center">
+            <span className="material-symbols-outlined text-primary mb-4 block" style={{fontSize: '40px'}}>confirmation_number</span>
+            <h2 className="text-[#1d110c] text-2xl font-bold mb-2">
+              ¿Buscas entradas garantizadas para Roland Garros 2026?
+            </h2>
+            <p className="text-[#a15d45] text-base mb-6 max-w-lg mx-auto">
+              Compra entradas verificadas a través de plataformas especializadas como GoalTickets, con transferencia oficial por app y garantía de autenticidad.
+            </p>
+            <a
+              href="https://goaltickets.com/es/collections/entradas-abierto-francia-2026"
+              target="_blank"
+              rel="noopener"
+              className="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-lg font-bold hover:opacity-90 transition-opacity"
+            >
+              Ver disponibilidad en GoalTickets
+              <span className="material-symbols-outlined" style={{fontSize: '20px'}}>open_in_new</span>
+            </a>
+          </div>
+        </section>
+
         {/* Newsletter Signup */}
         <section className="w-full py-10">
           <div className="rounded-lg bg-gradient-to-r from-primary to-orange-400 p-8 text-center text-white shadow-xl">

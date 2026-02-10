@@ -17,7 +17,7 @@ export default function FechasImportantesPage() {
         description="Calendario detallado con todas las fechas clave del torneo Roland Garros 2026"
         image="https://entradasrolandgarros.com/images/calendario-roland-garros.jpg"
         datePublished="2025-01-15"
-        dateModified="2025-01-15"
+        dateModified="2026-02-09"
       />
 
       <Breadcrumbs
@@ -57,6 +57,7 @@ export default function FechasImportantesPage() {
 
               <div className="bg-orange-50 border-l-4 border-orange-600 p-6 mb-8 rounded-r-lg">
                 <ul className="space-y-2 text-gray-800">
+                  <li><strong>Venta de entradas (lotería finales):</strong> Febrero-Marzo 2026 — <a href="https://goaltickets.com/es/collections/entradas-abierto-francia-2026" target="_blank" rel="noopener" className="text-orange-600 hover:underline font-medium">ver disponibilidad actual</a></li>
                   <li><strong>Clasificaciones:</strong> 19-23 de mayo de 2026</li>
                   <li><strong>Inicio del cuadro principal:</strong> Domingo 24 de mayo de 2026</li>
                   <li><strong>Día del Niño:</strong> Sábado 23 de mayo de 2026</li>

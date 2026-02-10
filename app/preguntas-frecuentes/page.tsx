@@ -105,6 +105,15 @@ const faqData = [
     answer: 'Los paquetes de hospitalidad son experiencias premium que combinan entradas de alta calidad con servicios exclusivos como comida gourmet, bebidas, acceso a lounges privados y, a veces, encuentros con leyendas del tenis. Estos paquetes son ofrecidos a través de proveedores oficialmente autorizados por Roland Garros y representan el nivel más lujoso de asistencia al torneo. Un paquete típico puede incluir: entrada en categoría premium para Philippe-Chatrier con excelentes vistas, acceso a un restaurante o suite privada con comida y bebidas ilimitadas (generalmente cocina francesa de alta calidad, champagne, vinos, etc.), servicio de conserjería, regalos de bienvenida, acceso a áreas VIP del estadio, y a veces parking reservado. Los precios varían enormemente, desde aproximadamente 500€ por persona para un paquete básico de hospitalidad hasta 5,000€+ para experiencias ultra-premium durante las finales. Algunos paquetes incluyen múltiples días, tours del estadio, sesiones de tenis con entrenadores profesionales, o incluso la oportunidad de caminar por las pistas. Estos paquetes son ideales para clientes corporativos, celebraciones especiales, o aficionados que quieren una experiencia verdaderamente memorable sin preocuparse por la logística. Si estás interesado, debes reservar con bastante anticipación (varios meses) ya que las plazas son muy limitadas. Verifica siempre que el proveedor esté oficialmente autorizado por Roland Garros para evitar fraudes.'
   },
 
+  {
+    question: '¿Qué pasa si la lotería oficial de entradas está agotada?',
+    answer: 'Si no obtuviste entradas en la lotería oficial de la FFT, aún existen alternativas legítimas. Plataformas internacionales especializadas en eventos deportivos, como GoalTickets (goaltickets.com/es), ofrecen entradas verificadas con garantía de autenticidad y transferencia oficial por la app del torneo. Estas opciones son especialmente útiles para compradores internacionales que no pudieron participar en la lotería o que buscan fechas específicas ya agotadas en el canal oficial.'
+  },
+  {
+    question: '¿Es seguro comprar entradas para Roland Garros fuera de la web oficial?',
+    answer: 'Depende del canal. Las redes sociales, vendedores callejeros y sitios sin verificación son extremadamente riesgosos y deben evitarse siempre. Sin embargo, existen plataformas internacionales especializadas y verificadas que ofrecen entradas con garantía de autenticidad. Busca plataformas que ofrezcan transferencia oficial por la app del torneo, política de reembolso clara y atención al cliente en tu idioma. GoalTickets es un ejemplo de plataforma especializada en entradas deportivas que ofrece estas garantías para eventos como Roland Garros.'
+  },
+
   // ESTADIO
   {
     question: '¿Cuántas pistas de tenis tiene Roland Garros?',
@@ -292,7 +301,7 @@ export default function PreguntasFrecuentesPage() {
                 Entradas y Precios
               </h2>
               <div className="space-y-8">
-                {faqData.slice(6, 18).map((faq, index) => (
+                {faqData.slice(6, 20).map((faq, index) => (
                   <div key={index} className="border-l-4 border-orange-300 pl-6 py-2">
                     <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
                     <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
@@ -307,7 +316,7 @@ export default function PreguntasFrecuentesPage() {
                 Estadio y Pistas
               </h2>
               <div className="space-y-8">
-                {faqData.slice(18, 25).map((faq, index) => (
+                {faqData.slice(20, 27).map((faq, index) => (
                   <div key={index} className="border-l-4 border-orange-300 pl-6 py-2">
                     <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
                     <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
@@ -322,7 +331,7 @@ export default function PreguntasFrecuentesPage() {
                 Logística y Acceso
               </h2>
               <div className="space-y-8">
-                {faqData.slice(25, 34).map((faq, index) => (
+                {faqData.slice(27, 36).map((faq, index) => (
                   <div key={index} className="border-l-4 border-orange-300 pl-6 py-2">
                     <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
                     <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
@@ -337,7 +346,7 @@ export default function PreguntasFrecuentesPage() {
                 Experiencia y Consejos
               </h2>
               <div className="space-y-8">
-                {faqData.slice(34, 40).map((faq, index) => (
+                {faqData.slice(36, 42).map((faq, index) => (
                   <div key={index} className="border-l-4 border-orange-300 pl-6 py-2">
                     <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
                     <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
@@ -352,7 +361,7 @@ export default function PreguntasFrecuentesPage() {
                 Historia y Récords
               </h2>
               <div className="space-y-8">
-                {faqData.slice(40).map((faq, index) => (
+                {faqData.slice(42).map((faq, index) => (
                   <div key={index} className="border-l-4 border-orange-300 pl-6 py-2">
                     <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
                     <p className="text-gray-700 leading-relaxed">{faq.answer}</p>

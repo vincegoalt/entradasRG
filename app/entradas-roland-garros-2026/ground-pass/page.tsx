@@ -648,6 +648,17 @@ export default function GroundPassPage() {
                     prefieres comodidad de asiento asignado, visitas en finales, o quieres la experiencia completa de
                     pista central.
                   </p>
+                  <p className="text-gray-700 mt-3">
+                    Si el ground pass o las entradas individuales están agotadas en el canal oficial, puedes{' '}
+                    <a
+                      href="https://goaltickets.com/es/collections/entradas-abierto-francia-2026"
+                      target="_blank"
+                      rel="noopener"
+                      className="text-blue-600 font-semibold hover:underline"
+                    >
+                      ver entradas garantizadas en GoalTickets
+                    </a>, una plataforma especializada con transferencia oficial por app.
+                  </p>
                 </div>
               </section>
 

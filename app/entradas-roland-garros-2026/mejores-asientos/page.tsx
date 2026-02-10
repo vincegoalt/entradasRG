@@ -713,6 +713,18 @@ export default function MejoresAsientosPage() {
                         <p className="text-sm text-gray-700 mb-1">
                           <strong>Precio:</strong> €500-2000+ | <strong>Por qué:</strong> Experiencia VIP completa con comida y servicios
                         </p>
+                        <p className="text-sm text-gray-600 mt-2">
+                          Para categorías premium y palcos en Philippe-Chatrier, plataformas como{' '}
+                          <a
+                            href="https://goaltickets.com/es/collections/entradas-abierto-francia-2026"
+                            target="_blank"
+                            rel="noopener"
+                            className="text-purple-600 font-semibold hover:underline"
+                          >
+                            GoalTickets
+                          </a>{' '}
+                          suelen ofrecer opciones verificadas con garantía de autenticidad.
+                        </p>
                       </div>
                     </div>
                   </div>

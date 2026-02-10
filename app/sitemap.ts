@@ -51,6 +51,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // FAQ
     { url: '/preguntas-frecuentes', priority: 0.9, changeFrequency: 'monthly' as const },
+
+    // Funnel pages
+    { url: '/comprar-entradas-roland-garros-desde-latinoamerica', priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: '/entradas-vip-roland-garros', priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: '/paquetes-roland-garros-2026', priority: 0.8, changeFrequency: 'monthly' as const },
   ]
 
   return routes.map((route) => ({

@@ -100,6 +100,28 @@ export default function PreciosPage() {
                 </div>
               </section>
 
+              {/* GoalTickets CTA */}
+              <section className="mb-12 max-w-4xl mx-auto">
+                <div className="bg-[#fcf9f8] border border-[#ead5cd] rounded-xl p-6">
+                  <div className="flex items-start gap-4">
+                    <span className="material-symbols-outlined text-primary mt-1" style={{fontSize: '28px'}}>price_check</span>
+                    <div>
+                      <p className="text-[#1d110c] text-sm mb-2">
+                        Los precios oficiales son orientativos y dependen de disponibilidad. Puedes consultar precios reales y asientos disponibles en{' '}
+                        <a
+                          href="https://goaltickets.com/es/collections/entradas-abierto-francia-2026"
+                          target="_blank"
+                          rel="noopener"
+                          className="text-primary font-semibold hover:underline"
+                        >
+                          GoalTickets
+                        </a>, una plataforma internacional especializada en entradas deportivas con garantía de autenticidad.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
               {/* Resumen Rápido */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold mb-6 text-gray-900 text-center">

@@ -385,7 +385,16 @@ export default function TiposEntradasPage() {
                       <li>• Estacionamiento preferencial (según paquete)</li>
                     </ul>
                     <p className="text-gray-700 italic">
-                      Disponible para días individuales o paquetes de múltiples días con descuento.
+                      Disponible para días individuales o paquetes de múltiples días con descuento. Puedes{' '}
+                      <a
+                        href="https://goaltickets.com/es/collections/entradas-abierto-francia-2026"
+                        target="_blank"
+                        rel="noopener"
+                        className="text-orange-600 font-semibold hover:underline"
+                      >
+                        consultar precios en plataformas especializadas
+                      </a>{' '}
+                      para opciones de hospitalidad verificadas.
                     </p>
                   </div>
 

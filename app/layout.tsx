@@ -60,6 +60,13 @@ export const metadata: Metadata = {
     description: 'Todo sobre Roland Garros 2026: calendario, entradas, precios y consejos prácticos',
     images: ['/images/twitter-image.jpg'],
   },
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com',
+    languages: {
+      'es': 'https://entradasrolandgarros.com',
+      'x-default': 'https://goaltickets.com/es/collections/entradas-abierto-francia-2026',
+    },
+  },
   robots: {
     index: true,
     follow: true,

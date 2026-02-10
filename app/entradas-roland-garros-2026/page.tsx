@@ -389,6 +389,32 @@ export default function EntradasRolandGarrosPage() {
                 </Link>
               </section>
 
+              {/* GoalTickets CTA */}
+              <section>
+                <div className="bg-[#fcf9f8] border border-[#ead5cd] rounded-xl p-6">
+                  <div className="flex items-start gap-4">
+                    <span className="material-symbols-outlined text-primary mt-1" style={{fontSize: '28px'}}>verified</span>
+                    <div>
+                      <p className="text-[#1d110c] font-semibold mb-1">
+                        ¿No obtuviste entradas en la lotería oficial?
+                      </p>
+                      <p className="text-[#a15d45] text-sm mb-3">
+                        Los precios oficiales dependen de disponibilidad y del sistema de lotería. Para compradores internacionales que necesitan garantías, puedes consultar precios reales y asientos disponibles en plataformas especializadas.
+                      </p>
+                      <a
+                        href="https://goaltickets.com/es/collections/entradas-abierto-francia-2026"
+                        target="_blank"
+                        rel="noopener"
+                        className="inline-flex items-center gap-2 text-primary font-semibold hover:underline"
+                      >
+                        Ver disponibilidad real y precios actualizados en GoalTickets
+                        <span className="material-symbols-outlined" style={{fontSize: '18px'}}>open_in_new</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
               {/* FAQ Section */}
               <section>
                 <h2 className="text-3xl font-bold mb-6 text-[#1d110c]">
