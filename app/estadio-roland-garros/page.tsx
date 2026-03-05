@@ -72,7 +72,7 @@ export default function EstadioRolandGarrosPage() {
         <PageHero
           title="Estadio Roland Garros"
           subtitle="Pistas, historia e instalaciones del complejo más icónico del tenis en tierra batida"
-          image="/images/heroes/tennis-stadium.jpg"
+          image="https://images.prismic.io/fft-billetterie/162dbd46-8948-4b3e-9d90-532c2cbc1bd9_29-05-2023_RG_PB_8824-min.jpg?auto=compress,format"
           badge={{ icon: 'stadium', text: '18 Pistas de Tierra Batida' }}
           primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
           secondaryCta={{ text: 'Ver Pistas', href: '#pistas', icon: 'sports_tennis' }}
