@@ -54,18 +54,28 @@ export function Navigation() {
 
       {/* Mobile Navigation Menu */}
       {isOpen && (
-        <div className="absolute top-16 left-0 right-0 bg-white shadow-lg md:hidden">
-          <div className="px-4 py-2 space-y-1">
+        <div className="absolute top-[60px] left-0 right-0 bg-white/95 backdrop-blur-md shadow-xl border-b border-[#f4eae6] md:hidden">
+          <div className="px-4 py-3 space-y-1">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="block px-3 py-2 rounded-md text-gray-700 hover:bg-gray-100 hover:text-orange-600"
+                className="flex items-center gap-3 px-4 py-3 rounded-lg text-[#1d110c] font-medium hover:bg-orange-50 hover:text-primary transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 {item.label}
               </Link>
             ))}
+            <a
+              href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
+              target="_blank"
+              rel="noopener"
+              className="flex items-center justify-center gap-2 mt-2 bg-primary text-white font-bold px-4 py-3 rounded-lg btn-shine"
+              onClick={() => setIsOpen(false)}
+            >
+              <span className="material-symbols-outlined" style={{fontSize: '18px'}}>confirmation_number</span>
+              Comprar Entradas
+            </a>
           </div>
         </div>
       )}

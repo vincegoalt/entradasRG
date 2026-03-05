@@ -79,19 +79,47 @@ export default function EntradasRolandGarrosPage() {
         </div>
 
         {/* Hero Section */}
-        <section className="bg-white py-10">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="relative bg-gradient-to-br from-[#1d110c] via-[#2a1a12] to-[#1d110c] py-16 md:py-20 overflow-hidden">
+          <div className="absolute inset-0 bg-[url('/images/hero-bg.jpg')] opacity-15 bg-cover bg-center" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#1d110c] via-transparent to-[#1d110c]/80" />
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-4xl mx-auto">
-              <h1 className="text-4xl md:text-5xl font-bold text-[#1d110c] mb-6">
-                Entradas Roland Garros 2026: Tipos, Precios y Dónde Comprar
+              <div className="inline-flex items-center gap-2 bg-primary/20 border border-primary/30 rounded-full px-4 py-1.5 mb-6">
+                <span className="material-symbols-outlined text-primary" style={{fontSize: '16px', fontVariationSettings: "'FILL' 1"}}>confirmation_number</span>
+                <span className="text-primary text-sm font-semibold">Desde 35 EUR por entrada</span>
+              </div>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 leading-tight">
+                Entradas Roland Garros 2026
               </h1>
-              <p className="text-xl text-[#a15d45] mb-8">
-                Guía completa para conseguir tus entradas oficiales al torneo de tenis más prestigioso en tierra batida
+              <p className="text-lg md:text-xl text-white/70 mb-8 max-w-2xl mx-auto">
+                Guía completa de tipos, precios y dónde comprar tus entradas oficiales al torneo más prestigioso en tierra batida
               </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a
+                  href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
+                  target="_blank"
+                  rel="noopener"
+                  className="inline-flex items-center justify-center gap-2 bg-primary text-white font-bold px-8 py-3.5 rounded-xl hover:bg-orange-600 transition-colors btn-shine text-lg"
+                >
+                  <span className="material-symbols-outlined" style={{fontSize: '22px'}}>confirmation_number</span>
+                  Comprar Entradas
+                </a>
+                <a
+                  href="#precios"
+                  className="inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm text-white font-bold px-8 py-3.5 rounded-xl border border-white/20 hover:bg-white/20 transition-colors"
+                >
+                  Ver Precios
+                  <span className="material-symbols-outlined" style={{fontSize: '20px'}}>arrow_downward</span>
+                </a>
+              </div>
             </div>
+          </div>
+        </section>
 
-            {/* Capsule Content */}
-            <div className="max-w-4xl mx-auto rounded-lg border border-[#ead5cd] bg-[#fcf9f8] p-5 shadow-sm">
+        {/* Capsule Content */}
+        <section className="bg-white py-8">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-4xl mx-auto rounded-xl border border-[#ead5cd] bg-gradient-to-r from-orange-50/50 to-[#fcf9f8] p-6 shadow-sm">
               <p className="text-[#1d110c] text-base leading-relaxed">
                 <strong>Las entradas para Roland Garros 2026 van desde 35 EUR</strong> (ground pass primera semana) hasta más de 500 EUR (finales Philippe-Chatrier). La venta oficial se realiza exclusivamente en rolandgarros.com, con un sistema de lotería para semifinales y finales que abre en febrero-marzo 2026. El ground pass da acceso a todas las pistas exteriores excepto las tres principales. Consulta también las <Link href="/entradas-final-roland-garros" className="text-primary font-semibold hover:underline">entradas para la final</Link>, el <Link href="/calendario-roland-garros-2026" className="text-primary font-semibold hover:underline">calendario completo</Link> y el <Link href="/estadio-roland-garros/mapa-instalaciones" className="text-primary font-semibold hover:underline">mapa de instalaciones</Link>.
               </p>
@@ -396,29 +424,46 @@ export default function EntradasRolandGarrosPage() {
                 </Link>
               </section>
 
-              {/* GoalTickets CTA */}
-              <section>
-                <div className="bg-[#fcf9f8] border border-[#ead5cd] rounded-xl p-6">
-                  <div className="flex items-start gap-4">
-                    <span className="material-symbols-outlined text-primary mt-1" style={{fontSize: '28px'}}>verified</span>
-                    <div>
-                      <p className="text-[#1d110c] font-semibold mb-1">
-                        ¿No obtuviste entradas en la lotería oficial?
-                      </p>
-                      <p className="text-[#a15d45] text-sm mb-3">
-                        Los precios oficiales dependen de disponibilidad y del sistema de lotería. Para compradores internacionales que necesitan garantías, puedes consultar precios reales y asientos disponibles en plataformas especializadas.
-                      </p>
-                      <a
-                        href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
-                        target="_blank"
-                        rel="noopener"
-                        className="inline-flex items-center gap-2 text-primary font-semibold hover:underline"
-                      >
-                        Ver disponibilidad real y precios actualizados en GoalTickets
-                        <span className="material-symbols-outlined" style={{fontSize: '18px'}}>open_in_new</span>
-                      </a>
+              {/* GoalTickets Premium CTA */}
+              <section className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#1d110c] via-[#2a1a12] to-[#1d110c] p-8 md:p-10">
+                <div className="absolute inset-0 bg-[url('/images/hero-bg.jpg')] opacity-10 bg-cover bg-center" />
+                <div className="relative z-10">
+                  <div className="flex items-center gap-2 mb-4">
+                    <span className="material-symbols-outlined text-primary" style={{fontSize: '28px', fontVariationSettings: "'FILL' 1"}}>verified</span>
+                    <span className="text-primary font-bold text-sm uppercase tracking-wider">Entradas Garantizadas</span>
+                  </div>
+                  <h3 className="text-2xl md:text-3xl font-black text-white mb-3">
+                    ¿No obtuviste entradas en la lotería oficial?
+                  </h3>
+                  <p className="text-white/70 mb-6 max-w-2xl">
+                    Para compradores internacionales que necesitan garantías, consulta precios reales y asientos disponibles con transferencia oficial por app.
+                  </p>
+
+                  <div className="flex flex-wrap gap-3 mb-6">
+                    <div className="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm rounded-full px-3 py-1.5 text-white/90 text-xs font-medium">
+                      <span className="material-symbols-outlined text-green-400" style={{fontSize: '14px', fontVariationSettings: "'FILL' 1"}}>verified</span>
+                      100% Auténticas
+                    </div>
+                    <div className="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm rounded-full px-3 py-1.5 text-white/90 text-xs font-medium">
+                      <span className="material-symbols-outlined text-blue-400" style={{fontSize: '14px', fontVariationSettings: "'FILL' 1"}}>smartphone</span>
+                      Transferencia por App
+                    </div>
+                    <div className="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm rounded-full px-3 py-1.5 text-white/90 text-xs font-medium">
+                      <span className="material-symbols-outlined text-yellow-400" style={{fontSize: '14px', fontVariationSettings: "'FILL' 1"}}>shield</span>
+                      Garantía Total
                     </div>
                   </div>
+
+                  <a
+                    href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
+                    target="_blank"
+                    rel="noopener"
+                    className="inline-flex items-center gap-2 bg-primary text-white font-bold px-8 py-3.5 rounded-xl hover:bg-orange-600 transition-colors btn-shine text-lg"
+                  >
+                    <span className="material-symbols-outlined" style={{fontSize: '22px'}}>confirmation_number</span>
+                    Ver Disponibilidad en GoalTickets
+                    <span className="material-symbols-outlined" style={{fontSize: '18px'}}>arrow_forward</span>
+                  </a>
                 </div>
               </section>
 
@@ -564,27 +609,30 @@ export default function EntradasRolandGarrosPage() {
         </article>
 
         {/* CTA Section */}
-        <section className="py-10 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl font-bold mb-4 text-[#1d110c]">
+        <section className="relative py-16 bg-gradient-to-br from-[#1d110c] via-[#2a1a12] to-[#1d110c] overflow-hidden">
+          <div className="absolute inset-0 bg-[url('/images/hero-bg.jpg')] opacity-10 bg-cover bg-center" />
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-3xl md:text-4xl font-black mb-4 text-white">
               ¿Listo para Asistir a Roland Garros 2026?
             </h2>
-            <p className="text-xl mb-8 text-[#a15d45]">
-              Explora más guías para planificar tu viaje perfecto
+            <p className="text-lg mb-8 text-white/70 max-w-xl mx-auto">
+              Explora más guías para planificar tu viaje perfecto a París
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
+                target="_blank"
+                rel="noopener"
+                className="inline-flex items-center justify-center gap-2 bg-primary text-white px-8 py-3.5 rounded-xl font-bold hover:bg-orange-600 transition-colors btn-shine"
+              >
+                <span className="material-symbols-outlined" style={{fontSize: '20px'}}>confirmation_number</span>
+                Comprar Entradas
+              </a>
               <Link
                 href="/calendario-roland-garros-2026"
-                className="inline-flex items-center gap-2 bg-primary text-white px-8 py-3 rounded-lg font-bold hover:opacity-90 transition-opacity"
+                className="inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm text-white px-8 py-3.5 rounded-xl font-bold border border-white/20 hover:bg-white/20 transition-colors"
               >
-                Ver Calendario Completo
-                <span className="material-symbols-outlined" style={{fontSize: '20px'}}>arrow_forward</span>
-              </Link>
-              <Link
-                href="/"
-                className="inline-flex items-center gap-2 bg-white text-primary px-8 py-3 rounded-lg font-bold border-2 border-primary hover:bg-[#fcf9f8] transition-colors"
-              >
-                Volver al Inicio
+                Ver Calendario
                 <span className="material-symbols-outlined" style={{fontSize: '20px'}}>arrow_forward</span>
               </Link>
             </div>
