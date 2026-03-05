@@ -11,7 +11,10 @@ export const metadata: Metadata = {
     title: 'Guía Completa para Asistir a Roland Garros 2026',
     description: 'Todo lo que necesitas saber para disfrutar al máximo tu visita a Roland Garros',
     type: 'article',
-  }
+  },
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/guia-completa',
+  },
 }
 
 export default function GuiaCompletaPage() {
@@ -45,9 +48,14 @@ export default function GuiaCompletaPage() {
               <h1 className="text-4xl md:text-5xl font-bold text-[#1d110c] mb-6">
                 Guía Completa para Asistir a Roland Garros 2026
               </h1>
-              <p className="text-xl text-[#a15d45] mb-8">
+              <p className="text-xl text-[#a15d45] mb-6">
                 Todo lo que necesitas saber para disfrutar al máximo tu experiencia en el torneo de tenis más prestigioso en tierra batida
               </p>
+              <div className="rounded-lg border border-[#ead5cd] bg-[#fcf9f8] p-5 shadow-sm text-left">
+                <p className="text-[#1d110c] text-base leading-relaxed">
+                  <strong>Roland Garros 2026 se celebra del 24 de mayo al 7 de junio</strong> en París. El estadio está en el distrito 16, accesible por metro línea 10 (Porte d'Auteuil, a 400m). Entradas desde <strong>35 EUR</strong>. Temperatura media en París en mayo-junio: <strong>15-22°C</strong>. Más de <strong>500,000 espectadores</strong> visitan el torneo durante las 2 semanas.
+                </p>
+              </div>
             </div>
           </div>
         </section>

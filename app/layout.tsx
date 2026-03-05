@@ -14,7 +14,7 @@ const lexend = Lexend({
 export const metadata: Metadata = {
   metadataBase: new URL('https://entradasrolandgarros.com'),
   title: {
-    default: 'Roland Garros 2026: Guía Completa en Español',
+    default: 'Roland Garros 2026: Fechas, Entradas, Calendario y Guía Completa',
     template: '%s | Roland Garros Guía 2026'
   },
   description: 'Guía definitiva de Roland Garros 2026 en español. Calendario, entradas, precios, cómo llegar y todo lo que necesitas saber para tu visita.',

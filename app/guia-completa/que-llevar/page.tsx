@@ -11,7 +11,10 @@ export const metadata: Metadata = {
     title: 'Qué Llevar a Roland Garros 2026 - Lista Completa',
     description: 'Guía práctica de qué llevar y qué evitar en tu visita a Roland Garros',
     type: 'article',
-  }
+  },
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/guia-completa/que-llevar',
+  },
 }
 
 export default function QueLlevarPage() {

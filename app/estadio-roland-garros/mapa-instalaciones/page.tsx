@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     url: 'https://entradasrolandgarros.com/estadio-roland-garros/mapa-instalaciones',
     type: 'article',
   },
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/estadio-roland-garros/mapa-instalaciones',
+  },
 }
 
 export default function MapaInstalacionesPage() {

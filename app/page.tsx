@@ -1,6 +1,23 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { SportsEventSchema } from '@/components/seo/SportsEventSchema'
+import { FAQSchema } from '@/components/seo/FAQSchema'
+import { WebSiteSchema } from '@/components/seo/WebSiteSchema'
+
+const homeFaqs = [
+  {
+    question: '¿Cuándo es Roland Garros 2026?',
+    answer: 'Roland Garros 2026 se celebra del 24 de mayo al 7 de junio de 2026 en el Stade Roland Garros de París. Las rondas de clasificación comienzan el 18 de mayo. La final femenina es el 6 de junio y la final masculina el 7 de junio.'
+  },
+  {
+    question: '¿Cuándo empieza Roland Garros 2026?',
+    answer: 'El cuadro principal de Roland Garros 2026 comienza el domingo 24 de mayo de 2026. Las rondas de clasificación arrancan el lunes 18 de mayo. Los partidos en pistas principales empiezan a las 11:00 y las sesiones nocturnas en Philippe-Chatrier a las 20:00.'
+  },
+  {
+    question: '¿Dónde se juega Roland Garros?',
+    answer: 'Roland Garros se juega en el Stade Roland Garros, ubicado en 2 Avenue Gordon Bennett, París 75016, Francia. El complejo cuenta con 18 pistas de tierra batida, siendo la principal Philippe-Chatrier con capacidad para 15,225 espectadores y techo retráctil. Se accede fácilmente por metro (Porte d\'Auteuil, línea 10).'
+  }
+]
 
 export default function HomePage() {
   return (
@@ -11,6 +28,8 @@ export default function HomePage() {
         endDate="2026-06-07"
         description="French Open 2026 - Grand Slam de tenis en tierra batida"
       />
+      <FAQSchema faqs={homeFaqs} />
+      <WebSiteSchema />
 
       <div className="mx-auto max-w-[960px] px-4 py-5 sm:px-6 lg:px-8">
         {/* Hero Section */}
@@ -45,6 +64,15 @@ export default function HomePage() {
                 <span className="truncate">Explorar la Guía</span>
               </Link>
             </div>
+          </div>
+        </section>
+
+        {/* Quick Answer Capsule */}
+        <section className="w-full py-6">
+          <div className="rounded-lg border border-[#ead5cd] bg-white p-6 shadow-sm">
+            <p className="text-[#1d110c] text-base leading-relaxed">
+              <strong>Roland Garros 2026</strong> se celebra del <strong>24 de mayo al 7 de junio</strong> en el Stade Roland Garros de París, sobre tierra batida. Las entradas están disponibles <strong>desde 35 EUR</strong> (ground pass). La pista central Philippe-Chatrier tiene capacidad para <strong>15,225 espectadores</strong> y techo retráctil. El torneo incluye <strong>128 jugadores</strong> en cada cuadro individual durante <strong>2 semanas</strong> de competición. Consulta las <Link href="/calendario-roland-garros-2026" className="text-primary font-semibold hover:underline">fechas de Roland Garros 2026</Link>, cómo <Link href="/entradas-roland-garros-2026" className="text-primary font-semibold hover:underline">comprar entradas para Roland Garros 2026</Link>, o la guía de la <Link href="/final-roland-garros-2026" className="text-primary font-semibold hover:underline">final de Roland Garros 2026</Link>.
+            </p>
           </div>
         </section>
 

@@ -13,6 +13,9 @@ export const metadata: Metadata = {
     url: 'https://entradasrolandgarros.com/estadio-roland-garros/pista-suzanne-lenglen',
     type: 'article',
   },
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/estadio-roland-garros/pista-suzanne-lenglen',
+  },
 }
 
 export default function SuzanneLenglenPage() {

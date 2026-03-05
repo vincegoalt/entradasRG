@@ -25,7 +25,10 @@ export const metadata: Metadata = {
     title: 'Preguntas Frecuentes Roland Garros 2026 - Todas tus Dudas Resueltas',
     description: '40+ respuestas detalladas sobre Roland Garros 2026: entradas, logística, historia y consejos prácticos',
     type: 'article',
-  }
+  },
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/preguntas-frecuentes',
+  },
 }
 
 const faqData = [
@@ -224,6 +227,20 @@ const faqData = [
   {
     question: '¿Cuándo se inauguró el estadio Roland Garros?',
     answer: 'El Stade Roland-Garros fue inaugurado oficialmente en mayo de 1928, específicamente para albergar la defensa de la Copa Davis por parte de Francia. El contexto histórico es fascinante: en 1927, el equipo francés conocido como "Los Cuatro Mosqueteros" (Jean Borotra, Jacques Brugnon, Henri Cochet y René Lacoste) ganó la Copa Davis por primera vez en la historia de Francia, derrotando a Estados Unidos. Esto significaba que Francia tendría que defender el título en casa en 1928, pero no tenían un estadio adecuado para el evento. El Stade Français, un club deportivo prominente, decidió construir un nuevo estadio y darle el nombre de Roland Garros, el aviador héroe de guerra que había sido miembro del club. El estadio se construyó en un tiempo récord de menos de un año en terrenos cerca del Bois de Boulogne en el oeste de París. El diseño original era mucho más modesto que el complejo actual, con la pista principal teniendo capacidad para aproximadamente 10,000 espectadores. Francia exitosamente defendió la Copa Davis en el nuevo estadio en 1928, y continuó haciéndolo hasta 1932, creando una edad dorada para el tenis francés. El French Open (que ya se había estado jugando desde 1891 en diferentes ubicaciones) se trasladó permanentemente a este nuevo estadio en 1928. Desde entonces, el complejo ha sido expandido y renovado numerosas veces, con las actualizaciones más recientes completadas entre 2018-2020 agregando la nueva pista Simonne-Mathieu y el techo retráctil en Philippe-Chatrier, pero el alma histórica del lugar se ha preservado.'
+  },
+
+  // PREGUNTAS PAA ADICIONALES
+  {
+    question: '¿Qué superficie tiene Roland Garros?',
+    answer: 'Roland Garros se juega sobre tierra batida (arcilla roja), una superficie compuesta por varias capas: piedra caliza para drenaje, clinker triturado como capa intermedia, y una capa final de aproximadamente 2mm de polvo de ladrillo rojo triturado. Esta superficie ralentiza la pelota, produce un bote más alto y favorece a jugadores con gran resistencia física y capacidad para construir puntos largos. Es la única superficie de Grand Slam de este tipo, lo que hace de Roland Garros un torneo único en el circuito.'
+  },
+  {
+    question: '¿Cuántos sets se juegan en Roland Garros?',
+    answer: 'En Roland Garros, los partidos masculinos individuales se juegan al mejor de 5 sets en todas las rondas del cuadro principal. Los partidos femeninos individuales se juegan al mejor de 3 sets. Los partidos de dobles (masculino, femenino y mixto) también se juegan al mejor de 3 sets. Si se llega a empate 6-6 en cualquier set, se disputa un tie-break a 7 puntos. En el set decisivo (5° set masculino o 3° set femenino), también se juega tie-break al llegar a 6-6.'
+  },
+  {
+    question: '¿Cómo comprar entradas para Roland Garros desde Latinoamérica?',
+    answer: 'Para comprar entradas desde Latinoamérica, el canal oficial es rolandgarros.com, que acepta tarjetas de crédito internacionales y está disponible en español. El proceso requiere crear una cuenta, participar en la lotería (febrero-marzo) para finales/semifinales, y luego acceder a la venta general para otras rondas. Las entradas son digitales y se transfieren a la app del torneo. Si la venta oficial se agota, plataformas especializadas como GoalTickets ofrecen entradas verificadas con envío internacional y atención en español. Recomendamos planificar con 3-4 meses de anticipación y considerar que necesitarás visa Schengen dependiendo de tu país de origen.'
   }
 ]
 

@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     description: 'Los números y hazañas que definen la historia de Roland Garros, incluyendo los 14 títulos de Nadal',
     type: 'article',
   },
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/jugadores-favoritos-2026/records-historicos',
+  },
 }
 
 export default function RecordsHistoricosPage() {

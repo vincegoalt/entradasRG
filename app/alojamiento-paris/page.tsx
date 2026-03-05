@@ -18,6 +18,9 @@ export const metadata: Metadata = {
     description: 'Guía completa de alojamiento para Roland Garros 2026. Hoteles, barrios y consejos de reserva.',
     type: 'article',
   },
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/alojamiento-paris',
+  },
 }
 
 export default function AlojamientoParisPage() {
@@ -33,6 +36,11 @@ export default function AlojamientoParisPage() {
             <p className="text-[#1d110c] text-xl md:text-2xl leading-normal">
               Encuentra el alojamiento perfecto para tu visita a Roland Garros con nuestra guía completa de hoteles, barrios y consejos de reserva
             </p>
+            <div className="rounded-lg border border-[#ead5cd] bg-white p-5 shadow-sm mt-6">
+              <p className="text-[#1d110c] text-base leading-relaxed">
+                <strong>El estadio Roland Garros está en el distrito 16 de París.</strong> Los hoteles más cercanos (distrito 16) están a <strong>5-15 minutos a pie</strong>. Los barrios céntricos (Saint-Germain, Marais) están a <strong>25-35 minutos en metro</strong>. Reserva con <strong>3-4 meses de anticipación</strong> para las mejores opciones y precios.
+              </p>
+            </div>
           </div>
         </section>
 

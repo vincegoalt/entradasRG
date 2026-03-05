@@ -5,7 +5,7 @@ import { SportsEventSchema } from '@/components/seo/SportsEventSchema'
 import { FAQSchema } from '@/components/seo/FAQSchema'
 
 export const metadata: Metadata = {
-  title: 'Entradas Roland Garros 2026: Tipos, Precios y Dónde Comprar',
+  title: 'Entradas Roland Garros 2026 desde 35 EUR: Comprar Tickets y Precios',
   description: 'Guía completa de entradas para Roland Garros 2026: tipos de tickets, precios actualizados, ground pass, mejores asientos y dónde comprar de forma segura.',
   keywords: [
     'entradas roland garros 2026',
@@ -87,6 +87,13 @@ export default function EntradasRolandGarrosPage() {
               </h1>
               <p className="text-xl text-[#a15d45] mb-8">
                 Guía completa para conseguir tus entradas oficiales al torneo de tenis más prestigioso en tierra batida
+              </p>
+            </div>
+
+            {/* Capsule Content */}
+            <div className="max-w-4xl mx-auto rounded-lg border border-[#ead5cd] bg-[#fcf9f8] p-5 shadow-sm">
+              <p className="text-[#1d110c] text-base leading-relaxed">
+                <strong>Las entradas para Roland Garros 2026 van desde 35 EUR</strong> (ground pass primera semana) hasta más de 500 EUR (finales Philippe-Chatrier). La venta oficial se realiza exclusivamente en rolandgarros.com, con un sistema de lotería para semifinales y finales que abre en febrero-marzo 2026. El ground pass da acceso a todas las pistas exteriores excepto las tres principales. Consulta también las <Link href="/entradas-final-roland-garros" className="text-primary font-semibold hover:underline">entradas para la final</Link>, el <Link href="/calendario-roland-garros-2026" className="text-primary font-semibold hover:underline">calendario completo</Link> y el <Link href="/estadio-roland-garros/mapa-instalaciones" className="text-primary font-semibold hover:underline">mapa de instalaciones</Link>.
               </p>
             </div>
           </div>
@@ -515,6 +522,34 @@ export default function EntradasRolandGarrosPage() {
                     <h3 className="text-xl font-bold mb-2 text-[#1d110c]">Calendario 2026</h3>
                     <p className="text-[#1d110c] mb-3">
                       Fechas exactas de cada ronda para planificar qué días comprar entradas.
+                    </p>
+                    <span className="text-primary font-semibold inline-flex items-center gap-1">
+                      Leer más
+                      <span className="material-symbols-outlined" style={{fontSize: '18px'}}>arrow_forward</span>
+                    </span>
+                  </Link>
+
+                  <Link
+                    href="/final-roland-garros-2026"
+                    className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow"
+                  >
+                    <h3 className="text-xl font-bold mb-2 text-[#1d110c]">Final Roland Garros 2026</h3>
+                    <p className="text-[#1d110c] mb-3">
+                      Fechas, horarios y toda la información sobre las finales masculina y femenina.
+                    </p>
+                    <span className="text-primary font-semibold inline-flex items-center gap-1">
+                      Leer más
+                      <span className="material-symbols-outlined" style={{fontSize: '18px'}}>arrow_forward</span>
+                    </span>
+                  </Link>
+
+                  <Link
+                    href="/entradas-final-roland-garros"
+                    className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow"
+                  >
+                    <h3 className="text-xl font-bold mb-2 text-[#1d110c]">Entradas para la Final</h3>
+                    <p className="text-[#1d110c] mb-3">
+                      Precios, categorías y cómo comprar entradas para las finales y semifinales.
                     </p>
                     <span className="text-primary font-semibold inline-flex items-center gap-1">
                       Leer más

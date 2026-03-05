@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     description: 'Análisis profundo de las principales candidatas femeninas para el título de Roland Garros 2026',
     type: 'article',
   },
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/jugadores-favoritos-2026/favoritas-femeninas',
+  },
 }
 
 export default function FavoritasFemeninasPage() {

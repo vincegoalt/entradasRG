@@ -11,7 +11,10 @@ export const metadata: Metadata = {
     title: 'Cómo Llegar a Roland Garros 2026 - Guía Completa de Transporte',
     description: 'Todas las opciones de transporte para llegar a Roland Garros: metro, autobús, desde aeropuertos y parking',
     type: 'article',
-  }
+  },
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/guia-completa/como-llegar',
+  },
 }
 
 export default function ComoLlegarPage() {

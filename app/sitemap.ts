@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://entradasrolandgarros.com'
+  const lastModified = '2026-03-04'
 
   // Static pages with their priorities
   const routes = [
@@ -56,11 +57,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: '/comprar-entradas-roland-garros-desde-latinoamerica', priority: 0.8, changeFrequency: 'monthly' as const },
     { url: '/entradas-vip-roland-garros', priority: 0.8, changeFrequency: 'monthly' as const },
     { url: '/paquetes-roland-garros-2026', priority: 0.8, changeFrequency: 'monthly' as const },
+
+    // New SEO pages
+    { url: '/final-roland-garros-2026', priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: '/donde-se-juega-roland-garros', priority: 0.7, changeFrequency: 'monthly' as const },
+    { url: '/entradas-final-roland-garros', priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: '/historia-roland-garros', priority: 0.7, changeFrequency: 'monthly' as const },
   ]
 
   return routes.map((route) => ({
     url: `${baseUrl}${route.url}`,
-    lastModified: new Date(),
+    lastModified,
     changeFrequency: route.changeFrequency,
     priority: route.priority,
   }))

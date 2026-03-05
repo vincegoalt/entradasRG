@@ -11,7 +11,10 @@ export const metadata: Metadata = {
     title: 'Clima en París y Qué Vestir para Roland Garros 2026',
     description: 'Guía completa del clima en París durante mayo-junio y recomendaciones de vestimenta',
     type: 'article',
-  }
+  },
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/guia-completa/clima-consejos',
+  },
 }
 
 export default function ClimaConsejosPage() {

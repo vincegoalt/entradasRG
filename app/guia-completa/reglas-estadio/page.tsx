@@ -11,7 +11,10 @@ export const metadata: Metadata = {
     title: 'Reglas del Estadio Roland Garros 2026',
     description: 'Todo lo que necesitas saber sobre las reglas y normativa en Roland Garros',
     type: 'article',
-  }
+  },
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/guia-completa/reglas-estadio',
+  },
 }
 
 export default function ReglasEstadioPage() {

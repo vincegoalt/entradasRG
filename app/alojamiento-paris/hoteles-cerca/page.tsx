@@ -17,6 +17,9 @@ export const metadata: Metadata = {
     description: 'Guía completa de hoteles cerca de Roland Garros con precios, distancias y recomendaciones.',
     type: 'article',
   },
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/alojamiento-paris/hoteles-cerca',
+  },
 }
 
 export default function HotelesCercaPage() {

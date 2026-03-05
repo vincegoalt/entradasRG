@@ -32,6 +32,8 @@ export function SportsEventSchema({
       },
     },
     image: 'https://entradasrolandgarros.com/images/roland-garros-stadium.jpg',
+    eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+    eventStatus: 'https://schema.org/EventScheduled',
     offers: {
       '@type': 'AggregateOffer',
       url: 'https://entradasrolandgarros.com/entradas-roland-garros-2026/',

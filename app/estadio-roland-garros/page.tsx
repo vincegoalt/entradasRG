@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     url: 'https://entradasrolandgarros.com/estadio-roland-garros',
     type: 'article',
   },
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/estadio-roland-garros',
+  },
 }
 
 const faqs = [
@@ -71,6 +74,15 @@ export default function EstadioRolandGarrosPage() {
                 { name: 'Estadio Roland Garros', url: 'https://entradasrolandgarros.com/estadio-roland-garros' }
               ]}
             />
+          </div>
+        </div>
+
+        {/* Quick Answer Capsule */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
+          <div className="rounded-lg border border-[#ead5cd] bg-white p-5 shadow-sm max-w-4xl">
+            <p className="text-[#1d110c] text-base leading-relaxed">
+              <strong>El Stade Roland Garros</strong> se ubica en 2 Avenue Gordon Bennett, París 75016. Cuenta con <strong>18 pistas de tierra batida</strong>, siendo las principales Philippe-Chatrier (<strong>15,225 espectadores</strong>, techo retráctil), Suzanne-Lenglen (9,829) y Simonne-Mathieu (5,000). El complejo ocupa <strong>12 hectáreas</strong> y fue inaugurado en 1928.
+            </p>
           </div>
         </div>
 

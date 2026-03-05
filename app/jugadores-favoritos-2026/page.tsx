@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     description: 'Guía completa de los favoritos para Roland Garros 2026, análisis de los mejores tenistas y records históricos del torneo',
     type: 'article',
   },
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/jugadores-favoritos-2026',
+  },
 }
 
 export default function JugadoresFavoritosPage() {
@@ -23,9 +26,14 @@ export default function JugadoresFavoritosPage() {
               <h1 className="text-4xl md:text-5xl font-bold text-[#1d110c] mb-6">
                 Jugadores Favoritos Roland Garros 2026
               </h1>
-              <p className="text-xl text-[#a15d45] mb-8">
+              <p className="text-xl text-[#a15d45] mb-6">
                 Análisis completo de los principales candidatos masculinos y femeninos para conquistar París en 2026
               </p>
+              <div className="rounded-lg border border-[#ead5cd] bg-[#fcf9f8] p-5 shadow-sm text-left max-w-4xl mx-auto">
+                <p className="text-[#1d110c] text-base leading-relaxed">
+                  <strong>128 jugadores</strong> en cada cuadro individual competirán en Roland Garros 2026 del 24 de mayo al 7 de junio sobre tierra batida. Rafael Nadal acumula <strong>14 títulos</strong> en la historia del torneo, récord absoluto. Iga Swiątek domina el cuadro femenino con <strong>4 títulos</strong> recientes (2020-2024).
+                </p>
+              </div>
             </div>
           </div>
         </section>

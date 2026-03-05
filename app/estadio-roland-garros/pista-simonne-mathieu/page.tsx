@@ -13,6 +13,9 @@ export const metadata: Metadata = {
     url: 'https://entradasrolandgarros.com/estadio-roland-garros/pista-simonne-mathieu',
     type: 'article',
   },
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/estadio-roland-garros/pista-simonne-mathieu',
+  },
 }
 
 export default function SimonneMathieuPage() {

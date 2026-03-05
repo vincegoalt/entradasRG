@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: 'Orden de Juego Roland Garros 2026 | Cómo Consultar el Programa Diario',
   description: 'Guía completa sobre el orden de juego diario de Roland Garros 2026. Aprende cómo consultarlo, interpretarlo y planificar tu día en el torneo.',
   keywords: 'orden de juego roland garros, programa diario roland garros, partidos hoy roland garros, horarios partidos roland garros 2026',
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/calendario-roland-garros-2026/orden-de-juego',
+  },
 }
 
 export default function OrdenDeJuegoPage() {

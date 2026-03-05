@@ -13,6 +13,9 @@ export const metadata: Metadata = {
     url: 'https://entradasrolandgarros.com/estadio-roland-garros/historia',
     type: 'article',
   },
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/estadio-roland-garros/historia',
+  },
 }
 
 export default function HistoriaRolandGarrosPage() {

@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     url: 'https://entradasrolandgarros.com/estadio-roland-garros/pista-philippe-chatrier',
     type: 'article',
   },
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/estadio-roland-garros/pista-philippe-chatrier',
+  },
 }
 
 export default function PhilippeChartrierPage() {
@@ -40,11 +43,16 @@ export default function PhilippeChartrierPage() {
           {/* Page Header */}
           <div className="mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-[#1d110c] mb-6">
-              Court Philippe-Chatrier: El Escenario de las Leyendas
+              Court Philippe-Chatrier: Capacidad, Techo Retráctil y Guía Completa
             </h1>
-            <p className="text-xl text-[#a15d45] leading-relaxed">
+            <p className="text-xl text-[#a15d45] leading-relaxed mb-4">
               La pista central de Roland Garros con techo retráctil donde se corona a los campeones
             </p>
+            <div className="rounded-lg border border-[#ead5cd] bg-[#fcf9f8] p-5 shadow-sm">
+              <p className="text-[#1d110c] text-base leading-relaxed">
+                <strong>La pista Philippe-Chatrier tiene una capacidad de 15,225 espectadores</strong>, un techo retráctil inaugurado en 2020 compuesto por 11 vigas de acero de <strong>330 toneladas</strong> que se cierra en <strong>15 minutos</strong>. Es el escenario de las finales masculina y femenina de Roland Garros y fue inaugurada en 1928.
+              </p>
+            </div>
           </div>
 
           {/* Key Stats */}

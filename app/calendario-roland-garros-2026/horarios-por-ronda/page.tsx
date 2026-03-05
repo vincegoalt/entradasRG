@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: 'Horarios por Ronda Roland Garros 2026 | Programación del Torneo',
   description: 'Horarios detallados de cada ronda de Roland Garros 2026. Conoce cuándo comienzan los partidos en cada pista y planifica tu día en el torneo.',
   keywords: 'horarios roland garros, horarios por ronda, programación roland garros 2026, sesiones roland garros, hora partidos roland garros',
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/calendario-roland-garros-2026/horarios-por-ronda',
+  },
 }
 
 export default function HorariosPorRondaPage() {

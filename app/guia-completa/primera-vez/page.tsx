@@ -11,7 +11,10 @@ export const metadata: Metadata = {
     title: 'Guía para Primerizos en Roland Garros 2026',
     description: 'Todo lo que necesitas saber para tu primera visita a Roland Garros',
     type: 'article',
-  }
+  },
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/guia-completa/primera-vez',
+  },
 }
 
 export default function PrimeraVezPage() {

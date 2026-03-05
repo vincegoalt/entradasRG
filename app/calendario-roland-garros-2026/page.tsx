@@ -5,9 +5,12 @@ import { SportsEventSchema } from '@/components/seo/SportsEventSchema'
 import { FAQSchema } from '@/components/seo/FAQSchema'
 
 export const metadata: Metadata = {
-  title: 'Calendario Roland Garros 2026: Fechas, Horarios y Orden de Juego',
+  title: 'Fechas Roland Garros 2026: Cuándo Es, Calendario y Horarios',
   description: 'Calendario completo Roland Garros 2026 con fechas de cada ronda, horarios detallados y orden de juego diario. Planifica tu visita al torneo de tenis más prestigioso en tierra batida.',
   keywords: 'calendario roland garros 2026, fechas roland garros 2026, horarios roland garros, orden de juego roland garros, calendario french open 2026',
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/calendario-roland-garros-2026',
+  },
 }
 
 export default function CalendarioPage() {
@@ -31,6 +34,14 @@ export default function CalendarioPage() {
     {
       question: '¿Cuál es el mejor momento para visitar Roland Garros?',
       answer: 'La primera semana ofrece más partidos simultáneos y precios más accesibles, ideal para ver múltiples jugadores. La segunda semana presenta tenis de mayor nivel con semifinales y finales. Los cuartos de final ofrecen un equilibrio perfecto entre calidad y precio.'
+    },
+    {
+      question: '¿Cuándo es la final de Roland Garros 2026?',
+      answer: 'La final femenina de Roland Garros 2026 se disputa el sábado 6 de junio y la final masculina el domingo 7 de junio de 2026, ambas en la pista Philippe-Chatrier. Las finales de dobles también se juegan ese fin de semana.'
+    },
+    {
+      question: '¿Cuándo se juega Roland Garros 2026?',
+      answer: 'Roland Garros 2026 se juega del 24 de mayo al 7 de junio de 2026. La clasificación comienza el 18 de mayo. Los partidos del cuadro principal empiezan a las 11:00 en pistas principales y las sesiones nocturnas a las 20:00 en Philippe-Chatrier.'
     }
   ]
 
@@ -46,21 +57,28 @@ export default function CalendarioPage() {
 
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
         {/* Breadcrumbs */}
-        <div className="flex flex-wrap gap-2 mb-8">
-          <Link href="/" className="text-[#a15d45] text-sm font-medium leading-normal hover:text-primary">
-            Inicio
-          </Link>
-          <span className="text-[#a15d45] text-sm font-medium leading-normal">/</span>
-          <span className="text-[#1d110c] text-sm font-medium leading-normal">Calendario</span>
+        <div className="mb-8">
+          <Breadcrumbs
+            items={[
+              { name: 'Calendario Roland Garros 2026', url: 'https://entradasrolandgarros.com/calendario-roland-garros-2026' }
+            ]}
+          />
         </div>
 
         {/* Page Heading */}
-        <div className="flex flex-col gap-3 mb-12">
+        <div className="flex flex-col gap-3 mb-6">
           <h1 className="text-[#1d110c] text-4xl md:text-5xl font-black leading-tight tracking-[-0.033em]">
-            Calendario y Fechas Clave 2026
+            Fechas Roland Garros 2026: Calendario Completo
           </h1>
           <p className="text-[#a15d45] text-lg font-normal leading-normal max-w-3xl">
             Una guía completa de las fechas del torneo, desde las rondas de clasificación hasta las emocionantes finales en la Philippe-Chatrier.
+          </p>
+        </div>
+
+        {/* Capsule Answer */}
+        <div className="rounded-lg border border-[#ead5cd] bg-white p-5 shadow-sm mb-12">
+          <p className="text-[#1d110c] text-base leading-relaxed">
+            <strong>Roland Garros 2026 se celebra del 24 de mayo al 7 de junio de 2026.</strong> La final femenina es el sábado 6 de junio y la final masculina el domingo 7 de junio, ambas en la pista Philippe-Chatrier. Los partidos comienzan a las 11:00 en pistas principales y las sesiones nocturnas a las 20:00. Puedes <Link href="/entradas-roland-garros-2026" className="text-primary font-semibold hover:underline">comprar entradas para Roland Garros 2026</Link> desde 35 EUR.
           </p>
         </div>
 
@@ -325,7 +343,7 @@ export default function CalendarioPage() {
               </h2>
               <div className="bg-white rounded-xl p-6 shadow-sm border border-[#ead5cd]">
                 <p className="text-[#a15d45] mb-6">
-                  El fin de semana de las finales es el clímax del torneo, donde se coronan los campeones en la legendaria pista Philippe-Chatrier.
+                  El fin de semana de las finales es el clímax del torneo, donde se coronan los campeones en la legendaria pista Philippe-Chatrier. Consulta nuestra <Link href="/final-roland-garros-2026" className="text-primary font-semibold hover:underline">guía completa de la final de Roland Garros 2026</Link> o cómo <Link href="/entradas-roland-garros-2026" className="text-primary font-semibold hover:underline">comprar entradas</Link>.
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-start gap-4 p-4 rounded-lg bg-primary/10">

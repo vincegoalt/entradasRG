@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: 'Fechas Importantes Roland Garros 2026 | Calendario Detallado',
   description: 'Todas las fechas importantes de Roland Garros 2026: clasificaciones, rondas principales, finales y eventos especiales. Planifica tu visita con nuestro calendario detallado.',
   keywords: 'fechas roland garros 2026, calendario roland garros, fechas torneo french open, clasificaciones roland garros',
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/calendario-roland-garros-2026/fechas-importantes',
+  },
 }
 
 export default function FechasImportantesPage() {

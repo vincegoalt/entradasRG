@@ -17,6 +17,9 @@ export const metadata: Metadata = {
     description: 'Descubre los mejores distritos y barrios de París para tu estancia durante Roland Garros.',
     type: 'article',
   },
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/alojamiento-paris/mejores-barrios',
+  },
 }
 
 export default function MejoresBarriosPage() {

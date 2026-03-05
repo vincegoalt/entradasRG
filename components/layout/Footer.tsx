@@ -14,6 +14,8 @@ export function Footer() {
               <li><Link href="/estadio-roland-garros" className="hover:text-primary transition-colors">El Estadio</Link></li>
               <li><Link href="/guia-completa/como-llegar" className="hover:text-primary transition-colors">Cómo Llegar</Link></li>
               <li><Link href="/alojamiento-paris" className="hover:text-primary transition-colors">Alojamiento</Link></li>
+              <li><Link href="/final-roland-garros-2026" className="hover:text-primary transition-colors">Final Roland Garros 2026</Link></li>
+              <li><Link href="/historia-roland-garros" className="hover:text-primary transition-colors">Historia de Roland Garros</Link></li>
               <li><Link href="/preguntas-frecuentes" className="hover:text-primary transition-colors">FAQ</Link></li>
             </ul>
           </div>

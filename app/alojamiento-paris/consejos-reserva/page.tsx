@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     description: 'Estrategias para reservar el mejor alojamiento para Roland Garros al mejor precio.',
     type: 'article',
   },
+  alternates: {
+    canonical: 'https://entradasrolandgarros.com/alojamiento-paris/consejos-reserva',
+  },
 }
 
 export default function ConsejosReservaPage() {
