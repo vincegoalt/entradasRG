@@ -2,6 +2,8 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs'
 import { ArticleSchema } from '@/components/seo/ArticleSchema'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Fechas Importantes Roland Garros 2026 | Calendario Detallado',
@@ -23,26 +25,24 @@ export default function FechasImportantesPage() {
         dateModified="2026-02-09"
       />
 
-      <Breadcrumbs
-        items={[
-          { name: 'Calendario Roland Garros 2026', url: 'https://entradasrolandgarros.com/calendario-roland-garros-2026' },
-          { name: 'Fechas Importantes', url: 'https://entradasrolandgarros.com/calendario-roland-garros-2026/fechas-importantes' }
-        ]}
+      <PageHero
+        title="Fechas Importantes Roland Garros 2026"
+        subtitle="Todas las fechas clave del torneo"
+        image="/images/heroes/clay-court.jpg"
+        badge={{ icon: 'event', text: 'Fechas Clave 2026' }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
       />
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-orange-600 to-orange-800 text-white py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Fechas Importantes Roland Garros 2026
-            </h1>
-            <p className="text-xl md:text-2xl text-orange-100">
-              Todas las fechas clave del torneo para planificar tu visita perfecta
-            </p>
-          </div>
+      <div className="bg-white border-b border-[#ead5cd] py-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Breadcrumbs
+            items={[
+              { name: 'Calendario Roland Garros 2026', url: 'https://entradasrolandgarros.com/calendario-roland-garros-2026' },
+              { name: 'Fechas Importantes', url: 'https://entradasrolandgarros.com/calendario-roland-garros-2026/fechas-importantes' }
+            ]}
+          />
         </div>
-      </section>
+      </div>
 
       {/* Main Content */}
       <section className="py-16 bg-white">
@@ -317,6 +317,15 @@ export default function FechasImportantesPage() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* GoalTickets CTA */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <GoalTicketsCTA />
           </div>
         </div>
       </section>

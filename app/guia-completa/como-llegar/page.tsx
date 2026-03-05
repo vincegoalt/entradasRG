@@ -2,6 +2,8 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 import { HowToSchema } from '@/components/seo/HowToSchema'
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Cómo Llegar a Roland Garros 2026 | Metro, Autobús, Aeropuertos y Parking',
@@ -56,19 +58,13 @@ export default function ComoLlegarPage() {
       />
       <BreadcrumbSchema items={breadcrumbItems} />
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-7xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Cómo Llegar a Roland Garros 2026
-            </h1>
-            <p className="text-xl text-blue-100">
-              Guía completa de transporte: Metro, autobús, desde los aeropuertos y opciones de parking
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        title="Cómo Llegar a Roland Garros"
+        subtitle="Metro, autobús, coche y todas las opciones de transporte"
+        image="/images/heroes/paris-skyline.jpg"
+        badge={{ icon: 'directions', text: 'Metro L10 · 400m' }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+      />
 
       {/* Quick Summary */}
       <section className="py-8 bg-blue-50 border-b-2 border-blue-200">
@@ -628,6 +624,15 @@ export default function ComoLlegarPage() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* GoalTickets CTA */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-7xl mx-auto">
+            <GoalTicketsCTA />
           </div>
         </div>
       </section>

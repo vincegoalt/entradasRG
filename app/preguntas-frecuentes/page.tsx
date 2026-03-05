@@ -1,5 +1,7 @@
 import { Metadata } from 'next'
 import { FAQSchema } from '@/components/seo/FAQSchema'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Preguntas Frecuentes Roland Garros 2026 - Todo lo que Necesitas Saber',
@@ -250,42 +252,44 @@ export default function PreguntasFrecuentesPage() {
       <FAQSchema faqs={faqData} />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-orange-600 to-orange-800 text-white py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Preguntas Frecuentes Roland Garros 2026
-            </h1>
-            <p className="text-xl text-orange-100">
-              Más de 40 respuestas detalladas a todas tus dudas sobre el French Open
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        title="Preguntas Frecuentes"
+        subtitle="Más de 40 respuestas detalladas sobre Roland Garros 2026: entradas, fechas, logística e historia"
+        image="/images/heroes/tennis-crowd.jpg"
+        badge={{ icon: 'quiz', text: '40+ Respuestas' }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+        secondaryCta={{ text: 'Ver Preguntas', href: '#faq', icon: 'arrow_downward' }}
+      />
 
       {/* Table of Contents */}
-      <section className="py-8 bg-gray-50 border-b">
+      <section id="faq" className="py-10 bg-gray-50 border-b scroll-mt-8">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-2xl font-bold mb-4 text-gray-900">Índice de Contenidos</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Índice de Contenidos</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              <a href="#general" className="text-orange-600 hover:text-orange-700 font-medium">
-                → General (6 preguntas)
+              <a href="#general" className="flex items-center gap-3 bg-white rounded-xl border border-gray-200 shadow-sm p-4 hover:border-[#c75033] hover:shadow-md transition-all group">
+                <span className="material-symbols-outlined text-[#c75033] text-xl">help_outline</span>
+                <span className="font-medium text-gray-900 group-hover:text-[#c75033] transition-colors">General (6 preguntas)</span>
               </a>
-              <a href="#entradas" className="text-orange-600 hover:text-orange-700 font-medium">
-                → Entradas y Precios (12 preguntas)
+              <a href="#entradas" className="flex items-center gap-3 bg-white rounded-xl border border-gray-200 shadow-sm p-4 hover:border-[#c75033] hover:shadow-md transition-all group">
+                <span className="material-symbols-outlined text-[#c75033] text-xl">confirmation_number</span>
+                <span className="font-medium text-gray-900 group-hover:text-[#c75033] transition-colors">Entradas y Precios (12 preguntas)</span>
               </a>
-              <a href="#estadio" className="text-orange-600 hover:text-orange-700 font-medium">
-                → Estadio y Pistas (7 preguntas)
+              <a href="#estadio" className="flex items-center gap-3 bg-white rounded-xl border border-gray-200 shadow-sm p-4 hover:border-[#c75033] hover:shadow-md transition-all group">
+                <span className="material-symbols-outlined text-[#c75033] text-xl">stadium</span>
+                <span className="font-medium text-gray-900 group-hover:text-[#c75033] transition-colors">Estadio y Pistas (7 preguntas)</span>
               </a>
-              <a href="#logistica" className="text-orange-600 hover:text-orange-700 font-medium">
-                → Logística y Acceso (9 preguntas)
+              <a href="#logistica" className="flex items-center gap-3 bg-white rounded-xl border border-gray-200 shadow-sm p-4 hover:border-[#c75033] hover:shadow-md transition-all group">
+                <span className="material-symbols-outlined text-[#c75033] text-xl">directions</span>
+                <span className="font-medium text-gray-900 group-hover:text-[#c75033] transition-colors">Logística y Acceso (9 preguntas)</span>
               </a>
-              <a href="#experiencia" className="text-orange-600 hover:text-orange-700 font-medium">
-                → Experiencia y Consejos (6 preguntas)
+              <a href="#experiencia" className="flex items-center gap-3 bg-white rounded-xl border border-gray-200 shadow-sm p-4 hover:border-[#c75033] hover:shadow-md transition-all group">
+                <span className="material-symbols-outlined text-[#c75033] text-xl">tips_and_updates</span>
+                <span className="font-medium text-gray-900 group-hover:text-[#c75033] transition-colors">Experiencia y Consejos (6 preguntas)</span>
               </a>
-              <a href="#historia" className="text-orange-600 hover:text-orange-700 font-medium">
-                → Historia y Récords (5 preguntas)
+              <a href="#historia" className="flex items-center gap-3 bg-white rounded-xl border border-gray-200 shadow-sm p-4 hover:border-[#c75033] hover:shadow-md transition-all group">
+                <span className="material-symbols-outlined text-[#c75033] text-xl">history_edu</span>
+                <span className="font-medium text-gray-900 group-hover:text-[#c75033] transition-colors">Historia y Récords (5 preguntas)</span>
               </a>
             </div>
           </div>
@@ -293,18 +297,19 @@ export default function PreguntasFrecuentesPage() {
       </section>
 
       {/* FAQ Categories */}
-      <section className="py-12 bg-white">
+      <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
 
             {/* GENERAL */}
             <div id="general" className="mb-16 scroll-mt-8">
-              <h2 className="text-3xl font-bold mb-8 text-gray-900 border-b-4 border-orange-500 pb-3">
+              <h2 className="text-3xl font-bold mb-8 text-[#1d110c] border-b-4 border-[#c75033] pb-3 flex items-center gap-3">
+                <span className="material-symbols-outlined text-[#c75033] text-3xl">help_outline</span>
                 Preguntas Generales
               </h2>
               <div className="space-y-8">
                 {faqData.slice(0, 6).map((faq, index) => (
-                  <div key={index} className="border-l-4 border-orange-300 pl-6 py-2">
+                  <div key={index} className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
                     <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
                     <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
                   </div>
@@ -314,12 +319,13 @@ export default function PreguntasFrecuentesPage() {
 
             {/* ENTRADAS */}
             <div id="entradas" className="mb-16 scroll-mt-8">
-              <h2 className="text-3xl font-bold mb-8 text-gray-900 border-b-4 border-orange-500 pb-3">
+              <h2 className="text-3xl font-bold mb-8 text-[#1d110c] border-b-4 border-[#c75033] pb-3 flex items-center gap-3">
+                <span className="material-symbols-outlined text-[#c75033] text-3xl">confirmation_number</span>
                 Entradas y Precios
               </h2>
               <div className="space-y-8">
                 {faqData.slice(6, 20).map((faq, index) => (
-                  <div key={index} className="border-l-4 border-orange-300 pl-6 py-2">
+                  <div key={index} className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
                     <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
                     <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
                   </div>
@@ -328,31 +334,19 @@ export default function PreguntasFrecuentesPage() {
             </div>
 
             {/* GoalTickets CTA */}
-            <div className="mb-16 rounded-lg border border-[#ead5cd] bg-[#fcf9f8] p-8 text-center">
-              <h3 className="text-xl font-bold text-[#1d110c] mb-2">¿No conseguiste entradas en la lotería oficial?</h3>
-              <p className="text-gray-700 mb-4 max-w-lg mx-auto">
-                Consulta disponibilidad y precios actualizados en plataformas especializadas con garantía de autenticidad.
-              </p>
-              <a
-                href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
-                target="_blank"
-                rel="noopener"
-                className="inline-flex items-center gap-2 rounded-lg font-bold hover:opacity-90 transition-opacity"
-                style={{backgroundColor: '#c75033', color: '#ffffff', padding: '12px 24px'}}
-              >
-                Ver disponibilidad en GoalTickets
-                <span className="material-symbols-outlined" style={{fontSize: '20px'}}>open_in_new</span>
-              </a>
+            <div className="mb-16">
+              <GoalTicketsCTA />
             </div>
 
             {/* ESTADIO */}
             <div id="estadio" className="mb-16 scroll-mt-8">
-              <h2 className="text-3xl font-bold mb-8 text-gray-900 border-b-4 border-orange-500 pb-3">
+              <h2 className="text-3xl font-bold mb-8 text-[#1d110c] border-b-4 border-[#c75033] pb-3 flex items-center gap-3">
+                <span className="material-symbols-outlined text-[#c75033] text-3xl">stadium</span>
                 Estadio y Pistas
               </h2>
               <div className="space-y-8">
                 {faqData.slice(20, 27).map((faq, index) => (
-                  <div key={index} className="border-l-4 border-orange-300 pl-6 py-2">
+                  <div key={index} className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
                     <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
                     <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
                   </div>
@@ -362,12 +356,13 @@ export default function PreguntasFrecuentesPage() {
 
             {/* LOGÍSTICA */}
             <div id="logistica" className="mb-16 scroll-mt-8">
-              <h2 className="text-3xl font-bold mb-8 text-gray-900 border-b-4 border-orange-500 pb-3">
+              <h2 className="text-3xl font-bold mb-8 text-[#1d110c] border-b-4 border-[#c75033] pb-3 flex items-center gap-3">
+                <span className="material-symbols-outlined text-[#c75033] text-3xl">directions</span>
                 Logística y Acceso
               </h2>
               <div className="space-y-8">
                 {faqData.slice(27, 36).map((faq, index) => (
-                  <div key={index} className="border-l-4 border-orange-300 pl-6 py-2">
+                  <div key={index} className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
                     <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
                     <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
                   </div>
@@ -377,12 +372,13 @@ export default function PreguntasFrecuentesPage() {
 
             {/* EXPERIENCIA */}
             <div id="experiencia" className="mb-16 scroll-mt-8">
-              <h2 className="text-3xl font-bold mb-8 text-gray-900 border-b-4 border-orange-500 pb-3">
+              <h2 className="text-3xl font-bold mb-8 text-[#1d110c] border-b-4 border-[#c75033] pb-3 flex items-center gap-3">
+                <span className="material-symbols-outlined text-[#c75033] text-3xl">tips_and_updates</span>
                 Experiencia y Consejos
               </h2>
               <div className="space-y-8">
                 {faqData.slice(36, 42).map((faq, index) => (
-                  <div key={index} className="border-l-4 border-orange-300 pl-6 py-2">
+                  <div key={index} className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
                     <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
                     <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
                   </div>
@@ -392,12 +388,13 @@ export default function PreguntasFrecuentesPage() {
 
             {/* HISTORIA */}
             <div id="historia" className="mb-16 scroll-mt-8">
-              <h2 className="text-3xl font-bold mb-8 text-gray-900 border-b-4 border-orange-500 pb-3">
+              <h2 className="text-3xl font-bold mb-8 text-[#1d110c] border-b-4 border-[#c75033] pb-3 flex items-center gap-3">
+                <span className="material-symbols-outlined text-[#c75033] text-3xl">history_edu</span>
                 Historia y Récords
               </h2>
               <div className="space-y-8">
                 {faqData.slice(42).map((faq, index) => (
-                  <div key={index} className="border-l-4 border-orange-300 pl-6 py-2">
+                  <div key={index} className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
                     <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
                     <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
                   </div>
@@ -405,29 +402,33 @@ export default function PreguntasFrecuentesPage() {
               </div>
             </div>
 
+            {/* GoalTickets CTA - End of FAQ */}
+            <GoalTicketsCTA />
+
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-orange-600 to-orange-800 text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">
+      <section className="relative py-16 bg-gradient-to-br from-[#1d110c] via-[#2a1a12] to-[#1d110c] overflow-hidden">
+        <div className="absolute inset-0 opacity-10 bg-cover bg-center" style={{ backgroundImage: "url('/images/heroes/tennis-crowd.jpg')" }} />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold mb-4 text-white">
             ¿Listo para Planificar tu Visita a Roland Garros 2026?
           </h2>
-          <p className="text-xl mb-8 text-orange-100 max-w-2xl mx-auto">
+          <p className="text-xl mb-8 text-gray-300 max-w-2xl mx-auto">
             Ahora que tienes todas las respuestas, explora nuestras guías detalladas sobre entradas, calendario y cómo llegar
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="/entradas-roland-garros-2026"
-              className="bg-white text-orange-600 px-8 py-3 rounded-lg font-bold hover:bg-orange-50 transition-colors inline-block"
+              className="bg-[#c75033] text-white px-8 py-3 rounded-lg font-bold hover:bg-[#b5452d] transition-colors inline-block"
             >
               Ver Guía de Entradas
             </a>
             <a
               href="/calendario-roland-garros-2026"
-              className="bg-orange-700 text-white px-8 py-3 rounded-lg font-bold hover:bg-orange-800 transition-colors border-2 border-white inline-block"
+              className="bg-transparent text-white px-8 py-3 rounded-lg font-bold hover:bg-white/10 transition-colors border-2 border-white/30 inline-block"
             >
               Consultar Calendario 2026
             </a>
@@ -438,7 +439,7 @@ export default function PreguntasFrecuentesPage() {
       {/* Additional Info Box */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto bg-orange-50 border-l-4 border-orange-500 p-6 rounded-r-lg">
+          <div className="max-w-3xl mx-auto bg-white border-l-4 border-[#c75033] p-6 rounded-xl shadow-sm">
             <h3 className="text-xl font-bold mb-3 text-gray-900">¿No encuentras tu pregunta?</h3>
             <p className="text-gray-700 mb-4">
               Esta página cubre las 45 preguntas más frecuentes sobre Roland Garros 2026. Si tienes alguna duda específica que no está cubierta aquí,

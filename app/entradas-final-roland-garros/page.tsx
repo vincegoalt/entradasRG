@@ -2,6 +2,8 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs'
 import { FAQSchema } from '@/components/seo/FAQSchema'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Entradas Final Roland Garros 2026: Precios, Cómo Comprar y Disponibilidad',
@@ -50,7 +52,16 @@ export default function EntradasFinalRolandGarrosPage() {
       <FAQSchema faqs={faqs} />
 
       <div className="min-h-screen bg-[#fcf9f8]">
-        <div className="bg-white border-b border-[#ead5cd] py-4">
+        <PageHero
+          title="Entradas para la Final de Roland Garros 2026"
+          subtitle="Precios desde 150 EUR, sistema de lotería y guía paso a paso para comprar"
+          image="/images/heroes/tennis-crowd.jpg"
+          badge={{ icon: 'confirmation_number', text: 'Desde 150 EUR' }}
+          primaryCta={{ text: 'Ver en GoalTickets', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+          secondaryCta={{ text: 'Ver Precios', href: '#precios', icon: 'arrow_downward' }}
+        />
+
+        <div className="bg-white/80 border-b border-[#ead5cd] py-3">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Breadcrumbs
               items={[
@@ -64,12 +75,8 @@ export default function EntradasFinalRolandGarrosPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto">
 
-              <h1 className="text-4xl md:text-5xl font-bold text-[#1d110c] mb-6">
-                Entradas para la Final de Roland Garros 2026: Precios y Cómo Comprar
-              </h1>
-
               {/* Capsule */}
-              <div className="rounded-lg border border-[#ead5cd] bg-white p-6 shadow-sm mb-10">
+              <div className="rounded-xl border border-[#ead5cd] bg-gradient-to-r from-orange-50/50 to-[#fcf9f8] p-6 shadow-sm mb-10">
                 <p className="text-[#1d110c] text-base leading-relaxed">
                   <strong>Las entradas para la final de Roland Garros 2026 van desde 150 EUR hasta más de 540 EUR</strong> en la pista Philippe-Chatrier. Se asignan principalmente por <strong>lotería oficial</strong> en rolandgarros.com (inscripción febrero-marzo 2026). La <Link href="/final-roland-garros-2026" className="text-primary font-semibold hover:underline">final femenina es el 6 de junio y la masculina el 7 de junio</Link>.
                 </p>
@@ -209,28 +216,11 @@ export default function EntradasFinalRolandGarrosPage() {
                     </p>
                   </div>
 
-                  <div className="bg-[#fcf9f8] border border-[#ead5cd] rounded-xl p-6">
-                    <div className="flex items-start gap-4">
-                      <span className="material-symbols-outlined text-primary mt-1" style={{fontSize: '28px'}}>verified</span>
-                      <div>
-                        <h3 className="text-xl font-bold mb-2 text-[#1d110c]">Plataformas de Reventa Especializadas</h3>
-                        <p className="text-[#1d110c] mb-3">
-                          Si no conseguiste entradas por canales oficiales, plataformas especializadas como GoalTickets ofrecen entradas verificadas con garantía de autenticidad y transferencia oficial por app.
-                        </p>
-                        <a
-                          href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
-                          target="_blank"
-                          rel="noopener"
-                          className="inline-flex items-center gap-2 text-primary font-semibold hover:underline"
-                        >
-                          Ver disponibilidad y precios en GoalTickets
-                          <span className="material-symbols-outlined" style={{fontSize: '18px'}}>open_in_new</span>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+                  <GoalTicketsCTA title="¿No conseguiste entradas en la lotería?" subtitle="Plataformas especializadas como GoalTickets ofrecen entradas verificadas con garantía de autenticidad y transferencia oficial por app." />
                 </div>
               </section>
+
+              <GoalTicketsCTA />
 
               {/* FAQ */}
               <section className="mb-12">
@@ -257,7 +247,7 @@ export default function EntradasFinalRolandGarrosPage() {
                 <div className="grid md:grid-cols-3 gap-6">
                   <Link
                     href="/final-roland-garros-2026"
-                    className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow"
+                    className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow card-hover"
                   >
                     <h3 className="text-lg font-bold mb-2 text-[#1d110c]">Final Roland Garros 2026</h3>
                     <p className="text-sm text-[#a15d45]">
@@ -267,7 +257,7 @@ export default function EntradasFinalRolandGarrosPage() {
 
                   <Link
                     href="/entradas-roland-garros-2026"
-                    className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow"
+                    className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow card-hover"
                   >
                     <h3 className="text-lg font-bold mb-2 text-[#1d110c]">Todas las Entradas</h3>
                     <p className="text-sm text-[#a15d45]">
@@ -277,7 +267,7 @@ export default function EntradasFinalRolandGarrosPage() {
 
                   <Link
                     href="/estadio-roland-garros/pista-philippe-chatrier"
-                    className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow"
+                    className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow card-hover"
                   >
                     <h3 className="text-lg font-bold mb-2 text-[#1d110c]">Pista Philippe-Chatrier</h3>
                     <p className="text-sm text-[#a15d45]">
@@ -290,6 +280,24 @@ export default function EntradasFinalRolandGarrosPage() {
             </div>
           </div>
         </article>
+
+        <section className="relative py-16 bg-gradient-to-br from-[#1d110c] via-[#2a1a12] to-[#1d110c] overflow-hidden">
+          <div className="absolute inset-0 opacity-10 bg-cover bg-center" style={{ backgroundImage: "url('/images/heroes/clay-court.jpg')" }} />
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-3xl md:text-4xl font-black mb-4 text-white">¿Listo para Roland Garros 2026?</h2>
+            <p className="text-lg mb-8 text-white/70 max-w-xl mx-auto">Asegura tus entradas y vive el torneo más emocionante del tenis</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="https://goaltickets.com/es/collections/entradas-roland-garros-2026" target="_blank" rel="noopener" className="inline-flex items-center justify-center gap-2 bg-primary text-white px-8 py-3.5 rounded-xl font-bold hover:bg-orange-600 transition-colors btn-shine">
+                <span className="material-symbols-outlined" style={{fontSize: '20px'}}>confirmation_number</span>
+                Comprar Entradas
+              </a>
+              <a href="/" className="inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm text-white px-8 py-3.5 rounded-xl font-bold border border-white/20 hover:bg-white/20 transition-colors">
+                Explorar la Guía
+                <span className="material-symbols-outlined" style={{fontSize: '20px'}}>arrow_forward</span>
+              </a>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   )

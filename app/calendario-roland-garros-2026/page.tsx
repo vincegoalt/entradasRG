@@ -3,6 +3,8 @@ import { Metadata } from 'next'
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs'
 import { SportsEventSchema } from '@/components/seo/SportsEventSchema'
 import { FAQSchema } from '@/components/seo/FAQSchema'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Fechas Roland Garros 2026: Cuándo Es, Calendario y Horarios',
@@ -55,28 +57,30 @@ export default function CalendarioPage() {
       />
       <FAQSchema faqs={faqs} />
 
-      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+      <div className="min-h-screen bg-[#fcf9f8]">
+        <PageHero
+          title="Calendario Roland Garros 2026"
+          subtitle="Fechas de cada ronda, horarios detallados y orden de juego diario del torneo"
+          image="/images/heroes/clay-court.jpg"
+          badge={{ icon: 'calendar_month', text: '24 Mayo - 7 Junio 2026' }}
+          primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+          secondaryCta={{ text: 'Ver Horarios', href: '#horarios', icon: 'schedule' }}
+        />
+
         {/* Breadcrumbs */}
-        <div className="mb-8">
-          <Breadcrumbs
-            items={[
-              { name: 'Calendario Roland Garros 2026', url: 'https://entradasrolandgarros.com/calendario-roland-garros-2026' }
-            ]}
-          />
+        <div className="bg-white border-b border-[#ead5cd] py-4">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <Breadcrumbs
+              items={[
+                { name: 'Calendario Roland Garros 2026', url: 'https://entradasrolandgarros.com/calendario-roland-garros-2026' }
+              ]}
+            />
+          </div>
         </div>
 
-        {/* Page Heading */}
-        <div className="flex flex-col gap-3 mb-6">
-          <h1 className="text-[#1d110c] text-4xl md:text-5xl font-black leading-tight tracking-[-0.033em]">
-            Fechas Roland Garros 2026: Calendario Completo
-          </h1>
-          <p className="text-[#a15d45] text-lg font-normal leading-normal max-w-3xl">
-            Una guía completa de las fechas del torneo, desde las rondas de clasificación hasta las emocionantes finales en la Philippe-Chatrier.
-          </p>
-        </div>
-
+      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
         {/* Capsule Answer */}
-        <div className="rounded-lg border border-[#ead5cd] bg-white p-5 shadow-sm mb-12">
+        <div className="rounded-xl border border-[#ead5cd] bg-gradient-to-r from-orange-50/50 to-[#fcf9f8] p-6 shadow-sm mb-12">
           <p className="text-[#1d110c] text-base leading-relaxed">
             <strong>Roland Garros 2026 se celebra del 24 de mayo al 7 de junio de 2026.</strong> La final femenina es el sábado 6 de junio y la final masculina el domingo 7 de junio, ambas en la pista Philippe-Chatrier. Los partidos comienzan a las 11:00 en pistas principales y las sesiones nocturnas a las 20:00. Puedes <Link href="/entradas-roland-garros-2026" className="text-primary font-semibold hover:underline">comprar entradas para Roland Garros 2026</Link> desde 35 EUR.
           </p>
@@ -376,7 +380,7 @@ export default function CalendarioPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <Link
                   href="/entradas-roland-garros-2026"
-                  className="bg-white rounded-xl shadow-sm border border-[#ead5cd] overflow-hidden group hover:shadow-lg transition-shadow"
+                  className="card-hover bg-white rounded-xl shadow-sm border border-[#ead5cd] overflow-hidden group"
                 >
                   <div className="p-5">
                     <div className="flex items-center gap-3 mb-3">
@@ -395,7 +399,7 @@ export default function CalendarioPage() {
 
                 <Link
                   href="/alojamiento-paris"
-                  className="bg-white rounded-xl shadow-sm border border-[#ead5cd] overflow-hidden group hover:shadow-lg transition-shadow"
+                  className="card-hover bg-white rounded-xl shadow-sm border border-[#ead5cd] overflow-hidden group"
                 >
                   <div className="p-5">
                     <div className="flex items-center gap-3 mb-3">
@@ -414,7 +418,7 @@ export default function CalendarioPage() {
 
                 <Link
                   href="/guia-completa/como-llegar"
-                  className="bg-white rounded-xl shadow-sm border border-[#ead5cd] overflow-hidden group hover:shadow-lg transition-shadow"
+                  className="card-hover bg-white rounded-xl shadow-sm border border-[#ead5cd] overflow-hidden group"
                 >
                   <div className="p-5">
                     <div className="flex items-center gap-3 mb-3">
@@ -432,8 +436,12 @@ export default function CalendarioPage() {
                 </Link>
               </div>
             </section>
+
+            {/* GoalTickets CTA */}
+            <GoalTicketsCTA />
           </div>
         </div>
+      </div>
       </div>
     </>
   )

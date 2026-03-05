@@ -3,6 +3,8 @@ import { Metadata } from 'next'
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs'
 import { SportsEventSchema } from '@/components/seo/SportsEventSchema'
 import { FAQSchema } from '@/components/seo/FAQSchema'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Estadio Roland Garros: Pistas, Historia e Instalaciones | Guía Completa 2026',
@@ -66,6 +68,16 @@ export default function EstadioRolandGarrosPage() {
       <FAQSchema faqs={faqs} />
 
       <div className="min-h-screen bg-[#fcf9f8]">
+        {/* Hero Section */}
+        <PageHero
+          title="Estadio Roland Garros"
+          subtitle="Pistas, historia e instalaciones del complejo más icónico del tenis en tierra batida"
+          image="/images/heroes/tennis-stadium.jpg"
+          badge={{ icon: 'stadium', text: '18 Pistas de Tierra Batida' }}
+          primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+          secondaryCta={{ text: 'Ver Pistas', href: '#pistas', icon: 'sports_tennis' }}
+        />
+
         {/* Breadcrumbs */}
         <div className="bg-white border-b border-[#ead5cd] py-4">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -79,26 +91,12 @@ export default function EstadioRolandGarrosPage() {
 
         {/* Quick Answer Capsule */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
-          <div className="rounded-lg border border-[#ead5cd] bg-white p-5 shadow-sm max-w-4xl">
+          <div className="rounded-xl border border-[#ead5cd] bg-gradient-to-r from-orange-50/50 to-[#fcf9f8] p-6 shadow-sm max-w-4xl">
             <p className="text-[#1d110c] text-base leading-relaxed">
               <strong>El Stade Roland Garros</strong> se ubica en 2 Avenue Gordon Bennett, París 75016. Cuenta con <strong>18 pistas de tierra batida</strong>, siendo las principales Philippe-Chatrier (<strong>15,225 espectadores</strong>, techo retráctil), Suzanne-Lenglen (9,829) y Simonne-Mathieu (5,000). El complejo ocupa <strong>12 hectáreas</strong> y fue inaugurado en 1928.
             </p>
           </div>
         </div>
-
-        {/* Hero Section */}
-        <section className="bg-white py-10">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center max-w-4xl mx-auto">
-              <h1 className="text-4xl md:text-5xl font-bold text-[#1d110c] mb-6">
-                Estadio Roland Garros: El Templo de la Tierra Batida
-              </h1>
-              <p className="text-xl text-[#a15d45] mb-8">
-                Descubre las pistas legendarias, la historia única y las instalaciones del complejo más emblemático del tenis mundial
-              </p>
-            </div>
-          </div>
-        </section>
 
         {/* Quick Stats */}
         <section className="py-10">
@@ -133,7 +131,7 @@ export default function EstadioRolandGarrosPage() {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <Link
                 href="/estadio-roland-garros/pista-philippe-chatrier"
-                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow"
+                className="card-hover bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow"
               >
                 <span className="material-symbols-outlined text-primary block mb-3" style={{fontSize: '32px'}}>
                   stadium
@@ -144,7 +142,7 @@ export default function EstadioRolandGarrosPage() {
 
               <Link
                 href="/estadio-roland-garros/pista-suzanne-lenglen"
-                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow"
+                className="card-hover bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow"
               >
                 <span className="material-symbols-outlined text-primary block mb-3" style={{fontSize: '32px'}}>
                   sports_tennis
@@ -155,7 +153,7 @@ export default function EstadioRolandGarrosPage() {
 
               <Link
                 href="/estadio-roland-garros/pista-simonne-mathieu"
-                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow"
+                className="card-hover bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow"
               >
                 <span className="material-symbols-outlined text-primary block mb-3" style={{fontSize: '32px'}}>
                   yard
@@ -166,7 +164,7 @@ export default function EstadioRolandGarrosPage() {
 
               <Link
                 href="/estadio-roland-garros/historia"
-                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow"
+                className="card-hover bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow"
               >
                 <span className="material-symbols-outlined text-primary block mb-3" style={{fontSize: '32px'}}>
                   history_edu
@@ -177,7 +175,7 @@ export default function EstadioRolandGarrosPage() {
 
               <Link
                 href="/estadio-roland-garros/mapa-instalaciones"
-                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow md:col-span-2"
+                className="card-hover bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow md:col-span-2"
               >
                 <span className="material-symbols-outlined text-primary block mb-3" style={{fontSize: '32px'}}>
                   map
@@ -277,6 +275,9 @@ export default function EstadioRolandGarrosPage() {
                 </div>
               </section>
 
+              {/* GoalTickets CTA */}
+              <GoalTicketsCTA />
+
               {/* FAQ Section */}
               <section>
                 <h2 className="text-3xl font-bold mb-8 text-[#1d110c]">
@@ -298,12 +299,12 @@ export default function EstadioRolandGarrosPage() {
         </article>
 
         {/* CTA Section */}
-        <section className="py-10 bg-white">
+        <section className="py-16 bg-gradient-to-br from-[#1d110c] via-[#2a1a12] to-[#1d110c]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl font-bold mb-4 text-[#1d110c]">
+            <h2 className="text-3xl font-bold mb-4 text-white">
               Planifica tu Visita a Roland Garros 2026
             </h2>
-            <p className="text-xl mb-8 text-[#a15d45]">
+            <p className="text-xl mb-8 text-orange-200">
               Explora nuestras guías detalladas para cada pista e instalación
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -316,7 +317,7 @@ export default function EstadioRolandGarrosPage() {
               </Link>
               <Link
                 href="/calendario-roland-garros-2026"
-                className="inline-flex items-center gap-2 bg-white text-primary px-8 py-3 rounded-lg font-bold border-2 border-primary hover:bg-[#fcf9f8] transition-colors"
+                className="inline-flex items-center gap-2 bg-white/10 text-white px-8 py-3 rounded-lg font-bold border-2 border-white/30 hover:bg-white/20 transition-colors"
               >
                 Calendario 2026
                 <span className="material-symbols-outlined" style={{fontSize: '20px'}}>arrow_forward</span>

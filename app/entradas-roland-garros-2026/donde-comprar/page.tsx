@@ -2,6 +2,8 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs'
 import { FAQSchema } from '@/components/seo/FAQSchema'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Dónde Comprar Entradas Roland Garros 2026: Guía Completa de Opciones',
@@ -54,7 +56,14 @@ export default function DondeComprarPage() {
       <FAQSchema faqs={faqs} />
 
       <div className="min-h-screen bg-[#fcf9f8]">
-        {/* Breadcrumbs */}
+        <PageHero
+          title="Dónde Comprar Entradas Roland Garros 2026"
+          subtitle="Canales oficiales y guía paso a paso"
+          image="/images/heroes/tennis-crowd.jpg"
+          badge={{ icon: 'shopping_cart', text: 'Compra Segura' }}
+          primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+        />
+
         <div className="bg-white border-b border-[#ead5cd] py-4">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Breadcrumbs
@@ -65,20 +74,6 @@ export default function DondeComprarPage() {
             />
           </div>
         </div>
-
-        {/* Hero Section */}
-        <section className="bg-[#1d110c] text-white py-12">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Dónde Comprar Entradas Roland Garros 2026
-              </h1>
-              <p className="text-xl md:text-2xl text-[#ead5cd]">
-                Guía completa: canal oficial, opciones para compradores internacionales y cómo evitar estafas
-              </p>
-            </div>
-          </div>
-        </section>
 
         {/* Main Content */}
         <article className="py-12">
@@ -423,6 +418,11 @@ export default function DondeComprarPage() {
                     </ul>
                   </div>
                 </div>
+              </section>
+
+              {/* GoalTickets CTA */}
+              <section>
+                <GoalTicketsCTA />
               </section>
 
               {/* FAQ */}

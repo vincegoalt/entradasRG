@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import { Metadata } from 'next'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Dónde Alojarse para Roland Garros 2026: Hoteles y Barrios',
@@ -25,22 +27,23 @@ export const metadata: Metadata = {
 
 export default function AlojamientoParisPage() {
   return (
-    <>
-      <div className="mx-auto max-w-[960px] px-4 py-5 sm:px-6 lg:px-8">
-        {/* Hero Section */}
+    <div className="min-h-screen bg-[#fcf9f8]">
+      <PageHero
+        title="Alojamiento para Roland Garros 2026"
+        subtitle="Hoteles, barrios y consejos de reserva para tu viaje a París"
+        image="/images/heroes/paris-hotel.jpg"
+        badge={{ icon: 'hotel', text: 'Guía de Alojamiento' }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+        secondaryCta={{ text: 'Ver Hoteles', href: '#hoteles', icon: 'arrow_downward' }}
+      />
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Key Info Capsule */}
         <section className="w-full py-10">
-          <div className="flex flex-col gap-4">
-            <h1 className="text-[#1d110c] text-4xl md:text-5xl font-black leading-tight tracking-[-0.033em]">
-              Dónde Alojarse para Roland Garros 2026: Hoteles y Barrios
-            </h1>
-            <p className="text-[#1d110c] text-xl md:text-2xl leading-normal">
-              Encuentra el alojamiento perfecto para tu visita a Roland Garros con nuestra guía completa de hoteles, barrios y consejos de reserva
+          <div className="rounded-xl border border-[#ead5cd] bg-gradient-to-r from-orange-50/50 to-[#fcf9f8] p-6 shadow-sm">
+            <p className="text-[#1d110c] text-base leading-relaxed">
+              <strong>El estadio Roland Garros está en el distrito 16 de París.</strong> Los hoteles más cercanos (distrito 16) están a <strong>5-15 minutos a pie</strong>. Los barrios céntricos (Saint-Germain, Marais) están a <strong>25-35 minutos en metro</strong>. Reserva con <strong>3-4 meses de anticipación</strong> para las mejores opciones y precios.
             </p>
-            <div className="rounded-lg border border-[#ead5cd] bg-white p-5 shadow-sm mt-6">
-              <p className="text-[#1d110c] text-base leading-relaxed">
-                <strong>El estadio Roland Garros está en el distrito 16 de París.</strong> Los hoteles más cercanos (distrito 16) están a <strong>5-15 minutos a pie</strong>. Los barrios céntricos (Saint-Germain, Marais) están a <strong>25-35 minutos en metro</strong>. Reserva con <strong>3-4 meses de anticipación</strong> para las mejores opciones y precios.
-              </p>
-            </div>
           </div>
         </section>
 
@@ -49,7 +52,7 @@ export default function AlojamientoParisPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <Link
               href="/alojamiento-paris/hoteles-cerca"
-              className="flex flex-col gap-4 rounded-lg border border-[#ead5cd] bg-background-light p-6 hover:shadow-lg transition-shadow"
+              className="card-hover flex flex-col gap-4 rounded-xl border border-[#ead5cd] bg-white p-6"
             >
               <span className="material-symbols-outlined text-primary" style={{fontSize: '32px'}}>hotel</span>
               <div className="flex flex-col gap-1">
@@ -60,7 +63,7 @@ export default function AlojamientoParisPage() {
 
             <Link
               href="/alojamiento-paris/mejores-barrios"
-              className="flex flex-col gap-4 rounded-lg border border-[#ead5cd] bg-background-light p-6 hover:shadow-lg transition-shadow"
+              className="card-hover flex flex-col gap-4 rounded-xl border border-[#ead5cd] bg-white p-6"
             >
               <span className="material-symbols-outlined text-primary" style={{fontSize: '32px'}}>map</span>
               <div className="flex flex-col gap-1">
@@ -71,7 +74,7 @@ export default function AlojamientoParisPage() {
 
             <Link
               href="/alojamiento-paris/consejos-reserva"
-              className="flex flex-col gap-4 rounded-lg border border-[#ead5cd] bg-background-light p-6 hover:shadow-lg transition-shadow"
+              className="card-hover flex flex-col gap-4 rounded-xl border border-[#ead5cd] bg-white p-6"
             >
               <span className="material-symbols-outlined text-primary" style={{fontSize: '32px'}}>lightbulb</span>
               <div className="flex flex-col gap-1">
@@ -372,7 +375,7 @@ export default function AlojamientoParisPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
             <Link
               href="/alojamiento-paris/hoteles-cerca"
-              className="flex flex-col gap-4 rounded-lg border border-[#ead5cd] bg-background-light p-6 hover:shadow-lg transition-shadow"
+              className="card-hover flex flex-col gap-4 rounded-xl border border-[#ead5cd] bg-white p-6"
             >
               <span className="material-symbols-outlined text-primary" style={{fontSize: '32px'}}>hotel</span>
               <div className="flex flex-col gap-1">
@@ -385,7 +388,7 @@ export default function AlojamientoParisPage() {
 
             <Link
               href="/alojamiento-paris/mejores-barrios"
-              className="flex flex-col gap-4 rounded-lg border border-[#ead5cd] bg-background-light p-6 hover:shadow-lg transition-shadow"
+              className="card-hover flex flex-col gap-4 rounded-xl border border-[#ead5cd] bg-white p-6"
             >
               <span className="material-symbols-outlined text-primary" style={{fontSize: '32px'}}>map</span>
               <div className="flex flex-col gap-1">
@@ -398,7 +401,7 @@ export default function AlojamientoParisPage() {
 
             <Link
               href="/alojamiento-paris/consejos-reserva"
-              className="flex flex-col gap-4 rounded-lg border border-[#ead5cd] bg-background-light p-6 hover:shadow-lg transition-shadow"
+              className="card-hover flex flex-col gap-4 rounded-xl border border-[#ead5cd] bg-white p-6"
             >
               <span className="material-symbols-outlined text-primary" style={{fontSize: '32px'}}>lightbulb</span>
               <div className="flex flex-col gap-1">
@@ -420,7 +423,7 @@ export default function AlojamientoParisPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link
               href="/guia-completa/como-llegar"
-              className="flex gap-4 rounded-lg border border-[#ead5cd] bg-background-light p-4 hover:shadow-lg transition-shadow"
+              className="card-hover flex gap-4 rounded-xl border border-[#ead5cd] bg-white p-4"
             >
               <span className="material-symbols-outlined text-primary" style={{fontSize: '32px'}}>train</span>
               <div className="flex flex-col gap-1">
@@ -431,7 +434,7 @@ export default function AlojamientoParisPage() {
 
             <Link
               href="/entradas-roland-garros-2026"
-              className="flex gap-4 rounded-lg border border-[#ead5cd] bg-background-light p-4 hover:shadow-lg transition-shadow"
+              className="card-hover flex gap-4 rounded-xl border border-[#ead5cd] bg-white p-4"
             >
               <span className="material-symbols-outlined text-primary" style={{fontSize: '32px'}}>confirmation_number</span>
               <div className="flex flex-col gap-1">
@@ -442,7 +445,7 @@ export default function AlojamientoParisPage() {
 
             <Link
               href="/calendario-roland-garros-2026"
-              className="flex gap-4 rounded-lg border border-[#ead5cd] bg-background-light p-4 hover:shadow-lg transition-shadow"
+              className="card-hover flex gap-4 rounded-xl border border-[#ead5cd] bg-white p-4"
             >
               <span className="material-symbols-outlined text-primary" style={{fontSize: '32px'}}>calendar_month</span>
               <div className="flex flex-col gap-1">
@@ -453,7 +456,7 @@ export default function AlojamientoParisPage() {
 
             <Link
               href="/preguntas-frecuentes"
-              className="flex gap-4 rounded-lg border border-[#ead5cd] bg-background-light p-4 hover:shadow-lg transition-shadow"
+              className="card-hover flex gap-4 rounded-xl border border-[#ead5cd] bg-white p-4"
             >
               <span className="material-symbols-outlined text-primary" style={{fontSize: '32px'}}>quiz</span>
               <div className="flex flex-col gap-1">
@@ -463,7 +466,9 @@ export default function AlojamientoParisPage() {
             </Link>
           </div>
         </section>
+
+        <GoalTicketsCTA />
       </div>
-    </>
+    </div>
   )
 }

@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import { Metadata } from 'next'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Records Históricos Roland Garros: El Dominio de Nadal y Más | Guía 2026',
@@ -18,24 +20,24 @@ export const metadata: Metadata = {
 export default function RecordsHistoricosPage() {
   return (
     <>
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-orange-600 to-amber-700 text-white py-16">
+      <PageHero
+        title="Récords Históricos de Roland Garros"
+        subtitle="Los datos y récords más impresionantes del torneo"
+        image="/images/heroes/clay-court.jpg"
+        badge={{ icon: 'emoji_events', text: 'Récords del Torneo' }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+      />
+
+      {/* Breadcrumbs */}
+      <div className="bg-white border-b border-[#ead5cd] py-4">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="mb-4">
-              <Link href="/jugadores-favoritos-2026" className="text-orange-200 hover:text-white">
-                ← Volver a Jugadores Favoritos
-              </Link>
-            </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Records Históricos de Roland Garros
-            </h1>
-            <p className="text-xl text-orange-100">
-              El dominio de Rafael Nadal, victorias legendarias y los números que definen el Grand Slam más especial
-            </p>
-          </div>
+          <nav className="text-[#a15d45] text-sm">
+            <Link href="/jugadores-favoritos-2026" className="hover:text-primary">Jugadores Favoritos</Link>
+            <span className="mx-2">/</span>
+            <span>Récords Históricos</span>
+          </nav>
         </div>
-      </section>
+      </div>
 
       {/* Introduction */}
       <section className="py-12 bg-white">
@@ -525,6 +527,15 @@ export default function RecordsHistoricosPage() {
         </div>
       </section>
 
+      {/* GoalTickets CTA */}
+      <section className="py-12 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <GoalTicketsCTA />
+          </div>
+        </div>
+      </section>
+
       {/* Related Links */}
       <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
@@ -533,21 +544,21 @@ export default function RecordsHistoricosPage() {
             <div className="grid md:grid-cols-3 gap-4">
               <Link
                 href="/jugadores-favoritos-2026/favoritos-masculinos"
-                className="block p-4 bg-blue-50 rounded-lg border-2 border-blue-200 hover:border-blue-400 transition-colors"
+                className="block p-4 bg-blue-50 rounded-lg border-2 border-blue-200 card-hover"
               >
                 <h3 className="font-bold mb-2 text-gray-900">Favoritos Masculinos</h3>
                 <p className="text-sm text-gray-600">Candidatos al título 2026</p>
               </Link>
               <Link
                 href="/jugadores-favoritos-2026/favoritas-femeninas"
-                className="block p-4 bg-pink-50 rounded-lg border-2 border-pink-200 hover:border-pink-400 transition-colors"
+                className="block p-4 bg-pink-50 rounded-lg border-2 border-pink-200 card-hover"
               >
                 <h3 className="font-bold mb-2 text-gray-900">Favoritas Femeninas</h3>
                 <p className="text-sm text-gray-600">Candidatas al título 2026</p>
               </Link>
               <Link
                 href="/calendario-roland-garros-2026"
-                className="block p-4 bg-green-50 rounded-lg border-2 border-green-200 hover:border-green-400 transition-colors"
+                className="block p-4 bg-green-50 rounded-lg border-2 border-green-200 card-hover"
               >
                 <h3 className="font-bold mb-2 text-gray-900">Calendario 2026</h3>
                 <p className="text-sm text-gray-600">Fechas y orden de juego</p>
@@ -557,31 +568,6 @@ export default function RecordsHistoricosPage() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-12 bg-gradient-to-r from-orange-600 to-red-700 text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">
-            ¿Preparado para Vivir la Historia en 2026?
-          </h2>
-          <p className="text-xl mb-8 text-orange-100 max-w-2xl mx-auto">
-            Planifica tu visita a Roland Garros y sé testigo de los próximos capítulos en la historia del torneo
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/entradas-roland-garros-2026"
-              className="bg-white text-orange-600 px-8 py-3 rounded-lg font-bold hover:bg-orange-50 transition-colors"
-            >
-              Ver Información de Entradas
-            </Link>
-            <Link
-              href="/jugadores-favoritos-2026"
-              className="bg-orange-700 text-white px-8 py-3 rounded-lg font-bold hover:bg-orange-800 transition-colors border-2 border-white"
-            >
-              Volver a Jugadores Favoritos
-            </Link>
-          </div>
-        </div>
-      </section>
     </>
   )
 }

@@ -2,6 +2,8 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs'
 import { SportsEventSchema } from '@/components/seo/SportsEventSchema'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Pista Simonne-Mathieu: La Joya Arquitectónica de Roland Garros',
@@ -28,6 +30,14 @@ export default function SimonneMathieuPage() {
         description="La tercera pista principal de Roland Garros con diseño arquitectónico único rodeada de invernaderos históricos, capacidad para 5,000 espectadores"
       />
 
+      <PageHero
+        title="Pista Simonne-Mathieu"
+        subtitle="La joya arquitectónica de Roland Garros"
+        image="/images/heroes/tennis-stadium.jpg"
+        badge={{ icon: 'stadium', text: '5,000 Espectadores' }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+      />
+
       <Breadcrumbs
         items={[
           { name: 'Estadio Roland Garros', url: 'https://entradasrolandgarros.com/estadio-roland-garros' },
@@ -38,16 +48,6 @@ export default function SimonneMathieuPage() {
       {/* Main Content */}
       <article className="py-12 bg-gradient-to-b from-white to-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
-          {/* Page Header */}
-          <div className="mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold text-[#1d110c] mb-6">
-              Court Simonne-Mathieu: Donde la Naturaleza Encuentra el Deporte
-            </h1>
-            <p className="text-xl text-[#a15d45] leading-relaxed">
-              La pista más innovadora de Roland Garros rodeada de invernaderos históricos del siglo XIX
-            </p>
-          </div>
 
           {/* Key Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
@@ -538,13 +538,18 @@ export default function SimonneMathieuPage() {
               </Link>
             </section>
 
+            {/* GoalTickets CTA */}
+            <div className="mb-8">
+              <GoalTicketsCTA />
+            </div>
+
             {/* Related Pages */}
             <section>
               <h2 className="text-2xl font-bold mb-6 text-gray-900">Explora Otras Pistas de Roland Garros</h2>
               <div className="grid md:grid-cols-2 gap-4">
                 <Link
                   href="/estadio-roland-garros/pista-philippe-chatrier"
-                  className="block p-5 bg-gray-50 rounded-lg border-2 border-gray-200 hover:border-green-500 hover:shadow-lg transition-all"
+                  className="block p-5 bg-gray-50 rounded-lg border-2 border-gray-200 hover:border-green-500 hover:shadow-lg transition-all card-hover"
                 >
                   <h3 className="font-bold text-lg mb-2 text-gray-900">Pista Philippe-Chatrier</h3>
                   <p className="text-gray-600 text-sm">La pista central con techo retráctil y 15,225 asientos</p>
@@ -552,7 +557,7 @@ export default function SimonneMathieuPage() {
 
                 <Link
                   href="/estadio-roland-garros/pista-suzanne-lenglen"
-                  className="block p-5 bg-gray-50 rounded-lg border-2 border-gray-200 hover:border-green-500 hover:shadow-lg transition-all"
+                  className="block p-5 bg-gray-50 rounded-lg border-2 border-gray-200 hover:border-green-500 hover:shadow-lg transition-all card-hover"
                 >
                   <h3 className="font-bold text-lg mb-2 text-gray-900">Pista Suzanne-Lenglen</h3>
                   <p className="text-gray-600 text-sm">La segunda pista más grande con 10,068 espectadores</p>

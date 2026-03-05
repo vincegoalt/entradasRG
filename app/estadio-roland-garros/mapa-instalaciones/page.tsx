@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { Metadata } from 'next'
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs'
 import { ArticleSchema } from '@/components/seo/ArticleSchema'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Mapa e Instalaciones de Roland Garros: Guía Completa del Recinto 2026',
@@ -30,6 +32,14 @@ export default function MapaInstalacionesPage() {
         authorName="Equipo EntradasRolandGarros.com"
       />
 
+      <PageHero
+        title="Mapa e Instalaciones Roland Garros"
+        subtitle="Guía completa del complejo deportivo y sus servicios"
+        image="/images/heroes/tennis-stadium.jpg"
+        badge={{ icon: 'map', text: '12 Hectáreas' }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+      />
+
       <Breadcrumbs
         items={[
           { name: 'Estadio Roland Garros', url: 'https://entradasrolandgarros.com/estadio-roland-garros' },
@@ -40,16 +50,6 @@ export default function MapaInstalacionesPage() {
       {/* Main Content */}
       <article className="py-12 bg-gradient-to-b from-white to-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
-          {/* Page Header */}
-          <div className="mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold text-[#1d110c] mb-6">
-              Mapa e Instalaciones de Roland Garros
-            </h1>
-            <p className="text-xl text-[#a15d45] leading-relaxed">
-              Tu guía completa para navegar el complejo y aprovechar todas las instalaciones
-            </p>
-          </div>
 
           {/* Quick Facts */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
@@ -873,13 +873,18 @@ export default function MapaInstalacionesPage() {
               </div>
             </section>
 
+            {/* GoalTickets CTA */}
+            <div className="mb-8">
+              <GoalTicketsCTA />
+            </div>
+
             {/* Related Links */}
             <section>
               <h2 className="text-2xl font-bold mb-6 text-gray-900">Más sobre Roland Garros</h2>
               <div className="grid md:grid-cols-2 gap-4">
                 <Link
                   href="/estadio-roland-garros/pista-philippe-chatrier"
-                  className="block p-5 bg-gray-50 rounded-lg border-2 border-gray-200 hover:border-indigo-500 hover:shadow-lg transition-all"
+                  className="block p-5 bg-gray-50 rounded-lg border-2 border-gray-200 hover:border-indigo-500 hover:shadow-lg transition-all card-hover"
                 >
                   <h3 className="font-bold text-lg mb-2 text-gray-900">Pista Philippe-Chatrier</h3>
                   <p className="text-gray-600 text-sm">La pista central con techo retráctil</p>
@@ -887,7 +892,7 @@ export default function MapaInstalacionesPage() {
 
                 <Link
                   href="/estadio-roland-garros/historia"
-                  className="block p-5 bg-gray-50 rounded-lg border-2 border-gray-200 hover:border-indigo-500 hover:shadow-lg transition-all"
+                  className="block p-5 bg-gray-50 rounded-lg border-2 border-gray-200 hover:border-indigo-500 hover:shadow-lg transition-all card-hover"
                 >
                   <h3 className="font-bold text-lg mb-2 text-gray-900">Historia de Roland Garros</h3>
                   <p className="text-gray-600 text-sm">Del aviador al estadio legendario</p>

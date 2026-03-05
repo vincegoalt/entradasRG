@@ -2,6 +2,8 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 import { ArticleSchema } from '@/components/seo/ArticleSchema'
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Guía para Primerizos en Roland Garros 2026 | Consejos y Tips',
@@ -34,19 +36,13 @@ export default function PrimeraVezPage() {
       />
       <BreadcrumbSchema items={breadcrumbItems} />
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-orange-600 to-red-600 text-white py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-7xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Guía para Primerizos en Roland Garros
-            </h1>
-            <p className="text-xl text-orange-100">
-              Todo lo que necesitas saber para disfrutar al máximo tu primera visita al French Open
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        title="Roland Garros por Primera Vez"
+        subtitle="Guía para primerizos: todo lo que necesitas saber"
+        image="/images/heroes/tennis-crowd.jpg"
+        badge={{ icon: 'star', text: 'Para Primerizos' }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+      />
 
       {/* Quick Tips Summary */}
       <section className="py-8 bg-orange-50 border-b-2 border-orange-200">
@@ -817,22 +813,7 @@ export default function PrimeraVezPage() {
       <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
-            <div className="rounded-lg border border-[#ead5cd] bg-[#fcf9f8] p-8 text-center">
-              <h3 className="text-xl font-bold text-[#1d110c] mb-2">¿Todavía necesitas entradas para Roland Garros 2026?</h3>
-              <p className="text-gray-700 mb-4 max-w-lg mx-auto">
-                Si aún no tienes tu entrada, consulta precios y disponibilidad en plataformas especializadas con transferencia oficial por app.
-              </p>
-              <a
-                href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
-                target="_blank"
-                rel="noopener"
-                className="inline-flex items-center gap-2 rounded-lg font-bold hover:opacity-90 transition-opacity"
-                style={{backgroundColor: '#c75033', color: '#ffffff', padding: '12px 24px'}}
-              >
-                Ver entradas en GoalTickets
-                <span className="material-symbols-outlined" style={{fontSize: '20px'}}>open_in_new</span>
-              </a>
-            </div>
+            <GoalTicketsCTA />
           </div>
         </div>
       </section>

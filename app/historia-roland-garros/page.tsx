@@ -2,6 +2,8 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs'
 import { FAQSchema } from '@/components/seo/FAQSchema'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Historia de Roland Garros: Origen, el Aviador y el Torneo',
@@ -51,7 +53,16 @@ export default function HistoriaRolandGarrosPage() {
       <FAQSchema faqs={faqs} />
 
       <div className="min-h-screen bg-[#fcf9f8]">
-        <div className="bg-white border-b border-[#ead5cd] py-4">
+        <PageHero
+          title="Historia de Roland Garros"
+          subtitle="Del aviador francés al Grand Slam más icónico del tenis mundial"
+          image="/images/heroes/clay-court.jpg"
+          badge={{ icon: 'history', text: 'Desde 1891' }}
+          primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+          secondaryCta={{ text: 'Leer Historia', href: '#historia', icon: 'arrow_downward' }}
+        />
+
+        <div className="bg-white/80 border-b border-[#ead5cd] py-3">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Breadcrumbs
               items={[
@@ -65,12 +76,8 @@ export default function HistoriaRolandGarrosPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto">
 
-              <h1 className="text-4xl md:text-5xl font-bold text-[#1d110c] mb-6">
-                Historia de Roland Garros: Del Aviador al Grand Slam
-              </h1>
-
               {/* Capsule */}
-              <div className="rounded-lg border border-[#ead5cd] bg-white p-6 shadow-sm mb-10">
+              <div className="rounded-xl border border-[#ead5cd] bg-gradient-to-r from-orange-50/50 to-[#fcf9f8] p-6 shadow-sm mb-10">
                 <p className="text-[#1d110c] text-base leading-relaxed">
                   <strong>Roland Garros</strong> lleva el nombre del aviador francés <strong>Roland Garros (1888-1918)</strong>, héroe de la Primera Guerra Mundial que realizó la primera travesía aérea del Mediterráneo en 1913. El estadio se inauguró en <strong>1928</strong> para defender la Copa Davis, y el torneo se convirtió en uno de los 4 Grand Slams. Con <strong>14 títulos de Rafael Nadal</strong>, es el torneo más dominado por un solo jugador en la historia.
                 </p>
@@ -147,6 +154,8 @@ export default function HistoriaRolandGarrosPage() {
                 </div>
               </section>
 
+              <GoalTicketsCTA />
+
               {/* FAQ */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold mb-6 text-[#1d110c]">
@@ -188,7 +197,7 @@ export default function HistoriaRolandGarrosPage() {
                 <div className="grid md:grid-cols-3 gap-6">
                   <Link
                     href="/donde-se-juega-roland-garros"
-                    className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow"
+                    className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow card-hover"
                   >
                     <h3 className="text-lg font-bold mb-2 text-[#1d110c]">Dónde Se Juega</h3>
                     <p className="text-sm text-[#a15d45]">
@@ -198,7 +207,7 @@ export default function HistoriaRolandGarrosPage() {
 
                   <Link
                     href="/jugadores-favoritos-2026/records-historicos"
-                    className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow"
+                    className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow card-hover"
                   >
                     <h3 className="text-lg font-bold mb-2 text-[#1d110c]">Récords Históricos</h3>
                     <p className="text-sm text-[#a15d45]">
@@ -208,7 +217,7 @@ export default function HistoriaRolandGarrosPage() {
 
                   <Link
                     href="/entradas-roland-garros-2026"
-                    className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow"
+                    className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow card-hover"
                   >
                     <h3 className="text-lg font-bold mb-2 text-[#1d110c]">Entradas 2026</h3>
                     <p className="text-sm text-[#a15d45]">
@@ -221,6 +230,24 @@ export default function HistoriaRolandGarrosPage() {
             </div>
           </div>
         </article>
+
+        <section className="relative py-16 bg-gradient-to-br from-[#1d110c] via-[#2a1a12] to-[#1d110c] overflow-hidden">
+          <div className="absolute inset-0 opacity-10 bg-cover bg-center" style={{ backgroundImage: "url('/images/heroes/clay-court.jpg')" }} />
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-3xl md:text-4xl font-black mb-4 text-white">¿Listo para Roland Garros 2026?</h2>
+            <p className="text-lg mb-8 text-white/70 max-w-xl mx-auto">Asegura tus entradas y vive el torneo más emocionante del tenis</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="https://goaltickets.com/es/collections/entradas-roland-garros-2026" target="_blank" rel="noopener" className="inline-flex items-center justify-center gap-2 bg-primary text-white px-8 py-3.5 rounded-xl font-bold hover:bg-orange-600 transition-colors btn-shine">
+                <span className="material-symbols-outlined" style={{fontSize: '20px'}}>confirmation_number</span>
+                Comprar Entradas
+              </a>
+              <a href="/" className="inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm text-white px-8 py-3.5 rounded-xl font-bold border border-white/20 hover:bg-white/20 transition-colors">
+                Explorar la Guía
+                <span className="material-symbols-outlined" style={{fontSize: '20px'}}>arrow_forward</span>
+              </a>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   )

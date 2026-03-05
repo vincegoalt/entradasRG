@@ -2,6 +2,8 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 import { ArticleSchema } from '@/components/seo/ArticleSchema'
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Qué Llevar a Roland Garros 2026 | Lista Completa de Esenciales',
@@ -34,19 +36,13 @@ export default function QueLlevarPage() {
       />
       <BreadcrumbSchema items={breadcrumbItems} />
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-green-600 to-green-800 text-white py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-7xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Qué Llevar a Roland Garros 2026
-            </h1>
-            <p className="text-xl text-green-100">
-              Lista completa de esenciales, recomendaciones y artículos prohibidos para disfrutar tu día en el torneo
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        title="Qué Llevar a Roland Garros"
+        subtitle="Lista completa de artículos permitidos y recomendados"
+        image="/images/heroes/tennis-crowd.jpg"
+        badge={{ icon: 'checklist', text: 'Lista Completa' }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+      />
 
       {/* Quick Checklist */}
       <section className="py-8 bg-green-50 border-b-2 border-green-200">
@@ -640,6 +636,15 @@ export default function QueLlevarPage() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* GoalTickets CTA */}
+      <section className="py-12 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-7xl mx-auto">
+            <GoalTicketsCTA />
           </div>
         </div>
       </section>

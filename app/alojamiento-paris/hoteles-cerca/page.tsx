@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import { Metadata } from 'next'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Hoteles Cerca de Roland Garros 2026: Guía por Zonas y Precios',
@@ -25,23 +27,21 @@ export const metadata: Metadata = {
 export default function HotelesCercaPage() {
   return (
     <>
+      <PageHero
+        title="Hoteles Cerca de Roland Garros"
+        subtitle="Las mejores opciones de alojamiento cerca del estadio"
+        image="/images/heroes/paris-hotel.jpg"
+        badge={{ icon: 'hotel', text: 'Distrito 16, París' }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+      />
+
       <div className="mx-auto max-w-[960px] px-4 py-5 sm:px-6 lg:px-8">
-        {/* Hero Section */}
-        <section className="w-full py-10">
-          <div className="flex flex-col gap-4">
-            <nav className="text-[#a15d45] text-sm">
-              <Link href="/alojamiento-paris" className="hover:text-primary">Alojamiento</Link>
-              <span className="mx-2">/</span>
-              <span>Hoteles Cerca del Estadio</span>
-            </nav>
-            <h1 className="text-[#1d110c] text-4xl md:text-5xl font-black leading-tight tracking-[-0.033em]">
-              Hoteles Cerca de Roland Garros: Guía por Zonas y Precios
-            </h1>
-            <p className="text-[#1d110c] text-xl md:text-2xl leading-normal">
-              Análisis detallado de las mejores opciones de alojamiento según tu presupuesto y proximidad al estadio
-            </p>
-          </div>
-        </section>
+        {/* Breadcrumbs */}
+        <nav className="text-[#a15d45] text-sm py-4">
+          <Link href="/alojamiento-paris" className="hover:text-primary">Alojamiento</Link>
+          <span className="mx-2">/</span>
+          <span>Hoteles Cerca del Estadio</span>
+        </nav>
 
         {/* Main Content */}
         <article className="w-full py-10">
@@ -169,6 +169,11 @@ export default function HotelesCercaPage() {
           </div>
         </article>
 
+        {/* GoalTickets CTA */}
+        <section className="w-full py-10">
+          <GoalTicketsCTA />
+        </section>
+
         {/* Navigation to Other Guides */}
         <section className="w-full py-10">
           <h2 className="text-[#1d110c] text-2xl font-bold mb-6 text-center">
@@ -177,7 +182,7 @@ export default function HotelesCercaPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link
               href="/alojamiento-paris/mejores-barrios"
-              className="flex flex-col gap-4 rounded-lg border border-[#ead5cd] bg-background-light p-6 hover:shadow-lg transition-shadow"
+              className="flex flex-col gap-4 rounded-lg border border-[#ead5cd] bg-background-light p-6 card-hover"
             >
               <span className="material-symbols-outlined text-primary" style={{fontSize: '32px'}}>map</span>
               <div className="flex flex-col gap-1">
@@ -188,7 +193,7 @@ export default function HotelesCercaPage() {
 
             <Link
               href="/alojamiento-paris/consejos-reserva"
-              className="flex flex-col gap-4 rounded-lg border border-[#ead5cd] bg-background-light p-6 hover:shadow-lg transition-shadow"
+              className="flex flex-col gap-4 rounded-lg border border-[#ead5cd] bg-background-light p-6 card-hover"
             >
               <span className="material-symbols-outlined text-primary" style={{fontSize: '32px'}}>lightbulb</span>
               <div className="flex flex-col gap-1">

@@ -2,6 +2,8 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 import { ArticleSchema } from '@/components/seo/ArticleSchema'
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Guía Completa para Asistir a Roland Garros 2026 | Todo lo que Necesitas Saber',
@@ -42,16 +44,20 @@ export default function GuiaCompletaPage() {
         </div>
 
         {/* Hero Section */}
-        <section className="bg-white py-10">
+        <PageHero
+          title="Guía Completa Roland Garros 2026"
+          subtitle="Todo lo que necesitas saber para disfrutar al máximo tu experiencia en el torneo más prestigioso en tierra batida"
+          image="/images/heroes/tennis-crowd.jpg"
+          badge={{ icon: 'menu_book', text: 'Guía Práctica Completa' }}
+          primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+          secondaryCta={{ text: 'Explorar Guía', href: '#guia', icon: 'arrow_downward' }}
+        />
+
+        {/* Key Facts Capsule */}
+        <section className="bg-white py-8">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center max-w-4xl mx-auto">
-              <h1 className="text-4xl md:text-5xl font-bold text-[#1d110c] mb-6">
-                Guía Completa para Asistir a Roland Garros 2026
-              </h1>
-              <p className="text-xl text-[#a15d45] mb-6">
-                Todo lo que necesitas saber para disfrutar al máximo tu experiencia en el torneo de tenis más prestigioso en tierra batida
-              </p>
-              <div className="rounded-lg border border-[#ead5cd] bg-[#fcf9f8] p-5 shadow-sm text-left">
+            <div className="max-w-4xl mx-auto">
+              <div className="rounded-xl border border-[#ead5cd] bg-gradient-to-r from-orange-50/50 to-[#fcf9f8] p-6 shadow-sm">
                 <p className="text-[#1d110c] text-base leading-relaxed">
                   <strong>Roland Garros 2026 se celebra del 24 de mayo al 7 de junio</strong> en París. El estadio está en el distrito 16, accesible por metro línea 10 (Porte d'Auteuil, a 400m). Entradas desde <strong>35 EUR</strong>. Temperatura media en París en mayo-junio: <strong>15-22°C</strong>. Más de <strong>500,000 espectadores</strong> visitan el torneo durante las 2 semanas.
                 </p>
@@ -95,7 +101,7 @@ export default function GuiaCompletaPage() {
               {/* Cómo Llegar */}
               <Link
                 href="/guia-completa/como-llegar"
-                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow"
+                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] card-hover"
               >
                 <span className="material-symbols-outlined text-primary block mb-3" style={{fontSize: '32px'}}>
                   directions_transit
@@ -109,7 +115,7 @@ export default function GuiaCompletaPage() {
               {/* Qué Llevar */}
               <Link
                 href="/guia-completa/que-llevar"
-                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow"
+                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] card-hover"
               >
                 <span className="material-symbols-outlined text-primary block mb-3" style={{fontSize: '32px'}}>
                   backpack
@@ -123,7 +129,7 @@ export default function GuiaCompletaPage() {
               {/* Reglas del Estadio */}
               <Link
                 href="/guia-completa/reglas-estadio"
-                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow"
+                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] card-hover"
               >
                 <span className="material-symbols-outlined text-primary block mb-3" style={{fontSize: '32px'}}>
                   rule
@@ -137,7 +143,7 @@ export default function GuiaCompletaPage() {
               {/* Clima */}
               <Link
                 href="/guia-completa/clima-consejos"
-                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow"
+                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] card-hover"
               >
                 <span className="material-symbols-outlined text-primary block mb-3" style={{fontSize: '32px'}}>
                   wb_sunny
@@ -151,7 +157,7 @@ export default function GuiaCompletaPage() {
               {/* Primera Vez */}
               <Link
                 href="/guia-completa/primera-vez"
-                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow"
+                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] card-hover"
               >
                 <span className="material-symbols-outlined text-primary block mb-3" style={{fontSize: '32px'}}>
                   stars
@@ -246,7 +252,7 @@ export default function GuiaCompletaPage() {
             <div className="grid md:grid-cols-3 gap-6">
               <Link
                 href="/calendario-roland-garros-2026"
-                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow text-center"
+                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] card-hover text-center"
               >
                 <span className="material-symbols-outlined text-primary block mb-3 mx-auto" style={{fontSize: '32px'}}>
                   calendar_month
@@ -257,7 +263,7 @@ export default function GuiaCompletaPage() {
 
               <Link
                 href="/entradas-roland-garros-2026"
-                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow text-center"
+                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] card-hover text-center"
               >
                 <span className="material-symbols-outlined text-primary block mb-3 mx-auto" style={{fontSize: '32px'}}>
                   confirmation_number
@@ -268,7 +274,7 @@ export default function GuiaCompletaPage() {
 
               <Link
                 href="/estadio-roland-garros"
-                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow text-center"
+                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] card-hover text-center"
               >
                 <span className="material-symbols-outlined text-primary block mb-3 mx-auto" style={{fontSize: '32px'}}>
                   stadium
@@ -279,7 +285,7 @@ export default function GuiaCompletaPage() {
 
               <Link
                 href="/alojamiento-paris"
-                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow text-center"
+                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] card-hover text-center"
               >
                 <span className="material-symbols-outlined text-primary block mb-3 mx-auto" style={{fontSize: '32px'}}>
                   hotel
@@ -290,7 +296,7 @@ export default function GuiaCompletaPage() {
 
               <Link
                 href="/jugadores-favoritos-2026"
-                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow text-center"
+                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] card-hover text-center"
               >
                 <span className="material-symbols-outlined text-primary block mb-3 mx-auto" style={{fontSize: '32px'}}>
                   sports_tennis
@@ -301,7 +307,7 @@ export default function GuiaCompletaPage() {
 
               <Link
                 href="/preguntas-frecuentes"
-                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow text-center"
+                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] card-hover text-center"
               >
                 <span className="material-symbols-outlined text-primary block mb-3 mx-auto" style={{fontSize: '32px'}}>
                   quiz
@@ -313,13 +319,15 @@ export default function GuiaCompletaPage() {
           </div>
         </section>
 
+        <GoalTicketsCTA />
+
         {/* CTA */}
-        <section className="py-10 bg-white">
+        <section className="py-16 bg-gradient-to-br from-[#1d110c] via-[#2a1a12] to-[#1d110c]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-2xl font-bold mb-4 text-[#1d110c]">
+            <h2 className="text-2xl font-bold mb-4 text-white">
               Una Experiencia Inolvidable te Espera
             </h2>
-            <p className="text-lg text-[#1d110c] leading-relaxed mb-6 max-w-3xl mx-auto">
+            <p className="text-lg text-white/80 leading-relaxed mb-6 max-w-3xl mx-auto">
               Roland Garros es mucho más que un torneo de tenis. Es la combinación perfecta de deporte de élite, historia, tradición francesa y la vibrante atmósfera parisina. Con una buena planificación usando esta guía completa, estarás preparado para disfrutar cada momento de tu visita.
             </p>
           </div>

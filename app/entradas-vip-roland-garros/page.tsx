@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs'
 import { FAQSchema } from '@/components/seo/FAQSchema'
 import { ArticleSchema } from '@/components/seo/ArticleSchema'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Entradas VIP Roland Garros 2026: Hospitalidad, Palcos y Experiencias Premium',
@@ -58,6 +60,14 @@ export default function EntradasVipPage() {
       />
       <FAQSchema faqs={faqs} />
 
+      <PageHero
+        title="Entradas VIP Roland Garros"
+        subtitle="Experiencias premium y hospitalidad exclusiva"
+        image="/images/heroes/tennis-stadium.jpg"
+        badge={{ icon: 'diamond', text: 'Experiencia VIP' }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+      />
+
       <div className="min-h-screen bg-[#fcf9f8]">
         {/* Breadcrumbs */}
         <div className="bg-white border-b border-[#ead5cd] py-4">
@@ -69,18 +79,6 @@ export default function EntradasVipPage() {
             />
           </div>
         </div>
-
-        {/* Hero */}
-        <section className="bg-[#1d110c] text-white py-16">
-          <div className="max-w-4xl mx-auto px-4 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Entradas VIP y Hospitalidad Roland Garros 2026
-            </h1>
-            <p className="text-xl text-[#ead5cd]">
-              Palcos privados, suites corporativas y experiencias premium para vivir Roland Garros al máximo nivel
-            </p>
-          </div>
-        </section>
 
         {/* Main Content */}
         <article className="py-12">
@@ -270,6 +268,11 @@ export default function EntradasVipPage() {
               </div>
             </section>
 
+            {/* GoalTickets CTA */}
+            <section>
+              <GoalTicketsCTA />
+            </section>
+
             {/* FAQ */}
             <section>
               <h2 className="text-3xl font-bold mb-6 text-[#1d110c]">
@@ -293,7 +296,7 @@ export default function EntradasVipPage() {
               <div className="grid md:grid-cols-2 gap-6">
                 <Link
                   href="/entradas-roland-garros-2026/mejores-asientos"
-                  className="block bg-white border border-[#ead5cd] rounded-xl p-6 hover:shadow-md transition-shadow"
+                  className="block bg-white border border-[#ead5cd] rounded-xl p-6 card-hover"
                 >
                   <h3 className="text-xl font-bold mb-2 text-[#1d110c]">Mejores Asientos</h3>
                   <p className="text-[#a15d45] text-sm mb-3">Guía de asientos por pista, sol/sombra y categorías.</p>
@@ -301,7 +304,7 @@ export default function EntradasVipPage() {
                 </Link>
                 <Link
                   href="/entradas-roland-garros-2026/precios"
-                  className="block bg-white border border-[#ead5cd] rounded-xl p-6 hover:shadow-md transition-shadow"
+                  className="block bg-white border border-[#ead5cd] rounded-xl p-6 card-hover"
                 >
                   <h3 className="text-xl font-bold mb-2 text-[#1d110c]">Precios de Entradas</h3>
                   <p className="text-[#a15d45] text-sm mb-3">Desglose completo de precios por ronda y categoría.</p>

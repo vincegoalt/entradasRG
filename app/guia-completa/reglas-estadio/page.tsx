@@ -2,6 +2,8 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 import { ArticleSchema } from '@/components/seo/ArticleSchema'
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Reglas del Estadio Roland Garros 2026 | Normativa y Seguridad',
@@ -34,19 +36,13 @@ export default function ReglasEstadioPage() {
       />
       <BreadcrumbSchema items={breadcrumbItems} />
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-red-600 to-red-800 text-white py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-7xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Reglas del Estadio Roland Garros 2026
-            </h1>
-            <p className="text-xl text-red-100">
-              Normativa, seguridad, comportamiento y etiqueta en el recinto
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        title="Reglas del Estadio Roland Garros"
+        subtitle="Normativa, objetos prohibidos y consejos de comportamiento"
+        image="/images/heroes/tennis-stadium.jpg"
+        badge={{ icon: 'gavel', text: 'Normativa Oficial' }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+      />
 
       {/* Quick Summary */}
       <section className="py-8 bg-red-50 border-b-2 border-red-200">
@@ -613,6 +609,15 @@ export default function ReglasEstadioPage() {
                 </li>
               </ul>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* GoalTickets CTA */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-7xl mx-auto">
+            <GoalTicketsCTA />
           </div>
         </div>
       </section>

@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import { Metadata } from 'next'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Consejos para Reservar Alojamiento en Roland Garros 2026',
@@ -24,24 +26,24 @@ export const metadata: Metadata = {
 export default function ConsejosReservaPage() {
   return (
     <>
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-orange-600 to-orange-800 text-white py-16">
+      <PageHero
+        title="Consejos de Reserva para París"
+        subtitle="Cuándo reservar, qué buscar y cómo conseguir las mejores ofertas"
+        image="/images/heroes/paris-hotel.jpg"
+        badge={{ icon: 'lightbulb', text: 'Consejos de Reserva' }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+      />
+
+      {/* Breadcrumbs */}
+      <div className="bg-white border-b border-[#ead5cd] py-4">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <nav className="mb-4 text-orange-100">
-              <Link href="/alojamiento-paris" className="hover:text-white">Alojamiento</Link>
-              <span className="mx-2">/</span>
-              <span>Consejos de Reserva</span>
-            </nav>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Consejos para Reservar tu Alojamiento en Roland Garros 2026
-            </h1>
-            <p className="text-xl md:text-2xl text-orange-100">
-              Estrategias probadas para conseguir el mejor alojamiento al mejor precio, evitando errores costosos
-            </p>
-          </div>
+          <nav className="text-[#a15d45] text-sm">
+            <Link href="/alojamiento-paris" className="hover:text-primary">Alojamiento</Link>
+            <span className="mx-2">/</span>
+            <span>Consejos de Reserva</span>
+          </nav>
         </div>
-      </section>
+      </div>
 
       {/* Main Content */}
       <article className="py-16 bg-white">
@@ -574,6 +576,15 @@ export default function ConsejosReservaPage() {
         </div>
       </article>
 
+      {/* GoalTickets CTA */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <GoalTicketsCTA />
+          </div>
+        </div>
+      </section>
+
       {/* Navigation to Other Guides */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
@@ -584,7 +595,7 @@ export default function ConsejosReservaPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Link
                 href="/alojamiento-paris/hoteles-cerca"
-                className="block p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
+                className="block p-6 bg-white rounded-lg card-hover"
               >
                 <div className="text-3xl mb-3">🏨</div>
                 <h3 className="text-lg font-bold mb-2 text-gray-900">Hoteles Cerca del Estadio</h3>
@@ -593,7 +604,7 @@ export default function ConsejosReservaPage() {
 
               <Link
                 href="/alojamiento-paris/mejores-barrios"
-                className="block p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
+                className="block p-6 bg-white rounded-lg card-hover"
               >
                 <div className="text-3xl mb-3">🗺️</div>
                 <h3 className="text-lg font-bold mb-2 text-gray-900">Mejores Barrios</h3>

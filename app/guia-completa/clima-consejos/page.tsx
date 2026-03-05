@@ -2,6 +2,8 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 import { ArticleSchema } from '@/components/seo/ArticleSchema'
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Clima en París en Mayo-Junio 2026 | Qué Vestir para Roland Garros',
@@ -34,19 +36,13 @@ export default function ClimaConsejosPage() {
       />
       <BreadcrumbSchema items={breadcrumbItems} />
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-purple-600 to-purple-800 text-white py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-7xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Clima en París Durante Roland Garros
-            </h1>
-            <p className="text-xl text-purple-100">
-              Qué esperar del tiempo en mayo-junio y cómo prepararte para todas las condiciones
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        title="Clima y Consejos para Roland Garros"
+        subtitle="Tiempo en París en mayo-junio y cómo prepararse"
+        image="/images/heroes/paris-skyline.jpg"
+        badge={{ icon: 'thermostat', text: '15-22°C Mayo-Junio' }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+      />
 
       {/* Quick Weather Summary */}
       <section className="py-8 bg-purple-50 border-b-2 border-purple-200">
@@ -621,6 +617,15 @@ export default function ClimaConsejosPage() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* GoalTickets CTA */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-7xl mx-auto">
+            <GoalTicketsCTA />
           </div>
         </div>
       </section>

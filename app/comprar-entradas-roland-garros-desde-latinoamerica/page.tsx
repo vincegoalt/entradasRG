@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs'
 import { FAQSchema } from '@/components/seo/FAQSchema'
 import { ArticleSchema } from '@/components/seo/ArticleSchema'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Comprar Entradas Roland Garros desde Latinoamérica: Guía para Hispanos',
@@ -58,6 +60,14 @@ export default function ComprarDesdeLatamPage() {
       />
       <FAQSchema faqs={faqs} />
 
+      <PageHero
+        title="Comprar Entradas desde Latinoamérica"
+        subtitle="Guía completa para comprar entradas de Roland Garros desde América Latina"
+        image="/images/heroes/tennis-crowd.jpg"
+        badge={{ icon: 'language', text: 'Para Latinoamérica' }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+      />
+
       <div className="min-h-screen bg-[#fcf9f8]">
         {/* Breadcrumbs */}
         <div className="bg-white border-b border-[#ead5cd] py-4">
@@ -69,18 +79,6 @@ export default function ComprarDesdeLatamPage() {
             />
           </div>
         </div>
-
-        {/* Hero Section */}
-        <section className="bg-[#1d110c] text-white py-16">
-          <div className="max-w-4xl mx-auto px-4 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Comprar Entradas para Roland Garros desde Latinoamérica
-            </h1>
-            <p className="text-xl text-[#ead5cd]">
-              Guía completa para hispanohablantes: supera las barreras del sistema francés y consigue tus boletos
-            </p>
-          </div>
-        </section>
 
         {/* Main Content */}
         <article className="py-12">
@@ -342,6 +340,11 @@ export default function ComprarDesdeLatamPage() {
               </div>
             </section>
 
+            {/* GoalTickets CTA */}
+            <section>
+              <GoalTicketsCTA />
+            </section>
+
             {/* FAQ */}
             <section>
               <h2 className="text-3xl font-bold mb-6 text-[#1d110c]">
@@ -365,7 +368,7 @@ export default function ComprarDesdeLatamPage() {
               <div className="grid md:grid-cols-2 gap-6">
                 <Link
                   href="/entradas-roland-garros-2026/donde-comprar"
-                  className="block bg-white border border-[#ead5cd] rounded-xl p-6 hover:shadow-md transition-shadow"
+                  className="block bg-white border border-[#ead5cd] rounded-xl p-6 card-hover"
                 >
                   <h3 className="text-xl font-bold mb-2 text-[#1d110c]">Dónde Comprar Entradas</h3>
                   <p className="text-[#a15d45] text-sm mb-3">Guía completa de opciones de compra con el sistema de 3 niveles.</p>
@@ -373,7 +376,7 @@ export default function ComprarDesdeLatamPage() {
                 </Link>
                 <Link
                   href="/entradas-roland-garros-2026/precios"
-                  className="block bg-white border border-[#ead5cd] rounded-xl p-6 hover:shadow-md transition-shadow"
+                  className="block bg-white border border-[#ead5cd] rounded-xl p-6 card-hover"
                 >
                   <h3 className="text-xl font-bold mb-2 text-[#1d110c]">Precios de Entradas</h3>
                   <p className="text-[#a15d45] text-sm mb-3">Desglose completo de precios por ronda y categoría.</p>
@@ -381,7 +384,7 @@ export default function ComprarDesdeLatamPage() {
                 </Link>
                 <Link
                   href="/alojamiento-paris"
-                  className="block bg-white border border-[#ead5cd] rounded-xl p-6 hover:shadow-md transition-shadow"
+                  className="block bg-white border border-[#ead5cd] rounded-xl p-6 card-hover"
                 >
                   <h3 className="text-xl font-bold mb-2 text-[#1d110c]">Alojamiento en París</h3>
                   <p className="text-[#a15d45] text-sm mb-3">Mejores zonas y hoteles para tu estadía durante Roland Garros.</p>
@@ -389,7 +392,7 @@ export default function ComprarDesdeLatamPage() {
                 </Link>
                 <Link
                   href="/guia-completa/como-llegar"
-                  className="block bg-white border border-[#ead5cd] rounded-xl p-6 hover:shadow-md transition-shadow"
+                  className="block bg-white border border-[#ead5cd] rounded-xl p-6 card-hover"
                 >
                   <h3 className="text-xl font-bold mb-2 text-[#1d110c]">Cómo Llegar</h3>
                   <p className="text-[#a15d45] text-sm mb-3">Transporte desde aeropuertos y dentro de París.</p>

@@ -2,6 +2,8 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs'
 import { ArticleSchema } from '@/components/seo/ArticleSchema'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Historia de Roland Garros: Del Aviador Pionero al Estadio Legendario',
@@ -30,6 +32,14 @@ export default function HistoriaRolandGarrosPage() {
         authorName="Equipo EntradasRolandGarros.com"
       />
 
+      <PageHero
+        title="Historia del Estadio Roland Garros"
+        subtitle="Desde su inauguración en 1928 hasta las renovaciones más recientes"
+        image="/images/heroes/clay-court.jpg"
+        badge={{ icon: 'history', text: 'Desde 1928' }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+      />
+
       <Breadcrumbs
         items={[
           { name: 'Estadio Roland Garros', url: 'https://entradasrolandgarros.com/estadio-roland-garros' },
@@ -40,16 +50,6 @@ export default function HistoriaRolandGarrosPage() {
       {/* Main Content */}
       <article className="py-12 bg-gradient-to-b from-white to-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
-          {/* Page Header */}
-          <div className="mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold text-[#1d110c] mb-6">
-              Historia de Roland Garros: 96 Años de Leyenda
-            </h1>
-            <p className="text-xl text-[#a15d45] leading-relaxed">
-              Del aviador pionero de 1913 al estadio más icónico del tenis mundial
-            </p>
-          </div>
 
           {/* Timeline Quick View */}
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-12">
@@ -577,13 +577,18 @@ export default function HistoriaRolandGarrosPage() {
               </p>
             </section>
 
+            {/* GoalTickets CTA */}
+            <div className="mb-8">
+              <GoalTicketsCTA />
+            </div>
+
             {/* Related Links */}
             <section>
               <h2 className="text-2xl font-bold mb-6 text-gray-900">Descubre Más sobre Roland Garros</h2>
               <div className="grid md:grid-cols-2 gap-4">
                 <Link
                   href="/estadio-roland-garros/pista-philippe-chatrier"
-                  className="block p-5 bg-gray-50 rounded-lg border-2 border-gray-200 hover:border-amber-500 hover:shadow-lg transition-all"
+                  className="block p-5 bg-gray-50 rounded-lg border-2 border-gray-200 hover:border-amber-500 hover:shadow-lg transition-all card-hover"
                 >
                   <h3 className="font-bold text-lg mb-2 text-gray-900">Pista Philippe-Chatrier</h3>
                   <p className="text-gray-600 text-sm">La pista central donde se escribe la historia moderna</p>
@@ -591,7 +596,7 @@ export default function HistoriaRolandGarrosPage() {
 
                 <Link
                   href="/estadio-roland-garros/mapa-instalaciones"
-                  className="block p-5 bg-gray-50 rounded-lg border-2 border-gray-200 hover:border-amber-500 hover:shadow-lg transition-all"
+                  className="block p-5 bg-gray-50 rounded-lg border-2 border-gray-200 hover:border-amber-500 hover:shadow-lg transition-all card-hover"
                 >
                   <h3 className="font-bold text-lg mb-2 text-gray-900">Instalaciones Actuales</h3>
                   <p className="text-gray-600 text-sm">Guía completa del complejo moderno de Roland Garros</p>

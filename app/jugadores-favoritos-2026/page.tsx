@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import { Metadata } from 'next'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Jugadores Favoritos Roland Garros 2026: Candidatos al Título | Guía Completa',
@@ -20,20 +22,22 @@ export default function JugadoresFavoritosPage() {
     <>
       <div className="min-h-screen bg-[#fcf9f8]">
         {/* Hero Section */}
-        <section className="bg-white py-10">
+        <PageHero
+          title="Jugadores Favoritos Roland Garros 2026"
+          subtitle="Análisis completo de los principales candidatos masculinos y femeninos para conquistar París"
+          image="/images/heroes/tennis-action.jpg"
+          badge={{ icon: 'sports_tennis', text: '128 Jugadores por Cuadro' }}
+          primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+          secondaryCta={{ text: 'Ver Favoritos', href: '#favoritos', icon: 'arrow_downward' }}
+        />
+
+        {/* Key Facts Capsule */}
+        <section className="py-10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center max-w-4xl mx-auto">
-              <h1 className="text-4xl md:text-5xl font-bold text-[#1d110c] mb-6">
-                Jugadores Favoritos Roland Garros 2026
-              </h1>
-              <p className="text-xl text-[#a15d45] mb-6">
-                Análisis completo de los principales candidatos masculinos y femeninos para conquistar París en 2026
+            <div className="rounded-xl border border-[#ead5cd] bg-gradient-to-r from-orange-50/50 to-[#fcf9f8] p-6 shadow-sm text-left max-w-4xl mx-auto">
+              <p className="text-[#1d110c] text-base leading-relaxed">
+                <strong>128 jugadores</strong> en cada cuadro individual competirán en Roland Garros 2026 del 24 de mayo al 7 de junio sobre tierra batida. Rafael Nadal acumula <strong>14 títulos</strong> en la historia del torneo, récord absoluto. Iga Swiątek domina el cuadro femenino con <strong>4 títulos</strong> recientes (2020-2024).
               </p>
-              <div className="rounded-lg border border-[#ead5cd] bg-[#fcf9f8] p-5 shadow-sm text-left max-w-4xl mx-auto">
-                <p className="text-[#1d110c] text-base leading-relaxed">
-                  <strong>128 jugadores</strong> en cada cuadro individual competirán en Roland Garros 2026 del 24 de mayo al 7 de junio sobre tierra batida. Rafael Nadal acumula <strong>14 títulos</strong> en la historia del torneo, récord absoluto. Iga Swiątek domina el cuadro femenino con <strong>4 títulos</strong> recientes (2020-2024).
-                </p>
-              </div>
             </div>
           </div>
         </section>
@@ -68,7 +72,7 @@ export default function JugadoresFavoritosPage() {
             <div className="grid md:grid-cols-3 gap-6">
               <Link
                 href="/jugadores-favoritos-2026/favoritos-masculinos"
-                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow"
+                className="card-hover bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd]"
               >
                 <span className="material-symbols-outlined text-primary block mb-3" style={{fontSize: '32px'}}>
                   sports_tennis
@@ -85,7 +89,7 @@ export default function JugadoresFavoritosPage() {
 
               <Link
                 href="/jugadores-favoritos-2026/favoritas-femeninas"
-                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow"
+                className="card-hover bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd]"
               >
                 <span className="material-symbols-outlined text-primary block mb-3" style={{fontSize: '32px'}}>
                   emoji_events
@@ -102,7 +106,7 @@ export default function JugadoresFavoritosPage() {
 
               <Link
                 href="/jugadores-favoritos-2026/records-historicos"
-                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow"
+                className="card-hover bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd]"
               >
                 <span className="material-symbols-outlined text-primary block mb-3" style={{fontSize: '32px'}}>
                   analytics
@@ -205,7 +209,7 @@ export default function JugadoresFavoritosPage() {
             <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
               <Link
                 href="/calendario-roland-garros-2026"
-                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow"
+                className="card-hover bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd]"
               >
                 <span className="material-symbols-outlined text-primary block mb-3" style={{fontSize: '24px'}}>
                   calendar_month
@@ -215,7 +219,7 @@ export default function JugadoresFavoritosPage() {
               </Link>
               <Link
                 href="/entradas-roland-garros-2026"
-                className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] hover:shadow-md transition-shadow"
+                className="card-hover bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd]"
               >
                 <span className="material-symbols-outlined text-primary block mb-3" style={{fontSize: '24px'}}>
                   confirmation_number
@@ -227,13 +231,15 @@ export default function JugadoresFavoritosPage() {
           </div>
         </section>
 
+        <GoalTicketsCTA />
+
         {/* CTA Section */}
-        <section className="py-10 bg-white">
+        <section className="py-16 bg-gradient-to-br from-[#1d110c] via-[#2a1a12] to-[#1d110c]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl font-bold mb-4 text-[#1d110c]">
+            <h2 className="text-3xl font-bold mb-4 text-white">
               ¿Listo para Seguir a tus Favoritos en Roland Garros 2026?
             </h2>
-            <p className="text-xl mb-8 text-[#a15d45] max-w-2xl mx-auto">
+            <p className="text-xl mb-8 text-orange-200/80 max-w-2xl mx-auto">
               Descubre análisis detallados de los principales candidatos masculinos y femeninos
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -246,7 +252,7 @@ export default function JugadoresFavoritosPage() {
               </Link>
               <Link
                 href="/jugadores-favoritos-2026/favoritas-femeninas"
-                className="inline-flex items-center gap-2 bg-white text-primary px-8 py-3 rounded-lg font-bold border-2 border-primary hover:bg-[#fcf9f8] transition-colors"
+                className="inline-flex items-center gap-2 bg-white/10 text-white px-8 py-3 rounded-lg font-bold border-2 border-white/20 hover:bg-white/20 transition-colors"
               >
                 Ver Favoritas Femeninas
                 <span className="material-symbols-outlined" style={{fontSize: '20px'}}>arrow_forward</span>

@@ -2,6 +2,8 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs'
 import { FAQSchema } from '@/components/seo/FAQSchema'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Tipos de Entradas Roland Garros 2026: Ground Pass, Individuales y Paquetes',
@@ -50,8 +52,16 @@ export default function TiposEntradasPage() {
       <FAQSchema faqs={faqs} />
 
       <div className="min-h-screen bg-white">
-        <div className="bg-gradient-to-r from-orange-600 to-orange-800 text-white py-8">
-          <div className="container mx-auto px-4">
+        <PageHero
+          title="Tipos de Entradas Roland Garros 2026"
+          subtitle="Ground pass, entradas individuales, VIP y más"
+          image="/images/heroes/tennis-crowd.jpg"
+          badge={{ icon: 'confirmation_number', text: 'Guía de Entradas' }}
+          primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+        />
+
+        <div className="bg-white border-b border-[#ead5cd] py-4">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Breadcrumbs
               items={[
                 { name: 'Entradas Roland Garros 2026', url: 'https://entradasrolandgarros.com/entradas-roland-garros-2026' },
@@ -60,20 +70,6 @@ export default function TiposEntradasPage() {
             />
           </div>
         </div>
-
-        {/* Hero Section */}
-        <section className="bg-gradient-to-r from-orange-600 to-orange-800 text-white pb-16">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Tipos de Entradas Roland Garros 2026
-              </h1>
-              <p className="text-xl md:text-2xl text-orange-100">
-                Ground pass, entradas individuales, sesiones nocturnas y paquetes premium explicados en detalle
-              </p>
-            </div>
-          </div>
-        </section>
 
         {/* Main Content */}
         <article className="py-16">
@@ -551,6 +547,11 @@ export default function TiposEntradasPage() {
                     </tbody>
                   </table>
                 </div>
+              </section>
+
+              {/* GoalTickets CTA */}
+              <section className="mb-12">
+                <GoalTicketsCTA />
               </section>
 
               {/* FAQ */}

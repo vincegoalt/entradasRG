@@ -2,6 +2,8 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs'
 import { FAQSchema } from '@/components/seo/FAQSchema'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Dónde Se Juega Roland Garros: Ubicación, Superficie y Cómo Llegar',
@@ -51,7 +53,16 @@ export default function DondeSeJuegaRolandGarrosPage() {
       <FAQSchema faqs={faqs} />
 
       <div className="min-h-screen bg-[#fcf9f8]">
-        <div className="bg-white border-b border-[#ead5cd] py-4">
+        <PageHero
+          title="Dónde Se Juega Roland Garros"
+          subtitle="Ubicación, superficie de tierra batida y cómo llegar al Stade Roland Garros en París"
+          image="/images/heroes/paris-skyline.jpg"
+          badge={{ icon: 'pin_drop', text: 'París, Francia · Distrito 16' }}
+          primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+          secondaryCta={{ text: 'Cómo Llegar', href: '#llegar', icon: 'directions' }}
+        />
+
+        <div className="bg-white/80 border-b border-[#ead5cd] py-3">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Breadcrumbs
               items={[
@@ -65,12 +76,8 @@ export default function DondeSeJuegaRolandGarrosPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto">
 
-              <h1 className="text-4xl md:text-5xl font-bold text-[#1d110c] mb-6">
-                Dónde Se Juega Roland Garros: Ubicación, Superficie y Guía
-              </h1>
-
               {/* Capsule */}
-              <div className="rounded-lg border border-[#ead5cd] bg-white p-6 shadow-sm mb-10">
+              <div className="rounded-xl border border-[#ead5cd] bg-gradient-to-r from-orange-50/50 to-[#fcf9f8] p-6 shadow-sm mb-10">
                 <p className="text-[#1d110c] text-base leading-relaxed">
                   <strong>Roland Garros se juega en el Stade Roland Garros</strong>, ubicado en <strong>2 Avenue Gordon Bennett, París 75016, Francia</strong>. La superficie es <strong>tierra batida</strong> (arcilla roja triturada). El complejo tiene 18 pistas, con la principal Philippe-Chatrier con capacidad para 15,225 espectadores. Se accede fácilmente por metro (línea 10, Porte d'Auteuil).
                 </p>
@@ -206,6 +213,8 @@ export default function DondeSeJuegaRolandGarrosPage() {
                 </Link>
               </section>
 
+              <GoalTicketsCTA />
+
               {/* FAQ */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold mb-6 text-[#1d110c]">
@@ -231,7 +240,7 @@ export default function DondeSeJuegaRolandGarrosPage() {
                 <div className="grid md:grid-cols-3 gap-6">
                   <Link
                     href="/estadio-roland-garros"
-                    className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow"
+                    className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow card-hover"
                   >
                     <h3 className="text-lg font-bold mb-2 text-[#1d110c]">Estadio Roland Garros</h3>
                     <p className="text-sm text-[#a15d45]">
@@ -241,7 +250,7 @@ export default function DondeSeJuegaRolandGarrosPage() {
 
                   <Link
                     href="/alojamiento-paris"
-                    className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow"
+                    className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow card-hover"
                   >
                     <h3 className="text-lg font-bold mb-2 text-[#1d110c]">Alojamiento en París</h3>
                     <p className="text-sm text-[#a15d45]">
@@ -251,7 +260,7 @@ export default function DondeSeJuegaRolandGarrosPage() {
 
                   <Link
                     href="/entradas-roland-garros-2026"
-                    className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow"
+                    className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow card-hover"
                   >
                     <h3 className="text-lg font-bold mb-2 text-[#1d110c]">Comprar Entradas</h3>
                     <p className="text-sm text-[#a15d45]">
@@ -264,6 +273,24 @@ export default function DondeSeJuegaRolandGarrosPage() {
             </div>
           </div>
         </article>
+
+        <section className="relative py-16 bg-gradient-to-br from-[#1d110c] via-[#2a1a12] to-[#1d110c] overflow-hidden">
+          <div className="absolute inset-0 opacity-10 bg-cover bg-center" style={{ backgroundImage: "url('/images/heroes/clay-court.jpg')" }} />
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-3xl md:text-4xl font-black mb-4 text-white">¿Listo para Roland Garros 2026?</h2>
+            <p className="text-lg mb-8 text-white/70 max-w-xl mx-auto">Asegura tus entradas y vive el torneo más emocionante del tenis</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="https://goaltickets.com/es/collections/entradas-roland-garros-2026" target="_blank" rel="noopener" className="inline-flex items-center justify-center gap-2 bg-primary text-white px-8 py-3.5 rounded-xl font-bold hover:bg-orange-600 transition-colors btn-shine">
+                <span className="material-symbols-outlined" style={{fontSize: '20px'}}>confirmation_number</span>
+                Comprar Entradas
+              </a>
+              <a href="/" className="inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm text-white px-8 py-3.5 rounded-xl font-bold border border-white/20 hover:bg-white/20 transition-colors">
+                Explorar la Guía
+                <span className="material-symbols-outlined" style={{fontSize: '20px'}}>arrow_forward</span>
+              </a>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   )

@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import { Metadata } from 'next'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Favoritos Masculinos Roland Garros 2026: Análisis de Candidatos | Guía Completa',
@@ -18,24 +20,24 @@ export const metadata: Metadata = {
 export default function FavoritosMasculinosPage() {
   return (
     <>
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+      <PageHero
+        title="Favoritos Masculinos Roland Garros 2026"
+        subtitle="Análisis de los principales candidatos al título"
+        image="/images/heroes/tennis-action.jpg"
+        badge={{ icon: 'sports_tennis', text: 'Cuadro Masculino' }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+      />
+
+      {/* Breadcrumbs */}
+      <div className="bg-white border-b border-[#ead5cd] py-4">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="mb-4">
-              <Link href="/jugadores-favoritos-2026" className="text-blue-200 hover:text-white">
-                ← Volver a Jugadores Favoritos
-              </Link>
-            </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Favoritos Masculinos Roland Garros 2026
-            </h1>
-            <p className="text-xl text-blue-100">
-              Análisis completo de los principales candidatos al título masculino en el Grand Slam parisino
-            </p>
-          </div>
+          <nav className="text-[#a15d45] text-sm">
+            <Link href="/jugadores-favoritos-2026" className="hover:text-primary">Jugadores Favoritos</Link>
+            <span className="mx-2">/</span>
+            <span>Favoritos Masculinos</span>
+          </nav>
         </div>
-      </section>
+      </div>
 
       {/* Introduction */}
       <section className="py-12 bg-white">
@@ -408,6 +410,15 @@ export default function FavoritosMasculinosPage() {
         </div>
       </section>
 
+      {/* GoalTickets CTA */}
+      <section className="py-12 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <GoalTicketsCTA />
+          </div>
+        </div>
+      </section>
+
       {/* Related Links */}
       <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
@@ -416,21 +427,21 @@ export default function FavoritosMasculinosPage() {
             <div className="grid md:grid-cols-3 gap-4">
               <Link
                 href="/jugadores-favoritos-2026/favoritas-femeninas"
-                className="block p-4 bg-pink-50 rounded-lg border-2 border-pink-200 hover:border-pink-400 transition-colors"
+                className="block p-4 bg-pink-50 rounded-lg border-2 border-pink-200 card-hover"
               >
                 <h3 className="font-bold mb-2 text-gray-900">Favoritas Femeninas</h3>
                 <p className="text-sm text-gray-600">Análisis del cuadro femenino</p>
               </Link>
               <Link
                 href="/jugadores-favoritos-2026/records-historicos"
-                className="block p-4 bg-orange-50 rounded-lg border-2 border-orange-200 hover:border-orange-400 transition-colors"
+                className="block p-4 bg-orange-50 rounded-lg border-2 border-orange-200 card-hover"
               >
                 <h3 className="font-bold mb-2 text-gray-900">Records Históricos</h3>
                 <p className="text-sm text-gray-600">El legado de Nadal y más</p>
               </Link>
               <Link
                 href="/calendario-roland-garros-2026"
-                className="block p-4 bg-blue-50 rounded-lg border-2 border-blue-200 hover:border-blue-400 transition-colors"
+                className="block p-4 bg-blue-50 rounded-lg border-2 border-blue-200 card-hover"
               >
                 <h3 className="font-bold mb-2 text-gray-900">Calendario 2026</h3>
                 <p className="text-sm text-gray-600">Fechas y orden de juego</p>

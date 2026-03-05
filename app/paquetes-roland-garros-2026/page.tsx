@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs'
 import { FAQSchema } from '@/components/seo/FAQSchema'
 import { ArticleSchema } from '@/components/seo/ArticleSchema'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Paquetes Roland Garros 2026: Vuelo + Hotel + Entradas desde España y LATAM',
@@ -57,6 +59,14 @@ export default function PaquetesPage() {
       />
       <FAQSchema faqs={faqs} />
 
+      <PageHero
+        title="Paquetes Roland Garros 2026"
+        subtitle="Paquetes de entradas y experiencias para el torneo"
+        image="/images/heroes/tennis-crowd.jpg"
+        badge={{ icon: 'inventory_2', text: 'Paquetes y Ofertas' }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+      />
+
       <div className="min-h-screen bg-[#fcf9f8]">
         {/* Breadcrumbs */}
         <div className="bg-white border-b border-[#ead5cd] py-4">
@@ -68,18 +78,6 @@ export default function PaquetesPage() {
             />
           </div>
         </div>
-
-        {/* Hero */}
-        <section className="bg-[#1d110c] text-white py-16">
-          <div className="max-w-4xl mx-auto px-4 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Paquetes Roland Garros 2026: Planifica tu Viaje Completo
-            </h1>
-            <p className="text-xl text-[#ead5cd]">
-              Guía DIY: vuelos + hotel + entradas con presupuestos reales y timeline de reservas
-            </p>
-          </div>
-        </section>
 
         {/* Main Content */}
         <article className="py-12">
@@ -324,6 +322,11 @@ export default function PaquetesPage() {
               </div>
             </section>
 
+            {/* GoalTickets CTA */}
+            <section>
+              <GoalTicketsCTA />
+            </section>
+
             {/* FAQ */}
             <section>
               <h2 className="text-3xl font-bold mb-6 text-[#1d110c]">
@@ -347,7 +350,7 @@ export default function PaquetesPage() {
               <div className="grid md:grid-cols-2 gap-6">
                 <Link
                   href="/entradas-roland-garros-2026/donde-comprar"
-                  className="block bg-white border border-[#ead5cd] rounded-xl p-6 hover:shadow-md transition-shadow"
+                  className="block bg-white border border-[#ead5cd] rounded-xl p-6 card-hover"
                 >
                   <h3 className="text-xl font-bold mb-2 text-[#1d110c]">Dónde Comprar Entradas</h3>
                   <p className="text-[#a15d45] text-sm mb-3">Guía completa de opciones de compra.</p>
@@ -355,7 +358,7 @@ export default function PaquetesPage() {
                 </Link>
                 <Link
                   href="/alojamiento-paris"
-                  className="block bg-white border border-[#ead5cd] rounded-xl p-6 hover:shadow-md transition-shadow"
+                  className="block bg-white border border-[#ead5cd] rounded-xl p-6 card-hover"
                 >
                   <h3 className="text-xl font-bold mb-2 text-[#1d110c]">Alojamiento en París</h3>
                   <p className="text-[#a15d45] text-sm mb-3">Hoteles y zonas recomendadas en detalle.</p>
@@ -363,7 +366,7 @@ export default function PaquetesPage() {
                 </Link>
                 <Link
                   href="/comprar-entradas-roland-garros-desde-latinoamerica"
-                  className="block bg-white border border-[#ead5cd] rounded-xl p-6 hover:shadow-md transition-shadow"
+                  className="block bg-white border border-[#ead5cd] rounded-xl p-6 card-hover"
                 >
                   <h3 className="text-xl font-bold mb-2 text-[#1d110c]">Comprar desde Latinoamérica</h3>
                   <p className="text-[#a15d45] text-sm mb-3">Guía específica para compradores hispanos.</p>
@@ -371,7 +374,7 @@ export default function PaquetesPage() {
                 </Link>
                 <Link
                   href="/guia-completa/como-llegar"
-                  className="block bg-white border border-[#ead5cd] rounded-xl p-6 hover:shadow-md transition-shadow"
+                  className="block bg-white border border-[#ead5cd] rounded-xl p-6 card-hover"
                 >
                   <h3 className="text-xl font-bold mb-2 text-[#1d110c]">Cómo Llegar al Estadio</h3>
                   <p className="text-[#a15d45] text-sm mb-3">Transporte público y rutas hasta Roland Garros.</p>

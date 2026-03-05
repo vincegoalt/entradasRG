@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import { Metadata } from 'next'
+import { PageHero } from '@/components/ui/PageHero'
+import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Mejores Barrios de París para Alojarse en Roland Garros 2026',
@@ -25,24 +27,24 @@ export const metadata: Metadata = {
 export default function MejoresBarriosPage() {
   return (
     <>
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-orange-600 to-orange-800 text-white py-16">
+      <PageHero
+        title="Mejores Barrios para Alojarse"
+        subtitle="Los distritos más convenientes para tu visita a Roland Garros"
+        image="/images/heroes/paris-skyline.jpg"
+        badge={{ icon: 'map', text: 'Barrios de París' }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+      />
+
+      {/* Breadcrumbs */}
+      <div className="bg-white border-b border-[#ead5cd] py-4">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <nav className="mb-4 text-orange-100">
-              <Link href="/alojamiento-paris" className="hover:text-white">Alojamiento</Link>
-              <span className="mx-2">/</span>
-              <span>Mejores Barrios</span>
-            </nav>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Mejores Barrios de París para Alojarse Durante Roland Garros
-            </h1>
-            <p className="text-xl md:text-2xl text-orange-100">
-              Guía completa de los distritos y barrios más convenientes, desde los más cercanos al estadio hasta los mejores para combinar tenis con turismo
-            </p>
-          </div>
+          <nav className="text-[#a15d45] text-sm">
+            <Link href="/alojamiento-paris" className="hover:text-primary">Alojamiento</Link>
+            <span className="mx-2">/</span>
+            <span>Mejores Barrios</span>
+          </nav>
         </div>
-      </section>
+      </div>
 
       {/* Main Content */}
       <article className="py-16 bg-white">
@@ -512,6 +514,15 @@ export default function MejoresBarriosPage() {
         </div>
       </article>
 
+      {/* GoalTickets CTA */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <GoalTicketsCTA />
+          </div>
+        </div>
+      </section>
+
       {/* Navigation to Other Guides */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
@@ -522,7 +533,7 @@ export default function MejoresBarriosPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Link
                 href="/alojamiento-paris/hoteles-cerca"
-                className="block p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
+                className="block p-6 bg-white rounded-lg card-hover"
               >
                 <div className="text-3xl mb-3">🏨</div>
                 <h3 className="text-lg font-bold mb-2 text-gray-900">Hoteles Cerca del Estadio</h3>
@@ -531,7 +542,7 @@ export default function MejoresBarriosPage() {
 
               <Link
                 href="/alojamiento-paris/consejos-reserva"
-                className="block p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
+                className="block p-6 bg-white rounded-lg card-hover"
               >
                 <div className="text-3xl mb-3">💡</div>
                 <h3 className="text-lg font-bold mb-2 text-gray-900">Consejos de Reserva</h3>
