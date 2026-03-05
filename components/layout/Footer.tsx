@@ -27,10 +27,8 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
           {/* Column 1 - Brand + CTA */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <div className="flex items-center justify-center w-10 h-10 bg-primary rounded-lg shadow-sm">
-                <span className="material-symbols-outlined text-white" style={{fontSize: '22px', fontVariationSettings: "'FILL' 1"}}>sports_tennis</span>
-              </div>
+            <div className="flex items-center gap-2 mb-4">
+              <span className="material-symbols-outlined text-primary" style={{fontSize: '32px', fontVariationSettings: "'FILL' 1"}}>sports_tennis</span>
               <span className="text-white font-bold text-lg"><span className="text-primary">Entradas</span> Roland Garros</span>
             </div>
             <p className="text-white/60 text-sm mb-5 leading-relaxed">Guía informativa independiente en español sobre Roland Garros 2026 para hispanohablantes.</p>
