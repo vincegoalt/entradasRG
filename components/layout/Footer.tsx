@@ -29,9 +29,9 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="flex items-center justify-center w-10 h-10 bg-primary rounded-lg shadow-sm">
-                <span className="text-white text-base font-black tracking-tight leading-none">RG</span>
+                <span className="material-symbols-outlined text-white" style={{fontSize: '22px', fontVariationSettings: "'FILL' 1"}}>sports_tennis</span>
               </div>
-              <span className="text-white font-bold text-lg">Roland Garros Guía</span>
+              <span className="text-white font-bold text-lg"><span className="text-primary">Entradas</span> Roland Garros</span>
             </div>
             <p className="text-white/60 text-sm mb-5 leading-relaxed">Guía informativa independiente en español sobre Roland Garros 2026 para hispanohablantes.</p>
             <a
