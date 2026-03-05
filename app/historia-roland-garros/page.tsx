@@ -44,6 +44,10 @@ const faqs = [
   {
     question: '¿Quién ha ganado más veces Roland Garros?',
     answer: 'Rafael Nadal ostenta el récord absoluto con 14 títulos masculinos (2005-2022). En categoría femenina, Chris Evert ganó 7 títulos (1974-1986). En la era moderna, Iga Swiątek acumula 4 títulos (2020-2024).'
+  },
+  {
+    question: '¿Cuántos títulos de Roland Garros tiene Rafael Nadal?',
+    answer: 'Rafael Nadal ganó 14 títulos de Roland Garros entre 2005 y 2022, un récord que muchos consideran el logro deportivo más dominante en la historia del tenis. Su récord en el torneo es de aproximadamente 112 victorias y solo 4 derrotas, un porcentaje de victoria superior al 96%. Es conocido como "El Rey de la Tierra Batida" y Roland Garros es considerado "su casa".'
   }
 ]
 

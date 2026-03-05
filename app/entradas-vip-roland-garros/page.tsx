@@ -92,6 +92,11 @@ export default function EntradasVipPage() {
               <p className="text-lg text-[#1d110c] leading-relaxed">
                 Esta guía cubre todas las opciones VIP disponibles, qué incluye cada nivel, rangos de precios y cómo acceder a estas experiencias exclusivas.
               </p>
+              <div className="bg-orange-50 border-l-4 border-primary p-4 mt-6 rounded-r-lg">
+                <p className="text-[#1d110c] text-sm">
+                  <strong>¿Buscas paquetes corporativos o el Club des Loges?</strong> Visita nuestra <Link href="/entradas-roland-garros-2026/entradas-premium">guía de entradas premium y hospitalidad corporativa</Link> para información detallada sobre los paquetes más exclusivos.
+                </p>
+              </div>
             </section>
 
             {/* Options */}

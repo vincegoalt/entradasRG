@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 import { ArticleSchema } from '@/components/seo/ArticleSchema'
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema'
+import { FAQSchema } from '@/components/seo/FAQSchema'
 import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
@@ -19,6 +20,33 @@ export const metadata: Metadata = {
   },
 }
 
+const faqs = [
+  {
+    question: '¿Hay código de vestimenta en Roland Garros?',
+    answer: 'No, Roland Garros no tiene un código de vestimenta obligatorio para espectadores, a diferencia de Wimbledon. Puedes vestir de forma casual y cómoda. En las áreas VIP se espera vestimenta smart-casual, pero en las gradas generales puedes usar jeans, shorts, camisetas o cualquier ropa informal. La prioridad debe ser la comodidad y la protección solar.'
+  },
+  {
+    question: '¿Puedo usar jeans para ir a Roland Garros?',
+    answer: 'Sí, puedes usar jeans sin ningún problema. Roland Garros es mucho más relajado que Wimbledon en cuanto a vestimenta. Los jeans son una opción perfectamente aceptable, especialmente en días frescos o para las sesiones nocturnas cuando las temperaturas bajan. Para días calurosos, los shorts o pantalones ligeros pueden ser más cómodos.'
+  },
+  {
+    question: '¿Puedo llevar comida a Roland Garros?',
+    answer: 'Sí, está permitido llevar tu propia comida en cantidades razonables: sándwiches, frutas, frutos secos, barritas energéticas y snacks. Los líquidos están limitados a 1 litro total en contenedores de plástico (no vidrio). También puedes llevar una botella de agua vacía y rellenarla gratuitamente en las fuentes del recinto. No se permite entrar con bebidas alcohólicas.'
+  },
+  {
+    question: '¿Puedo llevar una mochila a Roland Garros?',
+    answer: 'Sí, pero debe cumplir con las dimensiones máximas de 40x30x20 cm (largo x alto x ancho). Las mochilas que superen este tamaño no podrán ingresar y no hay servicio de consigna en el estadio. Todas las mochilas pasan por control de seguridad con escáner. Se recomienda llevar una mochila pequeña con lo esencial: protector solar, botella de agua, snacks y cargador portátil.'
+  },
+  {
+    question: '¿Qué artículos están prohibidos en Roland Garros?',
+    answer: 'Están prohibidos: mochilas mayores de 40x30x20 cm, bebidas alcohólicas, objetos de vidrio, armas y objetos punzantes, palos de selfie, trípodes, drones, bengalas, instrumentos musicales, sillas plegables, mascotas (excepto perros guía), neveras portátiles y equipaje con ruedas. Las cámaras fotográficas están permitidas pero sin flash durante los partidos.'
+  },
+  {
+    question: '¿Qué tiempo hace en París durante Roland Garros?',
+    answer: 'Roland Garros se celebra entre finales de mayo y principios de junio, con temperaturas típicas entre 12°C y 24°C. El clima parisino es variable: puede hacer sol intenso, estar nublado o llover en el mismo día. La estrategia recomendada es vestir en capas (camiseta + sudadera + chaqueta ligera) y llevar siempre protector solar, gorra y un chubasquero compacto. Las sesiones nocturnas son más frescas (12-16°C).'
+  }
+]
+
 export default function QueLlevarPage() {
   const breadcrumbItems = [
     { name: 'Inicio', url: '/' },
@@ -35,6 +63,7 @@ export default function QueLlevarPage() {
         dateModified="2025-01-15"
       />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
 
       <PageHero
         title="Qué Llevar a Roland Garros"
@@ -635,6 +664,23 @@ export default function QueLlevarPage() {
                   <p>✓ Chaqueta/chubasquero</p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Preguntas Frecuentes */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-gray-900">Preguntas Frecuentes sobre Qué Llevar</h2>
+            <div className="space-y-6">
+              {faqs.map((faq, index) => (
+                <div key={index} className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
+                  <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
+                  <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+                </div>
+              ))}
             </div>
           </div>
         </div>

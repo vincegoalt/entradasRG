@@ -5,7 +5,7 @@ import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Preguntas Frecuentes Roland Garros 2026 - Todo lo que Necesitas Saber',
-  description: 'Más de 40 preguntas frecuentes sobre Roland Garros 2026: entradas, fechas, precios, cómo llegar, qué llevar, historia y todo lo que necesitas saber para tu visita al French Open.',
+  description: 'Más de 75 preguntas frecuentes sobre Roland Garros 2026: entradas, fechas, precios, cómo llegar, qué llevar, historia y todo lo que necesitas saber para tu visita al French Open.',
   keywords: [
     'preguntas frecuentes roland garros',
     'cuando es roland garros',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Preguntas Frecuentes Roland Garros 2026 - Todas tus Dudas Resueltas',
-    description: '40+ respuestas detalladas sobre Roland Garros 2026: entradas, logística, historia y consejos prácticos',
+    description: '75+ respuestas detalladas sobre Roland Garros 2026: entradas, logística, historia y consejos prácticos',
     type: 'article',
   },
   alternates: {
@@ -119,6 +119,39 @@ const faqData = [
     answer: 'Depende del canal. Las redes sociales, vendedores callejeros y sitios sin verificación son extremadamente riesgosos y deben evitarse siempre. Sin embargo, existen plataformas internacionales especializadas y verificadas que ofrecen entradas con garantía de autenticidad. Busca plataformas que ofrezcan transferencia oficial por la app del torneo, política de reembolso clara y atención al cliente en tu idioma. GoalTickets es un ejemplo de plataforma especializada en entradas deportivas que ofrece estas garantías para eventos como Roland Garros.'
   },
 
+  {
+    question: '¿Cuánto cuestan los palcos en Roland Garros?',
+    answer: 'Los palcos (loges) en Roland Garros van desde aproximadamente 2.000 EUR hasta más de 10.000 EUR por día dependiendo de la ubicación, ronda y servicios incluidos. Los palcos del Club des Loges en Philippe-Chatrier son los más exclusivos, con precios que pueden superar los 5.000 EUR por persona en finales. Incluyen asientos premium, catering gourmet, barra libre y acceso a áreas VIP privadas. Para grupos corporativos, algunos paquetes superan los 20.000 EUR por día.'
+  },
+  {
+    question: '¿Qué son las entradas premium para Roland Garros?',
+    answer: 'Las entradas premium de Roland Garros son paquetes que combinan asientos de alta categoría con servicios de hospitalidad. Incluyen opciones como el Club des Loges (la experiencia más exclusiva con gastronomía de chef, champán y asientos centrales), el Salon des Légendes, y diversos paquetes corporativos. Se diferencian de las entradas VIP estándar por incluir comida gourmet, bebidas premium y acceso a áreas exclusivas del estadio. Los precios van desde 500 EUR hasta más de 5.000 EUR por persona según el nivel.'
+  },
+  {
+    question: '¿Qué es el paquete final de Roland Garros?',
+    answer: 'El paquete final de Roland Garros es una oferta que combina entradas para las semifinales y la final (normalmente viernes-domingo) en un solo paquete. Suele incluir asientos en Philippe-Chatrier para los tres días, y en versiones premium puede añadir alojamiento, transporte y experiencias VIP. Es la opción más completa para vivir el desenlace del torneo. Los precios varían desde 400-500 EUR para paquetes básicos de entradas hasta varios miles de euros para paquetes con hospitalidad incluida.'
+  },
+  {
+    question: '¿Es mejor comprar entradas con antelación para Roland Garros?',
+    answer: 'Sí, comprar con antelación es altamente recomendable. La venta oficial abre en febrero-marzo a través de la lotería en rolandgarros.com. Las entradas para finales y semifinales se agotan en minutos. Para rondas tempranas, la venta general ofrece más disponibilidad pero los mejores asientos desaparecen rápido. Comprar con 3-4 meses de anticipación te asegura mejor selección de asientos y precios más bajos. Las entradas de última hora suelen estar disponibles solo en reventa a precios significativamente superiores.'
+  },
+  {
+    question: '¿Cómo funciona la lotería de entradas de Roland Garros?',
+    answer: 'La lotería (tirage au sort) es el sistema oficial para asignar entradas de semifinales y finales. Se abre en febrero-marzo en rolandgarros.com: creas una cuenta, seleccionas las sesiones deseadas, y participas en el sorteo. Los ganadores son notificados por email y tienen un plazo limitado para completar la compra. Si no ganas, puedes intentar en la venta general posterior. La lotería es gratuita y abierta a cualquier persona con cuenta en el sitio oficial. Las probabilidades de ganar son bajas para finales (alta demanda), pero mejores para semifinales.'
+  },
+  {
+    question: '¿Se pueden comprar entradas en la puerta de Roland Garros?',
+    answer: 'Generalmente no es posible comprar entradas en la puerta el mismo día, ya que Roland Garros suele agotarse con anticipación. Sin embargo, existe un sistema de reventa oficial en el estadio donde espectadores que se marchan temprano pueden devolver sus entradas para que otros las compren. Esta cola comienza muy temprano por la mañana y las plazas son limitadas. No se recomienda viajar a París sin entradas previas. En días de menor demanda (primera ronda entre semana), ocasionalmente puede haber disponibilidad limitada.'
+  },
+  {
+    question: '¿Cuál es la diferencia entre sesión diurna y sesión nocturna?',
+    answer: 'La sesión diurna comienza a las 11:00 y cubre múltiples partidos hasta última hora de la tarde. La sesión nocturna (night session) empieza a las 20:00 exclusivamente en Philippe-Chatrier y presenta un único partido estelar bajo luces artificiales. Las entradas son independientes: la diurna no incluye la nocturna y viceversa. La sesión nocturna suele tener un ambiente más íntimo y festivo, con precios que van desde 70 EUR en categorías altas hasta 250+ EUR en categorías centrales. La diurna ofrece más tenis por el precio.'
+  },
+  {
+    question: '¿Puedo entrar a la Philippe-Chatrier con un ground pass?',
+    answer: 'No, el ground pass NO incluye acceso a la pista Philippe-Chatrier ni a Suzanne-Lenglen. El ground pass permite acceder a todas las pistas exteriores y secundarias, incluyendo la Simonne-Mathieu dependiendo de la disponibilidad. Para Philippe-Chatrier necesitas una entrada específica con asiento asignado. Sin embargo, con el ground pass puedes ver partidos excelentes en las pistas exteriores, donde juegan los mismos tenistas top en rondas tempranas, y disfrutar del ambiente general del torneo.'
+  },
+
   // ESTADIO
   {
     question: '¿Cuántas pistas de tenis tiene Roland Garros?',
@@ -209,6 +242,84 @@ const faqData = [
     answer: 'El "mejor" momento depende de lo que busques en tu experiencia, ya que cada fase del torneo ofrece algo diferente. Primera semana, primeros días (lunes-miércoles): Ventajas: máximo número de partidos simultáneos (más de 100 jugadores compitiendo), precios de entradas más bajos, menos multitudes, oportunidad de descubrir nuevos jugadores, ground pass ofrece increíble valor. Desventajas: menos intensidad ya que son primeras rondas, posibles sorpresas tempranas pueden significar que estrellas sean eliminadas pronto. Primera semana, últimos días (jueves-domingo): Un equilibrio perfecto - aún muchos partidos, pero comenzando a tener más intensidad en tercera ronda, precios razonables, buen ambiente. Segunda semana, octavos y cuartos de final (lunes-miércoles): Ventajas: tenis de altísima calidad, todos los partidos son importantes, excelente atmósfera, pero precios significativamente más altos y mucho más difícil conseguir entradas. Semifinales (jueves-viernes): Tenis del máximo nivel, cuatro mejores jugadores/jugadoras restantes, ambiente eléctrico, pero entradas muy caras y difíciles de conseguir. Finales (sábado-domingo): La experiencia definitiva pero también la más cara y difícil de conseguir. Para la mejor combinación de valor, cantidad de tenis y atmósfera, recomiendo martes-jueves de la primera semana. Para la mejor calidad de tenis sin el costo extremo de las finales, cuartos de final (martes-miércoles de segunda semana) en Suzanne-Lenglen ofrece increíble valor. Si es tu primera vez, cualquier día de la primera semana te dará una experiencia auténtica de Roland Garros a precio razonable.'
   },
 
+  // EXPERIENCIA Y VESTIMENTA
+  {
+    question: '¿Puedo usar jeans para Roland Garros?',
+    answer: 'Sí, puedes usar jeans para Roland Garros sin ningún problema. A diferencia de Wimbledon, que tiene un código de vestimenta estricto, Roland Garros no impone restricciones de vestimenta para espectadores en las gradas generales. Los parisinos suelen vestir con estilo pero de forma casual. La recomendación es priorizar la comodidad, ya que pasarás muchas horas sentado y caminando. En zonas VIP o de hospitalidad, se sugiere vestimenta smart-casual pero tampoco es obligatorio.'
+  },
+  {
+    question: '¿Hay código de vestimenta en Roland Garros?',
+    answer: 'No hay un código de vestimenta obligatorio para espectadores en Roland Garros, a diferencia de Wimbledon. Puedes vestir de forma casual y cómoda. En las áreas VIP y lounges de hospitalidad, se espera vestimenta smart-casual (evitar chanclas, ropa de playa o deportiva muy informal). Para los jugadores sí existen reglas sobre colores y logos de la ropa. Como espectador, la mejor regla es vestir cómodo, con protección solar y preparado para cambios climáticos.'
+  },
+  {
+    question: '¿Qué ropa llevar a Roland Garros?',
+    answer: 'Recomendamos capas adaptables al clima de París en mayo-junio (12-28°C): camiseta ligera, sudadera o chaqueta fina, pantalones cómodos o shorts, y calzado cómodo para caminar. Imprescindible: gorra o sombrero, gafas de sol y protector solar. Lleva también un chubasquero compacto por si llueve. Para sesiones nocturnas, añade una chaqueta abrigada ya que la temperatura baja considerablemente. No hay código de vestimenta, así que prioriza la comodidad.'
+  },
+  {
+    question: '¿Puedo llevar comida a Roland Garros?',
+    answer: 'Sí, está permitido llevar tu propia comida a Roland Garros en cantidades razonables. Puedes llevar sándwiches, frutas, frutos secos, barritas energéticas y snacks. Los líquidos están limitados a 1 litro en total, en contenedores de plástico (no vidrio). También puedes llevar una botella de agua vacía y rellenarla en las fuentes gratuitas del recinto. No se permite entrar bebidas alcohólicas. La comida dentro del estadio puede costar entre 8 y 15 EUR por plato.'
+  },
+  {
+    question: '¿Puedo llevar una mochila a Roland Garros?',
+    answer: 'Sí, pero con restricciones de tamaño. Las mochilas y bolsos no pueden superar las dimensiones de 40x30x20 cm (largo x alto x ancho). Las mochilas que superen este tamaño no podrán entrar y no hay servicio de consigna en el estadio. Todas las mochilas pasan por un control de seguridad con escáner a la entrada. Se recomienda una mochila pequeña o riñonera para llevar lo esencial: protector solar, botella de agua, snacks y cargador portátil.'
+  },
+  {
+    question: '¿Hay WiFi en Roland Garros?',
+    answer: 'Sí, Roland Garros ofrece WiFi gratuito en todo el recinto del estadio, aunque la velocidad puede ser limitada durante los momentos de máxima afluencia. La red se llama generalmente "Roland-Garros WiFi" y requiere aceptar términos de uso. Para una experiencia óptima, descarga la app oficial de Roland Garros con anterioridad, que incluye resultados en directo, mapa del estadio, orden de juego y notificaciones de partidos. También es recomendable llevar un cargador portátil, ya que el uso del teléfono consume mucha batería.'
+  },
+  {
+    question: '¿Cuánto cuesta la comida dentro de Roland Garros?',
+    answer: 'Los precios dentro de Roland Garros son superiores a los de la calle, como en cualquier gran evento. Un sándwich gourmet cuesta entre 8-12 EUR, una pizza o crêpe 8-10 EUR, un plato caliente 12-18 EUR, un refresco o agua 4-5 EUR, una cerveza 7-9 EUR, y un helado 5-7 EUR. También hay restaurantes sentados con menús de 25-40 EUR. La gastronomía es una parte importante de la experiencia Roland Garros, con opciones que incluyen cocina francesa de calidad. Para ahorrar, lleva snacks y una botella de agua rellenable.'
+  },
+  {
+    question: '¿Qué puedo llevar y qué no puedo llevar al estadio?',
+    answer: 'Permitido: comida en cantidades razonables, botella de agua vacía, protector solar, cámara de fotos (sin flash durante partidos), paraguas compacto (menos de 1m), cargador portátil. Prohibido: mochilas mayores de 40x30x20cm, bebidas alcohólicas, objetos de vidrio, palos de selfie, trípodes, drones, armas, bengalas, instrumentos musicales, sillas plegables, mascotas (excepto perros guía). Los controles de seguridad son rigurosos, así que revisa tu mochila antes de salir del hotel.'
+  },
+
+  // PREMIOS Y DATOS DEL TORNEO
+  {
+    question: '¿Cuánto cobra el ganador de Roland Garros?',
+    answer: 'El campeón individual de Roland Garros 2025 recibió 2,4 millones de euros, y se espera una cifra similar o ligeramente superior para 2026. El prize money ha crecido significativamente en los últimos años. El subcampeón recibe aproximadamente 1,2 millones de euros. En total, el torneo reparte más de 50 millones de euros en premios. Los campeones de dobles reciben alrededor de 650.000 EUR por pareja. Estos premios están sujetos a impuestos franceses de aproximadamente el 20-30%.'
+  },
+  {
+    question: '¿Cuánto cobra Alcaraz si gana Roland Garros?',
+    answer: 'Si Carlos Alcaraz gana Roland Garros 2026, recibiría aproximadamente 2,4-2,6 millones de euros en premio (basado en la tendencia de incrementos anuales). Además, como campeón obtendría 2.000 puntos ATP para el ranking mundial. Alcaraz, que ganó Roland Garros en 2024, también recibiría bonificaciones significativas de sus patrocinadores (Nike, Rolex, Babolat) que pueden multiplicar varias veces el premio oficial del torneo.'
+  },
+  {
+    question: '¿Cuánto cobran los recogepelotas en Roland Garros?',
+    answer: 'Los recogepelotas (ramasseurs de balles) de Roland Garros no reciben un salario sino una compensación simbólica, ya que es considerado un honor y una experiencia formativa. Reciben equipamiento deportivo completo (ropa Adidas, calzado), comidas durante el torneo, un diploma oficial y la experiencia única de estar en pista con las estrellas del tenis mundial. Se seleccionan alrededor de 250-300 recogepelotas de entre 12 y 16 años, elegidos tras un proceso selectivo que incluye pruebas físicas y de conocimiento del tenis.'
+  },
+  {
+    question: '¿Cuál es el torneo de tenis mejor pagado?',
+    answer: 'El US Open es actualmente el Grand Slam con mayor prize money total, seguido de cerca por el Australian Open, Wimbledon y Roland Garros. Sin embargo, las diferencias se han reducido significativamente. En 2025, todos los Grand Slams ofrecieron más de 50 millones de euros en premios totales. Roland Garros ha aumentado su prize money más de un 50% en la última década, alcanzando niveles muy competitivos con los demás. Fuera de los Grand Slams, las ATP Finals y torneos Masters 1000 como Indian Wells también ofrecen premios millonarios.'
+  },
+  {
+    question: '¿Quién tiene más títulos de Roland Garros?',
+    answer: 'Rafael Nadal ostenta el récord absoluto con 14 títulos masculinos (2005-2022), una cifra que probablemente nunca será igualada. En la categoría femenina, Chris Evert ganó 7 títulos (1974-1986). Otros campeones destacados incluyen a Björn Borg (6 títulos), Novak Djokovic (3 títulos), Gustavo Kuerten (3 títulos), Ivan Lendl (3 títulos), y Mats Wilander (3 títulos). En la era moderna femenina, Justine Henin ganó 4 títulos y Steffi Graf 6. Iga Swiątek acumula 4 títulos hasta 2024.'
+  },
+  {
+    question: '¿Cuántos Grand Slams hay al año?',
+    answer: 'Se celebran 4 torneos de Grand Slam al año: el Australian Open (enero, pista dura en Melbourne), Roland Garros (mayo-junio, tierra batida en París), Wimbledon (junio-julio, hierba en Londres) y el US Open (agosto-septiembre, pista dura en Nueva York). Son los torneos más prestigiosos del tenis profesional, otorgan más puntos para el ranking y ofrecen los mayores premios económicos. Ganar los cuatro en un mismo año se conoce como "Grand Slam", hazaña solo lograda por unos pocos jugadores en la historia.'
+  },
+
+  // COMPARATIVAS CON OTROS TORNEOS
+  {
+    question: '¿Cuánto cuesta una entrada para Wimbledon?',
+    answer: 'Las entradas para Wimbledon van desde £8 (ground pass por lotería postal) hasta más de £250 para Centre Court en finales. El sistema de Wimbledon es diferente al de Roland Garros: utiliza una "queue" (cola) tradicional donde los aficionados acampan durante la noche para conseguir entradas el mismo día. También tiene un sorteo online (ballot). Los precios de reventa pueden superar las £1.000 para finales. En general, las entradas oficiales de Wimbledon son ligeramente más caras que las de Roland Garros en categorías equivalentes.'
+  },
+  {
+    question: '¿Cuánto cuesta una entrada para el US Open?',
+    answer: 'Las entradas para el US Open van desde aproximadamente $30 USD para un ground pass en primera ronda hasta más de $500 USD para asientos premium en Arthur Ashe Stadium durante las finales. A diferencia de Roland Garros, el US Open permite comprar entradas directamente online sin sistema de lotería para la mayoría de sesiones. Los precios de reventa para finales pueden superar los $2.000 USD. El US Open es generalmente el Grand Slam con entradas más accesibles en rondas tempranas.'
+  },
+  {
+    question: '¿Es Roland Garros más barato que Wimbledon?',
+    answer: 'En general, sí. Las entradas oficiales de Roland Garros suelen ser ligeramente más económicas que las de Wimbledon en categorías equivalentes. Un ground pass de primera ronda en Roland Garros cuesta alrededor de 35-40 EUR, mientras que en Wimbledon los precios son similares pero más difíciles de conseguir. Para finales, Roland Garros ofrece precios desde 150 EUR vs 200+ GBP en Wimbledon. Además, París puede ser más económica que Londres en alojamiento y comida. Sin embargo, ambos torneos son accesibles comparados con los precios de reventa del mercado secundario.'
+  },
+  {
+    question: '¿Cuál es el mejor Grand Slam para asistir?',
+    answer: 'Cada Grand Slam ofrece una experiencia única. Roland Garros destaca por su gastronomía francesa, ambiente elegante y la superficie de tierra batida que produce partidos más largos y tácticos. Wimbledon es la quintaesencia de la tradición con su estricto código blanco y fresas con crema. El US Open tiene el ambiente más festivo y nocturno, con sesiones que terminan pasada la medianoche. El Australian Open ofrece un ambiente relajado y veraniego. Para hispanohablantes, Roland Garros es especialmente atractivo por la historia de campeones españoles y latinoamericanos en tierra batida.'
+  },
+
   // HISTORIA
   {
     question: '¿Quién ha ganado más títulos en Roland Garros?',
@@ -254,9 +365,9 @@ export default function PreguntasFrecuentesPage() {
       {/* Hero Section */}
       <PageHero
         title="Preguntas Frecuentes"
-        subtitle="Más de 40 respuestas detalladas sobre Roland Garros 2026: entradas, fechas, logística e historia"
+        subtitle="Más de 75 respuestas detalladas sobre Roland Garros 2026: entradas, fechas, logística e historia"
         image="/images/heroes/tennis-crowd.jpg"
-        badge={{ icon: 'quiz', text: '40+ Respuestas' }}
+        badge={{ icon: 'quiz', text: '75+ Respuestas' }}
         primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
         secondaryCta={{ text: 'Ver Preguntas', href: '#faq', icon: 'arrow_downward' }}
       />
@@ -273,7 +384,7 @@ export default function PreguntasFrecuentesPage() {
               </a>
               <a href="#entradas" className="flex items-center gap-3 bg-white rounded-xl border border-gray-200 shadow-sm p-4 hover:border-[#c75033] hover:shadow-md transition-all group">
                 <span className="material-symbols-outlined text-[#c75033] text-xl">confirmation_number</span>
-                <span className="font-medium text-gray-900 group-hover:text-[#c75033] transition-colors">Entradas y Precios (12 preguntas)</span>
+                <span className="font-medium text-gray-900 group-hover:text-[#c75033] transition-colors">Entradas y Precios (22 preguntas)</span>
               </a>
               <a href="#estadio" className="flex items-center gap-3 bg-white rounded-xl border border-gray-200 shadow-sm p-4 hover:border-[#c75033] hover:shadow-md transition-all group">
                 <span className="material-symbols-outlined text-[#c75033] text-xl">stadium</span>
@@ -287,9 +398,21 @@ export default function PreguntasFrecuentesPage() {
                 <span className="material-symbols-outlined text-[#c75033] text-xl">tips_and_updates</span>
                 <span className="font-medium text-gray-900 group-hover:text-[#c75033] transition-colors">Experiencia y Consejos (6 preguntas)</span>
               </a>
+              <a href="#vestimenta" className="flex items-center gap-3 bg-white rounded-xl border border-gray-200 shadow-sm p-4 hover:border-[#c75033] hover:shadow-md transition-all group">
+                <span className="material-symbols-outlined text-[#c75033] text-xl">checkroom</span>
+                <span className="font-medium text-gray-900 group-hover:text-[#c75033] transition-colors">Experiencia y Vestimenta (8 preguntas)</span>
+              </a>
+              <a href="#premios" className="flex items-center gap-3 bg-white rounded-xl border border-gray-200 shadow-sm p-4 hover:border-[#c75033] hover:shadow-md transition-all group">
+                <span className="material-symbols-outlined text-[#c75033] text-xl">emoji_events</span>
+                <span className="font-medium text-gray-900 group-hover:text-[#c75033] transition-colors">Premios y Datos del Torneo (6 preguntas)</span>
+              </a>
+              <a href="#comparativas" className="flex items-center gap-3 bg-white rounded-xl border border-gray-200 shadow-sm p-4 hover:border-[#c75033] hover:shadow-md transition-all group">
+                <span className="material-symbols-outlined text-[#c75033] text-xl">compare</span>
+                <span className="font-medium text-gray-900 group-hover:text-[#c75033] transition-colors">Comparativas con Otros Torneos (4 preguntas)</span>
+              </a>
               <a href="#historia" className="flex items-center gap-3 bg-white rounded-xl border border-gray-200 shadow-sm p-4 hover:border-[#c75033] hover:shadow-md transition-all group">
                 <span className="material-symbols-outlined text-[#c75033] text-xl">history_edu</span>
-                <span className="font-medium text-gray-900 group-hover:text-[#c75033] transition-colors">Historia y Récords (5 preguntas)</span>
+                <span className="font-medium text-gray-900 group-hover:text-[#c75033] transition-colors">Historia y Récords (7 preguntas)</span>
               </a>
             </div>
           </div>
@@ -324,7 +447,7 @@ export default function PreguntasFrecuentesPage() {
                 Entradas y Precios
               </h2>
               <div className="space-y-8">
-                {faqData.slice(6, 20).map((faq, index) => (
+                {faqData.slice(6, 28).map((faq, index) => (
                   <div key={index} className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
                     <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
                     <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
@@ -345,7 +468,7 @@ export default function PreguntasFrecuentesPage() {
                 Estadio y Pistas
               </h2>
               <div className="space-y-8">
-                {faqData.slice(20, 27).map((faq, index) => (
+                {faqData.slice(28, 35).map((faq, index) => (
                   <div key={index} className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
                     <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
                     <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
@@ -361,7 +484,7 @@ export default function PreguntasFrecuentesPage() {
                 Logística y Acceso
               </h2>
               <div className="space-y-8">
-                {faqData.slice(27, 36).map((faq, index) => (
+                {faqData.slice(35, 44).map((faq, index) => (
                   <div key={index} className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
                     <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
                     <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
@@ -377,7 +500,55 @@ export default function PreguntasFrecuentesPage() {
                 Experiencia y Consejos
               </h2>
               <div className="space-y-8">
-                {faqData.slice(36, 42).map((faq, index) => (
+                {faqData.slice(44, 50).map((faq, index) => (
+                  <div key={index} className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
+                    <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
+                    <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* EXPERIENCIA Y VESTIMENTA */}
+            <div id="vestimenta" className="mb-16 scroll-mt-8">
+              <h2 className="text-3xl font-bold mb-8 text-[#1d110c] border-b-4 border-[#c75033] pb-3 flex items-center gap-3">
+                <span className="material-symbols-outlined text-[#c75033] text-3xl">checkroom</span>
+                Experiencia y Vestimenta
+              </h2>
+              <div className="space-y-8">
+                {faqData.slice(50, 58).map((faq, index) => (
+                  <div key={index} className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
+                    <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
+                    <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* PREMIOS Y DATOS DEL TORNEO */}
+            <div id="premios" className="mb-16 scroll-mt-8">
+              <h2 className="text-3xl font-bold mb-8 text-[#1d110c] border-b-4 border-[#c75033] pb-3 flex items-center gap-3">
+                <span className="material-symbols-outlined text-[#c75033] text-3xl">emoji_events</span>
+                Premios y Datos del Torneo
+              </h2>
+              <div className="space-y-8">
+                {faqData.slice(58, 64).map((faq, index) => (
+                  <div key={index} className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
+                    <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
+                    <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* COMPARATIVAS CON OTROS TORNEOS */}
+            <div id="comparativas" className="mb-16 scroll-mt-8">
+              <h2 className="text-3xl font-bold mb-8 text-[#1d110c] border-b-4 border-[#c75033] pb-3 flex items-center gap-3">
+                <span className="material-symbols-outlined text-[#c75033] text-3xl">compare</span>
+                Comparativas con Otros Torneos
+              </h2>
+              <div className="space-y-8">
+                {faqData.slice(64, 68).map((faq, index) => (
                   <div key={index} className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
                     <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
                     <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
@@ -393,7 +564,7 @@ export default function PreguntasFrecuentesPage() {
                 Historia y Récords
               </h2>
               <div className="space-y-8">
-                {faqData.slice(42).map((faq, index) => (
+                {faqData.slice(68).map((faq, index) => (
                   <div key={index} className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
                     <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
                     <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
@@ -442,7 +613,7 @@ export default function PreguntasFrecuentesPage() {
           <div className="max-w-3xl mx-auto bg-white border-l-4 border-[#c75033] p-6 rounded-xl shadow-sm">
             <h3 className="text-xl font-bold mb-3 text-gray-900">¿No encuentras tu pregunta?</h3>
             <p className="text-gray-700 mb-4">
-              Esta página cubre las 45 preguntas más frecuentes sobre Roland Garros 2026. Si tienes alguna duda específica que no está cubierta aquí,
+              Esta página cubre las 75 preguntas más frecuentes sobre Roland Garros 2026. Si tienes alguna duda específica que no está cubierta aquí,
               te recomendamos consultar nuestras guías detalladas sobre temas específicos como entradas, calendario, o logística.
               También puedes visitar el sitio web oficial de Roland Garros (rolandgarros.com) para información adicional y actualizaciones en tiempo real.
             </p>

@@ -43,6 +43,30 @@ const faqs = [
   {
     question: '¿Hay descuentos para niños o estudiantes?',
     answer: 'Los niños menores de 12 años pueden beneficiarse de precios reducidos (típicamente 30-50% de descuento) en algunas categorías. Los niños menores de 4 años entran gratis si no ocupan asiento. No suelen existir descuentos específicos para estudiantes.'
+  },
+  {
+    question: '¿Cuánto cuestan los palcos y entradas Gold en Roland Garros?',
+    answer: 'Las entradas Gold (categoría 1 premium central) cuestan entre 200-540 EUR dependiendo de la ronda. Los palcos del Club des Loges son significativamente más caros: desde 2.000 EUR hasta más de 5.000 EUR por persona por día, e incluyen asientos premium, catering gourmet con chef, champán y acceso a áreas VIP privadas. Los paquetes corporativos para grupos completos pueden superar los 20.000 EUR por día.'
+  },
+  {
+    question: '¿Cuánto cuestan las entradas para la sesión nocturna?',
+    answer: 'Las entradas para la sesión nocturna (night session) en Philippe-Chatrier cuestan desde aproximadamente 70 EUR en las categorías más altas hasta 250+ EUR en categorías centrales bajas. Solo se juega un partido por noche a partir de las 20:00. Aunque el precio por partido es más alto que la sesión diurna, la experiencia nocturna bajo luces artificiales tiene un ambiente único e íntimo.'
+  },
+  {
+    question: '¿Cuál es la diferencia de precio entre valor nominal y reventa?',
+    answer: 'Los precios de reventa (mercado secundario) suelen ser entre un 50% y 300% más caros que el valor nominal oficial, especialmente para semifinales y finales. Por ejemplo, una entrada de final con valor nominal de 200 EUR puede costar 500-800 EUR en reventa. Plataformas especializadas como GoalTickets ofrecen precios más transparentes que revendedores no autorizados. Siempre verifica la autenticidad de las entradas antes de comprar.'
+  },
+  {
+    question: '¿Cuándo es más barato ir a Roland Garros?',
+    answer: 'Los días más económicos son los primeros días del torneo (lunes-miércoles de la primera semana), cuando un ground pass cuesta desde 35-40 EUR y las entradas con asiento desde 55-80 EUR. Los precios aumentan progresivamente: cuartos de final cuestan 80-200 EUR, semifinales 120-350 EUR, y finales 150-540 EUR. Entre semana es siempre más económico que los fines de semana, y la pista Suzanne-Lenglen es más asequible que Philippe-Chatrier.'
+  },
+  {
+    question: '¿Los precios de Roland Garros son más baratos que otros Grand Slams?',
+    answer: 'En general, Roland Garros ofrece precios competitivos comparados con otros Grand Slams. Las entradas más baratas (ground pass primera ronda) cuestan alrededor de 35-40 EUR, similar al US Open (~30 USD) y más accesible que Wimbledon. Para finales, los precios son comparables entre los cuatro Grand Slams (150-540 EUR en RG vs 200+ GBP en Wimbledon). Sin embargo, los costes totales del viaje (alojamiento, vuelos) varían según tu país de origen.'
+  },
+  {
+    question: '¿Cómo conseguir las entradas más baratas para Roland Garros?',
+    answer: 'Las estrategias para conseguir mejores precios son: comprar en la venta oficial en rolandgarros.com (febrero-marzo) cuando los precios son nominales, elegir rondas tempranas entre semana, optar por el ground pass en lugar de asientos con nombre, considerar la pista Suzanne-Lenglen en lugar de Philippe-Chatrier, y participar en la lotería para semifinales y finales. Si compras en reventa, compara precios entre plataformas verificadas.'
   }
 ]
 
@@ -725,6 +749,117 @@ export default function PreciosPage() {
                       es un sueño de vida o celebración especial. Difícil conseguir (sistema de lotería).
                     </p>
                   </div>
+                </div>
+              </section>
+
+              {/* Day vs Night Pricing */}
+              <section className="mb-12 max-w-4xl mx-auto">
+                <h2 className="text-3xl font-bold mb-6 text-gray-900">
+                  Precios: Sesión Diurna vs Nocturna
+                </h2>
+                <p className="text-gray-700 mb-6">
+                  Roland Garros ofrece dos tipos de sesiones con entradas independientes. La sesión diurna incluye múltiples partidos desde las 11:00, mientras que la sesión nocturna presenta un único partido estelar a las 20:00 en Philippe-Chatrier.
+                </p>
+                <div className="overflow-x-auto mb-6">
+                  <table className="w-full border-collapse">
+                    <thead>
+                      <tr className="bg-[#c75033] text-white">
+                        <th className="px-4 py-3 text-left font-bold">Característica</th>
+                        <th className="px-4 py-3 text-left font-bold">Sesión Diurna</th>
+                        <th className="px-4 py-3 text-left font-bold">Sesión Nocturna</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="border-b border-gray-200 bg-white">
+                        <td className="px-4 py-3 font-semibold">Horario</td>
+                        <td className="px-4 py-3">11:00 - ~19:00</td>
+                        <td className="px-4 py-3">20:00 - ~23:00</td>
+                      </tr>
+                      <tr className="border-b border-gray-200 bg-gray-50">
+                        <td className="px-4 py-3 font-semibold">Partidos</td>
+                        <td className="px-4 py-3">Múltiples (3-5 en pistas principales)</td>
+                        <td className="px-4 py-3">1 partido estelar</td>
+                      </tr>
+                      <tr className="border-b border-gray-200 bg-white">
+                        <td className="px-4 py-3 font-semibold">Precio desde</td>
+                        <td className="px-4 py-3">~35 EUR (ground pass)</td>
+                        <td className="px-4 py-3">~70 EUR</td>
+                      </tr>
+                      <tr className="border-b border-gray-200 bg-gray-50">
+                        <td className="px-4 py-3 font-semibold">Precio cat. 1</td>
+                        <td className="px-4 py-3">~120-540 EUR</td>
+                        <td className="px-4 py-3">~150-250 EUR</td>
+                      </tr>
+                      <tr className="border-b border-gray-200 bg-white">
+                        <td className="px-4 py-3 font-semibold">Pista</td>
+                        <td className="px-4 py-3">Todas las pistas</td>
+                        <td className="px-4 py-3">Solo Philippe-Chatrier</td>
+                      </tr>
+                      <tr className="border-b border-gray-200 bg-gray-50">
+                        <td className="px-4 py-3 font-semibold">Valor por hora</td>
+                        <td className="px-4 py-3">Mejor (más horas de tenis)</td>
+                        <td className="px-4 py-3">Menor (pero experiencia única)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div className="bg-blue-50 border-l-4 border-blue-500 p-4">
+                  <p className="text-sm text-gray-700">
+                    <strong>Consejo:</strong> Si tu presupuesto es limitado, la sesión diurna ofrece mucho más tenis por tu dinero. Si buscas una experiencia especial y única, la sesión nocturna tiene un ambiente íntimo incomparable bajo las luces de Philippe-Chatrier.
+                  </p>
+                </div>
+              </section>
+
+              {/* Face Value vs Resale */}
+              <section className="mb-12 max-w-4xl mx-auto">
+                <h2 className="text-3xl font-bold mb-6 text-gray-900">
+                  Precio Nominal vs Reventa
+                </h2>
+                <p className="text-gray-700 mb-6">
+                  Es importante entender la diferencia entre los precios oficiales (valor nominal) y los precios en el mercado secundario de reventa, especialmente para rondas populares.
+                </p>
+                <div className="overflow-x-auto mb-6">
+                  <table className="w-full border-collapse">
+                    <thead>
+                      <tr className="bg-[#c75033] text-white">
+                        <th className="px-4 py-3 text-left font-bold">Ronda</th>
+                        <th className="px-4 py-3 text-left font-bold">Precio Oficial</th>
+                        <th className="px-4 py-3 text-left font-bold">Reventa Típica</th>
+                        <th className="px-4 py-3 text-left font-bold">Diferencia</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="border-b border-gray-200 bg-white">
+                        <td className="px-4 py-3">1ª-2ª Ronda</td>
+                        <td className="px-4 py-3">35-80 EUR</td>
+                        <td className="px-4 py-3">50-120 EUR</td>
+                        <td className="px-4 py-3 text-green-600 font-semibold">+40-50%</td>
+                      </tr>
+                      <tr className="border-b border-gray-200 bg-gray-50">
+                        <td className="px-4 py-3">Cuartos de Final</td>
+                        <td className="px-4 py-3">80-240 EUR</td>
+                        <td className="px-4 py-3">150-400 EUR</td>
+                        <td className="px-4 py-3 text-yellow-600 font-semibold">+50-80%</td>
+                      </tr>
+                      <tr className="border-b border-gray-200 bg-white">
+                        <td className="px-4 py-3">Semifinales</td>
+                        <td className="px-4 py-3">120-350 EUR</td>
+                        <td className="px-4 py-3">250-700 EUR</td>
+                        <td className="px-4 py-3 text-orange-600 font-semibold">+80-100%</td>
+                      </tr>
+                      <tr className="border-b border-gray-200 bg-gray-50">
+                        <td className="px-4 py-3">Final</td>
+                        <td className="px-4 py-3">150-540 EUR</td>
+                        <td className="px-4 py-3">400-1.500 EUR</td>
+                        <td className="px-4 py-3 text-red-600 font-semibold">+150-200%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4">
+                  <p className="text-sm text-gray-700">
+                    <strong>Importante:</strong> Si no consigues entradas en la venta oficial, recurre a plataformas verificadas como <a href="https://goaltickets.com/es/collections/entradas-roland-garros-2026" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">GoalTickets</a> que garantizan la autenticidad. Evita revendedores no autorizados que pueden vender entradas falsas o a precios inflados sin garantía.
+                  </p>
                 </div>
               </section>
 

@@ -48,6 +48,18 @@ const faqs = [
   {
     question: '¿Cuándo son las semifinales de Roland Garros 2026?',
     answer: 'Las semifinales masculinas se juegan el viernes 5 de junio y las semifinales femeninas el jueves 4 de junio de 2026, ambas en la pista Philippe-Chatrier.'
+  },
+  {
+    question: '¿Qué es el paquete final de Roland Garros?',
+    answer: 'El paquete final es una oferta que combina entradas para las semifinales y la final (viernes-domingo) en un solo paquete. Puede incluir asientos en Philippe-Chatrier para los tres días, y en versiones premium añade alojamiento, transporte y experiencias VIP. Los precios varían desde 400-500 EUR para paquetes básicos hasta varios miles de euros con hospitalidad incluida. Es la forma más completa de vivir el desenlace del torneo.'
+  },
+  {
+    question: '¿Quiénes son los favoritos para la final de Roland Garros 2026?',
+    answer: 'Los principales favoritos masculinos incluyen a Carlos Alcaraz (campeón 2024), Jannik Sinner (nº 1 del mundo), Novak Djokovic (3 veces campeón) y Alexander Zverev. En categoría femenina, Iga Swiątek (4 veces campeona), Aryna Sabalenka y Coco Gauff son las principales candidatas. Los cuadros y favoritos se actualizarán a medida que se acerque el torneo.'
+  },
+  {
+    question: '¿Cuáles son los mejores asientos para la final de Roland Garros?',
+    answer: 'Los mejores asientos para la final están en la categoría 1 de Philippe-Chatrier: filas centrales bajas con visión frontal de la pista. La categoría 2 ofrece excelente visión a precio más razonable. Las categorías 3 y 4 están más elevadas pero permiten ver toda la pista. Para una experiencia premium, los palcos del Club des Loges ofrecen asientos centrales con servicio de hospitalidad. Llega al menos 2-3 horas antes de la final para evitar aglomeraciones.'
   }
 ]
 
@@ -228,6 +240,72 @@ export default function FinalRolandGarros2026Page() {
                     <h3 className="text-xl font-bold mb-2 text-[#1d110c]">Swiątek, dominadora moderna</h3>
                     <p className="text-[#1d110c]">
                       Iga Swiątek ha ganado 4 títulos en Roland Garros (2020, 2022, 2023, 2024), consolidándose como la jugadora más dominante de su generación en tierra batida, con victorias contundentes en las finales.
+                    </p>
+                  </div>
+                </div>
+              </section>
+
+              {/* Paquete Final */}
+              <section className="mb-12">
+                <h2 className="text-3xl font-bold mb-6 text-[#1d110c]">
+                  Paquete Final: La Experiencia Completa
+                </h2>
+                <div className="bg-gradient-to-r from-orange-50 to-white border border-[#ead5cd] rounded-xl p-6 mb-6">
+                  <p className="text-[#1d110c] mb-4">
+                    El <strong>paquete final de Roland Garros</strong> combina entradas para los últimos días del torneo (semifinales + final) en una experiencia integral. Es la forma más completa de vivir el desenlace del torneo.
+                  </p>
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div className="bg-white rounded-lg p-4 border border-gray-200">
+                      <h4 className="font-bold mb-2 text-[#1d110c]">Paquete Básico (desde ~400 EUR)</h4>
+                      <ul className="text-sm text-gray-700 space-y-1">
+                        <li>- Entradas semifinales + final (viernes-domingo)</li>
+                        <li>- Asientos en categorías 3-4</li>
+                        <li>- 3 días de tenis de máximo nivel</li>
+                      </ul>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 border border-gray-200">
+                      <h4 className="font-bold mb-2 text-[#1d110c]">Paquete Premium (desde ~1.500 EUR)</h4>
+                      <ul className="text-sm text-gray-700 space-y-1">
+                        <li>- Asientos categoría 1-2 en Philippe-Chatrier</li>
+                        <li>- Acceso a áreas VIP o hospitalidad</li>
+                        <li>- Catering y bebidas incluidas</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <p className="text-sm text-gray-600 mt-4">
+                    Los paquetes están disponibles a través de proveedores autorizados y plataformas como <a href="https://goaltickets.com/es/collections/entradas-roland-garros-2026" target="_blank" rel="noopener" className="text-primary font-semibold hover:underline">GoalTickets</a>. Reserva con anticipación ya que se agotan rápidamente.
+                  </p>
+                </div>
+              </section>
+
+              {/* Consejos para el Día de la Final */}
+              <section className="mb-12">
+                <h2 className="text-3xl font-bold mb-6 text-[#1d110c]">
+                  Consejos para el Día de la Final
+                </h2>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div className="bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6">
+                    <h3 className="text-lg font-bold mb-3 text-[#1d110c]">Cuándo Llegar</h3>
+                    <p className="text-[#1d110c] text-sm">
+                      Llega al menos <strong>2-3 horas antes</strong> del inicio de la final. Los controles de seguridad son más rigurosos en días de final, y el ambiente previo al partido merece ser disfrutado. Las puertas suelen abrir 3 horas antes del inicio programado.
+                    </p>
+                  </div>
+                  <div className="bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6">
+                    <h3 className="text-lg font-bold mb-3 text-[#1d110c]">Mejores Asientos</h3>
+                    <p className="text-[#1d110c] text-sm">
+                      La categoría 1 (filas centrales bajas) ofrece la mejor visión pero es la más cara. La categoría 2 es un excelente compromiso calidad-precio. Las categorías 3-4 son más elevadas pero permiten ver toda la pista y la ceremonia de premiación.
+                    </p>
+                  </div>
+                  <div className="bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6">
+                    <h3 className="text-lg font-bold mb-3 text-[#1d110c]">Transporte de Vuelta</h3>
+                    <p className="text-[#1d110c] text-sm">
+                      Después de la final, <strong>decenas de miles de espectadores</strong> salen simultáneamente. Espera 30-45 minutos o camina hasta la estación Michel-Ange Molitor (menos aglomeración). Los taxis/Uber tendrán alta demanda y precios elevados.
+                    </p>
+                  </div>
+                  <div className="bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6">
+                    <h3 className="text-lg font-bold mb-3 text-[#1d110c]">Qué Llevar</h3>
+                    <p className="text-[#1d110c] text-sm">
+                      Protector solar y gorra (las finales suelen ser en junio con sol), botella de agua, cargador portátil para fotos/vídeos de la ceremonia, y algo abrigado por si la final se alarga hasta la noche. Consulta nuestra <Link href="/guia-completa/que-llevar" className="text-primary font-semibold hover:underline">guía completa de qué llevar</Link>.
                     </p>
                   </div>
                 </div>

@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 import { HowToSchema } from '@/components/seo/HowToSchema'
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema'
+import { FAQSchema } from '@/components/seo/FAQSchema'
 import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
@@ -18,6 +19,33 @@ export const metadata: Metadata = {
     canonical: 'https://entradasrolandgarros.com/guia-completa/como-llegar',
   },
 }
+
+const faqs = [
+  {
+    question: '¿Qué metro me deja en Roland Garros?',
+    answer: 'La estación Porte d\'Auteuil de la Línea 10 del metro de París es la parada oficial de Roland Garros, a solo 5-10 minutos a pie del estadio. Como alternativa, la estación Michel-Ange Molitor (también Línea 10) está a 10-12 minutos a pie y suele tener menos aglomeración durante el torneo.'
+  },
+  {
+    question: '¿Cuánto se tarda en llegar a Roland Garros desde el centro de París?',
+    answer: 'Desde el centro de París (zona Louvre/Châtelet) se tarda entre 30 y 45 minutos en metro, dependiendo de la línea y los transbordos. Desde la Torre Eiffel son unos 20-25 minutos, y desde Montmartre entre 45-50 minutos. Se recomienda usar la Línea 10 como trayecto final hasta Porte d\'Auteuil.'
+  },
+  {
+    question: '¿Se puede ir en coche a Roland Garros?',
+    answer: 'Técnicamente sí, pero no es recomendable. El tráfico alrededor del estadio es intenso durante el torneo, el parking del estadio está reservado para VIP y los parkings públicos cercanos se llenan rápidamente. La mejor alternativa es el sistema Park & Ride: aparcar en una estación de metro alejada (como Pont de Sèvres) y completar el trayecto en metro.'
+  },
+  {
+    question: '¿Hay parking en Roland Garros?',
+    answer: 'El parking del estadio es muy limitado y está reservado principalmente para accesos VIP y especiales, con un coste de 40-60 EUR/día y reserva anticipada obligatoria. Existen parkings públicos cercanos como el Parking Porte d\'Auteuil (€25/día) y el Parking Exelmans (€2.50/hora, a 15 min a pie), pero se llenan rápido. La opción más inteligente es aparcar en estaciones de metro periféricas por 5-6 EUR/día.'
+  },
+  {
+    question: '¿Cuál es la dirección exacta de Roland Garros?',
+    answer: 'La dirección completa es: Stade Roland Garros, 2 Avenue Gordon Bennett, 75016 Paris, Francia. Está ubicado en el distrito 16 (arrondissement), en el barrio de Auteuil, junto al Bois de Boulogne, en el suroeste de París. Las coordenadas GPS son 48.8464° N, 2.2514° E.'
+  },
+  {
+    question: '¿Se puede ir andando desde la Torre Eiffel a Roland Garros?',
+    answer: 'Sí, pero es un paseo largo de aproximadamente 5-6 km que toma entre 60 y 75 minutos a pie. La ruta pasa por zonas agradables del distrito 16. Sin embargo, es más práctico tomar el metro (Línea 9 desde Trocadéro hasta Michel-Ange Molitor, luego Línea 10 hasta Porte d\'Auteuil) en unos 20-25 minutos. El paseo a pie puede ser agradable si tienes tiempo y buen clima.'
+  }
+]
 
 export default function ComoLlegarPage() {
   const breadcrumbItems = [
@@ -57,6 +85,7 @@ export default function ComoLlegarPage() {
         steps={howToSteps}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
 
       <PageHero
         title="Cómo Llegar a Roland Garros"
@@ -628,8 +657,25 @@ export default function ComoLlegarPage() {
         </div>
       </section>
 
-      {/* GoalTickets CTA */}
+      {/* Preguntas Frecuentes */}
       <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-gray-900">Preguntas Frecuentes sobre Cómo Llegar</h2>
+            <div className="space-y-6">
+              {faqs.map((faq, index) => (
+                <div key={index} className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
+                  <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
+                  <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* GoalTickets CTA */}
+      <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <GoalTicketsCTA />

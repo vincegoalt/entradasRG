@@ -63,6 +63,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: '/donde-se-juega-roland-garros', priority: 0.7, changeFrequency: 'monthly' as const },
     { url: '/entradas-final-roland-garros', priority: 0.8, changeFrequency: 'monthly' as const },
     { url: '/historia-roland-garros', priority: 0.7, changeFrequency: 'monthly' as const },
+
+    // New content pages
+    { url: '/guia-completa/sesion-nocturna', priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: '/premios-roland-garros-2026', priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: '/entradas-roland-garros-2026/entradas-premium', priority: 0.8, changeFrequency: 'monthly' as const },
   ]
 
   return routes.map((route) => ({

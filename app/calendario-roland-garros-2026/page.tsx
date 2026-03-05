@@ -437,8 +437,23 @@ export default function CalendarioPage() {
               </div>
             </section>
 
+            {/* Preguntas Frecuentes */}
+            <section className="mt-12">
+              <h2 className="text-3xl font-bold mb-8 text-gray-900">Preguntas Frecuentes sobre el Calendario</h2>
+              <div className="space-y-6">
+                {faqs.map((faq, index) => (
+                  <div key={index} className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
+                    <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
+                    <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+
             {/* GoalTickets CTA */}
-            <GoalTicketsCTA />
+            <div className="mt-12">
+              <GoalTicketsCTA />
+            </div>
           </div>
         </div>
       </div>

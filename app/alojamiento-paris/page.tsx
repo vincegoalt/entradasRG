@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Metadata } from 'next'
+import { FAQSchema } from '@/components/seo/FAQSchema'
 import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
@@ -25,9 +26,33 @@ export const metadata: Metadata = {
   },
 }
 
+const faqs = [
+  {
+    question: '¿Cuál es el mejor barrio para alojarse durante Roland Garros?',
+    answer: 'El distrito 16 de París es el más cercano al estadio, permitiendo llegar a pie en 15-25 minutos. Sin embargo, para combinar turismo y tenis, los barrios con acceso directo a la Línea 9 o 10 del metro son ideales: Trocadéro, Passy o Saint-Germain-des-Prés. El distrito 15 ofrece buen equilibrio entre precio y proximidad. Para mejor ambiente parisino, Le Marais o Saint-Germain están a 30-40 minutos en metro.'
+  },
+  {
+    question: '¿Cuánto cuesta un hotel en París durante Roland Garros?',
+    answer: 'Los precios suben un 30-50% durante el torneo. Un hotel económico (2 estrellas) cuesta entre 70-120 EUR/noche, un hotel de gama media (3 estrellas) entre 120-250 EUR/noche, hoteles premium (4 estrellas) entre 250-400 EUR/noche, y hoteles de lujo (5 estrellas) más de 400 EUR/noche. Los hoteles más cercanos al estadio (distrito 16) son generalmente más caros. Reservar con 4-6 meses de anticipación es clave para encontrar buenos precios.'
+  },
+  {
+    question: '¿Es mejor alojarse cerca del estadio o en el centro de París?',
+    answer: 'Depende de tu prioridad. Si vas principalmente al tenis y planeas estar todo el día en el estadio, alojarte en el distrito 16 te ahorra tiempo y evita el metro abarrotado después de los partidos. Si quieres explorar París por las tardes, un barrio céntrico (Le Marais, Saint-Germain) ofrece mejor ambiente y restaurantes, aunque necesitarás 30-45 minutos de metro para llegar al estadio.'
+  },
+  {
+    question: '¿Cuándo debo reservar el hotel para Roland Garros?',
+    answer: 'Lo ideal es reservar entre 4 y 6 meses antes del torneo (noviembre-enero). Los hoteles más cercanos al estadio y con mejor relación calidad-precio se agotan primero. Busca opciones con cancelación gratuita para asegurar tu reserva mientras sigues buscando. Durante el fin de semana de semifinales y finales la demanda es máxima, así que para esas fechas reserva con aún más anticipación.'
+  },
+  {
+    question: '¿Merece la pena un Airbnb para Roland Garros?',
+    answer: 'Los apartamentos de Airbnb pueden ser excelentes para estancias de 3+ noches o grupos, ya que ofrecen más espacio y cocina para ahorrar en comidas. Los precios suelen ser competitivos comparados con hoteles equivalentes. Asegúrate de que el apartamento esté cerca de una estación de metro (idealmente Línea 9 o 10) y verifica las reseñas recientes sobre limpieza y comunicación con el anfitrión. Compara siempre con hoteles que ofrezcan cancelación flexible.'
+  }
+]
+
 export default function AlojamientoParisPage() {
   return (
     <div className="min-h-screen bg-[#fcf9f8]">
+      <FAQSchema faqs={faqs} />
       <PageHero
         title="Alojamiento para Roland Garros 2026"
         subtitle="Hoteles, barrios y consejos de reserva para tu viaje a París"
@@ -464,6 +489,19 @@ export default function AlojamientoParisPage() {
                 <p className="text-[#a15d45] text-sm font-normal">Respuestas a todas tus dudas</p>
               </div>
             </Link>
+          </div>
+        </section>
+
+        {/* Preguntas Frecuentes */}
+        <section className="w-full py-10">
+          <h2 className="text-3xl font-bold mb-8 text-gray-900">Preguntas Frecuentes sobre Alojamiento</h2>
+          <div className="space-y-6">
+            {faqs.map((faq, index) => (
+              <div key={index} className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
+                <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
+                <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+              </div>
+            ))}
           </div>
         </section>
 
