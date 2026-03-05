@@ -73,7 +73,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/40">
-          <p>© 2026 Roland Garros Guía Español. Todos los derechos reservados.</p>
+          <p>© 2026 Entradas Roland Garros. Todos los derechos reservados.</p>
           <p>No afiliado con la FFT ni Roland-Garros.</p>
         </div>
       </div>

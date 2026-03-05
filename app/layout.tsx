@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://entradasrolandgarros.com'),
   title: {
     default: 'Roland Garros 2026: Fechas, Entradas, Calendario y Guía Completa',
-    template: '%s | Roland Garros Guía 2026'
+    template: '%s | Entradas Roland Garros 2026'
   },
   description: 'Guía definitiva de Roland Garros 2026 en español. Calendario, entradas, precios, cómo llegar y todo lo que necesitas saber para tu visita.',
   keywords: [
@@ -30,9 +30,9 @@ export const metadata: Metadata = {
     'como llegar roland garros',
     'estadio roland garros'
   ],
-  authors: [{ name: 'Roland Garros Guía' }],
-  creator: 'Roland Garros Guía',
-  publisher: 'Roland Garros Guía',
+  authors: [{ name: 'Entradas Roland Garros' }],
+  creator: 'Entradas Roland Garros',
+  publisher: 'Entradas Roland Garros',
   formatDetection: {
     email: false,
     address: false,
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'es_ES',
     url: 'https://entradasrolandgarros.com',
-    siteName: 'Roland Garros Guía 2026',
+    siteName: 'Entradas Roland Garros 2026',
     title: 'Roland Garros 2026: Guía Completa en Español',
     description: 'Guía definitiva de Roland Garros 2026 en español. Calendario, entradas, precios y todo lo que necesitas saber.',
     images: [

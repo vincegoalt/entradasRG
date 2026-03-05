@@ -15,7 +15,7 @@ export function ArticleSchema({
   image = 'https://entradasrolandgarros.com/images/default-og-image.jpg',
   datePublished,
   dateModified,
-  authorName = 'Roland Garros Guía'
+  authorName = 'Entradas Roland Garros'
 }: ArticleSchemaProps) {
   const schema = {
     '@context': 'https://schema.org',
@@ -29,7 +29,7 @@ export function ArticleSchema({
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Roland Garros Guía',
+      name: 'Entradas Roland Garros',
       logo: {
         '@type': 'ImageObject',
         url: 'https://entradasrolandgarros.com/logo.png',
