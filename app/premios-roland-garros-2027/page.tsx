@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     title: 'Premios Roland Garros 2027: Prize Money por Ronda y Datos',
     description: 'Prize money completo de Roland Garros 2027: ~2.4M EUR para el campeón, ~53M EUR en premios totales. Datos por ronda y comparativa Grand Slam.',
     type: 'article',
-    url: 'https://entradasrolandgarros.com/premios-roland-garros-2027',
+    url: 'https://www.entradasrolandgarros.com/premios-roland-garros-2027/',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/premios-roland-garros-2027',
+    canonical: 'https://www.entradasrolandgarros.com/premios-roland-garros-2027/',
   },
 }
 

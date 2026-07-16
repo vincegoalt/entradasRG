@@ -13,11 +13,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Estadio Roland Garros: Pistas, Historia e Instalaciones',
     description: 'Guía completa del estadio Roland Garros con todas las pistas, su historia y las instalaciones del complejo.',
-    url: 'https://entradasrolandgarros.com/estadio-roland-garros',
+    url: 'https://www.entradasrolandgarros.com/estadio-roland-garros/',
     type: 'article',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/estadio-roland-garros',
+    canonical: 'https://www.entradasrolandgarros.com/estadio-roland-garros/',
   },
 }
 
@@ -83,7 +83,7 @@ export default function EstadioRolandGarrosPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Breadcrumbs
               items={[
-                { name: 'Estadio Roland Garros', url: 'https://entradasrolandgarros.com/estadio-roland-garros' }
+                { name: 'Estadio Roland Garros', url: 'https://www.entradasrolandgarros.com/estadio-roland-garros/' }
               ]}
             />
           </div>

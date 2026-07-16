@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     title: 'Ground Pass Roland Garros 2027: Guía Completa',
     description: 'La entrada más económica y versátil para Roland Garros. Descubre todo sobre el ground pass.',
     type: 'article',
-    url: 'https://entradasrolandgarros.com/entradas-roland-garros-2027/ground-pass',
+    url: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/ground-pass/',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/entradas-roland-garros-2027/ground-pass',
+    canonical: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/ground-pass/',
   },
 }
 
@@ -65,8 +65,8 @@ export default function GroundPassPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Breadcrumbs
               items={[
-                { name: 'Entradas Roland Garros 2027', url: 'https://entradasrolandgarros.com/entradas-roland-garros-2027' },
-                { name: 'Ground Pass', url: 'https://entradasrolandgarros.com/entradas-roland-garros-2027/ground-pass' }
+                { name: 'Entradas Roland Garros 2027', url: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/' },
+                { name: 'Ground Pass', url: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/ground-pass/' }
               ]}
             />
           </div>

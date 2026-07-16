@@ -5,7 +5,7 @@ export function WebSiteSchema() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Roland Garros Guia 2027',
-    url: 'https://entradasrolandgarros.com',
+    url: 'https://www.entradasrolandgarros.com/',
     inLanguage: 'es',
     description: 'Guia completa en espanol sobre Roland Garros 2027: fechas, entradas, calendario, estadio y consejos practicos.',
   }

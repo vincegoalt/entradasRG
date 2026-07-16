@@ -13,11 +13,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Pista Philippe-Chatrier: La Central de Roland Garros',
     description: 'Guía completa de la pista central Philippe-Chatrier con su innovador techo retráctil y 15,225 asientos.',
-    url: 'https://entradasrolandgarros.com/estadio-roland-garros/pista-philippe-chatrier',
+    url: 'https://www.entradasrolandgarros.com/estadio-roland-garros/pista-philippe-chatrier/',
     type: 'article',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/estadio-roland-garros/pista-philippe-chatrier',
+    canonical: 'https://www.entradasrolandgarros.com/estadio-roland-garros/pista-philippe-chatrier/',
   },
 }
 
@@ -41,8 +41,8 @@ export default function PhilippeChartrierPage() {
 
       <Breadcrumbs
         items={[
-          { name: 'Estadio Roland Garros', url: 'https://entradasrolandgarros.com/estadio-roland-garros' },
-          { name: 'Pista Philippe-Chatrier', url: 'https://entradasrolandgarros.com/estadio-roland-garros/pista-philippe-chatrier' }
+          { name: 'Estadio Roland Garros', url: 'https://www.entradasrolandgarros.com/estadio-roland-garros/' },
+          { name: 'Pista Philippe-Chatrier', url: 'https://www.entradasrolandgarros.com/estadio-roland-garros/pista-philippe-chatrier/' }
         ]}
       />
 

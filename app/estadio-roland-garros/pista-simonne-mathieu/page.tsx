@@ -12,11 +12,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Pista Simonne-Mathieu: La Joya Arquitectónica de Roland Garros',
     description: 'La pista más innovadora de Roland Garros con su diseño único integrado en invernaderos históricos.',
-    url: 'https://entradasrolandgarros.com/estadio-roland-garros/pista-simonne-mathieu',
+    url: 'https://www.entradasrolandgarros.com/estadio-roland-garros/pista-simonne-mathieu/',
     type: 'article',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/estadio-roland-garros/pista-simonne-mathieu',
+    canonical: 'https://www.entradasrolandgarros.com/estadio-roland-garros/pista-simonne-mathieu/',
   },
 }
 
@@ -40,8 +40,8 @@ export default function SimonneMathieuPage() {
 
       <Breadcrumbs
         items={[
-          { name: 'Estadio Roland Garros', url: 'https://entradasrolandgarros.com/estadio-roland-garros' },
-          { name: 'Pista Simonne-Mathieu', url: 'https://entradasrolandgarros.com/estadio-roland-garros/pista-simonne-mathieu' }
+          { name: 'Estadio Roland Garros', url: 'https://www.entradasrolandgarros.com/estadio-roland-garros/' },
+          { name: 'Pista Simonne-Mathieu', url: 'https://www.entradasrolandgarros.com/estadio-roland-garros/pista-simonne-mathieu/' }
         ]}
       />
 

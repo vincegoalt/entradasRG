@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     title: 'Tipos de Entradas Roland Garros 2027: Guía Completa',
     description: 'Ground pass, entradas individuales, sesiones nocturnas y paquetes premium explicados en detalle.',
     type: 'article',
-    url: 'https://entradasrolandgarros.com/entradas-roland-garros-2027/tipos-de-entradas',
+    url: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/tipos-de-entradas/',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/entradas-roland-garros-2027/tipos-de-entradas',
+    canonical: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/tipos-de-entradas/',
   },
 }
 
@@ -64,8 +64,8 @@ export default function TiposEntradasPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Breadcrumbs
               items={[
-                { name: 'Entradas Roland Garros 2027', url: 'https://entradasrolandgarros.com/entradas-roland-garros-2027' },
-                { name: 'Tipos de Entradas', url: 'https://entradasrolandgarros.com/entradas-roland-garros-2027/tipos-de-entradas' }
+                { name: 'Entradas Roland Garros 2027', url: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/' },
+                { name: 'Tipos de Entradas', url: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/tipos-de-entradas/' }
               ]}
             />
           </div>

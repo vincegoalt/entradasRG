@@ -13,11 +13,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Mapa e Instalaciones de Roland Garros: Guía Completa 2027',
     description: 'Todo lo que necesitas saber sobre las instalaciones, tiendas, restaurantes y servicios en el complejo de Roland Garros.',
-    url: 'https://entradasrolandgarros.com/estadio-roland-garros/mapa-instalaciones',
+    url: 'https://www.entradasrolandgarros.com/estadio-roland-garros/mapa-instalaciones/',
     type: 'article',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/estadio-roland-garros/mapa-instalaciones',
+    canonical: 'https://www.entradasrolandgarros.com/estadio-roland-garros/mapa-instalaciones/',
   },
 }
 
@@ -42,8 +42,8 @@ export default function MapaInstalacionesPage() {
 
       <Breadcrumbs
         items={[
-          { name: 'Estadio Roland Garros', url: 'https://entradasrolandgarros.com/estadio-roland-garros' },
-          { name: 'Mapa e Instalaciones', url: 'https://entradasrolandgarros.com/estadio-roland-garros/mapa-instalaciones' }
+          { name: 'Estadio Roland Garros', url: 'https://www.entradasrolandgarros.com/estadio-roland-garros/' },
+          { name: 'Mapa e Instalaciones', url: 'https://www.entradasrolandgarros.com/estadio-roland-garros/mapa-instalaciones/' }
         ]}
       />
 

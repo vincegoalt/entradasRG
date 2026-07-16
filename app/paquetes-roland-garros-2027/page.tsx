@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     title: 'Paquetes Roland Garros 2027: Planifica tu Viaje Completo',
     description: 'Guía de planificación DIY: vuelos, hoteles y entradas para Roland Garros 2027.',
     type: 'article',
-    url: 'https://entradasrolandgarros.com/paquetes-roland-garros-2027',
+    url: 'https://www.entradasrolandgarros.com/paquetes-roland-garros-2027/',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/paquetes-roland-garros-2027',
+    canonical: 'https://www.entradasrolandgarros.com/paquetes-roland-garros-2027/',
   },
 }
 
@@ -53,7 +53,7 @@ export default function PaquetesPage() {
       <ArticleSchema
         headline="Paquetes Roland Garros 2027"
         description="Guía de planificación DIY para tu viaje a Roland Garros"
-        image="https://entradasrolandgarros.com/images/hero/rolandgarros2027.jpg"
+        image="https://www.entradasrolandgarros.com/images/hero/rolandgarros2027.jpg"
         datePublished="2026-02-09"
         dateModified="2026-07-16"
       />
@@ -73,7 +73,7 @@ export default function PaquetesPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Breadcrumbs
               items={[
-                { name: 'Paquetes Roland Garros 2027', url: 'https://entradasrolandgarros.com/paquetes-roland-garros-2027' }
+                { name: 'Paquetes Roland Garros 2027', url: 'https://www.entradasrolandgarros.com/paquetes-roland-garros-2027/' }
               ]}
             />
           </div>

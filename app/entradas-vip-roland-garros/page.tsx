@@ -22,10 +22,10 @@ export const metadata: Metadata = {
     title: 'Entradas VIP Roland Garros 2027: Guía de Hospitalidad Premium',
     description: 'Todo sobre entradas VIP, palcos privados y experiencias premium en Roland Garros 2027.',
     type: 'article',
-    url: 'https://entradasrolandgarros.com/entradas-vip-roland-garros',
+    url: 'https://www.entradasrolandgarros.com/entradas-vip-roland-garros/',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/entradas-vip-roland-garros',
+    canonical: 'https://www.entradasrolandgarros.com/entradas-vip-roland-garros/',
   },
 }
 
@@ -54,7 +54,7 @@ export default function EntradasVipPage() {
       <ArticleSchema
         headline="Entradas VIP Roland Garros 2027"
         description="Guía completa de hospitalidad y experiencias premium"
-        image="https://entradasrolandgarros.com/images/hero/rolandgarros2027.jpg"
+        image="https://www.entradasrolandgarros.com/images/hero/rolandgarros2027.jpg"
         datePublished="2026-02-09"
         dateModified="2026-07-16"
       />
@@ -74,7 +74,7 @@ export default function EntradasVipPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Breadcrumbs
               items={[
-                { name: 'Entradas VIP Roland Garros', url: 'https://entradasrolandgarros.com/entradas-vip-roland-garros' }
+                { name: 'Entradas VIP Roland Garros', url: 'https://www.entradasrolandgarros.com/entradas-vip-roland-garros/' }
               ]}
             />
           </div>

@@ -52,10 +52,10 @@ export default function HomePage() {
         <div className="relative z-10 flex flex-col items-center gap-6 sm:gap-8 px-4 text-center max-w-3xl mx-auto">
           <div className="flex flex-col gap-3">
             <p className="text-orange-300 text-sm sm:text-base font-semibold uppercase tracking-widest">
-              24 Mayo - 7 Junio 2027 &middot; París
+              23 Mayo - 6 Junio 2027 &middot; París
             </p>
             <h1 className="text-white text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.1] tracking-tight drop-shadow-lg">
-              Tu Guía para Vivir
+              Tu Guía para Vivir{' '}
               <span className="block text-gradient">Roland Garros 2027</span>
             </h1>
             <p className="text-white/85 text-base sm:text-lg leading-relaxed max-w-xl mx-auto">
@@ -102,7 +102,7 @@ export default function HomePage() {
             <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-orange-500 to-red-600 p-5 text-white">
               <span className="material-symbols-outlined absolute -right-2 -top-2 text-white/10" style={{fontSize: '72px', fontVariationSettings: "'FILL' 1"}}>calendar_month</span>
               <p className="text-white/80 text-xs font-medium uppercase tracking-wider">Fechas</p>
-              <p className="text-xl sm:text-2xl font-black mt-1">24 May - 7 Jun</p>
+              <p className="text-xl sm:text-2xl font-black mt-1">23 May - 6 Jun</p>
             </div>
             <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-amber-500 to-orange-600 p-5 text-white">
               <span className="material-symbols-outlined absolute -right-2 -top-2 text-white/10" style={{fontSize: '72px', fontVariationSettings: "'FILL' 1"}}>location_on</span>

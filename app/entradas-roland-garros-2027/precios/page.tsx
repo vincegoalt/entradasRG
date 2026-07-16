@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     title: 'Precios Entradas Roland Garros 2027: Guía Completa',
     description: 'Desglose detallado de precios de entradas para Roland Garros 2027 por ronda, pista y categoría.',
     type: 'article',
-    url: 'https://entradasrolandgarros.com/entradas-roland-garros-2027/precios',
+    url: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/precios/',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/entradas-roland-garros-2027/precios',
+    canonical: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/precios/',
   },
 }
 
@@ -88,8 +88,8 @@ export default function PreciosPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Breadcrumbs
               items={[
-                { name: 'Entradas Roland Garros 2027', url: 'https://entradasrolandgarros.com/entradas-roland-garros-2027' },
-                { name: 'Precios', url: 'https://entradasrolandgarros.com/entradas-roland-garros-2027/precios' }
+                { name: 'Entradas Roland Garros 2027', url: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/' },
+                { name: 'Precios', url: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/precios/' }
               ]}
             />
           </div>

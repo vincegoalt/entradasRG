@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     type: 'article',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/guia-completa/que-llevar',
+    canonical: 'https://www.entradasrolandgarros.com/guia-completa/que-llevar/',
   },
 }
 

@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     title: 'Entradas Premium Roland Garros 2027: Club des Loges y Hospitalidad Corporativa',
     description: 'Paquetes premium exclusivos para Roland Garros 2027: Club des Loges, hospitalidad, opciones corporativas y experiencias únicas.',
     type: 'article',
-    url: 'https://entradasrolandgarros.com/entradas-roland-garros-2027/entradas-premium',
+    url: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/entradas-premium/',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/entradas-roland-garros-2027/entradas-premium',
+    canonical: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/entradas-premium/',
   },
 }
 

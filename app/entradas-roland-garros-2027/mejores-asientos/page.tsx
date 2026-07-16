@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     title: 'Mejores Asientos Roland Garros 2027: Guía Completa',
     description: 'Descubre los mejores asientos por pista, consideraciones de sol/sombra y categorías recomendadas.',
     type: 'article',
-    url: 'https://entradasrolandgarros.com/entradas-roland-garros-2027/mejores-asientos',
+    url: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/mejores-asientos/',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/entradas-roland-garros-2027/mejores-asientos',
+    canonical: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/mejores-asientos/',
   },
 }
 
@@ -64,8 +64,8 @@ export default function MejoresAsientosPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Breadcrumbs
               items={[
-                { name: 'Entradas Roland Garros 2027', url: 'https://entradasrolandgarros.com/entradas-roland-garros-2027' },
-                { name: 'Mejores Asientos', url: 'https://entradasrolandgarros.com/entradas-roland-garros-2027/mejores-asientos' }
+                { name: 'Entradas Roland Garros 2027', url: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/' },
+                { name: 'Mejores Asientos', url: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/mejores-asientos/' }
               ]}
             />
           </div>

@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     title: 'Dónde Comprar Entradas Roland Garros 2027: Todas las Opciones',
     description: 'Canal oficial, plataformas internacionales verificadas y cómo evitar estafas al comprar entradas para Roland Garros.',
     type: 'article',
-    url: 'https://entradasrolandgarros.com/entradas-roland-garros-2027/donde-comprar',
+    url: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/donde-comprar/',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/entradas-roland-garros-2027/donde-comprar',
+    canonical: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/donde-comprar/',
   },
 }
 
@@ -68,8 +68,8 @@ export default function DondeComprarPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Breadcrumbs
               items={[
-                { name: 'Entradas Roland Garros 2027', url: 'https://entradasrolandgarros.com/entradas-roland-garros-2027' },
-                { name: 'Dónde Comprar', url: 'https://entradasrolandgarros.com/entradas-roland-garros-2027/donde-comprar' }
+                { name: 'Entradas Roland Garros 2027', url: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/' },
+                { name: 'Dónde Comprar', url: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/donde-comprar/' }
               ]}
             />
           </div>

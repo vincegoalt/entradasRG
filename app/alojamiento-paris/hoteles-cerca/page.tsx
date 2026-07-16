@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     type: 'article',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/alojamiento-paris/hoteles-cerca',
+    canonical: 'https://www.entradasrolandgarros.com/alojamiento-paris/hoteles-cerca/',
   },
 }
 

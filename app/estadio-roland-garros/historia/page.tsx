@@ -12,11 +12,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Historia de Roland Garros: Del Aviador al Estadio Legendario',
     description: 'La fascinante historia de Roland Garros desde sus orígenes en 1928 hasta convertirse en el torneo de tenis más prestigioso en tierra batida.',
-    url: 'https://entradasrolandgarros.com/estadio-roland-garros/historia',
+    url: 'https://www.entradasrolandgarros.com/estadio-roland-garros/historia/',
     type: 'article',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/estadio-roland-garros/historia',
+    canonical: 'https://www.entradasrolandgarros.com/estadio-roland-garros/historia/',
   },
 }
 
@@ -26,7 +26,7 @@ export default function HistoriaRolandGarrosPage() {
       <ArticleSchema
         headline="Historia de Roland Garros: Del Aviador Pionero al Estadio Legendario"
         description="La historia completa de Roland Garros, desde el aviador que le dio su nombre hasta el estadio y torneo que se convirtió en leyenda del tenis mundial"
-        image="https://entradasrolandgarros.com/images/historia-roland-garros.jpg"
+        image="https://www.entradasrolandgarros.com/images/historia-roland-garros.jpg"
         datePublished="2024-01-15"
         dateModified="2024-01-15"
         authorName="Equipo EntradasRolandGarros.com"
@@ -42,8 +42,8 @@ export default function HistoriaRolandGarrosPage() {
 
       <Breadcrumbs
         items={[
-          { name: 'Estadio Roland Garros', url: 'https://entradasrolandgarros.com/estadio-roland-garros' },
-          { name: 'Historia', url: 'https://entradasrolandgarros.com/estadio-roland-garros/historia' }
+          { name: 'Estadio Roland Garros', url: 'https://www.entradasrolandgarros.com/estadio-roland-garros/' },
+          { name: 'Historia', url: 'https://www.entradasrolandgarros.com/estadio-roland-garros/historia/' }
         ]}
       />
 

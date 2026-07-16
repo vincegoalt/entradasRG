@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     type: 'article',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/jugadores-favoritos-2027/favoritos-masculinos',
+    canonical: 'https://www.entradasrolandgarros.com/jugadores-favoritos-2027/favoritos-masculinos/',
   },
 }
 

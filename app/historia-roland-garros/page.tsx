@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     title: 'Historia de Roland Garros: Del Aviador al Grand Slam',
     description: 'La fascinante historia de Roland Garros: el aviador, el torneo y sus momentos más memorables.',
     type: 'article',
-    url: 'https://entradasrolandgarros.com/historia-roland-garros',
+    url: 'https://www.entradasrolandgarros.com/historia-roland-garros/',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/historia-roland-garros',
+    canonical: 'https://www.entradasrolandgarros.com/historia-roland-garros/',
   },
 }
 
@@ -70,7 +70,7 @@ export default function HistoriaRolandGarrosPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Breadcrumbs
               items={[
-                { name: 'Historia de Roland Garros', url: 'https://entradasrolandgarros.com/historia-roland-garros' }
+                { name: 'Historia de Roland Garros', url: 'https://www.entradasrolandgarros.com/historia-roland-garros/' }
               ]}
             />
           </div>

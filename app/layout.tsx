@@ -12,7 +12,7 @@ const lexend = Lexend({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://entradasrolandgarros.com'),
+  metadataBase: new URL('https://www.entradasrolandgarros.com/'),
   title: {
     default: 'Roland Garros 2027: Fechas, Entradas, Calendario y Guía Completa',
     template: '%s | Entradas Roland Garros 2027'
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'es_ES',
-    url: 'https://entradasrolandgarros.com',
+    url: 'https://www.entradasrolandgarros.com/',
     siteName: 'Entradas Roland Garros 2027',
     title: 'Roland Garros 2027: Guía Completa en Español',
     description: 'Guía definitiva de Roland Garros 2027 en español. Calendario, entradas, precios y todo lo que necesitas saber.',
@@ -61,9 +61,9 @@ export const metadata: Metadata = {
     images: ['/images/twitter-image.jpg'],
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com',
+    canonical: 'https://www.entradasrolandgarros.com/',
     languages: {
-      'es': 'https://entradasrolandgarros.com',
+      'es': 'https://www.entradasrolandgarros.com/',
       'x-default': 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session',
     },
   },

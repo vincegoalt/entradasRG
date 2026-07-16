@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: 'Guía completa sobre el orden de juego diario de Roland Garros 2027. Aprende cómo consultarlo, interpretarlo y planificar tu día en el torneo.',
   keywords: 'orden de juego roland garros, programa diario roland garros, partidos hoy roland garros, horarios partidos roland garros 2027',
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/calendario-roland-garros-2027/orden-de-juego',
+    canonical: 'https://www.entradasrolandgarros.com/calendario-roland-garros-2027/orden-de-juego/',
   },
 }
 
@@ -21,7 +21,7 @@ export default function OrdenDeJuegoPage() {
       <ArticleSchema
         headline="Orden de Juego Roland Garros 2027"
         description="Todo lo que necesitas saber sobre el orden de juego diario de Roland Garros 2027"
-        image="https://entradasrolandgarros.com/images/orden-juego-roland-garros.jpg"
+        image="https://www.entradasrolandgarros.com/images/orden-juego-roland-garros.jpg"
         datePublished="2025-01-15"
         dateModified="2025-01-15"
       />
@@ -38,8 +38,8 @@ export default function OrdenDeJuegoPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumbs
             items={[
-              { name: 'Calendario Roland Garros 2027', url: 'https://entradasrolandgarros.com/calendario-roland-garros-2027' },
-              { name: 'Orden de Juego', url: 'https://entradasrolandgarros.com/calendario-roland-garros-2027/orden-de-juego' }
+              { name: 'Calendario Roland Garros 2027', url: 'https://www.entradasrolandgarros.com/calendario-roland-garros-2027/' },
+              { name: 'Orden de Juego', url: 'https://www.entradasrolandgarros.com/calendario-roland-garros-2027/orden-de-juego/' }
             ]}
           />
         </div>

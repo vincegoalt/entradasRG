@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://entradasrolandgarros.com'
+  const baseUrl = 'https://www.entradasrolandgarros.com'
   const lastModified = '2026-07-16'
 
   // Static pages with their priorities
@@ -71,7 +71,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]
 
   return routes.map((route) => ({
-    url: `${baseUrl}${route.url}`,
+    url: `${baseUrl}${route.url}/`,
     lastModified,
     changeFrequency: route.changeFrequency,
     priority: route.priority,

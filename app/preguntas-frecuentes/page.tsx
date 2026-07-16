@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     type: 'article',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/preguntas-frecuentes',
+    canonical: 'https://www.entradasrolandgarros.com/preguntas-frecuentes/',
   },
 }
 

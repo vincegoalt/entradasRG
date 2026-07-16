@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     title: 'Entradas Final Roland Garros 2027: Precios y Cómo Comprar',
     description: 'Precios desde 150 EUR. Sistema de lotería, guía paso a paso y alternativas.',
     type: 'article',
-    url: 'https://entradasrolandgarros.com/entradas-final-roland-garros',
+    url: 'https://www.entradasrolandgarros.com/entradas-final-roland-garros/',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/entradas-final-roland-garros',
+    canonical: 'https://www.entradasrolandgarros.com/entradas-final-roland-garros/',
   },
 }
 
@@ -65,7 +65,7 @@ export default function EntradasFinalRolandGarrosPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Breadcrumbs
               items={[
-                { name: 'Entradas Final Roland Garros', url: 'https://entradasrolandgarros.com/entradas-final-roland-garros' }
+                { name: 'Entradas Final Roland Garros', url: 'https://www.entradasrolandgarros.com/entradas-final-roland-garros/' }
               ]}
             />
           </div>

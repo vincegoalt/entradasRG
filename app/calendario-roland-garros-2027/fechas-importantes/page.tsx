@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: 'Todas las fechas importantes de Roland Garros 2027: clasificaciones, rondas principales, finales y eventos especiales. Planifica tu visita con nuestro calendario detallado.',
   keywords: 'fechas roland garros 2027, calendario roland garros, fechas torneo french open, clasificaciones roland garros',
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/calendario-roland-garros-2027/fechas-importantes',
+    canonical: 'https://www.entradasrolandgarros.com/calendario-roland-garros-2027/fechas-importantes/',
   },
 }
 
@@ -20,7 +20,7 @@ export default function FechasImportantesPage() {
       <ArticleSchema
         headline="Fechas Importantes Roland Garros 2027"
         description="Calendario detallado con todas las fechas clave del torneo Roland Garros 2027"
-        image="https://entradasrolandgarros.com/images/calendario-roland-garros.jpg"
+        image="https://www.entradasrolandgarros.com/images/calendario-roland-garros.jpg"
         datePublished="2025-01-15"
         dateModified="2026-07-16"
       />
@@ -37,8 +37,8 @@ export default function FechasImportantesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumbs
             items={[
-              { name: 'Calendario Roland Garros 2027', url: 'https://entradasrolandgarros.com/calendario-roland-garros-2027' },
-              { name: 'Fechas Importantes', url: 'https://entradasrolandgarros.com/calendario-roland-garros-2027/fechas-importantes' }
+              { name: 'Calendario Roland Garros 2027', url: 'https://www.entradasrolandgarros.com/calendario-roland-garros-2027/' },
+              { name: 'Fechas Importantes', url: 'https://www.entradasrolandgarros.com/calendario-roland-garros-2027/fechas-importantes/' }
             ]}
           />
         </div>
@@ -67,7 +67,7 @@ export default function FechasImportantesPage() {
                   <li><strong>Primera ronda:</strong> 23-25 de mayo de 2027</li>
                   <li><strong>Segunda ronda:</strong> 26-27 de mayo de 2027</li>
                   <li><strong>Tercera ronda:</strong> 28-29 de mayo de 2027</li>
-                  <li><strong>Octavos de final:</strong> 31 mayo - 1 junio de 2027</li>
+                  <li><strong>Octavos de final:</strong> 30 mayo - 31 mayo de 2027</li>
                   <li><strong>Cuartos de final:</strong> 1-2 de junio de 2027</li>
                   <li><strong>Semifinales:</strong> 3-4 de junio de 2027</li>
                   <li><strong>Final femenina:</strong> Sábado 5 de junio de 2027</li>
@@ -162,7 +162,7 @@ export default function FechasImportantesPage() {
                 </p>
               </div>
 
-              <h2 className="text-3xl font-bold mb-6 text-gray-900 mt-12">Segunda Semana del Torneo (31 mayo - 7 junio)</h2>
+              <h2 className="text-3xl font-bold mb-6 text-gray-900 mt-12">Segunda Semana del Torneo (30 mayo - 6 junio)</h2>
 
               <p className="text-gray-700 leading-relaxed mb-6">
                 La segunda semana de Roland Garros es donde el torneo alcanza su clímax. Con solo los mejores
@@ -170,7 +170,7 @@ export default function FechasImportantesPage() {
                 aumentan considerablemente, pero la calidad del tenis es incomparable.
               </p>
 
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">Octavos de Final (31 mayo - 1 junio)</h3>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">Octavos de Final (30 mayo - 31 mayo)</h3>
               <div className="bg-gray-50 rounded-lg p-6 mb-6">
                 <p className="text-gray-700 mb-4">
                   El lunes 30 de mayo marca el inicio de la segunda semana con los octavos de final. Solo 16

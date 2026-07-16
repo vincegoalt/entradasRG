@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: 'article',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/guia-completa/sesion-nocturna',
+    canonical: 'https://www.entradasrolandgarros.com/guia-completa/sesion-nocturna/',
   },
 }
 

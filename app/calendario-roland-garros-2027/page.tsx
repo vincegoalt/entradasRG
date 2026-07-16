@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: 'Calendario completo Roland Garros 2027 con fechas de cada ronda, horarios detallados y orden de juego diario. Planifica tu visita al torneo de tenis más prestigioso en tierra batida.',
   keywords: 'calendario roland garros 2027, fechas roland garros 2027, horarios roland garros, orden de juego roland garros, calendario french open 2027',
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/calendario-roland-garros-2027',
+    canonical: 'https://www.entradasrolandgarros.com/calendario-roland-garros-2027/',
   },
 }
 
@@ -62,7 +62,7 @@ export default function CalendarioPage() {
           title="Calendario Roland Garros 2027"
           subtitle="Fechas de cada ronda, horarios detallados y orden de juego diario del torneo"
           image="/images/heroes/clay-court.jpg"
-          badge={{ icon: 'calendar_month', text: '24 Mayo - 7 Junio 2027' }}
+          badge={{ icon: 'calendar_month', text: '23 Mayo - 6 Junio 2027' }}
           primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
           secondaryCta={{ text: 'Ver Horarios', href: '#horarios', icon: 'schedule' }}
         />
@@ -72,7 +72,7 @@ export default function CalendarioPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Breadcrumbs
               items={[
-                { name: 'Calendario Roland Garros 2027', url: 'https://entradasrolandgarros.com/calendario-roland-garros-2027' }
+                { name: 'Calendario Roland Garros 2027', url: 'https://www.entradasrolandgarros.com/calendario-roland-garros-2027/' }
               ]}
             />
           </div>
@@ -170,7 +170,7 @@ export default function CalendarioPage() {
                     </div>
                     <div>
                       <h4 className="font-bold text-[#1d110c]">Sorteo del Cuadro Principal</h4>
-                      <p className="text-sm text-[#a15d45]">Jueves, 21 de Mayo</p>
+                      <p className="text-sm text-[#a15d45]">Jueves, 20 de Mayo</p>
                     </div>
                   </div>
                 </div>
@@ -181,7 +181,7 @@ export default function CalendarioPage() {
                     </div>
                     <div>
                       <h4 className="font-bold text-[#1d110c]">Inicio del Torneo</h4>
-                      <p className="text-sm text-[#a15d45]">Domingo, 24 de Mayo</p>
+                      <p className="text-sm text-[#a15d45]">Domingo, 23 de Mayo</p>
                     </div>
                   </div>
                 </div>
@@ -192,7 +192,7 @@ export default function CalendarioPage() {
                     </div>
                     <div>
                       <h4 className="font-bold text-[#1d110c]">Finales del Torneo</h4>
-                      <p className="text-sm text-[#a15d45]">Sábado 6 y Domingo 7 de Junio</p>
+                      <p className="text-sm text-[#a15d45]">Sábado 5 y Domingo 6 de Junio</p>
                     </div>
                   </div>
                 </div>
@@ -221,22 +221,22 @@ export default function CalendarioPage() {
                     </thead>
                     <tbody>
                       <tr className="border-t border-[#f4eae6]">
-                        <td className="p-4 whitespace-nowrap">Lunes, 18 de Mayo</td>
+                        <td className="p-4 whitespace-nowrap">Lunes, 17 de Mayo</td>
                         <td className="p-4">Primera Ronda Masculina y Femenina</td>
                         <td className="p-4">10:00 AM</td>
                       </tr>
                       <tr className="bg-[#fcf9f8] border-t border-[#f4eae6]">
-                        <td className="p-4 whitespace-nowrap">Martes, 19 de Mayo</td>
+                        <td className="p-4 whitespace-nowrap">Martes, 18 de Mayo</td>
                         <td className="p-4">Primera Ronda Masculina y Femenina</td>
                         <td className="p-4">10:00 AM</td>
                       </tr>
                       <tr className="border-t border-[#f4eae6]">
-                        <td className="p-4 whitespace-nowrap">Miércoles, 20 de Mayo</td>
+                        <td className="p-4 whitespace-nowrap">Miércoles, 19 de Mayo</td>
                         <td className="p-4">Segunda Ronda Masculina y Femenina</td>
                         <td className="p-4">11:00 AM</td>
                       </tr>
                       <tr className="bg-[#fcf9f8] border-t border-[#f4eae6]">
-                        <td className="p-4 whitespace-nowrap">Viernes, 22 de Mayo</td>
+                        <td className="p-4 whitespace-nowrap">Viernes, 21 de Mayo</td>
                         <td className="p-4">Ronda Final Masculina y Femenina</td>
                         <td className="p-4">11:00 AM</td>
                       </tr>
@@ -268,22 +268,22 @@ export default function CalendarioPage() {
                     </thead>
                     <tbody>
                       <tr className="border-t border-[#f4eae6]">
-                        <td className="p-4 whitespace-nowrap">Dom 24 - Lun 25 Mayo</td>
+                        <td className="p-4 whitespace-nowrap">Dom 23 - Lun 24 Mayo</td>
                         <td className="p-4">Primera Ronda</td>
                         <td className="p-4">128 jugadores en cada cuadro</td>
                       </tr>
                       <tr className="bg-[#fcf9f8] border-t border-[#f4eae6]">
-                        <td className="p-4 whitespace-nowrap">Mie 27 - Jue 28 Mayo</td>
+                        <td className="p-4 whitespace-nowrap">Mie 26 - Jue 27 Mayo</td>
                         <td className="p-4">Segunda Ronda</td>
                         <td className="p-4">64 jugadores restantes</td>
                       </tr>
                       <tr className="border-t border-[#f4eae6]">
-                        <td className="p-4 whitespace-nowrap">Vie 29 - Sáb 30 Mayo</td>
+                        <td className="p-4 whitespace-nowrap">Vie 28 - Sáb 29 Mayo</td>
                         <td className="p-4">Tercera Ronda</td>
                         <td className="p-4">32 jugadores restantes</td>
                       </tr>
                       <tr className="bg-[#fcf9f8] border-t border-[#f4eae6]">
-                        <td className="p-4 whitespace-nowrap">Dom 31 Mayo - Lun 1 Jun</td>
+                        <td className="p-4 whitespace-nowrap">Dom 30 Mayo - Lun 31 Mayo</td>
                         <td className="p-4">Octavos de Final</td>
                         <td className="p-4">16 jugadores restantes</td>
                       </tr>
@@ -315,22 +315,22 @@ export default function CalendarioPage() {
                     </thead>
                     <tbody>
                       <tr className="border-t border-[#f4eae6]">
-                        <td className="p-4 whitespace-nowrap">Mar 2 - Mie 3 Junio</td>
+                        <td className="p-4 whitespace-nowrap">Mar 1 - Mie 2 Junio</td>
                         <td className="p-4">Cuartos de Final</td>
                         <td className="p-4">8 jugadores restantes</td>
                       </tr>
                       <tr className="bg-[#fcf9f8] border-t border-[#f4eae6]">
-                        <td className="p-4 whitespace-nowrap">Jue 4 - Vie 5 Junio</td>
+                        <td className="p-4 whitespace-nowrap">Jue 3 - Vie 4 Junio</td>
                         <td className="p-4">Semifinales</td>
                         <td className="p-4">4 jugadores restantes</td>
                       </tr>
                       <tr className="border-t border-[#f4eae6]">
-                        <td className="p-4 whitespace-nowrap">Sábado 6 Junio</td>
+                        <td className="p-4 whitespace-nowrap">Sábado 5 Junio</td>
                         <td className="p-4">Final Femenina</td>
                         <td className="p-4">Court Philippe-Chatrier</td>
                       </tr>
                       <tr className="bg-[#fcf9f8] border-t border-[#f4eae6]">
-                        <td className="p-4 whitespace-nowrap">Domingo 7 Junio</td>
+                        <td className="p-4 whitespace-nowrap">Domingo 6 Junio</td>
                         <td className="p-4">Final Masculina</td>
                         <td className="p-4">Court Philippe-Chatrier</td>
                       </tr>
@@ -355,7 +355,7 @@ export default function CalendarioPage() {
                       emoji_events
                     </span>
                     <div>
-                      <h4 className="font-bold text-[#1d110c]">Sábado, 6 de Junio</h4>
+                      <h4 className="font-bold text-[#1d110c]">Sábado, 5 de Junio</h4>
                       <p className="text-sm text-[#a15d45]">Final Individual Femenina, Final Dobles Masculino</p>
                     </div>
                   </div>
@@ -364,7 +364,7 @@ export default function CalendarioPage() {
                       emoji_events
                     </span>
                     <div>
-                      <h4 className="font-bold text-[#1d110c]">Domingo, 7 de Junio</h4>
+                      <h4 className="font-bold text-[#1d110c]">Domingo, 6 de Junio</h4>
                       <p className="text-sm text-[#a15d45]">Final Individual Masculina, Final Dobles Femenino</p>
                     </div>
                   </div>

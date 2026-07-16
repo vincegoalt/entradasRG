@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     title: 'Dónde Se Juega Roland Garros: Ubicación y Superficie',
     description: 'Stade Roland Garros, París 75016. Tierra batida. Todo sobre la ubicación y cómo llegar.',
     type: 'article',
-    url: 'https://entradasrolandgarros.com/donde-se-juega-roland-garros',
+    url: 'https://www.entradasrolandgarros.com/donde-se-juega-roland-garros/',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/donde-se-juega-roland-garros',
+    canonical: 'https://www.entradasrolandgarros.com/donde-se-juega-roland-garros/',
   },
 }
 
@@ -66,7 +66,7 @@ export default function DondeSeJuegaRolandGarrosPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Breadcrumbs
               items={[
-                { name: 'Dónde Se Juega Roland Garros', url: 'https://entradasrolandgarros.com/donde-se-juega-roland-garros' }
+                { name: 'Dónde Se Juega Roland Garros', url: 'https://www.entradasrolandgarros.com/donde-se-juega-roland-garros/' }
               ]}
             />
           </div>

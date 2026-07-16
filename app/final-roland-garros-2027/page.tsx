@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     title: 'Final Roland Garros 2027: Fechas, Horarios y Entradas',
     description: 'Final femenina 5 de junio, final masculina 6 de junio 2027 en Philippe-Chatrier. Guía completa.',
     type: 'article',
-    url: 'https://entradasrolandgarros.com/final-roland-garros-2027',
+    url: 'https://www.entradasrolandgarros.com/final-roland-garros-2027/',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/final-roland-garros-2027',
+    canonical: 'https://www.entradasrolandgarros.com/final-roland-garros-2027/',
   },
 }
 
@@ -70,7 +70,7 @@ export default function FinalRolandGarros2027Page() {
         name="Final Roland Garros 2027"
         startDate="2027-06-05"
         endDate="2027-06-06"
-        description="Finales del torneo Roland Garros 2027 - Final femenina 6 junio, final masculina 7 junio en Philippe-Chatrier"
+        description="Finales del torneo Roland Garros 2027 - Final femenina 5 junio, final masculina 6 junio en Philippe-Chatrier"
       />
       <FAQSchema faqs={faqs} />
 
@@ -79,7 +79,7 @@ export default function FinalRolandGarros2027Page() {
           title="Final Roland Garros 2027"
           subtitle="Fechas, horarios, entradas y guía completa de las finales masculina y femenina"
           image="/images/heroes/tennis-stadium.jpg"
-          badge={{ icon: 'emoji_events', text: 'Final Femenina 6 Jun · Final Masculina 7 Jun' }}
+          badge={{ icon: 'emoji_events', text: 'Final Femenina 5 Jun · Final Masculina 6 Jun' }}
           primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
           secondaryCta={{ text: 'Ver Precios', href: '#precios', icon: 'arrow_downward' }}
         />
@@ -88,7 +88,7 @@ export default function FinalRolandGarros2027Page() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Breadcrumbs
               items={[
-                { name: 'Final Roland Garros 2027', url: 'https://entradasrolandgarros.com/final-roland-garros-2027' }
+                { name: 'Final Roland Garros 2027', url: 'https://www.entradasrolandgarros.com/final-roland-garros-2027/' }
               ]}
             />
           </div>
@@ -123,37 +123,37 @@ export default function FinalRolandGarros2027Page() {
                     </thead>
                     <tbody className="divide-y divide-[#ead5cd]">
                       <tr className="bg-white">
-                        <td className="py-3 px-4 font-semibold">Mar 2 junio</td>
+                        <td className="py-3 px-4 font-semibold">Mar 1 junio</td>
                         <td className="py-3 px-4">Cuartos de final (M)</td>
                         <td className="py-3 px-4">Philippe-Chatrier</td>
                         <td className="py-3 px-4">11:00</td>
                       </tr>
                       <tr className="bg-[#fcf9f8]">
-                        <td className="py-3 px-4 font-semibold">Mie 3 junio</td>
+                        <td className="py-3 px-4 font-semibold">Mie 2 junio</td>
                         <td className="py-3 px-4">Cuartos de final (F)</td>
                         <td className="py-3 px-4">Philippe-Chatrier</td>
                         <td className="py-3 px-4">11:00</td>
                       </tr>
                       <tr className="bg-white">
-                        <td className="py-3 px-4 font-semibold">Jue 4 junio</td>
+                        <td className="py-3 px-4 font-semibold">Jue 3 junio</td>
                         <td className="py-3 px-4">Semifinales femeninas</td>
                         <td className="py-3 px-4">Philippe-Chatrier</td>
                         <td className="py-3 px-4">15:00</td>
                       </tr>
                       <tr className="bg-[#fcf9f8]">
-                        <td className="py-3 px-4 font-semibold">Vie 5 junio</td>
+                        <td className="py-3 px-4 font-semibold">Vie 4 junio</td>
                         <td className="py-3 px-4">Semifinales masculinas</td>
                         <td className="py-3 px-4">Philippe-Chatrier</td>
                         <td className="py-3 px-4">14:30</td>
                       </tr>
                       <tr className="bg-white">
-                        <td className="py-3 px-4 font-semibold">Sáb 6 junio</td>
+                        <td className="py-3 px-4 font-semibold">Sáb 5 junio</td>
                         <td className="py-3 px-4 font-bold text-primary">Final femenina</td>
                         <td className="py-3 px-4">Philippe-Chatrier</td>
                         <td className="py-3 px-4">15:00</td>
                       </tr>
                       <tr className="bg-[#fcf9f8]">
-                        <td className="py-3 px-4 font-semibold">Dom 7 junio</td>
+                        <td className="py-3 px-4 font-semibold">Dom 6 junio</td>
                         <td className="py-3 px-4 font-bold text-primary">Final masculina</td>
                         <td className="py-3 px-4">Philippe-Chatrier</td>
                         <td className="py-3 px-4">15:00</td>

@@ -12,11 +12,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Pista Suzanne-Lenglen: Segunda Pista Principal de Roland Garros',
     description: 'Todo sobre la pista Suzanne-Lenglen con capacidad para 10,068 espectadores y su ambiente único.',
-    url: 'https://entradasrolandgarros.com/estadio-roland-garros/pista-suzanne-lenglen',
+    url: 'https://www.entradasrolandgarros.com/estadio-roland-garros/pista-suzanne-lenglen/',
     type: 'article',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/estadio-roland-garros/pista-suzanne-lenglen',
+    canonical: 'https://www.entradasrolandgarros.com/estadio-roland-garros/pista-suzanne-lenglen/',
   },
 }
 
@@ -40,8 +40,8 @@ export default function SuzanneLenglenPage() {
 
       <Breadcrumbs
         items={[
-          { name: 'Estadio Roland Garros', url: 'https://entradasrolandgarros.com/estadio-roland-garros' },
-          { name: 'Pista Suzanne-Lenglen', url: 'https://entradasrolandgarros.com/estadio-roland-garros/pista-suzanne-lenglen' }
+          { name: 'Estadio Roland Garros', url: 'https://www.entradasrolandgarros.com/estadio-roland-garros/' },
+          { name: 'Pista Suzanne-Lenglen', url: 'https://www.entradasrolandgarros.com/estadio-roland-garros/pista-suzanne-lenglen/' }
         ]}
       />
 

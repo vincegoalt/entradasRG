@@ -12,7 +12,7 @@ interface BreadcrumbsProps {
 
 export function Breadcrumbs({ items }: BreadcrumbsProps) {
   const allItems = [
-    { name: 'Inicio', url: 'https://entradasrolandgarros.com' },
+    { name: 'Inicio', url: 'https://www.entradasrolandgarros.com/' },
     ...items
   ]
 

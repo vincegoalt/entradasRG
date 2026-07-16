@@ -22,10 +22,10 @@ export const metadata: Metadata = {
     title: 'Comprar Entradas Roland Garros desde Latinoamérica',
     description: 'Guía para hispanos: cómo comprar entradas para Roland Garros 2027 desde cualquier país de habla hispana.',
     type: 'article',
-    url: 'https://entradasrolandgarros.com/comprar-entradas-roland-garros-desde-latinoamerica',
+    url: 'https://www.entradasrolandgarros.com/comprar-entradas-roland-garros-desde-latinoamerica/',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/comprar-entradas-roland-garros-desde-latinoamerica',
+    canonical: 'https://www.entradasrolandgarros.com/comprar-entradas-roland-garros-desde-latinoamerica/',
   },
 }
 
@@ -54,7 +54,7 @@ export default function ComprarDesdeLatamPage() {
       <ArticleSchema
         headline="Comprar Entradas Roland Garros desde Latinoamérica"
         description="Guía completa para compradores hispanos internacionales"
-        image="https://entradasrolandgarros.com/images/hero/rolandgarros2027.jpg"
+        image="https://www.entradasrolandgarros.com/images/hero/rolandgarros2027.jpg"
         datePublished="2026-02-09"
         dateModified="2026-07-16"
       />
@@ -74,7 +74,7 @@ export default function ComprarDesdeLatamPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Breadcrumbs
               items={[
-                { name: 'Comprar desde Latinoamérica', url: 'https://entradasrolandgarros.com/comprar-entradas-roland-garros-desde-latinoamerica' }
+                { name: 'Comprar desde Latinoamérica', url: 'https://www.entradasrolandgarros.com/comprar-entradas-roland-garros-desde-latinoamerica/' }
               ]}
             />
           </div>

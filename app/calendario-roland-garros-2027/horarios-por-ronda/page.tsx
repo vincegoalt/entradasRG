@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: 'Horarios detallados de cada ronda de Roland Garros 2027. Conoce cuándo comienzan los partidos en cada pista y planifica tu día en el torneo.',
   keywords: 'horarios roland garros, horarios por ronda, programación roland garros 2027, sesiones roland garros, hora partidos roland garros',
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/calendario-roland-garros-2027/horarios-por-ronda',
+    canonical: 'https://www.entradasrolandgarros.com/calendario-roland-garros-2027/horarios-por-ronda/',
   },
 }
 
@@ -20,7 +20,7 @@ export default function HorariosPorRondaPage() {
       <ArticleSchema
         headline="Horarios por Ronda Roland Garros 2027"
         description="Guía completa de horarios para cada ronda del torneo Roland Garros 2027"
-        image="https://entradasrolandgarros.com/images/horarios-roland-garros.jpg"
+        image="https://www.entradasrolandgarros.com/images/horarios-roland-garros.jpg"
         datePublished="2025-01-15"
         dateModified="2025-01-15"
       />
@@ -37,8 +37,8 @@ export default function HorariosPorRondaPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumbs
             items={[
-              { name: 'Calendario Roland Garros 2027', url: 'https://entradasrolandgarros.com/calendario-roland-garros-2027' },
-              { name: 'Horarios por Ronda', url: 'https://entradasrolandgarros.com/calendario-roland-garros-2027/horarios-por-ronda' }
+              { name: 'Calendario Roland Garros 2027', url: 'https://www.entradasrolandgarros.com/calendario-roland-garros-2027/' },
+              { name: 'Horarios por Ronda', url: 'https://www.entradasrolandgarros.com/calendario-roland-garros-2027/horarios-por-ronda/' }
             ]}
           />
         </div>
@@ -211,7 +211,7 @@ export default function HorariosPorRondaPage() {
                 </ul>
               </div>
 
-              <h2 className="text-3xl font-bold mb-6 text-gray-900 mt-12">Octavos de Final (31 mayo - 1 junio)</h2>
+              <h2 className="text-3xl font-bold mb-6 text-gray-900 mt-12">Octavos de Final (30 mayo - 31 mayo)</h2>
 
               <p className="text-gray-700 leading-relaxed mb-6">
                 Los octavos de final marcan el inicio de la segunda semana y un cambio significativo en la

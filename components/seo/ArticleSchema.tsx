@@ -12,7 +12,7 @@ interface ArticleSchemaProps {
 export function ArticleSchema({
   headline,
   description,
-  image = 'https://entradasrolandgarros.com/images/default-og-image.jpg',
+  image = 'https://www.entradasrolandgarros.com/images/default-og-image.jpg',
   datePublished,
   dateModified,
   authorName = 'Entradas Roland Garros'
@@ -32,7 +32,7 @@ export function ArticleSchema({
       name: 'Entradas Roland Garros',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://entradasrolandgarros.com/logo.png',
+        url: 'https://www.entradasrolandgarros.com/logo.png',
       },
     },
     datePublished,

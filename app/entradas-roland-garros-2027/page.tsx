@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     title: 'Entradas Roland Garros 2027: Guía Completa de Tipos y Precios',
     description: 'Todo sobre las entradas para Roland Garros 2027: tipos, precios, ground pass, mejores asientos y dónde comprar de forma oficial.',
     type: 'article',
-    url: 'https://entradasrolandgarros.com/entradas-roland-garros-2027',
+    url: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/',
   },
   alternates: {
-    canonical: 'https://entradasrolandgarros.com/entradas-roland-garros-2027',
+    canonical: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/',
   },
 }
 
@@ -72,7 +72,7 @@ export default function EntradasRolandGarrosPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Breadcrumbs
               items={[
-                { name: 'Entradas Roland Garros 2027', url: 'https://entradasrolandgarros.com/entradas-roland-garros-2027' }
+                { name: 'Entradas Roland Garros 2027', url: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/' }
               ]}
             />
           </div>
