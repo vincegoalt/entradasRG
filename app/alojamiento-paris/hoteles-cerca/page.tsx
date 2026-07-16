@@ -4,18 +4,18 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Hoteles Cerca de Roland Garros 2026: Guía por Zonas y Precios',
+  title: 'Hoteles Cerca de Roland Garros 2027: Guía por Zonas y Precios',
   description: 'Descubre los mejores hoteles cerca del estadio Roland Garros. Análisis por zonas, rangos de precio y distancias exactas para elegir tu alojamiento perfecto.',
   keywords: [
     'hoteles cerca roland garros',
-    'hoteles roland garros 2026',
+    'hoteles roland garros 2027',
     'alojamiento cerca estadio roland garros',
     'hoteles distrito 16 paris',
     'hoteles boulogne billancourt',
     'donde dormir roland garros'
   ],
   openGraph: {
-    title: 'Hoteles Cerca de Roland Garros 2026: Guía por Zonas y Precios',
+    title: 'Hoteles Cerca de Roland Garros 2027: Guía por Zonas y Precios',
     description: 'Guía completa de hoteles cerca de Roland Garros con precios, distancias y recomendaciones.',
     type: 'article',
   },
@@ -32,7 +32,7 @@ export default function HotelesCercaPage() {
         subtitle="Las mejores opciones de alojamiento cerca del estadio"
         image="/images/heroes/paris-hotel.jpg"
         badge={{ icon: 'hotel', text: 'Distrito 16, París' }}
-        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
       />
 
       <div className="mx-auto max-w-[960px] px-4 py-5 sm:px-6 lg:px-8">
@@ -52,7 +52,7 @@ export default function HotelesCercaPage() {
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-6">
-              Esta guía organiza los hoteles en círculos concéntricos desde el estadio, proporcionando información detallada sobre precios esperados, calidad del alojamiento y factores prácticos para cada zona. Los precios mencionados son para el período de Roland Garros 2026 y pueden variar según la demanda específica.
+              Esta guía organiza los hoteles en círculos concéntricos desde el estadio, proporcionando información detallada sobre precios esperados, calidad del alojamiento y factores prácticos para cada zona. Los precios mencionados son para el período de Roland Garros 2027 y pueden variar según la demanda específica.
             </p>
 
             <div className="bg-orange-50 border-l-4 border-orange-500 p-6 my-8">

@@ -14,17 +14,17 @@ const lexend = Lexend({
 export const metadata: Metadata = {
   metadataBase: new URL('https://entradasrolandgarros.com'),
   title: {
-    default: 'Roland Garros 2026: Fechas, Entradas, Calendario y Guía Completa',
-    template: '%s | Entradas Roland Garros 2026'
+    default: 'Roland Garros 2027: Fechas, Entradas, Calendario y Guía Completa',
+    template: '%s | Entradas Roland Garros 2027'
   },
-  description: 'Guía definitiva de Roland Garros 2026 en español. Calendario, entradas, precios, cómo llegar y todo lo que necesitas saber para tu visita.',
+  description: 'Guía definitiva de Roland Garros 2027 en español. Calendario, entradas, precios, cómo llegar y todo lo que necesitas saber para tu visita.',
   keywords: [
-    'roland garros 2026',
-    'entradas roland garros 2026',
-    'calendario roland garros 2026',
+    'roland garros 2027',
+    'entradas roland garros 2027',
+    'calendario roland garros 2027',
     'roland garros fechas',
     'roland garros entradas',
-    'tickets roland garros 2026',
+    'tickets roland garros 2027',
     'ground pass roland garros',
     'roland garros precio entradas',
     'como llegar roland garros',
@@ -42,29 +42,29 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'es_ES',
     url: 'https://entradasrolandgarros.com',
-    siteName: 'Entradas Roland Garros 2026',
-    title: 'Roland Garros 2026: Guía Completa en Español',
-    description: 'Guía definitiva de Roland Garros 2026 en español. Calendario, entradas, precios y todo lo que necesitas saber.',
+    siteName: 'Entradas Roland Garros 2027',
+    title: 'Roland Garros 2027: Guía Completa en Español',
+    description: 'Guía definitiva de Roland Garros 2027 en español. Calendario, entradas, precios y todo lo que necesitas saber.',
     images: [
       {
         url: '/images/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Roland Garros 2026 Guía Completa',
+        alt: 'Roland Garros 2027 Guía Completa',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Roland Garros 2026: Guía Completa en Español',
-    description: 'Todo sobre Roland Garros 2026: calendario, entradas, precios y consejos prácticos',
+    title: 'Roland Garros 2027: Guía Completa en Español',
+    description: 'Todo sobre Roland Garros 2027: calendario, entradas, precios y consejos prácticos',
     images: ['/images/twitter-image.jpg'],
   },
   alternates: {
     canonical: 'https://entradasrolandgarros.com',
     languages: {
       'es': 'https://entradasrolandgarros.com',
-      'x-default': 'https://goaltickets.com/es/collections/entradas-roland-garros-2026',
+      'x-default': 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session',
     },
   },
   robots: {

@@ -7,11 +7,11 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Qué Llevar a Roland Garros 2026 | Lista Completa de Esenciales',
+  title: 'Qué Llevar a Roland Garros 2027 | Lista Completa de Esenciales',
   description: 'Checklist completo de qué llevar a Roland Garros: protección solar, ropa adecuada, tecnología permitida, comida y bebida, y artículos prohibidos.',
   keywords: 'que llevar roland garros, lista roland garros, permitido roland garros, prohibido roland garros, mochila roland garros',
   openGraph: {
-    title: 'Qué Llevar a Roland Garros 2026 - Lista Completa',
+    title: 'Qué Llevar a Roland Garros 2027 - Lista Completa',
     description: 'Guía práctica de qué llevar y qué evitar en tu visita a Roland Garros',
     type: 'article',
   },
@@ -57,7 +57,7 @@ export default function QueLlevarPage() {
   return (
     <>
       <ArticleSchema
-        headline="Qué Llevar a Roland Garros 2026"
+        headline="Qué Llevar a Roland Garros 2027"
         description="Lista completa de artículos esenciales, recomendados y prohibidos para tu visita a Roland Garros"
         datePublished="2025-01-15"
         dateModified="2025-01-15"
@@ -70,7 +70,7 @@ export default function QueLlevarPage() {
         subtitle="Lista completa de artículos permitidos y recomendados"
         image="/images/heroes/tennis-crowd.jpg"
         badge={{ icon: 'checklist', text: 'Lista Completa' }}
-        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
       />
 
       {/* Quick Checklist */}

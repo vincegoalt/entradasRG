@@ -7,8 +7,8 @@ export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
 
   const navItems = [
-    { href: '/calendario-roland-garros-2026', label: 'Calendario' },
-    { href: '/entradas-roland-garros-2026', label: 'Entradas' },
+    { href: '/calendario-roland-garros-2027', label: 'Calendario' },
+    { href: '/entradas-roland-garros-2027', label: 'Entradas' },
     { href: '/estadio-roland-garros', label: 'El Estadio' },
     { href: '/guia-completa/como-llegar', label: 'Cómo Llegar' },
     { href: '/preguntas-frecuentes', label: 'FAQ' },
@@ -67,7 +67,7 @@ export function Navigation() {
               </Link>
             ))}
             <a
-              href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
+              href="https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session"
               target="_blank"
               rel="noopener"
               className="flex items-center justify-center gap-2 mt-2 bg-primary text-white font-bold px-4 py-3 rounded-lg btn-shine"

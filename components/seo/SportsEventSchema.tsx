@@ -36,7 +36,7 @@ export function SportsEventSchema({
     eventStatus: 'https://schema.org/EventScheduled',
     offers: {
       '@type': 'AggregateOffer',
-      url: 'https://entradasrolandgarros.com/entradas-roland-garros-2026/',
+      url: 'https://entradasrolandgarros.com/entradas-roland-garros-2027/',
       priceCurrency: 'EUR',
       lowPrice: '35',
       highPrice: '500',

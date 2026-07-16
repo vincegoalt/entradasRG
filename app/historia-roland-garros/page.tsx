@@ -7,7 +7,7 @@ import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Historia de Roland Garros: Origen, el Aviador y el Torneo',
-  description: 'La historia completa de Roland Garros: quién fue Roland Garros (aviador francés 1888-1918), cómo nació el torneo en 1928, momentos clave y evolución hasta 2026.',
+  description: 'La historia completa de Roland Garros: quién fue Roland Garros (aviador francés 1888-1918), cómo nació el torneo en 1928, momentos clave y evolución hasta 2027.',
   keywords: [
     'historia roland garros',
     'historia de roland garros',
@@ -62,7 +62,7 @@ export default function HistoriaRolandGarrosPage() {
           subtitle="Del aviador francés al Grand Slam más icónico del tenis mundial"
           image="/images/heroes/clay-court.jpg"
           badge={{ icon: 'history', text: 'Desde 1891' }}
-          primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+          primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
           secondaryCta={{ text: 'Leer Historia', href: '#historia', icon: 'arrow_downward' }}
         />
 
@@ -210,7 +210,7 @@ export default function HistoriaRolandGarrosPage() {
                   </Link>
 
                   <Link
-                    href="/jugadores-favoritos-2026/records-historicos"
+                    href="/jugadores-favoritos-2027/records-historicos"
                     className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow card-hover"
                   >
                     <h3 className="text-lg font-bold mb-2 text-[#1d110c]">Récords Históricos</h3>
@@ -220,12 +220,12 @@ export default function HistoriaRolandGarrosPage() {
                   </Link>
 
                   <Link
-                    href="/entradas-roland-garros-2026"
+                    href="/entradas-roland-garros-2027"
                     className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow card-hover"
                   >
-                    <h3 className="text-lg font-bold mb-2 text-[#1d110c]">Entradas 2026</h3>
+                    <h3 className="text-lg font-bold mb-2 text-[#1d110c]">Entradas 2027</h3>
                     <p className="text-sm text-[#a15d45]">
-                      Comprar entradas para Roland Garros 2026 desde 35 EUR.
+                      Comprar entradas para Roland Garros 2027 desde 35 EUR.
                     </p>
                   </Link>
                 </div>
@@ -238,10 +238,10 @@ export default function HistoriaRolandGarrosPage() {
         <section className="relative py-16 bg-gradient-to-br from-[#1d110c] via-[#2a1a12] to-[#1d110c] overflow-hidden">
           <div className="absolute inset-0 opacity-10 bg-cover bg-center" style={{ backgroundImage: "url('/images/heroes/clay-court.jpg')" }} />
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl md:text-4xl font-black mb-4 text-white">¿Listo para Roland Garros 2026?</h2>
+            <h2 className="text-3xl md:text-4xl font-black mb-4 text-white">¿Listo para Roland Garros 2027?</h2>
             <p className="text-lg mb-8 text-white/70 max-w-xl mx-auto">Asegura tus entradas y vive el torneo más emocionante del tenis</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://goaltickets.com/es/collections/entradas-roland-garros-2026" target="_blank" rel="noopener" className="inline-flex items-center justify-center gap-2 bg-primary text-white px-8 py-3.5 rounded-xl font-bold hover:bg-orange-600 transition-colors btn-shine">
+              <a href="https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session" target="_blank" rel="noopener" className="inline-flex items-center justify-center gap-2 bg-primary text-white px-8 py-3.5 rounded-xl font-bold hover:bg-orange-600 transition-colors btn-shine">
                 <span className="material-symbols-outlined" style={{fontSize: '20px'}}>confirmation_number</span>
                 Comprar Entradas
               </a>

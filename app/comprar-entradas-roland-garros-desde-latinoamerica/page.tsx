@@ -8,7 +8,7 @@ import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
   title: 'Comprar Entradas Roland Garros desde Latinoamérica: Guía para Hispanos',
-  description: 'Guía completa para comprar entradas de Roland Garros 2026 desde México, Argentina, Colombia, Chile y toda Latinoamérica. Alternativas a la lotería oficial, plataformas verificadas y consejos prácticos.',
+  description: 'Guía completa para comprar entradas de Roland Garros 2027 desde México, Argentina, Colombia, Chile y toda Latinoamérica. Alternativas a la lotería oficial, plataformas verificadas y consejos prácticos.',
   keywords: [
     'comprar entradas roland garros desde latinoamerica',
     'entradas roland garros mexico',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Comprar Entradas Roland Garros desde Latinoamérica',
-    description: 'Guía para hispanos: cómo comprar entradas para Roland Garros 2026 desde cualquier país de habla hispana.',
+    description: 'Guía para hispanos: cómo comprar entradas para Roland Garros 2027 desde cualquier país de habla hispana.',
     type: 'article',
     url: 'https://entradasrolandgarros.com/comprar-entradas-roland-garros-desde-latinoamerica',
   },
@@ -54,9 +54,9 @@ export default function ComprarDesdeLatamPage() {
       <ArticleSchema
         headline="Comprar Entradas Roland Garros desde Latinoamérica"
         description="Guía completa para compradores hispanos internacionales"
-        image="https://entradasrolandgarros.com/images/hero/rolandgarros2026.jpg"
+        image="https://entradasrolandgarros.com/images/hero/rolandgarros2027.jpg"
         datePublished="2026-02-09"
-        dateModified="2026-02-09"
+        dateModified="2026-07-16"
       />
       <FAQSchema faqs={faqs} />
 
@@ -65,7 +65,7 @@ export default function ComprarDesdeLatamPage() {
         subtitle="Guía completa para comprar entradas de Roland Garros desde América Latina"
         image="/images/heroes/tennis-crowd.jpg"
         badge={{ icon: 'language', text: 'Para Latinoamérica' }}
-        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
       />
 
       <div className="min-h-screen bg-[#fcf9f8]">
@@ -236,7 +236,7 @@ export default function ComprarDesdeLatamPage() {
 
                 <div className="mt-6 pt-4 border-t border-[#ead5cd]">
                   <a
-                    href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
+                    href="https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session"
                     target="_blank"
                     rel="noopener"
                     className="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-lg font-bold hover:opacity-90 transition-opacity"
@@ -367,7 +367,7 @@ export default function ComprarDesdeLatamPage() {
               </h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Link
-                  href="/entradas-roland-garros-2026/donde-comprar"
+                  href="/entradas-roland-garros-2027/donde-comprar"
                   className="block bg-white border border-[#ead5cd] rounded-xl p-6 card-hover"
                 >
                   <h3 className="text-xl font-bold mb-2 text-[#1d110c]">Dónde Comprar Entradas</h3>
@@ -375,7 +375,7 @@ export default function ComprarDesdeLatamPage() {
                   <span className="text-primary font-semibold">Leer más →</span>
                 </Link>
                 <Link
-                  href="/entradas-roland-garros-2026/precios"
+                  href="/entradas-roland-garros-2027/precios"
                   className="block bg-white border border-[#ead5cd] rounded-xl p-6 card-hover"
                 >
                   <h3 className="text-xl font-bold mb-2 text-[#1d110c]">Precios de Entradas</h3>

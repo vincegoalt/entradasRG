@@ -5,20 +5,20 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Dónde Alojarse para Roland Garros 2026: Hoteles y Barrios',
-  description: 'Guía completa de alojamiento para Roland Garros 2026. Descubre los mejores hoteles cerca del estadio, barrios recomendados y consejos para reservar en París.',
+  title: 'Dónde Alojarse para Roland Garros 2027: Hoteles y Barrios',
+  description: 'Guía completa de alojamiento para Roland Garros 2027. Descubre los mejores hoteles cerca del estadio, barrios recomendados y consejos para reservar en París.',
   keywords: [
     'hoteles cerca roland garros',
     'donde alojarse roland garros',
     'alojamiento paris roland garros',
     'mejores barrios paris',
-    'hoteles roland garros 2026',
+    'hoteles roland garros 2027',
     'donde dormir roland garros',
     'alojamiento cerca estadio roland garros'
   ],
   openGraph: {
-    title: 'Dónde Alojarse para Roland Garros 2026: Hoteles y Barrios',
-    description: 'Guía completa de alojamiento para Roland Garros 2026. Hoteles, barrios y consejos de reserva.',
+    title: 'Dónde Alojarse para Roland Garros 2027: Hoteles y Barrios',
+    description: 'Guía completa de alojamiento para Roland Garros 2027. Hoteles, barrios y consejos de reserva.',
     type: 'article',
   },
   alternates: {
@@ -54,11 +54,11 @@ export default function AlojamientoParisPage() {
     <div className="min-h-screen bg-[#fcf9f8]">
       <FAQSchema faqs={faqs} />
       <PageHero
-        title="Alojamiento para Roland Garros 2026"
+        title="Alojamiento para Roland Garros 2027"
         subtitle="Hoteles, barrios y consejos de reserva para tu viaje a París"
         image="/images/heroes/paris-hotel.jpg"
         badge={{ icon: 'hotel', text: 'Guía de Alojamiento' }}
-        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
         secondaryCta={{ text: 'Ver Hoteles', href: '#hoteles', icon: 'arrow_downward' }}
       />
 
@@ -458,7 +458,7 @@ export default function AlojamientoParisPage() {
             </Link>
 
             <Link
-              href="/entradas-roland-garros-2026"
+              href="/entradas-roland-garros-2027"
               className="card-hover flex gap-4 rounded-xl border border-[#ead5cd] bg-white p-4"
             >
               <span className="material-symbols-outlined text-primary" style={{fontSize: '32px'}}>confirmation_number</span>
@@ -469,12 +469,12 @@ export default function AlojamientoParisPage() {
             </Link>
 
             <Link
-              href="/calendario-roland-garros-2026"
+              href="/calendario-roland-garros-2027"
               className="card-hover flex gap-4 rounded-xl border border-[#ead5cd] bg-white p-4"
             >
               <span className="material-symbols-outlined text-primary" style={{fontSize: '32px'}}>calendar_month</span>
               <div className="flex flex-col gap-1">
-                <h3 className="text-[#1d110c] text-base font-bold">Calendario 2026</h3>
+                <h3 className="text-[#1d110c] text-base font-bold">Calendario 2027</h3>
                 <p className="text-[#a15d45] text-sm font-normal">Fechas de cada ronda</p>
               </div>
             </Link>

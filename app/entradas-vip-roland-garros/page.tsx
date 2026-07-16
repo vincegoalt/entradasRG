@@ -7,11 +7,11 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Entradas VIP Roland Garros 2026: Hospitalidad, Palcos y Experiencias Premium',
-  description: 'Guía completa de entradas VIP y hospitalidad para Roland Garros 2026. Palcos privados, suites corporativas, paquetes premium y experiencias exclusivas con precios y comparativa.',
+  title: 'Entradas VIP Roland Garros 2027: Hospitalidad, Palcos y Experiencias Premium',
+  description: 'Guía completa de entradas VIP y hospitalidad para Roland Garros 2027. Palcos privados, suites corporativas, paquetes premium y experiencias exclusivas con precios y comparativa.',
   keywords: [
     'entradas vip roland garros',
-    'hospitalidad roland garros 2026',
+    'hospitalidad roland garros 2027',
     'palcos roland garros',
     'experiencia vip roland garros',
     'paquetes premium roland garros',
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     'suites roland garros'
   ],
   openGraph: {
-    title: 'Entradas VIP Roland Garros 2026: Guía de Hospitalidad Premium',
-    description: 'Todo sobre entradas VIP, palcos privados y experiencias premium en Roland Garros 2026.',
+    title: 'Entradas VIP Roland Garros 2027: Guía de Hospitalidad Premium',
+    description: 'Todo sobre entradas VIP, palcos privados y experiencias premium en Roland Garros 2027.',
     type: 'article',
     url: 'https://entradasrolandgarros.com/entradas-vip-roland-garros',
   },
@@ -52,11 +52,11 @@ export default function EntradasVipPage() {
   return (
     <>
       <ArticleSchema
-        headline="Entradas VIP Roland Garros 2026"
+        headline="Entradas VIP Roland Garros 2027"
         description="Guía completa de hospitalidad y experiencias premium"
-        image="https://entradasrolandgarros.com/images/hero/rolandgarros2026.jpg"
+        image="https://entradasrolandgarros.com/images/hero/rolandgarros2027.jpg"
         datePublished="2026-02-09"
-        dateModified="2026-02-09"
+        dateModified="2026-07-16"
       />
       <FAQSchema faqs={faqs} />
 
@@ -65,7 +65,7 @@ export default function EntradasVipPage() {
         subtitle="Experiencias premium y hospitalidad exclusiva"
         image="/images/heroes/tennis-stadium.jpg"
         badge={{ icon: 'diamond', text: 'Experiencia VIP' }}
-        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
       />
 
       <div className="min-h-screen bg-[#fcf9f8]">
@@ -94,7 +94,7 @@ export default function EntradasVipPage() {
               </p>
               <div className="bg-orange-50 border-l-4 border-primary p-4 mt-6 rounded-r-lg">
                 <p className="text-[#1d110c] text-sm">
-                  <strong>¿Buscas paquetes corporativos o el Club des Loges?</strong> Visita nuestra <Link href="/entradas-roland-garros-2026/entradas-premium">guía de entradas premium y hospitalidad corporativa</Link> para información detallada sobre los paquetes más exclusivos.
+                  <strong>¿Buscas paquetes corporativos o el Club des Loges?</strong> Visita nuestra <Link href="/entradas-roland-garros-2027/entradas-premium">guía de entradas premium y hospitalidad corporativa</Link> para información detallada sobre los paquetes más exclusivos.
                 </p>
               </div>
             </section>
@@ -260,7 +260,7 @@ export default function EntradasVipPage() {
                   <p className="text-[#1d110c] text-sm mb-3">
                     Para compradores internacionales que buscan entradas premium verificadas,{' '}
                     <a
-                      href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
+                      href="https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session"
                       target="_blank"
                       rel="noopener"
                       className="text-primary font-semibold hover:underline"
@@ -300,7 +300,7 @@ export default function EntradasVipPage() {
               </h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Link
-                  href="/entradas-roland-garros-2026/mejores-asientos"
+                  href="/entradas-roland-garros-2027/mejores-asientos"
                   className="block bg-white border border-[#ead5cd] rounded-xl p-6 card-hover"
                 >
                   <h3 className="text-xl font-bold mb-2 text-[#1d110c]">Mejores Asientos</h3>
@@ -308,7 +308,7 @@ export default function EntradasVipPage() {
                   <span className="text-primary font-semibold">Leer más →</span>
                 </Link>
                 <Link
-                  href="/entradas-roland-garros-2026/precios"
+                  href="/entradas-roland-garros-2027/precios"
                   className="block bg-white border border-[#ead5cd] rounded-xl p-6 card-hover"
                 >
                   <h3 className="text-xl font-bold mb-2 text-[#1d110c]">Precios de Entradas</h3>

@@ -58,7 +58,7 @@ export default function DondeSeJuegaRolandGarrosPage() {
           subtitle="Ubicación, superficie de tierra batida y cómo llegar al Stade Roland Garros en París"
           image="/images/heroes/paris-skyline.jpg"
           badge={{ icon: 'pin_drop', text: 'París, Francia · Distrito 16' }}
-          primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+          primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
           secondaryCta={{ text: 'Cómo Llegar', href: '#llegar', icon: 'directions' }}
         />
 
@@ -259,12 +259,12 @@ export default function DondeSeJuegaRolandGarrosPage() {
                   </Link>
 
                   <Link
-                    href="/entradas-roland-garros-2026"
+                    href="/entradas-roland-garros-2027"
                     className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow card-hover"
                   >
                     <h3 className="text-lg font-bold mb-2 text-[#1d110c]">Comprar Entradas</h3>
                     <p className="text-sm text-[#a15d45]">
-                      Entradas para Roland Garros 2026 desde 35 EUR.
+                      Entradas para Roland Garros 2027 desde 35 EUR.
                     </p>
                   </Link>
                 </div>
@@ -277,10 +277,10 @@ export default function DondeSeJuegaRolandGarrosPage() {
         <section className="relative py-16 bg-gradient-to-br from-[#1d110c] via-[#2a1a12] to-[#1d110c] overflow-hidden">
           <div className="absolute inset-0 opacity-10 bg-cover bg-center" style={{ backgroundImage: "url('/images/heroes/clay-court.jpg')" }} />
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl md:text-4xl font-black mb-4 text-white">¿Listo para Roland Garros 2026?</h2>
+            <h2 className="text-3xl md:text-4xl font-black mb-4 text-white">¿Listo para Roland Garros 2027?</h2>
             <p className="text-lg mb-8 text-white/70 max-w-xl mx-auto">Asegura tus entradas y vive el torneo más emocionante del tenis</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://goaltickets.com/es/collections/entradas-roland-garros-2026" target="_blank" rel="noopener" className="inline-flex items-center justify-center gap-2 bg-primary text-white px-8 py-3.5 rounded-xl font-bold hover:bg-orange-600 transition-colors btn-shine">
+              <a href="https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session" target="_blank" rel="noopener" className="inline-flex items-center justify-center gap-2 bg-primary text-white px-8 py-3.5 rounded-xl font-bold hover:bg-orange-600 transition-colors btn-shine">
                 <span className="material-symbols-outlined" style={{fontSize: '20px'}}>confirmation_number</span>
                 Comprar Entradas
               </a>

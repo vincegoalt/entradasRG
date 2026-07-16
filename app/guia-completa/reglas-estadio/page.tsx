@@ -6,11 +6,11 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Reglas del Estadio Roland Garros 2026 | Normativa y Seguridad',
+  title: 'Reglas del Estadio Roland Garros 2027 | Normativa y Seguridad',
   description: 'Guía completa de reglas de Roland Garros: comportamiento, controles de seguridad, políticas de reingreso, accesos según entrada y etiqueta del espectador.',
   keywords: 'reglas roland garros, normativa roland garros, seguridad roland garros, prohibiciones roland garros, etiqueta tenis',
   openGraph: {
-    title: 'Reglas del Estadio Roland Garros 2026',
+    title: 'Reglas del Estadio Roland Garros 2027',
     description: 'Todo lo que necesitas saber sobre las reglas y normativa en Roland Garros',
     type: 'article',
   },
@@ -29,7 +29,7 @@ export default function ReglasEstadioPage() {
   return (
     <>
       <ArticleSchema
-        headline="Reglas del Estadio Roland Garros 2026"
+        headline="Reglas del Estadio Roland Garros 2027"
         description="Normativa completa del recinto Roland Garros: reglas de comportamiento, seguridad, accesos y etiqueta"
         datePublished="2025-01-15"
         dateModified="2025-01-15"
@@ -41,7 +41,7 @@ export default function ReglasEstadioPage() {
         subtitle="Normativa, objetos prohibidos y consejos de comportamiento"
         image="/images/heroes/tennis-stadium.jpg"
         badge={{ icon: 'gavel', text: 'Normativa Oficial' }}
-        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
       />
 
       {/* Quick Summary */}

@@ -5,7 +5,7 @@ interface GoalTicketsCTAProps {
 }
 
 export function GoalTicketsCTA({
-  title = 'Asegura tus Entradas para Roland Garros 2026',
+  title = 'Asegura tus Entradas para Roland Garros 2027',
   subtitle = 'Entradas verificadas con transferencia oficial por app y garantía de autenticidad.',
   image = '/images/heroes/clay-court.jpg',
 }: GoalTicketsCTAProps) {
@@ -43,7 +43,7 @@ export function GoalTicketsCTA({
         </div>
 
         <a
-          href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
+          href="https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session"
           target="_blank"
           rel="noopener"
           className="inline-flex items-center gap-2 bg-primary text-white font-bold px-8 py-3.5 rounded-xl hover:bg-orange-600 transition-colors btn-shine text-lg"

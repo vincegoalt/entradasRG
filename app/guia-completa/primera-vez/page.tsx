@@ -6,11 +6,11 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Guía para Primerizos en Roland Garros 2026 | Consejos y Tips',
+  title: 'Guía para Primerizos en Roland Garros 2027 | Consejos y Tips',
   description: 'Guía completa para tu primera visita a Roland Garros: llegada, estrategias para ver más tenis, dónde comer, souvenirs y errores comunes a evitar.',
   keywords: 'primera vez roland garros, consejos roland garros, tips roland garros, guia principiantes roland garros, errores evitar roland garros',
   openGraph: {
-    title: 'Guía para Primerizos en Roland Garros 2026',
+    title: 'Guía para Primerizos en Roland Garros 2027',
     description: 'Todo lo que necesitas saber para tu primera visita a Roland Garros',
     type: 'article',
   },
@@ -29,7 +29,7 @@ export default function PrimeraVezPage() {
   return (
     <>
       <ArticleSchema
-        headline="Guía para Primerizos en Roland Garros 2026"
+        headline="Guía para Primerizos en Roland Garros 2027"
         description="Guía completa con consejos, estrategias y tips para disfrutar al máximo tu primera visita a Roland Garros"
         datePublished="2025-01-15"
         dateModified="2025-01-15"
@@ -41,7 +41,7 @@ export default function PrimeraVezPage() {
         subtitle="Guía para primerizos: todo lo que necesitas saber"
         image="/images/heroes/tennis-crowd.jpg"
         badge={{ icon: 'star', text: 'Para Primerizos' }}
-        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
       />
 
       {/* Quick Tips Summary */}

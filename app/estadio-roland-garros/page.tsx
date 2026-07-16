@@ -7,7 +7,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Estadio Roland Garros: Pistas, Historia e Instalaciones | Guía Completa 2026',
+  title: 'Estadio Roland Garros: Pistas, Historia e Instalaciones | Guía Completa 2027',
   description: 'Descubre el estadio Roland Garros: pista Philippe-Chatrier con techo retráctil, Suzanne-Lenglen, Simonne-Mathieu, historia del complejo, instalaciones y mapa del recinto. Guía completa en español.',
   keywords: 'estadio roland garros, pistas roland garros, philippe chatrier, suzanne lenglen, simonne mathieu, instalaciones roland garros, historia roland garros',
   openGraph: {
@@ -60,9 +60,9 @@ export default function EstadioRolandGarrosPage() {
   return (
     <>
       <SportsEventSchema
-        name="Roland Garros 2026 - Estadio"
-        startDate="2026-05-24"
-        endDate="2026-06-07"
+        name="Roland Garros 2027 - Estadio"
+        startDate="2027-05-23"
+        endDate="2027-06-06"
         description="El estadio Roland Garros es el hogar del torneo de tenis más prestigioso en tierra batida, con pistas icónicas como Philippe-Chatrier, Suzanne-Lenglen y Simonne-Mathieu"
       />
       <FAQSchema faqs={faqs} />
@@ -74,7 +74,7 @@ export default function EstadioRolandGarrosPage() {
           subtitle="Pistas, historia e instalaciones del complejo más icónico del tenis en tierra batida"
           image="https://images.prismic.io/fft-billetterie/162dbd46-8948-4b3e-9d90-532c2cbc1bd9_29-05-2023_RG_PB_8824-min.jpg?auto=compress,format"
           badge={{ icon: 'stadium', text: '18 Pistas de Tierra Batida' }}
-          primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+          primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
           secondaryCta={{ text: 'Ver Pistas', href: '#pistas', icon: 'sports_tennis' }}
         />
 
@@ -302,24 +302,24 @@ export default function EstadioRolandGarrosPage() {
         <section className="py-16 bg-gradient-to-br from-[#1d110c] via-[#2a1a12] to-[#1d110c]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-4 text-white">
-              Planifica tu Visita a Roland Garros 2026
+              Planifica tu Visita a Roland Garros 2027
             </h2>
             <p className="text-xl mb-8 text-orange-200">
               Explora nuestras guías detalladas para cada pista e instalación
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="/entradas-roland-garros-2026"
+                href="/entradas-roland-garros-2027"
                 className="inline-flex items-center gap-2 bg-primary text-white px-8 py-3 rounded-lg font-bold hover:opacity-90 transition-opacity"
               >
                 Ver Tipos de Entradas
                 <span className="material-symbols-outlined" style={{fontSize: '20px'}}>arrow_forward</span>
               </Link>
               <Link
-                href="/calendario-roland-garros-2026"
+                href="/calendario-roland-garros-2027"
                 className="inline-flex items-center gap-2 bg-white/10 text-white px-8 py-3 rounded-lg font-bold border-2 border-white/30 hover:bg-white/20 transition-colors"
               >
-                Calendario 2026
+                Calendario 2027
                 <span className="material-symbols-outlined" style={{fontSize: '20px'}}>arrow_forward</span>
               </Link>
             </div>

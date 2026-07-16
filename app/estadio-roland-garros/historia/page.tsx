@@ -37,7 +37,7 @@ export default function HistoriaRolandGarrosPage() {
         subtitle="Desde su inauguración en 1928 hasta las renovaciones más recientes"
         image="/images/heroes/clay-court.jpg"
         badge={{ icon: 'history', text: 'Desde 1928' }}
-        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
       />
 
       <Breadcrumbs

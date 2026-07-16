@@ -6,18 +6,18 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Entradas Final Roland Garros 2026: Precios, Cómo Comprar y Disponibilidad',
-  description: 'Guía completa para comprar entradas para la final de Roland Garros 2026. Precios desde 150 EUR, sistema de lotería, alternativas si están agotadas y guía paso a paso.',
+  title: 'Entradas Final Roland Garros 2027: Precios, Cómo Comprar y Disponibilidad',
+  description: 'Guía completa para comprar entradas para la final de Roland Garros 2027. Precios desde 150 EUR, sistema de lotería, alternativas si están agotadas y guía paso a paso.',
   keywords: [
     'entradas final roland garros',
     'entradas semifinal roland garros',
-    'entradas finales roland garros 2026',
+    'entradas finales roland garros 2027',
     'comprar entradas final roland garros',
     'precio entradas final roland garros',
     'loteria entradas roland garros'
   ],
   openGraph: {
-    title: 'Entradas Final Roland Garros 2026: Precios y Cómo Comprar',
+    title: 'Entradas Final Roland Garros 2027: Precios y Cómo Comprar',
     description: 'Precios desde 150 EUR. Sistema de lotería, guía paso a paso y alternativas.',
     type: 'article',
     url: 'https://entradasrolandgarros.com/entradas-final-roland-garros',
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
 
 const faqs = [
   {
-    question: '¿Cuánto cuestan las entradas para la final de Roland Garros 2026?',
-    answer: 'Las entradas para la final de Roland Garros 2026 van desde aproximadamente 150 EUR (categoría 4, asientos elevados) hasta más de 540 EUR (categoría 1, asientos premium centrales). Los precios exactos se anuncian cuando se abre el sistema de venta.'
+    question: '¿Cuánto cuestan las entradas para la final de Roland Garros 2027?',
+    answer: 'Las entradas para la final de Roland Garros 2027 van desde aproximadamente 150 EUR (categoría 4, asientos elevados) hasta más de 540 EUR (categoría 1, asientos premium centrales). Los precios exactos se anuncian cuando se abre el sistema de venta.'
   },
   {
     question: '¿Cómo se compran las entradas para la final de Roland Garros?',
@@ -53,11 +53,11 @@ export default function EntradasFinalRolandGarrosPage() {
 
       <div className="min-h-screen bg-[#fcf9f8]">
         <PageHero
-          title="Entradas para la Final de Roland Garros 2026"
+          title="Entradas para la Final de Roland Garros 2027"
           subtitle="Precios desde 150 EUR, sistema de lotería y guía paso a paso para comprar"
           image="/images/heroes/tennis-crowd.jpg"
           badge={{ icon: 'confirmation_number', text: 'Desde 150 EUR' }}
-          primaryCta={{ text: 'Ver en GoalTickets', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+          primaryCta={{ text: 'Ver en GoalTickets', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
           secondaryCta={{ text: 'Ver Precios', href: '#precios', icon: 'arrow_downward' }}
         />
 
@@ -78,7 +78,7 @@ export default function EntradasFinalRolandGarrosPage() {
               {/* Capsule */}
               <div className="rounded-xl border border-[#ead5cd] bg-gradient-to-r from-orange-50/50 to-[#fcf9f8] p-6 shadow-sm mb-10">
                 <p className="text-[#1d110c] text-base leading-relaxed">
-                  <strong>Las entradas para la final de Roland Garros 2026 van desde 150 EUR hasta más de 540 EUR</strong> en la pista Philippe-Chatrier. Se asignan principalmente por <strong>lotería oficial</strong> en rolandgarros.com (inscripción febrero-marzo 2026). La <Link href="/final-roland-garros-2026" className="text-primary font-semibold hover:underline">final femenina es el 6 de junio y la masculina el 7 de junio</Link>.
+                  <strong>Las entradas para la final de Roland Garros 2027 van desde 150 EUR hasta más de 540 EUR</strong> en la pista Philippe-Chatrier. Se asignan principalmente por <strong>lotería oficial</strong> en rolandgarros.com (inscripción febrero-marzo 2027). La <Link href="/final-roland-garros-2027" className="text-primary font-semibold hover:underline">final femenina es el 5 de junio y la masculina el 6 de junio</Link>.
                 </p>
               </div>
 
@@ -158,7 +158,7 @@ export default function EntradasFinalRolandGarrosPage() {
                     <div className="flex items-start gap-4">
                       <div className="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center font-bold shrink-0">2</div>
                       <div>
-                        <h3 className="text-lg font-bold mb-2 text-[#1d110c]">Inscríbete en la Lotería (Feb-Mar 2026)</h3>
+                        <h3 className="text-lg font-bold mb-2 text-[#1d110c]">Inscríbete en la Lotería (Feb-Mar 2027)</h3>
                         <p className="text-[#1d110c]">Durante el período de inscripción, selecciona los días y pistas que te interesan. Puedes elegir múltiples opciones para aumentar tus posibilidades.</p>
                       </div>
                     </div>
@@ -246,22 +246,22 @@ export default function EntradasFinalRolandGarrosPage() {
 
                 <div className="grid md:grid-cols-3 gap-6">
                   <Link
-                    href="/final-roland-garros-2026"
+                    href="/final-roland-garros-2027"
                     className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow card-hover"
                   >
-                    <h3 className="text-lg font-bold mb-2 text-[#1d110c]">Final Roland Garros 2026</h3>
+                    <h3 className="text-lg font-bold mb-2 text-[#1d110c]">Final Roland Garros 2027</h3>
                     <p className="text-sm text-[#a15d45]">
                       Fechas, horarios, historia y cómo ver las finales por TV.
                     </p>
                   </Link>
 
                   <Link
-                    href="/entradas-roland-garros-2026"
+                    href="/entradas-roland-garros-2027"
                     className="block bg-white border border-[#ead5cd] rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow card-hover"
                   >
                     <h3 className="text-lg font-bold mb-2 text-[#1d110c]">Todas las Entradas</h3>
                     <p className="text-sm text-[#a15d45]">
-                      Guía completa de entradas para Roland Garros 2026 desde 35 EUR.
+                      Guía completa de entradas para Roland Garros 2027 desde 35 EUR.
                     </p>
                   </Link>
 
@@ -284,10 +284,10 @@ export default function EntradasFinalRolandGarrosPage() {
         <section className="relative py-16 bg-gradient-to-br from-[#1d110c] via-[#2a1a12] to-[#1d110c] overflow-hidden">
           <div className="absolute inset-0 opacity-10 bg-cover bg-center" style={{ backgroundImage: "url('/images/heroes/clay-court.jpg')" }} />
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl md:text-4xl font-black mb-4 text-white">¿Listo para Roland Garros 2026?</h2>
+            <h2 className="text-3xl md:text-4xl font-black mb-4 text-white">¿Listo para Roland Garros 2027?</h2>
             <p className="text-lg mb-8 text-white/70 max-w-xl mx-auto">Asegura tus entradas y vive el torneo más emocionante del tenis</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://goaltickets.com/es/collections/entradas-roland-garros-2026" target="_blank" rel="noopener" className="inline-flex items-center justify-center gap-2 bg-primary text-white px-8 py-3.5 rounded-xl font-bold hover:bg-orange-600 transition-colors btn-shine">
+              <a href="https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session" target="_blank" rel="noopener" className="inline-flex items-center justify-center gap-2 bg-primary text-white px-8 py-3.5 rounded-xl font-bold hover:bg-orange-600 transition-colors btn-shine">
                 <span className="material-symbols-outlined" style={{fontSize: '20px'}}>confirmation_number</span>
                 Comprar Entradas
               </a>

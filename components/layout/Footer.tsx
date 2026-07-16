@@ -31,9 +31,9 @@ export function Footer() {
               <span className="material-symbols-outlined text-primary" style={{fontSize: '32px', fontVariationSettings: "'FILL' 1"}}>sports_tennis</span>
               <span className="text-white font-bold text-lg"><span className="text-primary">Entradas</span> Roland Garros</span>
             </div>
-            <p className="text-white/60 text-sm mb-5 leading-relaxed">Guía informativa independiente en español sobre Roland Garros 2026 para hispanohablantes.</p>
+            <p className="text-white/60 text-sm mb-5 leading-relaxed">Guía informativa independiente en español sobre Roland Garros 2027 para hispanohablantes.</p>
             <a
-              href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
+              href="https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session"
               target="_blank"
               rel="noopener"
               className="inline-flex items-center gap-2 bg-primary/20 border border-primary/30 text-primary font-semibold px-4 py-2 rounded-lg hover:bg-primary/30 transition-colors text-sm"
@@ -47,9 +47,9 @@ export function Footer() {
           <div>
             <h4 className="font-bold text-sm uppercase tracking-wider text-white/40 mb-4">Guía</h4>
             <ul className="space-y-2.5 text-sm">
-              <li><Link href="/calendario-roland-garros-2026" className="text-white/70 hover:text-primary transition-colors">Calendario 2026</Link></li>
-              <li><Link href="/entradas-roland-garros-2026" className="text-white/70 hover:text-primary transition-colors">Entradas y Precios</Link></li>
-              <li><Link href="/final-roland-garros-2026" className="text-white/70 hover:text-primary transition-colors">Final Roland Garros 2026</Link></li>
+              <li><Link href="/calendario-roland-garros-2027" className="text-white/70 hover:text-primary transition-colors">Calendario 2027</Link></li>
+              <li><Link href="/entradas-roland-garros-2027" className="text-white/70 hover:text-primary transition-colors">Entradas y Precios</Link></li>
+              <li><Link href="/final-roland-garros-2027" className="text-white/70 hover:text-primary transition-colors">Final Roland Garros 2027</Link></li>
               <li><Link href="/estadio-roland-garros" className="text-white/70 hover:text-primary transition-colors">El Estadio</Link></li>
               <li><Link href="/guia-completa/como-llegar" className="text-white/70 hover:text-primary transition-colors">Cómo Llegar</Link></li>
               <li><Link href="/alojamiento-paris" className="text-white/70 hover:text-primary transition-colors">Alojamiento</Link></li>
@@ -65,7 +65,7 @@ export function Footer() {
               <li><a href="https://www.rolandgarros.com" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-primary transition-colors">Sitio Oficial Roland-Garros</a></li>
               <li><a href="https://es.parisinfo.com" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-primary transition-colors">Turismo de París</a></li>
               <li><a href="https://www.ratp.fr" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-primary transition-colors">Transporte de París (RATP)</a></li>
-              <li><a href="https://goaltickets.com/es/collections/entradas-roland-garros-2026" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-primary transition-colors">GoalTickets - Entradas Garantizadas</a></li>
+              <li><a href="https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-primary transition-colors">GoalTickets - Entradas Garantizadas</a></li>
             </ul>
           </div>
         </div>

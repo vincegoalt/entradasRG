@@ -4,7 +4,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Consejos para Reservar Alojamiento en Roland Garros 2026',
+  title: 'Consejos para Reservar Alojamiento en Roland Garros 2027',
   description: 'Guía estratégica para reservar tu alojamiento para Roland Garros. Cuándo reservar, cómo conseguir mejores precios, qué buscar y errores comunes a evitar.',
   keywords: [
     'reservar hotel roland garros',
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     'ofertas hoteles roland garros'
   ],
   openGraph: {
-    title: 'Consejos para Reservar Alojamiento en Roland Garros 2026',
+    title: 'Consejos para Reservar Alojamiento en Roland Garros 2027',
     description: 'Estrategias para reservar el mejor alojamiento para Roland Garros al mejor precio.',
     type: 'article',
   },
@@ -31,7 +31,7 @@ export default function ConsejosReservaPage() {
         subtitle="Cuándo reservar, qué buscar y cómo conseguir las mejores ofertas"
         image="/images/heroes/paris-hotel.jpg"
         badge={{ icon: 'lightbulb', text: 'Consejos de Reserva' }}
-        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
       />
 
       {/* Breadcrumbs */}
@@ -99,7 +99,7 @@ export default function ConsejosReservaPage() {
               </div>
             </div>
 
-            <h3 className="text-2xl font-bold mb-4 text-gray-900 mt-8">4-5 Meses Antes (Enero-Febrero 2026)</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gray-900 mt-8">4-5 Meses Antes (Enero-Febrero 2027)</h3>
 
             <div className="bg-white border border-gray-200 rounded-lg p-6 my-6">
               <h4 className="text-lg font-bold mb-3 text-gray-900">Todavía Buenas Opciones</h4>
@@ -127,7 +127,7 @@ export default function ConsejosReservaPage() {
               </div>
             </div>
 
-            <h3 className="text-2xl font-bold mb-4 text-gray-900 mt-8">2-3 Meses Antes (Marzo-Abril 2026)</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gray-900 mt-8">2-3 Meses Antes (Marzo-Abril 2027)</h3>
 
             <div className="bg-white border border-gray-200 rounded-lg p-6 my-6">
               <h4 className="text-lg font-bold mb-3 text-gray-900">Opciones Limitadas</h4>
@@ -155,7 +155,7 @@ export default function ConsejosReservaPage() {
               </div>
             </div>
 
-            <h3 className="text-2xl font-bold mb-4 text-gray-900 mt-8">Último Mes (Mayo 2026)</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gray-900 mt-8">Último Mes (Mayo 2027)</h3>
 
             <div className="bg-white border border-gray-200 rounded-lg p-6 my-6">
               <h4 className="text-lg font-bold mb-3 text-gray-900">Territorio de Alto Riesgo</h4>
@@ -508,25 +508,25 @@ export default function ConsejosReservaPage() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <span className="text-orange-600 font-bold mr-3 min-w-[120px]">Ene-Feb 2026</span>
+                  <span className="text-orange-600 font-bold mr-3 min-w-[120px]">Ene-Feb 2027</span>
                   <div>
                     <strong className="text-gray-900">Optimización:</strong> Si encuentras algo significativamente mejor, actualiza tu reserva. Continúa monitoreando.
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <span className="text-orange-600 font-bold mr-3 min-w-[120px]">Marzo 2026</span>
+                  <span className="text-orange-600 font-bold mr-3 min-w-[120px]">Marzo 2027</span>
                   <div>
                     <strong className="text-gray-900">Decisión de Entradas:</strong> Intenta conseguir tus entradas este mes. Ajusta fechas de hotel si es necesario.
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <span className="text-orange-600 font-bold mr-3 min-w-[120px]">Abril 2026</span>
+                  <span className="text-orange-600 font-bold mr-3 min-w-[120px]">Abril 2027</span>
                   <div>
                     <strong className="text-gray-900">Última Revisión:</strong> Haz una revisión final de opciones. Después del 15 de abril, confirma tu reserva definitiva.
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <span className="text-orange-600 font-bold mr-3 min-w-[120px]">Mayo 2026</span>
+                  <span className="text-orange-600 font-bold mr-3 min-w-[120px]">Mayo 2027</span>
                   <div>
                     <strong className="text-gray-900">Confirmación y Preparación:</strong> Verifica confirmación, horarios de check-in, y guarda contactos del hotel. Deja de buscar y enfócate en preparar tu viaje.
                   </div>

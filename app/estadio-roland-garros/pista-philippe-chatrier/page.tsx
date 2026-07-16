@@ -25,9 +25,9 @@ export default function PhilippeChartrierPage() {
   return (
     <>
       <SportsEventSchema
-        name="Pista Philippe-Chatrier - Roland Garros 2026"
-        startDate="2026-05-24"
-        endDate="2026-06-07"
+        name="Pista Philippe-Chatrier - Roland Garros 2027"
+        startDate="2027-05-23"
+        endDate="2027-06-06"
         description="La pista central de Roland Garros con capacidad para 15,225 espectadores y techo retráctil, escenario de las finales del torneo"
       />
 
@@ -36,7 +36,7 @@ export default function PhilippeChartrierPage() {
         subtitle="La pista central de Roland Garros: 15,225 espectadores y techo retráctil"
         image="/images/heroes/tennis-stadium.jpg"
         badge={{ icon: 'stadium', text: '15,225 Espectadores' }}
-        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
       />
 
       <Breadcrumbs
@@ -463,10 +463,10 @@ export default function PhilippeChartrierPage() {
                 <p>• También hay reventa oficial limitada más cerca de las fechas</p>
               </div>
               <Link
-                href="/entradas-roland-garros-2026"
+                href="/entradas-roland-garros-2027"
                 className="inline-block bg-[#c1483a] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#a13a2e] transition-colors"
               >
-                Guía Completa de Entradas Roland Garros 2026
+                Guía Completa de Entradas Roland Garros 2027
               </Link>
             </section>
 

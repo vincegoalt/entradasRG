@@ -6,11 +6,11 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Guía Completa para Asistir a Roland Garros 2026 | Todo lo que Necesitas Saber',
-  description: 'Guía práctica completa para tu visita a Roland Garros 2026: cómo llegar, qué llevar, reglas del estadio, clima, consejos para primerizos y mucho más.',
+  title: 'Guía Completa para Asistir a Roland Garros 2027 | Todo lo que Necesitas Saber',
+  description: 'Guía práctica completa para tu visita a Roland Garros 2027: cómo llegar, qué llevar, reglas del estadio, clima, consejos para primerizos y mucho más.',
   keywords: 'guia roland garros, como llegar roland garros, que llevar roland garros, reglas roland garros, clima paris mayo junio, consejos roland garros',
   openGraph: {
-    title: 'Guía Completa para Asistir a Roland Garros 2026',
+    title: 'Guía Completa para Asistir a Roland Garros 2027',
     description: 'Todo lo que necesitas saber para disfrutar al máximo tu visita a Roland Garros',
     type: 'article',
   },
@@ -28,8 +28,8 @@ export default function GuiaCompletaPage() {
   return (
     <>
       <ArticleSchema
-        headline="Guía Completa para Asistir a Roland Garros 2026"
-        description="Guía práctica completa con toda la información necesaria para planificar y disfrutar tu visita a Roland Garros 2026"
+        headline="Guía Completa para Asistir a Roland Garros 2027"
+        description="Guía práctica completa con toda la información necesaria para planificar y disfrutar tu visita a Roland Garros 2027"
         datePublished="2025-01-15"
         dateModified="2025-01-15"
       />
@@ -45,11 +45,11 @@ export default function GuiaCompletaPage() {
 
         {/* Hero Section */}
         <PageHero
-          title="Guía Completa Roland Garros 2026"
+          title="Guía Completa Roland Garros 2027"
           subtitle="Todo lo que necesitas saber para disfrutar al máximo tu experiencia en el torneo más prestigioso en tierra batida"
           image="/images/heroes/tennis-crowd.jpg"
           badge={{ icon: 'menu_book', text: 'Guía Práctica Completa' }}
-          primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+          primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
           secondaryCta={{ text: 'Explorar Guía', href: '#guia', icon: 'arrow_downward' }}
         />
 
@@ -59,7 +59,7 @@ export default function GuiaCompletaPage() {
             <div className="max-w-4xl mx-auto">
               <div className="rounded-xl border border-[#ead5cd] bg-gradient-to-r from-orange-50/50 to-[#fcf9f8] p-6 shadow-sm">
                 <p className="text-[#1d110c] text-base leading-relaxed">
-                  <strong>Roland Garros 2026 se celebra del 24 de mayo al 7 de junio</strong> en París. El estadio está en el distrito 16, accesible por metro línea 10 (Porte d'Auteuil, a 400m). Entradas desde <strong>35 EUR</strong>. Temperatura media en París en mayo-junio: <strong>15-22°C</strong>. Más de <strong>500,000 espectadores</strong> visitan el torneo durante las 2 semanas.
+                  <strong>Roland Garros 2027 se celebra del 23 de mayo al 6 de junio</strong> en París. El estadio está en el distrito 16, accesible por metro línea 10 (Porte d'Auteuil, a 400m). Entradas desde <strong>35 EUR</strong>. Temperatura media en París en mayo-junio: <strong>15-22°C</strong>. Más de <strong>500,000 espectadores</strong> visitan el torneo durante las 2 semanas.
                 </p>
               </div>
             </div>
@@ -71,7 +71,7 @@ export default function GuiaCompletaPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto">
               <p className="text-lg leading-relaxed mb-6 text-[#a15d45]">
-                Asistir a Roland Garros es una experiencia única que requiere planificación. Ya sea que visites el torneo por primera vez o seas un veterano, esta guía completa te ayudará a preparar cada aspecto de tu visita al French Open 2026.
+                Asistir a Roland Garros es una experiencia única que requiere planificación. Ya sea que visites el torneo por primera vez o seas un veterano, esta guía completa te ayudará a preparar cada aspecto de tu visita al French Open 2027.
               </p>
               <p className="text-lg text-[#1d110c] leading-relaxed mb-6">
                 Roland Garros no es solo un torneo de tenis; es una experiencia cultural parisina completa. Situado en el elegante distrito XVI de París, el complejo del Stade Roland Garros combina la tradición del tenis con la sofisticación francesa.
@@ -251,18 +251,18 @@ export default function GuiaCompletaPage() {
 
             <div className="grid md:grid-cols-3 gap-6">
               <Link
-                href="/calendario-roland-garros-2026"
+                href="/calendario-roland-garros-2027"
                 className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] card-hover text-center"
               >
                 <span className="material-symbols-outlined text-primary block mb-3 mx-auto" style={{fontSize: '32px'}}>
                   calendar_month
                 </span>
-                <h3 className="font-bold mb-2 text-[#1d110c]">Calendario 2026</h3>
+                <h3 className="font-bold mb-2 text-[#1d110c]">Calendario 2027</h3>
                 <p className="text-sm text-[#a15d45]">Fechas exactas de cada ronda</p>
               </Link>
 
               <Link
-                href="/entradas-roland-garros-2026"
+                href="/entradas-roland-garros-2027"
                 className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] card-hover text-center"
               >
                 <span className="material-symbols-outlined text-primary block mb-3 mx-auto" style={{fontSize: '32px'}}>
@@ -295,13 +295,13 @@ export default function GuiaCompletaPage() {
               </Link>
 
               <Link
-                href="/jugadores-favoritos-2026"
+                href="/jugadores-favoritos-2027"
                 className="bg-white p-6 rounded-xl shadow-sm border border-[#ead5cd] card-hover text-center"
               >
                 <span className="material-symbols-outlined text-primary block mb-3 mx-auto" style={{fontSize: '32px'}}>
                   sports_tennis
                 </span>
-                <h3 className="font-bold mb-2 text-[#1d110c]">Favoritos 2026</h3>
+                <h3 className="font-bold mb-2 text-[#1d110c]">Favoritos 2027</h3>
                 <p className="text-sm text-[#a15d45]">Candidatos al título</p>
               </Link>
 

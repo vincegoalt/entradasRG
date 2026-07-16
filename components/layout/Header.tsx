@@ -15,7 +15,7 @@ export function Header() {
         <div className="flex items-center gap-4">
           <Navigation />
           <a
-            href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
+            href="https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session"
             target="_blank"
             rel="noopener"
             className="hidden lg:inline-flex items-center gap-1.5 bg-primary text-white text-sm font-bold px-4 py-2 rounded-lg hover:bg-orange-600 transition-colors btn-shine"

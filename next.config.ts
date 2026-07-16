@@ -49,9 +49,20 @@ const nextConfig: NextConfig = {
     ]
   },
 
-  // Redirects (empty for now, add as needed)
+  // Redirects: 301 old 2026 slugs -> 2027 (SEO-preserving after year rename)
   async redirects() {
-    return []
+    const renamed = [
+      'entradas-roland-garros',
+      'calendario-roland-garros',
+      'jugadores-favoritos',
+      'premios-roland-garros',
+      'paquetes-roland-garros',
+      'final-roland-garros',
+    ]
+    return renamed.flatMap((slug) => [
+      { source: `/${slug}-2026`, destination: `/${slug}-2027`, permanent: true },
+      { source: `/${slug}-2026/:path*`, destination: `/${slug}-2027/:path*`, permanent: true },
+    ])
   },
 };
 

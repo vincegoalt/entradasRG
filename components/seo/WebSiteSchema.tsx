@@ -4,10 +4,10 @@ export function WebSiteSchema() {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Roland Garros Guia 2026',
+    name: 'Roland Garros Guia 2027',
     url: 'https://entradasrolandgarros.com',
     inLanguage: 'es',
-    description: 'Guia completa en espanol sobre Roland Garros 2026: fechas, entradas, calendario, estadio y consejos practicos.',
+    description: 'Guia completa en espanol sobre Roland Garros 2027: fechas, entradas, calendario, estadio y consejos practicos.',
   }
 
   return (

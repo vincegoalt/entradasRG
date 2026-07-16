@@ -6,11 +6,11 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Clima en París en Mayo-Junio 2026 | Qué Vestir para Roland Garros',
+  title: 'Clima en París en Mayo-Junio 2027 | Qué Vestir para Roland Garros',
   description: 'Clima en París durante Roland Garros: temperaturas, lluvia, recomendaciones de ropa y cómo prepararte para el tiempo variable en mayo y junio.',
   keywords: 'clima paris mayo junio, tiempo roland garros, que vestir roland garros, lluvia paris mayo, temperatura paris junio',
   openGraph: {
-    title: 'Clima en París y Qué Vestir para Roland Garros 2026',
+    title: 'Clima en París y Qué Vestir para Roland Garros 2027',
     description: 'Guía completa del clima en París durante mayo-junio y recomendaciones de vestimenta',
     type: 'article',
   },
@@ -29,7 +29,7 @@ export default function ClimaConsejosPage() {
   return (
     <>
       <ArticleSchema
-        headline="Clima en París y Qué Vestir para Roland Garros 2026"
+        headline="Clima en París y Qué Vestir para Roland Garros 2027"
         description="Información climática detallada de París en mayo-junio y recomendaciones completas de vestimenta"
         datePublished="2025-01-15"
         dateModified="2025-01-15"
@@ -41,7 +41,7 @@ export default function ClimaConsejosPage() {
         subtitle="Tiempo en París en mayo-junio y cómo prepararse"
         image="/images/heroes/paris-skyline.jpg"
         badge={{ icon: 'thermostat', text: '15-22°C Mayo-Junio' }}
-        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
       />
 
       {/* Quick Weather Summary */}
@@ -108,7 +108,7 @@ export default function ClimaConsejosPage() {
                     <h3 className="text-2xl font-bold mb-2 text-gray-900">
                       Finales de Mayo (Primera Semana del Torneo)
                     </h3>
-                    <p className="text-sm text-gray-600">Aproximadamente 24 de mayo - 31 de mayo 2026</p>
+                    <p className="text-sm text-gray-600">Aproximadamente 23 de mayo - 30 de mayo 2027</p>
                   </div>
                 </div>
 
@@ -150,7 +150,7 @@ export default function ClimaConsejosPage() {
                     <h3 className="text-2xl font-bold mb-2 text-gray-900">
                       Principios de Junio (Segunda Semana del Torneo)
                     </h3>
-                    <p className="text-sm text-gray-600">Aproximadamente 1 de junio - 7 de junio 2026</p>
+                    <p className="text-sm text-gray-600">Aproximadamente 31 de mayo - 6 de junio 2027</p>
                   </div>
                 </div>
 

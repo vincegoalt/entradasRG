@@ -4,8 +4,8 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Preguntas Frecuentes Roland Garros 2026 - Todo lo que Necesitas Saber',
-  description: 'Más de 75 preguntas frecuentes sobre Roland Garros 2026: entradas, fechas, precios, cómo llegar, qué llevar, historia y todo lo que necesitas saber para tu visita al French Open.',
+  title: 'Preguntas Frecuentes Roland Garros 2027 - Todo lo que Necesitas Saber',
+  description: 'Más de 75 preguntas frecuentes sobre Roland Garros 2027: entradas, fechas, precios, cómo llegar, qué llevar, historia y todo lo que necesitas saber para tu visita al French Open.',
   keywords: [
     'preguntas frecuentes roland garros',
     'cuando es roland garros',
@@ -24,8 +24,8 @@ export const metadata: Metadata = {
     'nadal roland garros titulos'
   ],
   openGraph: {
-    title: 'Preguntas Frecuentes Roland Garros 2026 - Todas tus Dudas Resueltas',
-    description: '75+ respuestas detalladas sobre Roland Garros 2026: entradas, logística, historia y consejos prácticos',
+    title: 'Preguntas Frecuentes Roland Garros 2027 - Todas tus Dudas Resueltas',
+    description: '75+ respuestas detalladas sobre Roland Garros 2027: entradas, logística, historia y consejos prácticos',
     type: 'article',
   },
   alternates: {
@@ -40,8 +40,8 @@ const faqData = [
     answer: 'Roland Garros es el torneo de tenis más prestigioso disputado en tierra batida y uno de los cuatro torneos de Grand Slam del circuito profesional. También conocido como el French Open o Les Internationaux de France, se celebra anualmente en París y representa el segundo Grand Slam de la temporada. El torneo es famoso por su superficie única de tierra batida roja, que hace que el juego sea más lento y los puntos más largos, requiriendo una combinación excepcional de resistencia física, habilidad técnica y fortaleza mental. El estadio principal, Philippe-Chatrier, puede albergar a más de 15,000 espectadores y cuenta con un techo retráctil inaugurado en 2020. Roland Garros es el único Grand Slam que aún no ha adoptado el tie-break en el set decisivo hasta 6-6, lo que ha dado lugar a algunos de los partidos más épicos de la historia del tenis.'
   },
   {
-    question: '¿Cuándo es Roland Garros 2026?',
-    answer: 'Roland Garros 2026 se celebrará desde el domingo 24 de mayo hasta el domingo 7 de junio de 2026, manteniendo su tradicional ventana de dos semanas. El torneo comienza con las rondas de clasificación del 18 al 22 de mayo, donde los jugadores compiten por las últimas plazas en el cuadro principal. La primera semana (24-30 de mayo) incluye las primeras tres rondas tanto en categoría individual como dobles, mientras que la segunda semana (31 de mayo-7 de junio) presenta los octavos de final, cuartos de final, semifinales y finales. Las finales de dobles se disputan el sábado 6 de junio, la final femenina individual el sábado también, y la final masculina individual cierra el torneo el domingo 7 de junio. Es importante planificar con anticipación ya que París suele estar muy concurrida durante este período, y tanto los hoteles como las entradas se agotan rápidamente.'
+    question: '¿Cuándo es Roland Garros 2027?',
+    answer: 'Roland Garros 2027 se celebrará desde el domingo 23 de mayo hasta el domingo 6 de junio de 2027, manteniendo su tradicional ventana de dos semanas. El torneo comienza con las rondas de clasificación del 17 al 21 de mayo, donde los jugadores compiten por las últimas plazas en el cuadro principal. La primera semana (23-29 de mayo) incluye las primeras tres rondas tanto en categoría individual como dobles, mientras que la segunda semana (30 de mayo-6 de junio) presenta los octavos de final, cuartos de final, semifinales y finales. Las finales de dobles se disputan el sábado 5 de junio, la final femenina individual el sábado también, y la final masculina individual cierra el torneo el domingo 6 de junio. Es importante planificar con anticipación ya que París suele estar muy concurrida durante este período, y tanto los hoteles como las entradas se agotan rápidamente.'
   },
   {
     question: '¿Dónde se juega Roland Garros?',
@@ -62,16 +62,16 @@ const faqData = [
 
   // ENTRADAS
   {
-    question: '¿Cuándo salen a la venta las entradas para Roland Garros 2026?',
-    answer: 'Las entradas oficiales para Roland Garros 2026 se pondrán a la venta en marzo de 2026, siguiendo el patrón tradicional de ventas del torneo. El proceso de venta se divide en varias fases: primero, hay un período de lotería o sorteo (generalmente en febrero-marzo) para las entradas de las pistas principales en las rondas finales, que son las más demandadas. Los fans deben registrarse en la página oficial del torneo (rolandgarros.com) durante la ventana de inscripción para participar en este sorteo. Después del sorteo, las entradas restantes se ponen a la venta general, normalmente en marzo-abril. Es crucial registrarse en el sitio web oficial con anticipación y activar las notificaciones para recibir alertas sobre las fechas exactas de venta. Las entradas para la primera semana suelen estar disponibles hasta más cerca del torneo, pero las de la segunda semana (especialmente semifinales y finales) se agotan en minutos. Los ground passes, que dan acceso a todas las pistas excepto las tres principales, generalmente están disponibles hasta el día del torneo. Recomendamos planificar con al menos 3-4 meses de anticipación para asegurar las mejores opciones.'
+    question: '¿Cuándo salen a la venta las entradas para Roland Garros 2027?',
+    answer: 'Las entradas oficiales para Roland Garros 2027 se pondrán a la venta en marzo de 2027, siguiendo el patrón tradicional de ventas del torneo. El proceso de venta se divide en varias fases: primero, hay un período de lotería o sorteo (generalmente en febrero-marzo) para las entradas de las pistas principales en las rondas finales, que son las más demandadas. Los fans deben registrarse en la página oficial del torneo (rolandgarros.com) durante la ventana de inscripción para participar en este sorteo. Después del sorteo, las entradas restantes se ponen a la venta general, normalmente en marzo-abril. Es crucial registrarse en el sitio web oficial con anticipación y activar las notificaciones para recibir alertas sobre las fechas exactas de venta. Las entradas para la primera semana suelen estar disponibles hasta más cerca del torneo, pero las de la segunda semana (especialmente semifinales y finales) se agotan en minutos. Los ground passes, que dan acceso a todas las pistas excepto las tres principales, generalmente están disponibles hasta el día del torneo. Recomendamos planificar con al menos 3-4 meses de anticipación para asegurar las mejores opciones.'
   },
   {
     question: '¿Dónde se compran las entradas oficiales de Roland Garros?',
     answer: 'Las entradas oficiales de Roland Garros solo se venden a través del sitio web oficial del torneo en rolandgarros.com. Este es el ÚNICO canal oficial y autorizado para la venta de entradas directas. La Federación Francesa de Tenis (FFT), organizadora del torneo, es muy estricta en este aspecto y advierte repetidamente contra la compra de entradas en sitios de reventa no autorizados, ya que existe un alto riesgo de fraude y las entradas pueden ser invalidadas. Además del sitio web oficial, algunos paquetes de hospitalidad y experiencias VIP se venden a través de agencias oficialmente autorizadas, pero estas deben estar listadas en el sitio web de Roland Garros. Para comprar entradas, necesitarás crear una cuenta en el sitio oficial, proporcionar información personal (ya que las entradas son nominativas) y tener una tarjeta de crédito válida. El sitio web está disponible en varios idiomas, incluido español, lo que facilita el proceso de compra. Desconfía de cualquier otro sitio web, especialmente aquellos que ofrecen entradas a precios significativamente más altos (revendedores) o más bajos (probablemente fraude) que los oficiales.'
   },
   {
-    question: '¿Cuánto cuestan las entradas de Roland Garros 2026?',
-    answer: 'Los precios de las entradas para Roland Garros 2026 variarán significativamente según la fecha, el tipo de entrada y la ubicación del asiento. Basándonos en años anteriores, aquí hay una guía aproximada: El ground pass (acceso general sin asiento asignado) cuesta entre 35-50€ para la primera semana, aumentando a 60-80€ para la segunda semana. Las entradas individuales para pistas numeradas secundarias (pistas 6-14) comienzan desde aproximadamente 45€ en primera ronda y pueden llegar hasta 150€ para cuartos de final. Para la pista Simonne-Mathieu, espera pagar 60-100€ en primera semana y 120-200€ en segunda semana. La pista Suzanne-Lenglen va desde 80€ en primera ronda hasta 250€ para semifinales. La pista principal Philippe-Chatrier es la más cara: 150-200€ para primeras rondas, 300-400€ para octavos y cuartos de final, 450-600€ para semifinales, y 300-500€ para la final (dependiendo de la categoría del asiento, que puede llegar hasta más de 800€). Los niños menores de 12 años suelen recibir descuentos del 50% en la mayoría de categorías. Los paquetes y experiencias VIP pueden costar desde 500€ hasta varios miles de euros, incluyendo comida, bebidas y acceso a áreas exclusivas.'
+    question: '¿Cuánto cuestan las entradas de Roland Garros 2027?',
+    answer: 'Los precios de las entradas para Roland Garros 2027 variarán significativamente según la fecha, el tipo de entrada y la ubicación del asiento. Basándonos en años anteriores, aquí hay una guía aproximada: El ground pass (acceso general sin asiento asignado) cuesta entre 35-50€ para la primera semana, aumentando a 60-80€ para la segunda semana. Las entradas individuales para pistas numeradas secundarias (pistas 6-14) comienzan desde aproximadamente 45€ en primera ronda y pueden llegar hasta 150€ para cuartos de final. Para la pista Simonne-Mathieu, espera pagar 60-100€ en primera semana y 120-200€ en segunda semana. La pista Suzanne-Lenglen va desde 80€ en primera ronda hasta 250€ para semifinales. La pista principal Philippe-Chatrier es la más cara: 150-200€ para primeras rondas, 300-400€ para octavos y cuartos de final, 450-600€ para semifinales, y 300-500€ para la final (dependiendo de la categoría del asiento, que puede llegar hasta más de 800€). Los niños menores de 12 años suelen recibir descuentos del 50% en la mayoría de categorías. Los paquetes y experiencias VIP pueden costar desde 500€ hasta varios miles de euros, incluyendo comida, bebidas y acceso a áreas exclusivas.'
   },
   {
     question: '¿Qué es el ground pass de Roland Garros?',
@@ -171,7 +171,7 @@ const faqData = [
   },
   {
     question: '¿Las pistas de Roland Garros tienen techo retráctil?',
-    answer: 'Actualmente, solo la pista principal Court Philippe-Chatrier tiene un techo retráctil, instalado y estrenado en 2020. Este fue un desarrollo monumental para Roland Garros, que históricamente había sido el único Grand Slam sin protección contra la lluvia en su pista principal. El techo está compuesto por 11 enormes vigas de acero que se despliegan desde los laterales del estadio y pueden cerrarse completamente en aproximadamente 15 minutos. Cuando está cerrado, crea un ambiente similar a una pista cubierta, aunque el diseño permite cierta circulación de aire para mantener las condiciones lo más cercanas posible al juego al aire libre. Las otras dos pistas principales, Suzanne-Lenglen y Simonne-Mathieu, no tienen techo retráctil y permanecen completamente al aire libre. Esto significa que los partidos en estas pistas están sujetos a retrasos o suspensiones debido a la lluvia. Todas las pistas exteriores numeradas también están completamente al aire libre. Hay planes para eventualmente instalar un techo retráctil en Court Suzanne-Lenglen, pero a partir de 2026 esto aún no se habrá completado. El techo de Philippe-Chatrier ha sido un cambio revolucionario, permitiendo que los partidos más importantes se completen sin importar el clima, algo que anteriormente causaba frecuentes interrupciones y retrasos frustrantes en el calendario del torneo.'
+    answer: 'Actualmente, solo la pista principal Court Philippe-Chatrier tiene un techo retráctil, instalado y estrenado en 2020. Este fue un desarrollo monumental para Roland Garros, que históricamente había sido el único Grand Slam sin protección contra la lluvia en su pista principal. El techo está compuesto por 11 enormes vigas de acero que se despliegan desde los laterales del estadio y pueden cerrarse completamente en aproximadamente 15 minutos. Cuando está cerrado, crea un ambiente similar a una pista cubierta, aunque el diseño permite cierta circulación de aire para mantener las condiciones lo más cercanas posible al juego al aire libre. Las otras dos pistas principales, Suzanne-Lenglen y Simonne-Mathieu, no tienen techo retráctil y permanecen completamente al aire libre. Esto significa que los partidos en estas pistas están sujetos a retrasos o suspensiones debido a la lluvia. Todas las pistas exteriores numeradas también están completamente al aire libre. Hay planes para eventualmente instalar un techo retráctil en Court Suzanne-Lenglen, pero a partir de 2027 esto aún no se habrá completado. El techo de Philippe-Chatrier ha sido un cambio revolucionario, permitiendo que los partidos más importantes se completen sin importar el clima, algo que anteriormente causaba frecuentes interrupciones y retrasos frustrantes en el calendario del torneo.'
   },
   {
     question: '¿Cuál es la mejor pista para comprar entradas después de Philippe-Chatrier?',
@@ -279,11 +279,11 @@ const faqData = [
   // PREMIOS Y DATOS DEL TORNEO
   {
     question: '¿Cuánto cobra el ganador de Roland Garros?',
-    answer: 'El campeón individual de Roland Garros 2025 recibió 2,4 millones de euros, y se espera una cifra similar o ligeramente superior para 2026. El prize money ha crecido significativamente en los últimos años. El subcampeón recibe aproximadamente 1,2 millones de euros. En total, el torneo reparte más de 50 millones de euros en premios. Los campeones de dobles reciben alrededor de 650.000 EUR por pareja. Estos premios están sujetos a impuestos franceses de aproximadamente el 20-30%.'
+    answer: 'El campeón individual de Roland Garros 2025 recibió 2,4 millones de euros, y se espera una cifra similar o ligeramente superior para 2027. El prize money ha crecido significativamente en los últimos años. El subcampeón recibe aproximadamente 1,2 millones de euros. En total, el torneo reparte más de 50 millones de euros en premios. Los campeones de dobles reciben alrededor de 650.000 EUR por pareja. Estos premios están sujetos a impuestos franceses de aproximadamente el 20-30%.'
   },
   {
     question: '¿Cuánto cobra Alcaraz si gana Roland Garros?',
-    answer: 'Si Carlos Alcaraz gana Roland Garros 2026, recibiría aproximadamente 2,4-2,6 millones de euros en premio (basado en la tendencia de incrementos anuales). Además, como campeón obtendría 2.000 puntos ATP para el ranking mundial. Alcaraz, que ganó Roland Garros en 2024, también recibiría bonificaciones significativas de sus patrocinadores (Nike, Rolex, Babolat) que pueden multiplicar varias veces el premio oficial del torneo.'
+    answer: 'Si Carlos Alcaraz gana Roland Garros 2027, recibiría aproximadamente 2,4-2,6 millones de euros en premio (basado en la tendencia de incrementos anuales). Además, como campeón obtendría 2.000 puntos ATP para el ranking mundial. Alcaraz, que ganó Roland Garros en 2024, también recibiría bonificaciones significativas de sus patrocinadores (Nike, Rolex, Babolat) que pueden multiplicar varias veces el premio oficial del torneo.'
   },
   {
     question: '¿Cuánto cobran los recogepelotas en Roland Garros?',
@@ -365,10 +365,10 @@ export default function PreguntasFrecuentesPage() {
       {/* Hero Section */}
       <PageHero
         title="Preguntas Frecuentes"
-        subtitle="Más de 75 respuestas detalladas sobre Roland Garros 2026: entradas, fechas, logística e historia"
+        subtitle="Más de 75 respuestas detalladas sobre Roland Garros 2027: entradas, fechas, logística e historia"
         image="/images/heroes/tennis-crowd.jpg"
         badge={{ icon: 'quiz', text: '75+ Respuestas' }}
-        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
         secondaryCta={{ text: 'Ver Preguntas', href: '#faq', icon: 'arrow_downward' }}
       />
 
@@ -585,23 +585,23 @@ export default function PreguntasFrecuentesPage() {
         <div className="absolute inset-0 opacity-10 bg-cover bg-center" style={{ backgroundImage: "url('/images/heroes/tennis-crowd.jpg')" }} />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4 text-white">
-            ¿Listo para Planificar tu Visita a Roland Garros 2026?
+            ¿Listo para Planificar tu Visita a Roland Garros 2027?
           </h2>
           <p className="text-xl mb-8 text-gray-300 max-w-2xl mx-auto">
             Ahora que tienes todas las respuestas, explora nuestras guías detalladas sobre entradas, calendario y cómo llegar
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="/entradas-roland-garros-2026"
+              href="/entradas-roland-garros-2027"
               className="bg-[#c75033] text-white px-8 py-3 rounded-lg font-bold hover:bg-[#b5452d] transition-colors inline-block"
             >
               Ver Guía de Entradas
             </a>
             <a
-              href="/calendario-roland-garros-2026"
+              href="/calendario-roland-garros-2027"
               className="bg-transparent text-white px-8 py-3 rounded-lg font-bold hover:bg-white/10 transition-colors border-2 border-white/30 inline-block"
             >
-              Consultar Calendario 2026
+              Consultar Calendario 2027
             </a>
           </div>
         </div>
@@ -613,12 +613,12 @@ export default function PreguntasFrecuentesPage() {
           <div className="max-w-3xl mx-auto bg-white border-l-4 border-[#c75033] p-6 rounded-xl shadow-sm">
             <h3 className="text-xl font-bold mb-3 text-gray-900">¿No encuentras tu pregunta?</h3>
             <p className="text-gray-700 mb-4">
-              Esta página cubre las 75 preguntas más frecuentes sobre Roland Garros 2026. Si tienes alguna duda específica que no está cubierta aquí,
+              Esta página cubre las 75 preguntas más frecuentes sobre Roland Garros 2027. Si tienes alguna duda específica que no está cubierta aquí,
               te recomendamos consultar nuestras guías detalladas sobre temas específicos como entradas, calendario, o logística.
               También puedes visitar el sitio web oficial de Roland Garros (rolandgarros.com) para información adicional y actualizaciones en tiempo real.
             </p>
             <p className="text-gray-700">
-              Recuerda que la información sobre Roland Garros 2026 se actualizará a medida que se acerque el torneo,
+              Recuerda que la información sobre Roland Garros 2027 se actualizará a medida que se acerque el torneo,
               así que vuelve a visitar esta página regularmente para obtener la información más reciente.
             </p>
           </div>

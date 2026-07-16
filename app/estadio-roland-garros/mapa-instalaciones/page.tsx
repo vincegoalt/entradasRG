@@ -7,11 +7,11 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Mapa e Instalaciones de Roland Garros: Guía Completa del Recinto 2026',
+  title: 'Mapa e Instalaciones de Roland Garros: Guía Completa del Recinto 2027',
   description: 'Guía completa de instalaciones en Roland Garros: mapa del estadio, restaurantes, tiendas oficiales, museo Tenniseum, baños, zonas de entretenimiento, accesibilidad y consejos para navegar el complejo.',
   keywords: 'mapa roland garros, instalaciones roland garros, tiendas roland garros, restaurantes roland garros, tenniseum, como moverse roland garros',
   openGraph: {
-    title: 'Mapa e Instalaciones de Roland Garros: Guía Completa 2026',
+    title: 'Mapa e Instalaciones de Roland Garros: Guía Completa 2027',
     description: 'Todo lo que necesitas saber sobre las instalaciones, tiendas, restaurantes y servicios en el complejo de Roland Garros.',
     url: 'https://entradasrolandgarros.com/estadio-roland-garros/mapa-instalaciones',
     type: 'article',
@@ -37,7 +37,7 @@ export default function MapaInstalacionesPage() {
         subtitle="Guía completa del complejo deportivo y sus servicios"
         image="/images/heroes/tennis-stadium.jpg"
         badge={{ icon: 'map', text: '12 Hectáreas' }}
-        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
       />
 
       <Breadcrumbs

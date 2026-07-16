@@ -3,13 +3,14 @@ import Link from 'next/link'
 import { FAQSchema } from '@/components/seo/FAQSchema'
 import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
+import { SessionsTable } from '@/components/ui/SessionsTable'
 
 export const metadata: Metadata = {
-  title: 'Sesion Nocturna Roland Garros 2026: Horarios, Entradas y Experiencia',
-  description: 'Todo sobre la sesion nocturna de Roland Garros 2026: horarios, precios de entradas, ambiente, consejos practicos y como combinar sesion diurna y nocturna.',
+  title: 'Sesion Nocturna Roland Garros 2027: Horarios, Entradas y Experiencia',
+  description: 'Todo sobre la sesion nocturna de Roland Garros 2027: horarios, precios de entradas, ambiente, consejos practicos y como combinar sesion diurna y nocturna.',
   keywords: 'sesion nocturna roland garros, night session roland garros, entradas sesion nocturna, horario sesion nocturna, philippe chatrier noche',
   openGraph: {
-    title: 'Sesion Nocturna Roland Garros 2026: Horarios, Entradas y Experiencia',
+    title: 'Sesion Nocturna Roland Garros 2027: Horarios, Entradas y Experiencia',
     description: 'Guia completa de la sesion nocturna de Roland Garros: horarios, precios, ambiente y consejos',
     type: 'article',
   },
@@ -63,7 +64,7 @@ export default function SesionNocturnaPage() {
         subtitle="Vive el tenis bajo las luces de Philippe-Chatrier"
         image="/images/heroes/tennis-stadium.jpg"
         badge={{ icon: 'nights_stay', text: 'Night Session' }}
-        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
       />
 
       {/* Introduccion */}
@@ -355,6 +356,20 @@ export default function SesionNocturnaPage() {
         </div>
       </section>
 
+      {/* Sesiones nocturnas por día */}
+      <section className="py-12 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <SessionsTable
+              columns={['night']}
+              onlyWithColumns
+              title="Sesiones nocturnas — Roland Garros 2027"
+              subtitle="Entradas para las sesiones nocturnas en la Pista Philippe-Chatrier (a partir de las 20:00). Compra cada sesión en GoalTickets."
+            />
+          </div>
+        </div>
+      </section>
+
       {/* GoalTickets CTA */}
       <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
@@ -372,12 +387,12 @@ export default function SesionNocturnaPage() {
               Guias Relacionadas
             </h2>
             <div className="grid md:grid-cols-3 gap-4">
-              <Link href="/entradas-roland-garros-2026" className="block p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-                <h3 className="font-bold mb-1">Entradas Roland Garros 2026</h3>
+              <Link href="/entradas-roland-garros-2027" className="block p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                <h3 className="font-bold mb-1">Entradas Roland Garros 2027</h3>
                 <p className="text-sm text-gray-600">Toda la informacion sobre entradas y precios</p>
               </Link>
-              <Link href="/calendario-roland-garros-2026" className="block p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-                <h3 className="font-bold mb-1">Calendario Roland Garros 2026</h3>
+              <Link href="/calendario-roland-garros-2027" className="block p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                <h3 className="font-bold mb-1">Calendario Roland Garros 2027</h3>
                 <p className="text-sm text-gray-600">Fechas, rondas y horarios del torneo</p>
               </Link>
               <Link href="/guia-completa" className="block p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">

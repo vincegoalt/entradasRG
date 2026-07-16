@@ -19,11 +19,11 @@ export function StickyTicketBar() {
     <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden animate-slide-up">
       <div className="bg-[#1d110c] border-t border-white/10 px-4 py-3 flex items-center justify-between gap-3">
         <div className="flex flex-col min-w-0">
-          <span className="text-white text-sm font-bold truncate">Roland Garros 2026</span>
+          <span className="text-white text-sm font-bold truncate">Roland Garros 2027</span>
           <span className="text-white/70 text-xs">Desde 35 EUR por entrada</span>
         </div>
         <a
-          href="https://goaltickets.com/es/collections/entradas-roland-garros-2026"
+          href="https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session"
           target="_blank"
           rel="noopener"
           className="shrink-0 bg-primary text-white text-sm font-bold px-5 py-2.5 rounded-lg btn-shine min-h-[44px] flex items-center"

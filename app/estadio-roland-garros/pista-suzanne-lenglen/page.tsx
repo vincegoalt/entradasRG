@@ -24,9 +24,9 @@ export default function SuzanneLenglenPage() {
   return (
     <>
       <SportsEventSchema
-        name="Pista Suzanne-Lenglen - Roland Garros 2026"
-        startDate="2026-05-24"
-        endDate="2026-06-07"
+        name="Pista Suzanne-Lenglen - Roland Garros 2027"
+        startDate="2027-05-23"
+        endDate="2027-06-06"
         description="La segunda pista principal de Roland Garros con capacidad para 10,068 espectadores, escenario de semifinales y partidos clave"
       />
 
@@ -35,7 +35,7 @@ export default function SuzanneLenglenPage() {
         subtitle="La segunda pista más grande de Roland Garros"
         image="/images/heroes/tennis-stadium.jpg"
         badge={{ icon: 'stadium', text: '9,829 Espectadores' }}
-        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/collections/entradas-roland-garros-2026', icon: 'confirmation_number', external: true }}
+        primaryCta={{ text: 'Comprar Entradas', href: 'https://goaltickets.com/es/products/chatrier-french-open-tickets-2027-may-23-sunday-day-session', icon: 'confirmation_number', external: true }}
       />
 
       <Breadcrumbs
@@ -479,10 +479,10 @@ export default function SuzanneLenglenPage() {
                 <p>• Mejor disponibilidad en sistema de lotería y reventa oficial</p>
               </div>
               <Link
-                href="/entradas-roland-garros-2026"
+                href="/entradas-roland-garros-2027"
                 className="inline-block bg-[#c1483a] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#a13a2e] transition-colors"
               >
-                Ver Guía Completa de Entradas 2026
+                Ver Guía Completa de Entradas 2027
               </Link>
             </section>
 
