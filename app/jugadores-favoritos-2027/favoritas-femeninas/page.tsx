@@ -4,7 +4,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Favoritas Femeninas Roland Garros 2027: Análisis de Candidatas | Guía Completa',
+  title: 'Favoritas Femeninas Roland Garros 2027: Candidatas',
   description: 'Análisis detallado de las principales candidatas al título femenino de Roland Garros 2027. Descubre quiénes son las favoritas en tierra batida para conquistar París.',
   keywords: 'favoritas femeninas roland garros 2027, candidatas roland garros, tenistas roland garros, favoritas tierra batida, wta roland garros',
   openGraph: {

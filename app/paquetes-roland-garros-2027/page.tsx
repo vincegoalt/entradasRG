@@ -7,7 +7,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Paquetes Roland Garros 2027: Vuelo + Hotel + Entradas desde España y LATAM',
+  title: 'Paquetes Roland Garros 2027: Vuelo + Hotel + Entradas',
   description: 'Planifica tu viaje completo a Roland Garros 2027: paquetes de vuelo, hotel y entradas. Presupuestos por perfil, timeline de reservas y recomendaciones de alojamiento cerca del estadio.',
   keywords: [
     'paquetes roland garros 2027',

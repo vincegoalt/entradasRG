@@ -31,7 +31,7 @@ export function SportsEventSchema({
         addressCountry: 'FR',
       },
     },
-    image: 'https://www.entradasrolandgarros.com/images/roland-garros-stadium.jpg',
+    image: 'https://www.entradasrolandgarros.com/images/stadium/roland-garros-tournament-2026.jpg',
     eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
     eventStatus: 'https://schema.org/EventScheduled',
     offers: {

@@ -6,7 +6,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Dónde Se Juega Roland Garros: Ubicación, Superficie y Cómo Llegar',
+  title: 'Dónde Se Juega Roland Garros: Ubicación y Acceso',
   description: 'Roland Garros se juega en el Stade Roland Garros, 2 Avenue Gordon Bennett, París 75016. Superficie de tierra batida (arcilla roja). Guía de ubicación, cómo llegar y comparación con otros Grand Slams.',
   keywords: [
     'donde se juega roland garros',

@@ -7,7 +7,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Estadio Roland Garros: Pistas, Historia e Instalaciones | Guía Completa 2027',
+  title: 'Estadio Roland Garros 2027: Pistas e Instalaciones',
   description: 'Descubre el estadio Roland Garros: pista Philippe-Chatrier con techo retráctil, Suzanne-Lenglen, Simonne-Mathieu, historia del complejo, instalaciones y mapa del recinto. Guía completa en español.',
   keywords: 'estadio roland garros, pistas roland garros, philippe chatrier, suzanne lenglen, simonne mathieu, instalaciones roland garros, historia roland garros',
   openGraph: {

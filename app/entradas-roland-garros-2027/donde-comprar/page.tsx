@@ -6,7 +6,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Dónde Comprar Entradas Roland Garros 2027: Guía Completa de Opciones',
+  title: 'Dónde Comprar Entradas Roland Garros 2027',
   description: 'Guía completa sobre dónde comprar entradas para Roland Garros 2027. Canal oficial FFT, opciones para compradores internacionales, plataformas verificadas y cómo evitar estafas.',
   keywords: [
     'donde comprar entradas roland garros',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'entradas garantizadas roland garros'
   ],
   openGraph: {
-    title: 'Dónde Comprar Entradas Roland Garros 2027: Todas las Opciones',
+    title: 'Dónde Comprar Entradas Roland Garros 2027: Opciones',
     description: 'Canal oficial, plataformas internacionales verificadas y cómo evitar estafas al comprar entradas para Roland Garros.',
     type: 'article',
     url: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/donde-comprar/',

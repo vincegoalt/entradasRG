@@ -20,7 +20,7 @@ export default function FechasImportantesPage() {
       <ArticleSchema
         headline="Fechas Importantes Roland Garros 2027"
         description="Calendario detallado con todas las fechas clave del torneo Roland Garros 2027"
-        image="https://www.entradasrolandgarros.com/images/calendario-roland-garros.jpg"
+        image="https://www.entradasrolandgarros.com/images/heroes/tennis-stadium.jpg"
         datePublished="2025-01-15"
         dateModified="2026-07-16"
       />

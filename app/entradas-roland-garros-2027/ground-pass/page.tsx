@@ -7,7 +7,7 @@ import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 import { SessionsTable } from '@/components/ui/SessionsTable'
 
 export const metadata: Metadata = {
-  title: 'Ground Pass Roland Garros 2027: Guía Completa, Precio y Consejos',
+  title: 'Ground Pass Roland Garros 2027: Precio y Consejos',
   description: 'Todo sobre el ground pass de Roland Garros 2027: qué incluye, precio, mejores días para comprarlo, estrategias y cómo maximizar tu experiencia.',
   keywords: [
     'ground pass roland garros',

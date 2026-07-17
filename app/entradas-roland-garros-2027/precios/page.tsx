@@ -6,7 +6,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Precios Entradas Roland Garros 2027: Guía Completa por Ronda y Asiento',
+  title: 'Precios Entradas Roland Garros 2027 por Ronda y Zona',
   description: 'Precios actualizados de entradas para Roland Garros 2027. Desglose completo por ronda, pista, categoría de asiento y consejos para encontrar la mejor opción según tu presupuesto.',
   keywords: [
     'precios entradas roland garros 2027',

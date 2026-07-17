@@ -6,7 +6,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Clima en París en Mayo-Junio 2027 | Qué Vestir para Roland Garros',
+  title: 'Clima en París para Roland Garros 2027: Qué Vestir',
   description: 'Clima en París durante Roland Garros: temperaturas, lluvia, recomendaciones de ropa y cómo prepararte para el tiempo variable en mayo y junio.',
   keywords: 'clima paris mayo junio, tiempo roland garros, que vestir roland garros, lluvia paris mayo, temperatura paris junio',
   openGraph: {

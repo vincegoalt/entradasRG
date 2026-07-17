@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     description: 'Guía definitiva de Roland Garros 2027 en español. Calendario, entradas, precios y todo lo que necesitas saber.',
     images: [
       {
-        url: '/images/og-image.jpg',
+        url: '/images/hero/rolandgarros2027.jpg',
         width: 1200,
         height: 630,
         alt: 'Roland Garros 2027 Guía Completa',
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Roland Garros 2027: Guía Completa en Español',
     description: 'Todo sobre Roland Garros 2027: calendario, entradas, precios y consejos prácticos',
-    images: ['/images/twitter-image.jpg'],
+    images: ['/images/hero/rolandgarros2027.jpg'],
   },
   alternates: {
     canonical: 'https://www.entradasrolandgarros.com/',

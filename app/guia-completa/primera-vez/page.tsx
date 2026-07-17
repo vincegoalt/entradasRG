@@ -6,7 +6,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Guía para Primerizos en Roland Garros 2027 | Consejos y Tips',
+  title: 'Guía para Primerizos en Roland Garros 2027: Consejos',
   description: 'Guía completa para tu primera visita a Roland Garros: llegada, estrategias para ver más tenis, dónde comer, souvenirs y errores comunes a evitar.',
   keywords: 'primera vez roland garros, consejos roland garros, tips roland garros, guia principiantes roland garros, errores evitar roland garros',
   openGraph: {

@@ -7,7 +7,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Comprar Entradas Roland Garros desde Latinoamérica: Guía para Hispanos',
+  title: 'Comprar Entradas Roland Garros desde Latinoamérica',
   description: 'Guía completa para comprar entradas de Roland Garros 2027 desde México, Argentina, Colombia, Chile y toda Latinoamérica. Alternativas a la lotería oficial, plataformas verificadas y consejos prácticos.',
   keywords: [
     'comprar entradas roland garros desde latinoamerica',

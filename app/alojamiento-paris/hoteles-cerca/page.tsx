@@ -4,7 +4,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Hoteles Cerca de Roland Garros 2027: Guía por Zonas y Precios',
+  title: 'Hoteles Cerca de Roland Garros 2027: Zonas y Precios',
   description: 'Descubre los mejores hoteles cerca del estadio Roland Garros. Análisis por zonas, rangos de precio y distancias exactas para elegir tu alojamiento perfecto.',
   keywords: [
     'hoteles cerca roland garros',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     'donde dormir roland garros'
   ],
   openGraph: {
-    title: 'Hoteles Cerca de Roland Garros 2027: Guía por Zonas y Precios',
+    title: 'Hoteles Cerca de Roland Garros 2027: Zonas y Precios',
     description: 'Guía completa de hoteles cerca de Roland Garros con precios, distancias y recomendaciones.',
     type: 'article',
   },

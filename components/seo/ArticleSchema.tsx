@@ -12,7 +12,7 @@ interface ArticleSchemaProps {
 export function ArticleSchema({
   headline,
   description,
-  image = 'https://www.entradasrolandgarros.com/images/default-og-image.jpg',
+  image = 'https://www.entradasrolandgarros.com/images/hero/rolandgarros2027.jpg',
   datePublished,
   dateModified,
   authorName = 'Entradas Roland Garros'

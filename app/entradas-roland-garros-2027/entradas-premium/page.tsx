@@ -5,7 +5,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Entradas Premium Roland Garros 2027: Club des Loges, Hospitalidad y Paquetes Corporativos',
+  title: 'Entradas Premium Roland Garros 2027: Club des Loges',
   description: 'Descubre los paquetes premium de Roland Garros 2027: Club des Loges, hospitalidad corporativa, Salon des Légendes y experiencias exclusivas. Precios, comparativa y cómo reservar.',
   keywords: [
     'entradas premium roland garros 2027',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'experiencia premium roland garros'
   ],
   openGraph: {
-    title: 'Entradas Premium Roland Garros 2027: Club des Loges y Hospitalidad Corporativa',
+    title: 'Entradas Premium Roland Garros 2027: Hospitalidad VIP',
     description: 'Paquetes premium exclusivos para Roland Garros 2027: Club des Loges, hospitalidad, opciones corporativas y experiencias únicas.',
     type: 'article',
     url: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/entradas-premium/',

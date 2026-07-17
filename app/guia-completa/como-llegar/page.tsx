@@ -7,11 +7,11 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Cómo Llegar a Roland Garros 2027 | Metro, Autobús, Aeropuertos y Parking',
+  title: 'Cómo Llegar a Roland Garros 2027: Metro y Transporte',
   description: 'Guía completa de transporte a Roland Garros: Metro Línea 10 (Porte d\'Auteuil), autobuses, cómo llegar desde Charles de Gaulle y Orly, parking y mejores rutas.',
   keywords: 'como llegar roland garros, metro roland garros, porte auteuil, transporte roland garros, charles de gaulle roland garros, orly roland garros',
   openGraph: {
-    title: 'Cómo Llegar a Roland Garros 2027 - Guía Completa de Transporte',
+    title: 'Cómo Llegar a Roland Garros 2027: Transporte',
     description: 'Todas las opciones de transporte para llegar a Roland Garros: metro, autobús, desde aeropuertos y parking',
     type: 'article',
   },

@@ -1,12 +1,13 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs'
 import { FAQSchema } from '@/components/seo/FAQSchema'
 import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Mejores Asientos Roland Garros 2027: Guía por Pista, Sol y Sombra',
+  title: 'Mejores Asientos Roland Garros 2027: Sol y Sombra',
   description: 'Guía completa de los mejores asientos en Roland Garros 2027. Análisis por pista, consideraciones de sol y sombra, categorías recomendadas y dónde sentarse para la mejor experiencia.',
   keywords: [
     'mejores asientos roland garros',
@@ -91,6 +92,22 @@ export default function MejoresAsientosPage() {
                   altos, encontrarás la información necesaria para tomar la mejor decisión.
                 </p>
               </section>
+
+              {/* Seating plan visual */}
+              <figure className="mb-12">
+                <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm bg-white">
+                  <Image
+                    src="/images/courts/plano de asientos de Roland Garros.png"
+                    alt="Plano de asientos de Roland Garros con la distribución de categorías por pista y la orientación de sol y sombra"
+                    width={1200}
+                    height={800}
+                    className="w-full h-auto"
+                  />
+                </div>
+                <figcaption className="text-sm text-gray-500 mt-2 text-center">
+                  Plano de asientos de Roland Garros: categorías, numeración y orientación sol/sombra por pista.
+                </figcaption>
+              </figure>
 
               {/* Philippe-Chatrier */}
               <section className="mb-12">

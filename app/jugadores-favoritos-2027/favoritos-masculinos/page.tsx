@@ -4,7 +4,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Favoritos Masculinos Roland Garros 2027: Análisis de Candidatos | Guía Completa',
+  title: 'Favoritos Masculinos Roland Garros 2027: Candidatos',
   description: 'Análisis detallado de los principales candidatos al título masculino de Roland Garros 2027. Descubre quiénes son los favoritos en tierra batida para conquistar París.',
   keywords: 'favoritos masculinos roland garros 2027, candidatos roland garros, tenistas roland garros, favoritos tierra batida, carlos alcaraz roland garros',
   openGraph: {

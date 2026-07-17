@@ -6,7 +6,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Tipos de Entradas Roland Garros 2027: Ground Pass, Individuales y Paquetes',
+  title: 'Tipos de Entradas Roland Garros 2027: Guía por Tipo',
   description: 'Guía completa de todos los tipos de entradas para Roland Garros 2027: ground pass, entradas individuales, sesiones nocturnas, paquetes premium y más.',
   keywords: [
     'tipos entradas roland garros',

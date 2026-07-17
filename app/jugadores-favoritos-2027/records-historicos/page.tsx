@@ -4,7 +4,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Records Históricos Roland Garros: El Dominio de Nadal y Más | Guía 2027',
+  title: 'Records Históricos de Roland Garros: Nadal y Más',
   description: 'Descubre los records históricos de Roland Garros, el dominio legendario de Rafael Nadal con 14 títulos, y las mayores hazañas en la tierra batida parisina.',
   keywords: 'records roland garros, nadal roland garros, historia roland garros, nadal 14 titulos, records tierra batida, estadisticas roland garros',
   openGraph: {

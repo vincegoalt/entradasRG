@@ -6,7 +6,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Reglas del Estadio Roland Garros 2027 | Normativa y Seguridad',
+  title: 'Reglas del Estadio Roland Garros 2027: Normativa',
   description: 'Guía completa de reglas de Roland Garros: comportamiento, controles de seguridad, políticas de reingreso, accesos según entrada y etiqueta del espectador.',
   keywords: 'reglas roland garros, normativa roland garros, seguridad roland garros, prohibiciones roland garros, etiqueta tenis',
   openGraph: {

@@ -7,7 +7,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Qué Llevar a Roland Garros 2027 | Lista Completa de Esenciales',
+  title: 'Qué Llevar a Roland Garros 2027: Lista de Esenciales',
   description: 'Checklist completo de qué llevar a Roland Garros: protección solar, ropa adecuada, tecnología permitida, comida y bebida, y artículos prohibidos.',
   keywords: 'que llevar roland garros, lista roland garros, permitido roland garros, prohibido roland garros, mochila roland garros',
   openGraph: {

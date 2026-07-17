@@ -6,7 +6,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Guía Completa para Asistir a Roland Garros 2027 | Todo lo que Necesitas Saber',
+  title: 'Guía Completa para Asistir a Roland Garros 2027',
   description: 'Guía práctica completa para tu visita a Roland Garros 2027: cómo llegar, qué llevar, reglas del estadio, clima, consejos para primerizos y mucho más.',
   keywords: 'guia roland garros, como llegar roland garros, que llevar roland garros, reglas roland garros, clima paris mayo junio, consejos roland garros',
   openGraph: {

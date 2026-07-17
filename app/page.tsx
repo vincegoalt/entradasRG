@@ -42,7 +42,7 @@ export default function HomePage() {
       <section className="relative min-h-[520px] sm:min-h-[560px] flex items-center justify-center overflow-hidden">
         <Image
           src="/images/hero/rolandgarros2027.jpg"
-          alt="Roland Garros stadium with clay court in view"
+          alt="Estadio Roland Garros con la pista central Philippe-Chatrier de tierra batida"
           fill
           className="object-cover"
           priority

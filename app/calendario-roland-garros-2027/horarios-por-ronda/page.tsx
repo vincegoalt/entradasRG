@@ -6,7 +6,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Horarios por Ronda Roland Garros 2027 | Programación del Torneo',
+  title: 'Horarios por Ronda Roland Garros 2027: Programación',
   description: 'Horarios detallados de cada ronda de Roland Garros 2027. Conoce cuándo comienzan los partidos en cada pista y planifica tu día en el torneo.',
   keywords: 'horarios roland garros, horarios por ronda, programación roland garros 2027, sesiones roland garros, hora partidos roland garros',
   alternates: {
@@ -20,7 +20,7 @@ export default function HorariosPorRondaPage() {
       <ArticleSchema
         headline="Horarios por Ronda Roland Garros 2027"
         description="Guía completa de horarios para cada ronda del torneo Roland Garros 2027"
-        image="https://www.entradasrolandgarros.com/images/horarios-roland-garros.jpg"
+        image="https://www.entradasrolandgarros.com/images/heroes/tennis-action.jpg"
         datePublished="2025-01-15"
         dateModified="2025-01-15"
       />

@@ -6,11 +6,11 @@ import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 import { SessionsTable } from '@/components/ui/SessionsTable'
 
 export const metadata: Metadata = {
-  title: 'Sesion Nocturna Roland Garros 2027: Horarios, Entradas y Experiencia',
+  title: 'Sesión Nocturna Roland Garros 2027: Horarios y Precios',
   description: 'Todo sobre la sesion nocturna de Roland Garros 2027: horarios, precios de entradas, ambiente, consejos practicos y como combinar sesion diurna y nocturna.',
   keywords: 'sesion nocturna roland garros, night session roland garros, entradas sesion nocturna, horario sesion nocturna, philippe chatrier noche',
   openGraph: {
-    title: 'Sesion Nocturna Roland Garros 2027: Horarios, Entradas y Experiencia',
+    title: 'Sesión Nocturna Roland Garros 2027: Horarios y Precios',
     description: 'Guia completa de la sesion nocturna de Roland Garros: horarios, precios, ambiente y consejos',
     type: 'article',
   },

@@ -7,7 +7,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Pista Philippe-Chatrier: La Central de Roland Garros con Techo Retráctil',
+  title: 'Pista Philippe-Chatrier: La Central de Roland Garros',
   description: 'Todo sobre la pista central Philippe-Chatrier: capacidad de 15,225 espectadores, techo retráctil inaugurado en 2020, mejores asientos, historia y características técnicas de la pista más importante de Roland Garros.',
   keywords: 'philippe chatrier, pista central roland garros, techo retractil roland garros, capacidad philippe chatrier, court central',
   openGraph: {

@@ -4,7 +4,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Mejores Barrios de París para Alojarse en Roland Garros 2027',
+  title: 'Mejores Barrios de París para Roland Garros 2027',
   description: 'Guía detallada de los mejores distritos y barrios de París para alojarse durante Roland Garros. Análisis del distrito 16, 15, 7 y otras áreas estratégicas.',
   keywords: [
     'mejores barrios paris',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     'mejores zonas paris roland garros'
   ],
   openGraph: {
-    title: 'Mejores Barrios de París para Alojarse en Roland Garros 2027',
+    title: 'Mejores Barrios de París para Roland Garros 2027',
     description: 'Descubre los mejores distritos y barrios de París para tu estancia durante Roland Garros.',
     type: 'article',
   },

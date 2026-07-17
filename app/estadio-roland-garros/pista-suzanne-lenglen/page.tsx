@@ -6,11 +6,11 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Pista Suzanne-Lenglen: Segunda Pista Principal de Roland Garros',
+  title: 'Pista Suzanne-Lenglen: Segunda Central de Roland Garros',
   description: 'Guía completa de la pista Suzanne-Lenglen en Roland Garros: capacidad de 10,068 espectadores, historia, características, mejores asientos y cómo conseguir entradas para la segunda pista más importante del torneo.',
   keywords: 'suzanne lenglen, pista suzanne lenglen, court 1 roland garros, segunda pista roland garros',
   openGraph: {
-    title: 'Pista Suzanne-Lenglen: Segunda Pista Principal de Roland Garros',
+    title: 'Pista Suzanne-Lenglen: Segunda Central de Roland Garros',
     description: 'Todo sobre la pista Suzanne-Lenglen con capacidad para 10,068 espectadores y su ambiente único.',
     url: 'https://www.entradasrolandgarros.com/estadio-roland-garros/pista-suzanne-lenglen/',
     type: 'article',

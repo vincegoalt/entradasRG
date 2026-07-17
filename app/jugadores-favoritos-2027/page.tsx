@@ -4,11 +4,11 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Jugadores Favoritos Roland Garros 2027: Candidatos al Título | Guía Completa',
+  title: 'Jugadores Favoritos Roland Garros 2027: Candidatos',
   description: 'Descubre los favoritos para Roland Garros 2027. Análisis completo de candidatos masculinos y femeninos, el legado de Nadal y los records históricos del torneo.',
   keywords: 'jugadores favoritos roland garros 2027, nadal roland garros, favoritos roland garros, records roland garros, tenistas roland garros 2027',
   openGraph: {
-    title: 'Jugadores Favoritos Roland Garros 2027: Candidatos al Título',
+    title: 'Jugadores Favoritos Roland Garros 2027: Candidatos',
     description: 'Guía completa de los favoritos para Roland Garros 2027, análisis de los mejores tenistas y records históricos del torneo',
     type: 'article',
   },

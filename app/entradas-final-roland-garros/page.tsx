@@ -6,7 +6,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Entradas Final Roland Garros 2027: Precios, Cómo Comprar y Disponibilidad',
+  title: 'Entradas Final Roland Garros 2027: Precios y Compra',
   description: 'Guía completa para comprar entradas para la final de Roland Garros 2027. Precios desde 150 EUR, sistema de lotería, alternativas si están agotadas y guía paso a paso.',
   keywords: [
     'entradas final roland garros',

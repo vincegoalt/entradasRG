@@ -5,7 +5,7 @@ import { SportsEventSchema } from '@/components/seo/SportsEventSchema'
 import { FAQSchema } from '@/components/seo/FAQSchema'
 
 export const metadata: Metadata = {
-  title: 'Entradas Roland Garros 2027 desde 35 EUR: Comprar Tickets y Precios',
+  title: 'Entradas Roland Garros 2027 desde 35 EUR: Precios',
   description: 'Guía completa de entradas para Roland Garros 2027: tipos de tickets, precios actualizados, ground pass, mejores asientos y dónde comprar de forma segura.',
   keywords: [
     'entradas roland garros 2027',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'roland garros 2027 tickets'
   ],
   openGraph: {
-    title: 'Entradas Roland Garros 2027: Guía Completa de Tipos y Precios',
+    title: 'Entradas Roland Garros 2027: Tipos y Precios',
     description: 'Todo sobre las entradas para Roland Garros 2027: tipos, precios, ground pass, mejores asientos y dónde comprar de forma oficial.',
     type: 'article',
     url: 'https://www.entradasrolandgarros.com/entradas-roland-garros-2027/',
@@ -80,7 +80,7 @@ export default function EntradasRolandGarrosPage() {
 
         {/* Hero Section */}
         <section className="relative bg-gradient-to-br from-[#1d110c] via-[#2a1a12] to-[#1d110c] py-16 md:py-20 overflow-hidden">
-          <div className="absolute inset-0 bg-[url('/images/hero-bg.jpg')] opacity-15 bg-cover bg-center" />
+          <div className="absolute inset-0 bg-[url('/images/hero/rolandgarros2027.jpg')] opacity-15 bg-cover bg-center" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#1d110c] via-transparent to-[#1d110c]/80" />
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-4xl mx-auto">
@@ -426,7 +426,7 @@ export default function EntradasRolandGarrosPage() {
 
               {/* GoalTickets Premium CTA */}
               <section className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#1d110c] via-[#2a1a12] to-[#1d110c] p-8 md:p-10">
-                <div className="absolute inset-0 bg-[url('/images/hero-bg.jpg')] opacity-10 bg-cover bg-center" />
+                <div className="absolute inset-0 bg-[url('/images/hero/rolandgarros2027.jpg')] opacity-10 bg-cover bg-center" />
                 <div className="relative z-10">
                   <div className="flex items-center gap-2 mb-4">
                     <span className="material-symbols-outlined text-primary" style={{fontSize: '28px', fontVariationSettings: "'FILL' 1"}}>verified</span>
@@ -610,7 +610,7 @@ export default function EntradasRolandGarrosPage() {
 
         {/* CTA Section */}
         <section className="relative py-16 bg-gradient-to-br from-[#1d110c] via-[#2a1a12] to-[#1d110c] overflow-hidden">
-          <div className="absolute inset-0 bg-[url('/images/hero-bg.jpg')] opacity-10 bg-cover bg-center" />
+          <div className="absolute inset-0 bg-[url('/images/hero/rolandgarros2027.jpg')] opacity-10 bg-cover bg-center" />
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-black mb-4 text-white">
               ¿Listo para Asistir a Roland Garros 2027?

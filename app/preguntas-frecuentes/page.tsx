@@ -4,7 +4,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Preguntas Frecuentes Roland Garros 2027 - Todo lo que Necesitas Saber',
+  title: 'Preguntas Frecuentes Roland Garros 2027',
   description: 'Más de 75 preguntas frecuentes sobre Roland Garros 2027: entradas, fechas, precios, cómo llegar, qué llevar, historia y todo lo que necesitas saber para tu visita al French Open.',
   keywords: [
     'preguntas frecuentes roland garros',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     'nadal roland garros titulos'
   ],
   openGraph: {
-    title: 'Preguntas Frecuentes Roland Garros 2027 - Todas tus Dudas Resueltas',
+    title: 'Preguntas Frecuentes Roland Garros 2027',
     description: '75+ respuestas detalladas sobre Roland Garros 2027: entradas, logística, historia y consejos prácticos',
     type: 'article',
   },

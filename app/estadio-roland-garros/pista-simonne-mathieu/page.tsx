@@ -6,11 +6,11 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Pista Simonne-Mathieu: La Joya Arquitectónica de Roland Garros',
+  title: 'Pista Simonne-Mathieu: La Joya de Roland Garros',
   description: 'Descubre la pista Simonne-Mathieu: diseño único rodeado de invernaderos históricos del siglo XIX, capacidad de 5,000 espectadores, arquitectura premiada e integración con el Jardín Botánico de Auteuil.',
   keywords: 'simonne mathieu, pista simonne mathieu, invernaderos roland garros, court 3 roland garros, arquitectura roland garros',
   openGraph: {
-    title: 'Pista Simonne-Mathieu: La Joya Arquitectónica de Roland Garros',
+    title: 'Pista Simonne-Mathieu: La Joya de Roland Garros',
     description: 'La pista más innovadora de Roland Garros con su diseño único integrado en invernaderos históricos.',
     url: 'https://www.entradasrolandgarros.com/estadio-roland-garros/pista-simonne-mathieu/',
     type: 'article',

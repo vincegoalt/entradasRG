@@ -7,7 +7,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Mapa e Instalaciones de Roland Garros: Guía Completa del Recinto 2027',
+  title: 'Mapa e Instalaciones de Roland Garros 2027',
   description: 'Guía completa de instalaciones en Roland Garros: mapa del estadio, restaurantes, tiendas oficiales, museo Tenniseum, baños, zonas de entretenimiento, accesibilidad y consejos para navegar el complejo.',
   keywords: 'mapa roland garros, instalaciones roland garros, tiendas roland garros, restaurantes roland garros, tenniseum, como moverse roland garros',
   openGraph: {

@@ -7,7 +7,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Entradas VIP Roland Garros 2027: Hospitalidad, Palcos y Experiencias Premium',
+  title: 'Entradas VIP Roland Garros 2027: Hospitalidad y Palcos',
   description: 'Guía completa de entradas VIP y hospitalidad para Roland Garros 2027. Palcos privados, suites corporativas, paquetes premium y experiencias exclusivas con precios y comparativa.',
   keywords: [
     'entradas vip roland garros',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'suites roland garros'
   ],
   openGraph: {
-    title: 'Entradas VIP Roland Garros 2027: Guía de Hospitalidad Premium',
+    title: 'Entradas VIP Roland Garros 2027: Hospitalidad Premium',
     description: 'Todo sobre entradas VIP, palcos privados y experiencias premium en Roland Garros 2027.',
     type: 'article',
     url: 'https://www.entradasrolandgarros.com/entradas-vip-roland-garros/',

@@ -7,7 +7,7 @@ import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 import { SessionsTable } from '@/components/ui/SessionsTable'
 
 export const metadata: Metadata = {
-  title: 'Orden de Juego Roland Garros 2027 | Cómo Consultar el Programa Diario',
+  title: 'Orden de Juego Roland Garros 2027: Programa Diario',
   description: 'Guía completa sobre el orden de juego diario de Roland Garros 2027. Aprende cómo consultarlo, interpretarlo y planificar tu día en el torneo.',
   keywords: 'orden de juego roland garros, programa diario roland garros, partidos hoy roland garros, horarios partidos roland garros 2027',
   alternates: {
@@ -21,7 +21,7 @@ export default function OrdenDeJuegoPage() {
       <ArticleSchema
         headline="Orden de Juego Roland Garros 2027"
         description="Todo lo que necesitas saber sobre el orden de juego diario de Roland Garros 2027"
-        image="https://www.entradasrolandgarros.com/images/orden-juego-roland-garros.jpg"
+        image="https://www.entradasrolandgarros.com/images/heroes/tennis-action.jpg"
         datePublished="2025-01-15"
         dateModified="2025-01-15"
       />

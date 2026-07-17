@@ -6,7 +6,7 @@ import { PageHero } from '@/components/ui/PageHero'
 import { GoalTicketsCTA } from '@/components/ui/GoalTicketsCTA'
 
 export const metadata: Metadata = {
-  title: 'Historia de Roland Garros: Del Aviador Pionero al Estadio Legendario',
+  title: 'Historia de Roland Garros: Del Aviador al Estadio',
   description: 'Historia completa de Roland Garros desde 1928: quién fue Roland Garros, construcción del estadio, evolución del torneo, momentos históricos, leyendas del tenis y transformación hasta convertirse en el Grand Slam más prestigioso en tierra batida.',
   keywords: 'historia roland garros, roland garros aviador, estadio roland garros 1928, historia french open, origen roland garros, quien fue roland garros',
   openGraph: {
@@ -26,7 +26,7 @@ export default function HistoriaRolandGarrosPage() {
       <ArticleSchema
         headline="Historia de Roland Garros: Del Aviador Pionero al Estadio Legendario"
         description="La historia completa de Roland Garros, desde el aviador que le dio su nombre hasta el estadio y torneo que se convirtió en leyenda del tenis mundial"
-        image="https://www.entradasrolandgarros.com/images/historia-roland-garros.jpg"
+        image="https://www.entradasrolandgarros.com/images/stadium/roland-garros-tournament-2026.jpg"
         datePublished="2024-01-15"
         dateModified="2024-01-15"
         authorName="Equipo EntradasRolandGarros.com"
