@@ -14,8 +14,8 @@ const lexend = Lexend({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.entradasrolandgarros.com/'),
   title: {
-    default: 'Roland Garros 2027: Fechas, Entradas, Calendario y Guía Completa',
-    template: '%s | Entradas Roland Garros 2027'
+    default: 'Roland Garros 2027: Entradas, Fechas y Guía Completa',
+    template: '%s'
   },
   description: 'Guía definitiva de Roland Garros 2027 en español. Calendario, entradas, precios, cómo llegar y todo lo que necesitas saber para tu visita.',
   keywords: [
